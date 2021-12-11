@@ -13,8 +13,8 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <Navbar />
+      <Navbar />
+      <header className='App-header' style={{ marginTop: 10 + 'rem' }}>
         <Switch>
           <Route path='/' exact component={HomeView} />
           <Route path='/portfolio' component={PortfolioView} />
