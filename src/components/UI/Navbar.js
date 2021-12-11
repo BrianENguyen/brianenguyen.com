@@ -6,6 +6,7 @@ import './Navbar.css';
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [mobileButton, setMobileButton] = useState(false);
+  const [background, setBackground] = useState(false);
 
   const showMobileButton = () => {
     if (window.innerWidth <= 732) setMobileButton(true);
@@ -13,8 +14,15 @@ const Navbar = () => {
   };
 
   const showMobileMenu = () => {
-    if (mobileMenu) setMobileMenu(false);
-    else setMobileMenu(true);
+    if (mobileButton) {
+      let show = !mobileMenu;
+      setMobileMenu(show);
+    }
+  };
+
+  const showBackground = () => {
+    if (window.scrollY >= 100) setBackground(true);
+    else setBackground(false);
   };
 
   const mobileButtonContent = (
@@ -26,16 +34,17 @@ const Navbar = () => {
   );
 
   window.addEventListener('resize', showMobileButton);
+  window.addEventListener('scroll', showBackground);
 
   return (
-    <nav className='navbar'>
+    <nav className={background ? 'navbar navbar--scroll' : 'navbar'}>
       <div>
         <Link className='navbar__brand' to='/'>
           Brian Nguyen
         </Link>
       </div>
       {mobileButton && mobileButtonContent}
-      <div className={mobileMenu ? 'navbar__links active' : 'navbar__links'}>
+      <div className={mobileMenu ? 'navbar__links' : 'navbar__links active'}>
         <ul>
           <li>
             <Link className='navbar__link' to='/'>

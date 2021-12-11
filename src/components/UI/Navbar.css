@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  background-color: black;
+  background-color: royalblue;
   margin: 0;
   justify-content: space-between;
   display: flex;
@@ -8,8 +8,13 @@
   align-items: center;
   top: 0;
   left: 0;
-  color: white;
   padding: 20px 0;
+  transition: 0.5s;
+}
+
+.navbar.navbar--scroll {
+  transition: 0.5s;
+  background-color: black;
 }
 
 .navbar__links ul {
