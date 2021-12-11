@@ -1,8 +1,29 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 import './Navbar.css';
 
 const Navbar = () => {
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const [mobileButton, setMobileButton] = useState(false);
+
+  const showMobileButton = () => {
+    if (window.innerWidth <= 732) setMobileButton(true);
+    else setMobileButton(false);
+  };
+
+  const showMobileMenu = () => {};
+
+  const mobileButtonContent = (
+    <div className='navbar__toggle-btn'>
+      <span className='navbar__toggle-btn--bar'></span>
+      <span className='navbar__toggle-btn--bar'></span>
+      <span className='navbar__toggle-btn--bar'></span>
+    </div>
+  );
+
+  window.addEventListener('resize', showMobileButton);
+
   return (
     <nav className='navbar'>
       <div>
@@ -10,11 +31,7 @@ const Navbar = () => {
           Brian Nguyen
         </Link>
       </div>
-      <div className='navbar__toggle-btn'>
-        <span className='navbar__toggle-btn--bar'></span>
-        <span className='navbar__toggle-btn--bar'></span>
-        <span className='navbar__toggle-btn--bar'></span>
-      </div>
+      {mobileButton && mobileButtonContent}
       <div className='navbar__links'>
         <ul>
           <li>
