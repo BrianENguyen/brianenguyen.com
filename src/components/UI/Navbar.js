@@ -13,16 +13,24 @@ const Navbar = () => {
       <div className='navbar__links'>
         <ul>
           <li>
-            <Link to='/'>Home</Link>
+            <Link className='navbar__link' to='/'>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to='/portfolio'>Portfolio</Link>
+            <Link className='navbar__link' to='/portfolio'>
+              Portfolio
+            </Link>
           </li>
           <li>
-            <Link to='/resume'>Resume</Link>
+            <Link className='navbar__link' to='/resume'>
+              Resume
+            </Link>
           </li>
           <li>
-            <Link to='/contact'>Contact</Link>
+            <Link className='navbar__link' to='/contact'>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

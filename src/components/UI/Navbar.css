@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.navbar__links ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__link {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
