@@ -41,3 +41,27 @@
   background-color: white;
   border-radius: 10px;
 }
+
+@media (max-width: 732px) {
+  .navbar__links {
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar__links ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar__links.active ul {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar__links li {
+    text-align: center;
+    margin: 20px 0;
+    margin-right: 0;
+  }
+}
