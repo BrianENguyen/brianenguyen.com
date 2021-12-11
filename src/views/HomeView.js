@@ -1,5 +1,13 @@
+import Quote from '../components/Home/Quote';
+import About from '../components/Home/About';
+
 const HomeView = () => {
-  return <h1>Home</h1>;
+  return (
+    <div className='home'>
+      <Quote />
+      <About />
+    </div>
+  );
 };
 
 export default HomeView;
