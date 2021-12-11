@@ -5,7 +5,7 @@ const About = () => {
         My name is Brian E. Nguyen and I graduated from California State
         University, Long Beach in May 2020 with a bachelor's degree in computer
         science. I am currently seeking an internship or an entry-level position
-        in full-stack development.
+        in front-end development.
       </p>
       <p>
         From the moment I have written my first script in Python, I knew that
@@ -32,6 +32,12 @@ const About = () => {
         at tutoring centers, and helping at medical outreaches. As an alumni, I
         continue to volunteer for the Tzu Chi Foundation and to support the
         CSULB chapter.
+      </p>
+      <h2>Frontend Web Developer</h2>
+      <p>
+        Out of the many fields in computer science, I thoroughly appreciate
+        being a frontend developer. This role allows be to be creative and make
+        my websites look beautiful.
       </p>
     </div>
   );
