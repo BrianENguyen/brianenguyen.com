@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import './Navbar.css';
 
@@ -32,7 +32,9 @@ const Navbar = () => {
       <span className='navbar__toggle-btn--bar'></span>
     </div>
   );
-
+  useEffect(() => {
+    showMobileButton();
+  }, []);
   window.addEventListener('resize', showMobileButton);
   window.addEventListener('scroll', showBackground);
 
