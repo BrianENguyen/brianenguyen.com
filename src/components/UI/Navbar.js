@@ -4,10 +4,12 @@ import { useState, useEffect } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
+  // States
   const [mobileMenu, setMobileMenu] = useState(false);
   const [mobileButton, setMobileButton] = useState(false);
   const [background, setBackground] = useState(false);
 
+  // Functions
   const showMobileButton = () => {
     if (window.innerWidth <= 732) setMobileButton(true);
     else setMobileButton(false);
@@ -32,9 +34,11 @@ const Navbar = () => {
       <span className='navbar__toggle-btn--bar'></span>
     </div>
   );
+
   useEffect(() => {
     showMobileButton();
   }, []);
+
   window.addEventListener('resize', showMobileButton);
   window.addEventListener('scroll', showBackground);
 

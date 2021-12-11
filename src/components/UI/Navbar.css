@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  background-color: royalblue;
+  background-color: rgba(40, 44, 52, 0);
   margin: 0;
   justify-content: space-between;
   display: flex;
@@ -14,7 +14,7 @@
 
 .navbar.navbar--scroll {
   transition: 0.5s;
-  background-color: black;
+  background-color: rgb(66, 18, 18);
 }
 
 .navbar__links ul {
