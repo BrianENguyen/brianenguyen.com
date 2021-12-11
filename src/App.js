@@ -6,7 +6,7 @@ import ResumeView from './views/ResumeView';
 import ContactView from './views/ContactView';
 import ErrorView from './views/ErrorView';
 
-import Navbar from './components/UI/Navbar';
+import Navbar from './components/UI/Navbar/Navbar';
 
 import './App.css';
 
