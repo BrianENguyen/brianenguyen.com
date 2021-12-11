@@ -10,6 +10,11 @@ const Navbar = () => {
           Brian Nguyen
         </Link>
       </div>
+      <div className='navbar__toggle-btn'>
+        <span className='navbar__toggle-btn--bar'></span>
+        <span className='navbar__toggle-btn--bar'></span>
+        <span className='navbar__toggle-btn--bar'></span>
+      </div>
       <div className='navbar__links'>
         <ul>
           <li>
