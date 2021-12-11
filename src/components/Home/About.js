@@ -9,35 +9,15 @@ const About = () => {
       </p>
       <p>
         From the moment I have written my first script in Python, I knew that
-        software development is the career choice for me. It has allowed me to
+        computer science is the career choice for me. It has allowed me to
         challenge myself and to improve on my skills, not just in programming,
         but also on creativity and team-working. I hope to produce high-quality
         and beautiful websites that will be used and appreciated by many.
       </p>
       <p>
-        I am currently working at Code Ninjas, Cerritos as a coding instructor.
-        Working here combines two of my passions: programming and working with
-        kids. I tutor students with Scratch and JavaScript to help them build
-        video games. Also, I have developed and led my own coding camp that
-        received 100% positive feedback from students.
-      </p>
-      <p>
-        I formerly served as the president of the Tzu Chi Collegiate Association
-        at CSULB, a collegiate chapter of its mother organization, the Tzu Chi
-        Foundation. This volunteering organization focuses on humanitarian aid,
-        medicine, education, and more. I have devoted over 300 hours of my time
-        serving this organization and it has been a life-changing experience for
-        me. Various volunteering activities include recording videos for Tzu
-        Chi's news outlet, packing food at food distributions, tutoring children
-        at tutoring centers, and helping at medical outreaches. As an alumni, I
-        continue to volunteer for the Tzu Chi Foundation and to support the
-        CSULB chapter.
-      </p>
-      <h2>Frontend Web Developer</h2>
-      <p>
-        Out of the many fields in computer science, I thoroughly appreciate
-        being a frontend developer. This role allows be to be creative and make
-        my websites look beautiful.
+        In addition to my passion in web development, I am a coding instructor
+        at Code Ninjas Cerritos and Fullerton, and an active volunteer for the
+        Tzu Chi Foundation
       </p>
     </div>
   );
