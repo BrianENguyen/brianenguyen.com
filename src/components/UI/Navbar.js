@@ -12,10 +12,13 @@ const Navbar = () => {
     else setMobileButton(false);
   };
 
-  const showMobileMenu = () => {};
+  const showMobileMenu = () => {
+    if (mobileMenu) setMobileMenu(false);
+    else setMobileMenu(true);
+  };
 
   const mobileButtonContent = (
-    <div className='navbar__toggle-btn'>
+    <div className='navbar__toggle-btn' onClick={showMobileMenu}>
       <span className='navbar__toggle-btn--bar'></span>
       <span className='navbar__toggle-btn--bar'></span>
       <span className='navbar__toggle-btn--bar'></span>
@@ -32,7 +35,7 @@ const Navbar = () => {
         </Link>
       </div>
       {mobileButton && mobileButtonContent}
-      <div className='navbar__links'>
+      <div className={mobileMenu ? 'navbar__links active' : 'navbar__links'}>
         <ul>
           <li>
             <Link className='navbar__link' to='/'>
