@@ -1,13 +1,20 @@
 .webcard {
   background-color: black;
-  border: 1px solid #79c2d0;
-  border-left: 4px solid #79c2d0;
-  max-width: 300px;
+  border: 1px solid #282c34;
+  border-left: 4px solid #282c34;
+  max-width: 400px;
+  max-height: 350px;
   color: white;
   transition: 0.5s;
 }
 
 .webcard:hover {
-  border: 1px solid #c0f4ff;
-  border-left: 4px solid #c0f4ff;
+  border-color: #434a57;
+}
+
+.webcard__link {
+  color: #79c2d0;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
 }
