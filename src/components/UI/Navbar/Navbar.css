@@ -8,13 +8,17 @@
   align-items: center;
   top: 0;
   left: 0;
-  padding: 20px 0;
+  padding: 0;
   transition: 0.5s;
+}
+
+.navbar__brand {
+  margin-left: 2rem;
 }
 
 .navbar.navbar--scroll {
   transition: 0.5s;
-  background-color: rgb(66, 18, 18);
+  background-color: rgb(0, 0, 0);
 }
 
 .navbar__links ul {
@@ -32,7 +36,7 @@
 
 .navbar__toggle-btn {
   position: absolute;
-  top: 1.5rem;
+  top: 3rem;
   right: 1rem;
   display: flex;
   flex-direction: column;
