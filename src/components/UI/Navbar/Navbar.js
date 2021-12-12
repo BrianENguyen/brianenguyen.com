@@ -24,8 +24,9 @@ const Navbar = () => {
   };
 
   const showBackground = () => {
-    if (window.scrollY >= 100) setBackground(true);
-    else setBackground(false);
+    if (window.scrollY >= 100 || window.innerWidth <= 732) {
+      setBackground(true);
+    } else setBackground(false);
   };
 
   const mobileButtonContent = (
