@@ -32,6 +32,16 @@
   margin: 0 20px;
   font-size: 1.5rem;
   font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar__link:hover,
+.navbar__link:active,
+.navbar__link.active {
+  color: #79c2d0;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #79c2d0;
+  transition: 0.3s;
 }
 
 .navbar__toggle-btn {
