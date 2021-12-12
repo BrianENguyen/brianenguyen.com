@@ -1,6 +1,6 @@
-const About = () => {
+const Passion = () => {
   return (
-    <div className='about'>
+    <div className='passion'>
       <p>
         My name is Brian E. Nguyen and I graduated from California State
         University, Long Beach in May 2020 with a bachelor's degree in computer
@@ -23,4 +23,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Passion;
