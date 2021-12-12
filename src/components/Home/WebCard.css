@@ -1,0 +1,13 @@
+.webcard {
+  background-color: black;
+  border: 1px solid #79c2d0;
+  border-left: 4px solid #79c2d0;
+  max-width: 300px;
+  color: white;
+  transition: 0.5s;
+}
+
+.webcard:hover {
+  border: 1px solid #c0f4ff;
+  border-left: 4px solid #c0f4ff;
+}
