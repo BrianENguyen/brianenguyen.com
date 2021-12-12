@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
+import NavbarBrand from './NavbarBrand';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -46,10 +47,7 @@ const Navbar = () => {
     <nav className={background ? 'navbar navbar--scroll' : 'navbar'}>
       <div>
         <Link className='navbar__brand' to='/'>
-          <img
-            src='https://res.cloudinary.com/buraiyen/image/upload/v1620240495/BEN_Website/BEN-logo-transparent_rintta.png'
-            width='100px'
-          ></img>
+          <NavbarBrand />
         </Link>
       </div>
       {mobileButton && mobileButtonContent}
