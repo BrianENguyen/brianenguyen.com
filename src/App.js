@@ -5,12 +5,16 @@ import PortfolioView from './views/PortfolioView';
 import ResumeView from './views/ResumeView';
 import ContactView from './views/ContactView';
 import ErrorView from './views/ErrorView';
+
+import Navbar from './components/UI/Navbar/Navbar';
+
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
+      <Navbar />
+      <header className='App-header' style={{ marginTop: 10 + 'rem' }}>
         <Switch>
           <Route path='/' exact component={HomeView} />
           <Route path='/portfolio' component={PortfolioView} />
