@@ -1,5 +1,5 @@
 import Quote from '../components/Home/Quote';
-import About from '../components/Home/About';
+import Passion from '../components/Home/Passion';
 import Skillset from '../components/Home/Skillset';
 import Tools from '../components/Home/Tools';
 
@@ -7,7 +7,7 @@ const HomeView = () => {
   return (
     <div className='home'>
       <Quote />
-      <About />
+      <Passion />
       <Skillset />
       <Tools />
     </div>
