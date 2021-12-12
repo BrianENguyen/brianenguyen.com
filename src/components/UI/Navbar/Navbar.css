@@ -18,7 +18,7 @@
 
 .navbar.navbar--scroll {
   transition: 0.5s;
-  background-color: rgb(0, 0, 0);
+  background-color: #282c34;
 }
 
 .navbar__links ul {

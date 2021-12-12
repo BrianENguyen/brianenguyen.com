@@ -1,15 +1,19 @@
+import { Container } from '@mui/material';
+
 import Quote from '../components/Home/Quote';
-import About from '../components/Home/About';
-import Skillset from '../components/Home/Skillset';
-import Tools from '../components/Home/Tools';
+import Passion from '../components/Home/Passion';
+import RecentProjects from '../components/Home/RecentProjects';
+import WebCardList from '../components/Home/WebCardList';
 
 const HomeView = () => {
   return (
     <div className='home'>
-      <Quote />
-      <About />
-      <Skillset />
-      <Tools />
+      <Container>
+        <Quote />
+        <Passion />
+        <WebCardList />
+        <RecentProjects />
+      </Container>
     </div>
   );
 };
