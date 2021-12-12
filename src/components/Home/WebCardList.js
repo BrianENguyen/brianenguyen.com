@@ -1,3 +1,5 @@
+import { Grid } from '@mui/material';
+
 import WebCard from './WebCard';
 const WebCardList = () => {
   const cardContent = [
@@ -23,14 +25,18 @@ const WebCardList = () => {
 
   return (
     <div>
-      {cardContent.map((content, i) => (
-        <WebCard
-          title={content.title}
-          description={content.description}
-          linkText={content.linkText}
-          link={content.link}
-        />
-      ))}
+      <Grid container spacing={3}>
+        {cardContent.map((content, i) => (
+          <Grid item xs={12} md={4}>
+            <WebCard
+              title={content.title}
+              description={content.description}
+              linkText={content.linkText}
+              link={content.link}
+            />
+          </Grid>
+        ))}
+      </Grid>
     </div>
   );
 };
