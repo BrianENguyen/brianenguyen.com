@@ -2,8 +2,7 @@ import { Container } from '@mui/material';
 
 import Quote from '../components/Home/Quote';
 import Passion from '../components/Home/Passion';
-import Skillset from '../components/Home/Skillset';
-import Tools from '../components/Home/Tools';
+import RecentProjects from '../components/Home/RecentProjects';
 import WebCardList from '../components/Home/WebCardList';
 
 const HomeView = () => {
@@ -12,9 +11,8 @@ const HomeView = () => {
       <Container>
         <Quote />
         <Passion />
-        <Skillset />
-        <Tools />
         <WebCardList />
+        <RecentProjects />
       </Container>
     </div>
   );
