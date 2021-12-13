@@ -1,5 +1,4 @@
 import { Grid, Container } from '@mui/material';
-import Card from '@mui/material/Card';
 import {
   SiHtml5,
   SiCss3,
@@ -18,8 +17,11 @@ import './Skillset.css';
 const Skillset = () => {
   return (
     <div className='skillset'>
-      <h1>Skillset</h1>
       <Container className='test'>
+        <h1 className='skillset__header'>Skillset</h1>
+        <h1 className='skillset__description'>
+          Languages / Frameworks / Libraries that I use
+        </h1>
         <Grid container spacing={3} className='test'>
           <Grid item xs={6} sm={6} md={4}>
             <TechCard title='HTML5' image={<SiHtml5 />} />
