@@ -12,6 +12,7 @@ import {
   SiExpress,
 } from 'react-icons/si';
 
+import TechCard from '../UI/TechCard';
 import './Skillset.css';
 
 const Skillset = () => {
@@ -21,58 +22,31 @@ const Skillset = () => {
       <Container className='test'>
         <Grid container spacing={3} className='test'>
           <Grid item xs={6} sm={6} md={4}>
-            <Card className='tech-item__card'>
-              <SiHtml5 className='tech-item' />
-              <div className='tech-item__title '>HTML5</div>
-            </Card>
+            <TechCard title='HTML5' image={<SiHtml5 />} />
           </Grid>
           <Grid item xs={6} sm={6} md={4}>
-            <Card className='tech-item__card'>
-              <SiCss3 className='tech-item' />
-              <div className='tech-item__title '>CSS3</div>
-            </Card>
+            <TechCard title='CSS3' image={<SiCss3 />} />
           </Grid>
           <Grid item xs={6} sm={6} md={4}>
-            <Card className='tech-item__card'>
-              <SiJavascript className='tech-item' />
-              <div className='tech-item__title '>JavaScript</div>
-            </Card>
+            <TechCard title='JavaScript' image={<SiJavascript />} />
           </Grid>
           <Grid item xs={6} sm={6} md={4}>
-            <Card className='tech-item__card'>
-              <SiVuedotjs className='tech-item' />
-              <div className='tech-item__title '>Vue.js</div>
-            </Card>
+            <TechCard title='Vue.js' image={<SiVuedotjs />} />
           </Grid>
           <Grid item xs={6} sm={6} md={4}>
-            <Card className='tech-item__card'>
-              <SiVuetify className='tech-item' />
-              <div className='tech-item__title '>Vuetify</div>
-            </Card>
+            <TechCard title='Vuetify' image={<SiVuetify />} />
           </Grid>
           <Grid item xs={6} sm={6} md={4}>
-            <Card className='tech-item__card'>
-              <SiReact className='tech-item' />
-              <div className='tech-item__title '>React.js</div>
-            </Card>
+            <TechCard title='React' image={<SiReact />} />
           </Grid>
           <Grid item xs={6} sm={6} md={4}>
-            <Card className='tech-item__card'>
-              <SiMaterialui className='tech-item' />
-              <div className='tech-item__title '>Material User Interface</div>
-            </Card>
+            <TechCard title='Material UI' image={<SiMaterialui />} />
           </Grid>
           <Grid item xs={6} sm={6} md={4}>
-            <Card className='tech-item__card'>
-              <SiBootstrap className='tech-item' />
-              <div className='tech-item__title '>Bootstrap</div>
-            </Card>
+            <TechCard title='Bootstrap' image={<SiBootstrap />} />
           </Grid>
           <Grid item xs={6} sm={6} md={4}>
-            <Card className='tech-item__card'>
-              <SiExpress className='tech-item' />
-              <div className='tech-item__title '>Express.js</div>
-            </Card>
+            <TechCard title='Express.js' image={<SiExpress />} />
           </Grid>
         </Grid>
       </Container>

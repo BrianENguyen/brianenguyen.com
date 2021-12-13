@@ -2,35 +2,3 @@
   width: 100%;
   /* background: hotpink; */
 }
-
-.tech-item__card {
-  background-color: black !important;
-  border: 1px solid #282c34;
-  border-left: 5px solid #282c34;
-  align-items: center;
-  transition: 0.5s !important;
-}
-.tech-item__card:hover {
-  border-color: #434a57;
-  transition: 0.5s;
-}
-
-.tech-item {
-  font-size: 4rem;
-  border-radius: 10%;
-  padding: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
-  color: white;
-}
-
-.tech-item__title {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
-  color: white;
-  padding-bottom: 1rem;
-}
