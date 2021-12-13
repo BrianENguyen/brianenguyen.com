@@ -17,12 +17,12 @@ import './Skillset.css';
 const Skillset = () => {
   return (
     <div className='skillset'>
-      <Container className='test'>
+      <Container>
         <h1 className='skillset__header'>Skillset</h1>
         <h1 className='skillset__description'>
           Languages / Frameworks / Libraries that I use
         </h1>
-        <Grid container spacing={3} className='test'>
+        <Grid container spacing={3}>
           <Grid item xs={6} sm={6} md={4}>
             <TechCard title='HTML5' image={<SiHtml5 />} />
           </Grid>
