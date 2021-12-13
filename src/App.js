@@ -1,6 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 
 import HomeView from './views/HomeView';
+import AboutView from './views/AboutView';
 import PortfolioView from './views/PortfolioView';
 import ResumeView from './views/ResumeView';
 import ContactView from './views/ContactView';
@@ -17,6 +18,7 @@ function App() {
       <header className='App-header' style={{ marginTop: 10 + 'rem' }}>
         <Switch>
           <Route path='/' exact component={HomeView} />
+          <Route path='/about' component={AboutView} />
           <Route path='/portfolio' component={PortfolioView} />
           <Route path='/resume' component={ResumeView} />
           <Route path='/contact' component={ContactView} />

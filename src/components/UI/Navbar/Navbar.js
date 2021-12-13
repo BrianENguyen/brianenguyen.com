@@ -60,6 +60,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link className='navbar__link' to='/about'>
+              About
+            </Link>
+          </li>
+          <li>
             <Link className='navbar__link' to='/portfolio'>
               Portfolio
             </Link>
