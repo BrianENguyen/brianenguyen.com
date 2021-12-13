@@ -6,13 +6,13 @@ const Quote = () => {
   return (
     <div className='quote'>
       <Grid container spacing={2}>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1087/v1639368996/BEN_Website/BEN_rosegarden.jpg'
-            width='600px'
+            className='quote__image'
           />
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <p className='quote__content'>
             A fulfilling life is not preoccupied with material objects,
             prestige, or power. It is a life that is filled with true
