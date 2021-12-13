@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
-      <header className='App-header' style={{ marginTop: 10 + 'rem' }}>
+      <header className='App-header'>
         <Switch>
           <Route path='/' exact component={HomeView} />
           <Route path='/about' component={AboutView} />
