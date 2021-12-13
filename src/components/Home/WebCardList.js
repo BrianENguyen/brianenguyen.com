@@ -8,13 +8,13 @@ const WebCardList = () => {
       description:
         'Get to know more about me, the technologies I use, and my future goals',
       linkText: 'About me',
-      link: '/portofilio',
+      link: '/about',
     },
     {
       title: 'Portfolio',
       description: 'Feel free to take a look at projects that I have worked on',
       linkText: 'View portfolio',
-      link: '/portofilio',
+      link: '/portfolio',
     },
     {
       title: 'Resume',
@@ -28,7 +28,7 @@ const WebCardList = () => {
       description:
         "Get in touch we me for any reason, whether it'd be for services, inquiries or just chatting",
       linkText: 'View portfolio',
-      link: '/portofilio',
+      link: '/contact',
     },
   ];
 
