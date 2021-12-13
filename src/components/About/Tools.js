@@ -7,13 +7,14 @@ import {
 } from 'react-icons/si';
 
 import TechCard from '../UI/TechCard';
+import './Tools.css';
 
 const Tools = () => {
   return (
-    <div className='skillset'>
-      <Container className='test'>
-        <h1 className='skillset__header'>Tools</h1>
-        <h1 className='skillset__description'>
+    <div className='tools'>
+      <Container>
+        <h1 className='tools__header'>Tools</h1>
+        <h1 className='tools__description'>
           Other technologies to help me build my websites
         </h1>
         <Grid container spacing={3} className='test'>

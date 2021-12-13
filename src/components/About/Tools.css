@@ -1,14 +1,14 @@
-.skillset {
+.tools {
   width: 100%;
   margin: 5rem 0;
 }
 
-.skillset__header {
+.tools__header {
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-.skillset__description {
+.tools__description {
   font-size: 3rem;
   font-weight: 300;
   margin-top: 0;
