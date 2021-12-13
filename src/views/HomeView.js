@@ -7,7 +7,7 @@ import Jumbotron from '../components/UI/Jumbotron';
 
 const HomeView = () => {
   const jumboImage =
-    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1481/v1620240501/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg';
+    'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70/v1620240501/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg';
   const jumboTitle = 'Frontend Web Developer';
 
   return (
