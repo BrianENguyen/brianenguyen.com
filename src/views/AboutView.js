@@ -11,7 +11,6 @@ const AboutView = () => {
   return (
     <div className='about'>
       <Jumbotron image={jumboImage} title={jumboText} />
-      <h1>About</h1>
       <Quote />
       <Backstory />
       <Skillset />
