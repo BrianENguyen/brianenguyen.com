@@ -1,11 +1,13 @@
 import { Grid } from '@mui/material';
 
+import './Backstory.css';
+
 const Backstory = () => {
   return (
     <div className='backstory'>
       <Grid container spacing={2}>
         <Grid item xs={12} md={4}>
-          <h2>My life at a glance</h2>
+          <h2 className='backstory__header'>My Story</h2>
         </Grid>
         <Grid item xs={12} md={8}>
           <p>
