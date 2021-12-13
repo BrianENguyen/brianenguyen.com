@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+.quote {
+  padding: 0 10rem;
+}
+
+.quote__content {
+  font-family: 'Meow Script', cursive;
+  font-size: 5rem;
+}
