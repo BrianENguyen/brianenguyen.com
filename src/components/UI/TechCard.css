@@ -4,7 +4,7 @@
   border-left: 5px solid #282c34;
   align-items: center;
   transition: 0.5s !important;
-  color: white;
+  color: white !important;
 }
 
 .tech-card:hover {
