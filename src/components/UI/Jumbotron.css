@@ -1,0 +1,13 @@
+.jumbotron {
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  background: no-repeat center;
+  background-size: cover;
+  color: white;
+  padding: 20rem 0;
+}
+
+.jumbotron__title {
+  text-align: center;
+  font-size: 5rem;
+}
