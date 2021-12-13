@@ -1,6 +1,7 @@
 import Quote from '../components/About/Quote';
 import Backstory from '../components/About/Backstory';
 import Skillset from '../components/About/Skillset';
+import Tools from '../components/About/Tools';
 
 const AboutView = () => {
   return (
@@ -9,6 +10,7 @@ const AboutView = () => {
       <Quote />
       <Backstory />
       <Skillset />
+      <Tools />
     </div>
   );
 };
