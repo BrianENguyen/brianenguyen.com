@@ -16,7 +16,10 @@ const RecentProjects = () => {
 
   return (
     <div className='recent-projects'>
-      <h1>Recent Projects</h1>
+      <h1 className='recent-projects__header'>Recent Projects</h1>
+      <h1 className='recent-projects__description'>
+        Some websites that I have worked on recently
+      </h1>
       <Grid container spacing={2}>
         {recentProjects.map((project, i) => (
           <Grid item xs={12} sm={6}>

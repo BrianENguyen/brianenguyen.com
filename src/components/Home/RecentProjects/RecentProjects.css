@@ -1,5 +1,28 @@
+.recent-projects__header {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.recent-projects__description {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.recent-project__title {
+  font-size: 2rem;
+}
+
 .recent-project__section {
   margin: 0 20px;
+}
+.recent-project__image {
+  transition: 0.3s;
+}
+.recent-project__image:hover {
+  filter: brightness(80%);
+  transition: 0.3s;
 }
 
 @media (min-width: 0px) {
