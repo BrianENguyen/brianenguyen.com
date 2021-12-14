@@ -2,7 +2,7 @@ import { Container } from '@mui/material';
 
 import Jumbotron from '../components/UI/Jumbotron';
 import Passion from '../components/Home/Passion';
-import RecentProjects from '../components/Home/RecentProjects';
+import RecentProjects from '../components/Home/RecentProjects/RecentProjects';
 import WebCardList from '../components/Home/WebCardList';
 
 const HomeView = () => {
