@@ -2,7 +2,7 @@ import { Container } from '@mui/material';
 
 import Jumbotron from '../components/UI/Jumbotron';
 import Passion from '../components/Home/Passion';
-import RecentProjects from '../components/Home/RecentProjects/RecentProjects';
+import RecentProjectList from '../components/Home/RecentProjects/RecentProjectList';
 import WebCardList from '../components/Home/WebCardList';
 
 const HomeView = () => {
@@ -29,7 +29,7 @@ const HomeView = () => {
       <Container maxWidth='xl'>
         <Passion />
         <WebCardList />
-        <RecentProjects />
+        <RecentProjectList />
       </Container>
     </div>
   );
