@@ -9,6 +9,9 @@
 }
 
 .jumbotron__content {
+  padding-top: 45vh;
+}
+.jumbotron__content--home {
   padding-top: 30vh;
 }
 
