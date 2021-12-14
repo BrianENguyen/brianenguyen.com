@@ -1,11 +1,11 @@
 import { Container } from '@mui/material';
 
+import Jumbotron from '../components/UI/Jumbotron';
 import Passion from '../components/Home/Passion';
 import RecentProjects from '../components/Home/RecentProjects';
 import WebCardList from '../components/Home/WebCardList';
-import Jumbotron from '../components/UI/Jumbotron';
 
-const HomeView = (props) => {
+const HomeView = () => {
   const jumboImage =
     'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70/v1620240501/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg';
   const jumboTitle = 'Brian E. Nguyen';
@@ -26,7 +26,7 @@ const HomeView = (props) => {
         logo={jumboLogo}
         homeView={onHomeView}
       />
-      <Container>
+      <Container maxWidth='xl'>
         <Passion />
         <WebCardList />
         <RecentProjects />
