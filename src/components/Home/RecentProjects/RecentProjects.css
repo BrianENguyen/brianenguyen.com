@@ -1,3 +1,7 @@
+.recent-projects {
+  margin: 5rem 0;
+}
+
 .recent-projects__header {
   font-size: 1rem;
   text-transform: uppercase;

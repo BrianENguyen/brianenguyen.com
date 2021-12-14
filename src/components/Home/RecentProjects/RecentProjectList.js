@@ -5,8 +5,8 @@ import './RecentProjects.css';
 const RecentProjects = () => {
   const recentProjects = [
     {
-      title: 'CSULB Tzu Ching',
-      src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1443/v1639515139/BEN_Website/recent_projects/lbtc_group.jpg',
+      title: "Thu Nguyen's Website",
+      src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1723/v1639518576/BEN_Website/recent_projects/thu.jpg',
     },
     {
       title: 'CSULB Tzu Ching',
