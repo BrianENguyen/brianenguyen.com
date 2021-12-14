@@ -1,5 +1,7 @@
-import RecentProject from './RecentProject';
 import { Grid } from '@mui/material';
+
+import RecentProject from './RecentProject';
+import './RecentProjects.css';
 const RecentProjects = () => {
   const recentProjects = [
     {
@@ -17,7 +19,7 @@ const RecentProjects = () => {
       <h1>Recent Projects</h1>
       <Grid container spacing={2}>
         {recentProjects.map((project, i) => (
-          <Grid item xs={6} md={6}>
+          <Grid item xs={12} sm={6}>
             <RecentProject key={i} title={project.title} src={project.src} />
           </Grid>
         ))}
