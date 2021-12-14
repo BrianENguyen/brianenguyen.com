@@ -2,23 +2,16 @@
   margin: 5rem 0;
 }
 .passion__text {
-  position: relative;
   margin-left: 1rem;
   margin-top: 0;
 }
 .passion__text h2 {
-  position: relative;
   font-size: 2rem;
   margin-top: 0;
 }
 
 .passion__text p {
-  position: relative;
   font-size: 1.25rem;
-}
-.passion__image {
-  display: block;
-  position: relative;
 }
 
 @media (min-width: 0px) {
