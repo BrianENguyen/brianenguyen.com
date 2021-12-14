@@ -4,12 +4,24 @@
   background: no-repeat center;
   background-size: cover;
   color: white;
-  padding: 20rem 0;
-  max-height: 1000px;
-  text-align: center;
+  height: 100vh;
+  text-align: center !important;
+}
+
+.jumbotron__content {
+  padding-top: 45vh;
+}
+.jumbotron__content--home {
+  padding-top: 30vh;
 }
 
 .jumbotron__title {
   font-size: 5rem;
+  padding: 0;
   margin: 0;
+}
+
+.jumbotron__logo {
+  width: 300px;
+  padding: 0;
 }
