@@ -1,7 +1,9 @@
 import { Container } from '@mui/material';
 
 import Jumbotron from '../../components/UI/Jumbotron';
+import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
+
 const ThuView = () => {
   const jumboTitle = "Thu Nguyen's Website";
 
@@ -24,13 +26,33 @@ const ThuView = () => {
             <li>React Router</li>
           </ul>
         </div>
+
+        <div>
+          <p>
+            <a href='https://thuhnguyen.com/' target='_blank' rel='noreferrer'>
+              <BtnStandard>View Website</BtnStandard>
+            </a>
+          </p>
+          <p>
+            <a
+              href='https://github.com/Brian-E-Nguyen/Thu-Website'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <BtnStandard>View Repository</BtnStandard>
+            </a>
+          </p>
+        </div>
+
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639545745/BEN_Website/projects/thuhnguyen_cov4jp.png'
           className='project-view__image'
+          alt=''
         />
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639545839/BEN_Website/projects/thuhnguyenresume_xmwppk.png'
           className='project-view__image'
+          alt=''
         />
       </Container>
     </div>
