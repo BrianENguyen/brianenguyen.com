@@ -2,6 +2,7 @@ import { Container } from '@mui/material';
 
 import Jumbotron from '../components/UI/Jumbotron';
 import ProjectsList from '../components/Projects/ProjectsList';
+import OtherProjectsList from '../components/Projects/Other/OtherProjectsList';
 
 const PortfolioView = () => {
   const jumboText = 'Portfolio';
@@ -12,6 +13,7 @@ const PortfolioView = () => {
       <Jumbotron image={jumboImage} title={jumboText} />
       <Container maxWidth='xl'>
         <ProjectsList />
+        <OtherProjectsList />
       </Container>
     </div>
   );
