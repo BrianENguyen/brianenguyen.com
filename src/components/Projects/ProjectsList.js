@@ -7,6 +7,7 @@ const Projects = () => {
     {
       title: "Thu Nguyen's Website",
       src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1723/v1639518576/BEN_Website/recent_projects/thu.jpg',
+      link: '/thu-nguyen',
     },
     {
       title: 'CSULB Tzu Ching',
@@ -38,7 +39,12 @@ const Projects = () => {
       <Grid container spacing={2}>
         {projects.map((project, i) => (
           <Grid item xs={12} sm={6}>
-            <Project key={i} title={project.title} src={project.src} />
+            <Project
+              key={i}
+              title={project.title}
+              src={project.src}
+              link={project.link}
+            />
           </Grid>
         ))}
       </Grid>
