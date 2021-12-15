@@ -24,14 +24,14 @@ const ThuView = () => {
           <li>React Router</li>
         </ul>
       </ContentWrapper>
-      <Container maxWidth='xl' className='thu-website'>
+      <Container maxWidth='md' className='thu-website'>
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639545745/BEN_Website/projects/thuhnguyen_cov4jp.png'
-          width='1000px'
+          className='thu-website__image'
         />
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639545839/BEN_Website/projects/thuhnguyenresume_xmwppk.png'
-          width='1000px'
+          className='thu-website__image'
         />
       </Container>
     </div>
