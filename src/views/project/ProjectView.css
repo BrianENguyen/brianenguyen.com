@@ -1,4 +1,5 @@
-.project-view__description {
+.project-view__description,
+.project-view__tech-stack {
   font-size: 1.75rem;
   font-weight: 300;
 }

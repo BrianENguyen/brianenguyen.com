@@ -16,12 +16,14 @@ const ThuView = () => {
           Bachelor's in Accounting. This website is made to get to know more
           about her, view her resume, and get in contact with her
         </p>
-        <h2>Tech Stack</h2>
-        <ul>
-          <li>React</li>
-          <li>Material UI</li>
-          <li>React Router</li>
-        </ul>
+        <div className='project-view__tech-stack'>
+          <h2>Tech Stack</h2>
+          <ul>
+            <li>React</li>
+            <li>Material UI</li>
+            <li>React Router</li>
+          </ul>
+        </div>
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639545745/BEN_Website/projects/thuhnguyen_cov4jp.png'
           className='project-view__image'
