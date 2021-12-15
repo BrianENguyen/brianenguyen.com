@@ -8,6 +8,7 @@ import ContactView from './views/ContactView';
 import ErrorView from './views/ErrorView';
 
 import ThuView from './views/project/ThuView';
+import LBTCView from './views/project/LBTCView';
 
 import Navbar from './components/UI/Navbar/Navbar';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/resume' component={ResumeView} />
           <Route path='/contact' component={ContactView} />
           <Route path='/thu-nguyen' component={ThuView} />
+          <Route path='/csulb-tzu-ching' component={LBTCView} />
           <Route path='*' component={ErrorView} />
         </Switch>
       </header>
