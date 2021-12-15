@@ -1,0 +1,16 @@
+.btn {
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 20px 40px;
+  text-transform: uppercase;
+}
+
+.btn-standard {
+  color: white;
+  border: 1px solid #79c2d0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-standard:hover {
+  background-color: #79c2d0;
+}

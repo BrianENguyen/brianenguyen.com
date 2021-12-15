@@ -1,0 +1,20 @@
+.project-view__description,
+.project-view__tech-stack {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.project-view__personal-notes {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.project-view__description__title {
+  font-weight: bold;
+}
+
+.project-view__image {
+  object-fit: cover;
+  width: 100%;
+  max-width: 1000px;
+}
