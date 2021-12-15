@@ -1,0 +1,31 @@
+.passion {
+  margin: 5rem 0;
+}
+.passion__text {
+  margin-left: 1rem;
+  margin-top: 0;
+}
+.passion__text h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.passion__text p {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 0px) {
+  .passion__image {
+    width: 80vw;
+  }
+}
+@media (min-width: 600px) {
+  .passion__image {
+    width: 35vw;
+  }
+}
+@media (min-width: 992px) {
+  .passion__image {
+    width: 25vw;
+  }
+}
