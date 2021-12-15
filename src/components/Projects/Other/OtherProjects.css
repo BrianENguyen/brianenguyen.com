@@ -5,6 +5,7 @@
   max-height: 350px;
   color: white !important;
   transition: 0.5s !important;
+  width: 350px;
 }
 
 .other-project-card:hover {
