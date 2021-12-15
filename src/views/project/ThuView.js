@@ -55,6 +55,20 @@ const ThuView = () => {
           alt=''
         />
       </Container>
+      <Container>
+        <div className='project-view__personal-notes'>
+          <h2>Personal Notes</h2>
+          <p>
+            This is the first project that I've built with React. Although this
+            project is small, I did learn a lot about React from it. The main
+            challenge for me was using states, which I have implemented in the
+            navbar to controller when it is in mobile view, when it should
+            change its background color depending on the screen size or the Y
+            position of the site, etc.
+          </p>
+          <p>Overall, it was fun introduction to React</p>
+        </div>
+      </Container>
     </div>
   );
 };

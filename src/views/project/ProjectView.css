@@ -3,6 +3,12 @@
   font-size: 1.75rem;
   font-weight: 300;
 }
+
+.project-view__personal-notes {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
 .project-view__description__title {
   font-weight: bold;
 }
