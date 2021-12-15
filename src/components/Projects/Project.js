@@ -1,6 +1,6 @@
 import './RecentProjects.css';
 
-const RecentProject = (props) => {
+const Project = (props) => {
   return (
     <div>
       <img src={props.src} className='recent-project__image' alt='' />
@@ -9,4 +9,4 @@ const RecentProject = (props) => {
   );
 };
 
-export default RecentProject;
+export default Project;
