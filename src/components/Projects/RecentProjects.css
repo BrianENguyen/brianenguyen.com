@@ -28,6 +28,9 @@
   filter: brightness(80%);
   transition: 0.3s;
 }
+.recent-project__image {
+  max-width: 800px;
+}
 
 @media (min-width: 0px) {
   .recent-project__image {
