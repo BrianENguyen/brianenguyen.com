@@ -1,3 +1,12 @@
+.other-projects {
+  margin: 5rem 0;
+}
+
+.other-projects__title {
+  text-align: center;
+  font-size: 3rem;
+}
+
 .other-project-card {
   background-color: black !important;
   border: 1px solid #282c34;
@@ -5,10 +14,27 @@
   max-height: 350px;
   color: white !important;
   transition: 0.5s !important;
-  width: 350px;
+  width: 375px;
+  height: 150px;
 }
 
 .other-project-card:hover {
   border-color: #434a57;
   transition: 0.5s;
+}
+
+.other-project-card__content {
+  margin: 0 2rem;
+}
+
+.other-project-card__content h1 {
+  font-size: 1.75rem;
+  margin-bottom: 2.375rem;
+}
+
+.other-project-card__link {
+  color: #79c2d0;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
 }

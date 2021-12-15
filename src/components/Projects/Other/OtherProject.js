@@ -7,9 +7,11 @@ import './OtherProjects.css';
 const OtherProject = (props) => {
   return (
     <Card className='other-project-card'>
-      <CardContent>
+      <CardContent className='other-project-card__content'>
         <h1>{props.title}</h1>
-        <Link to={props.link}>View</Link>
+        <Link className='other-project-card__link' to={props.link}>
+          View
+        </Link>
       </CardContent>
     </Card>
   );
