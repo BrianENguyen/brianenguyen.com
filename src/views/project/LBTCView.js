@@ -32,6 +32,28 @@ const LBTCView = () => {
           </ul>
         </div>
       </Container>
+      <Container>
+        <div className='project-view__personal-notes'>
+          <h2>Personal Notes</h2>
+          <p>
+            I've always wanted to develop this website ever since I have started
+            my computer science degree so that I can both promote this
+            organization and improve my programming skills
+          </p>
+          <p>
+            I have actually attempted to develop this website sometime around
+            2018, but I eventually gave up on it because, just like with my main
+            website, I have started to build this when I had very limited
+            knowledge on front-end development
+          </p>
+          <p>
+            Frontend-wise, this is the biggest project that I have done in Vue.
+            Working with a front-end JavaScript framework like Vue makes me
+            appreciate them on how simple it is to create websites through the
+            use of components and other libraries
+          </p>
+        </div>
+      </Container>
     </div>
   );
 };
