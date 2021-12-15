@@ -1,3 +1,6 @@
 .content-wrapper {
   padding: 83px 101px;
+  position: relative;
+  margin: 0 10rem;
+  /* display: flex; */
 }
