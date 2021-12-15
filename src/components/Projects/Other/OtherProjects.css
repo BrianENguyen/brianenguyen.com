@@ -1,0 +1,13 @@
+.other-project-card {
+  background-color: black !important;
+  border: 1px solid #282c34;
+  border-left: 4px solid #282c34;
+  max-height: 350px;
+  color: white !important;
+  transition: 0.5s !important;
+}
+
+.other-project-card:hover {
+  border-color: #434a57;
+  transition: 0.5s;
+}
