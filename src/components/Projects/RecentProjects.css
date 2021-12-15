@@ -1,3 +1,8 @@
+.recent-projects__intro {
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+}
+
 .recent-projects {
   margin: 5rem 0;
 }
@@ -27,6 +32,9 @@
 .recent-project__image:hover {
   filter: brightness(80%);
   transition: 0.3s;
+}
+.recent-project__image {
+  max-width: 800px;
 }
 
 @media (min-width: 0px) {
