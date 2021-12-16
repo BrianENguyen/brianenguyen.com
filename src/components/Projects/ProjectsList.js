@@ -17,10 +17,12 @@ const Projects = () => {
     {
       title: 'YelpCamp',
       src: 'https://res.cloudinary.com/buraiyen/image/upload/v1639529477/BEN_Website/projects/hugues-de-buyer_camp_fc2lzb.jpg',
+      link: '/yelpcamp',
     },
     {
-      title: '(OLD) My Personal Website',
+      title: 'First Personal Website',
       src: 'https://res.cloudinary.com/buraiyen/image/upload/v1639529477/BEN_Website/projects/hugues-de-buyer_camp_fc2lzb.jpg',
+      link: '/first-personal-site',
     },
     {
       title: 'Kraken Bracket',

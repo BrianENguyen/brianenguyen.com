@@ -9,6 +9,7 @@ import ErrorView from './views/ErrorView';
 import ThuView from './views/project/ThuView';
 import LBTCView from './views/project/LBTCView';
 import YelpCamp from './views/project/YelpCamp';
+import FirstSiteView from './views/project/FirstSiteView';
 import Navbar from './components/UI/Navbar/Navbar';
 import './App.css';
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/thu-nguyen' component={ThuView} />
           <Route path='/csulb-tzu-ching' component={LBTCView} />
           <Route path='/yelpcamp' component={YelpCamp} />
+          <Route path='/first-personal-site' component={FirstSiteView} />
           <Route path='*' component={ErrorView} />
         </Switch>
       </header>
