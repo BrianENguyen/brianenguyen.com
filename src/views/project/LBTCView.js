@@ -31,6 +31,26 @@ const LBTCView = () => {
             <li>Animate on Scroll (AOS)</li>
           </ul>
         </div>
+        <img
+          src='https://res.cloudinary.com/buraiyen/image/upload/v1639631256/BEN_Website/projects/lbtc-1_vce5f3.png'
+          className='project-view__image'
+          alt=''
+        />
+        <img
+          src='https://res.cloudinary.com/buraiyen/image/upload/v1639631255/BEN_Website/projects/lbtc-2_qswy3x.png'
+          className='project-view__image'
+          alt=''
+        />
+        <img
+          src='https://res.cloudinary.com/buraiyen/image/upload/v1639631255/BEN_Website/projects/lbtc-3_o9vuoo.png'
+          className='project-view__image'
+          alt=''
+        />
+        <img
+          src='https://res.cloudinary.com/buraiyen/image/upload/v1639631255/BEN_Website/projects/lbtc-4_avdwjd.png'
+          className='project-view__image'
+          alt=''
+        />
       </Container>
       <Container>
         <div className='project-view__personal-notes'>
