@@ -26,6 +26,28 @@ const YelpCamp = () => {
             <li>Express.js</li>
           </ul>
         </div>
+
+        <div>
+          <p>
+            <a
+              href='https://yelpcamp-brian-e-nguyen.herokuapp.com/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <BtnStandard>View Website</BtnStandard>
+            </a>
+          </p>
+          <p>
+            <a
+              href='https://github.com/Brian-E-Nguyen/YelpCamp'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <BtnStandard>View Repository</BtnStandard>
+            </a>
+          </p>
+        </div>
+
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1620240514/BEN_Website/projects/yelpcamp_collage_tarzq8.jpg'
           className='project-view__image'
