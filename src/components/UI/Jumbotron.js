@@ -15,6 +15,7 @@ const Jumbotron = (props) => {
       >
         {props.logo}
         <h1 className='jumbotron__title '>{props.title}</h1>
+        <p className='jumbotron__description'>{props.description}</p>
       </div>
     </div>
   );
