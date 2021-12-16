@@ -10,7 +10,7 @@ const LBTCView = () => {
   return (
     <div>
       <Jumbotron title={jumboTitle} />
-      <Container maxWidth='md' className='thu-website'>
+      <Container maxWidth='md'>
         <p className='project-view__description'>
           <span className='project-view__description__title'>
             CSULB Tzu Ching
