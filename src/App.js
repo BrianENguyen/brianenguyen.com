@@ -6,19 +6,19 @@ import PortfolioView from './views/PortfolioView';
 import ResumeView from './views/ResumeView';
 import ContactView from './views/ContactView';
 import ErrorView from './views/ErrorView';
-
 import ThuView from './views/project/ThuView';
 import LBTCView from './views/project/LBTCView';
-
 import Navbar from './components/UI/Navbar/Navbar';
-
 import './App.css';
+
+import ScrollToTop from './components/Helper/ScrollToTop';
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
       <header className='App-header'>
+        <ScrollToTop />
         <Switch>
           <Route path='/' exact component={HomeView} />
           <Route path='/about' component={AboutView} />
