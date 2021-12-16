@@ -31,6 +31,28 @@ const LBTCView = () => {
             <li>Animate on Scroll (AOS)</li>
           </ul>
         </div>
+
+        <div>
+          <p>
+            <a
+              href='https://csulbtzuching.org/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <BtnStandard>View Website</BtnStandard>
+            </a>
+          </p>
+          <p>
+            <a
+              href='https://github.com/Brian-E-Nguyen/CSULB-TC-Website'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <BtnStandard>View Repository</BtnStandard>
+            </a>
+          </p>
+        </div>
+
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639631256/BEN_Website/projects/lbtc-1_vce5f3.png'
           className='project-view__image'

@@ -12,6 +12,7 @@ const Projects = () => {
     {
       title: 'CSULB Tzu Ching',
       src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1443/v1639515139/BEN_Website/recent_projects/lbtc_group.jpg',
+      link: '/csulb-tzu-ching',
     },
     {
       title: 'YelpCamp',
