@@ -1,4 +1,4 @@
-const Projects = [
+const ProjectData = [
   {
     title: "Thu Nguyen's Website",
     src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1723/v1639518576/BEN_Website/recent_projects/thu.jpg',
@@ -24,3 +24,5 @@ const Projects = [
     src: 'https://res.cloudinary.com/buraiyen/image/upload/v1639530141/BEN_Website/projects/florian-olivo_gaming_im9ugb.jpg',
   },
 ];
+
+export default ProjectData;
