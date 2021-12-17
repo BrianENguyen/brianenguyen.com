@@ -36,16 +36,7 @@ const ProbAndStatsView = () => {
         <div>
           <p>
             <a
-              href='https://github.com/Brian-E-Nguyen/SIMD-Enhanced-MIPS-Instructions/blob/master/SMID-Enhanced-MIPS-Instructions.pdf'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <BtnStandard>View Documentation</BtnStandard>
-            </a>
-          </p>
-          <p>
-            <a
-              href='https://github.com/Brian-E-Nguyen/SIMD-Enhanced-MIPS-Instructions'
+              href='https://github.com/Brian-E-Nguyen/EE-381'
               target='_blank'
               rel='noreferrer'
             >
@@ -53,8 +44,9 @@ const ProbAndStatsView = () => {
             </a>
           </p>
           <img
-            src='https://res.cloudinary.com/buraiyen/image/upload/v1620240514/BEN_Website/projects/simd_ndwgst.jpg'
+            src='https://res.cloudinary.com/buraiyen/image/upload/v1620240510/BEN_Website/projects/ee381_lkxiej.jpg'
             className='project-view__image'
+            alt=''
           />
         </div>
       </Container>
