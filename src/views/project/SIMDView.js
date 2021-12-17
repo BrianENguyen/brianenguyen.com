@@ -15,6 +15,10 @@ const SIMDView = () => {
           <span className='project-view__description__title'>
             SIMD Enhanced MIPS Instructions
           </span>
+          is a custom instruction set architecture (ISA) that utilizes the
+          million instructions per second (MIPS) ISA. This process is documented
+          in the Programmers' Reference Manual which provides an in-depth
+          understanding of computer architecture.
         </p>
 
         <div>
