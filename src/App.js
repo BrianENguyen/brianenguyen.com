@@ -11,6 +11,7 @@ import LBTCView from './views/project/LBTCView';
 import YelpCamp from './views/project/YelpCamp';
 import FirstSiteView from './views/project/FirstSiteView';
 import KrakenBracketView from './views/project/KrakenBracketView';
+import SIMDView from './views/project/SIMDView';
 import Navbar from './components/UI/Navbar/Navbar';
 import './App.css';
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='/yelpcamp' component={YelpCamp} />
           <Route path='/first-personal-site' component={FirstSiteView} />
           <Route path='/kraken-bracket' component={KrakenBracketView} />
+          <Route path='/simd' component={SIMDView} />
           <Route path='*' component={ErrorView} />
         </Switch>
       </header>

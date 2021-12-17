@@ -1,5 +1,5 @@
 const OtherProjectData = [
-  { title: 'SIMD Instructions', link: '/' },
+  { title: 'SIMD Instructions', link: '/simd' },
   { title: 'Probability and Stats', link: '/' },
   { title: 'Dittoshare', link: '/' },
 ];
