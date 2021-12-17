@@ -5,14 +5,32 @@ import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
 
 const ProbAndStatsView = () => {
-  const jumboTitle = 'EE 381 - Probability and Stats';
+  const jumboTitle = 'EE 381 - Probability and Stats Computing';
 
   return (
     <div>
       <Jumbotron title={jumboTitle} />
       <Container maxWidth='md'>
         <p className='project-view__description'>
-          <span className='project-view__description__title'></span>{' '}
+          The{' '}
+          <span className='project-view__description__title'>
+            EE 381 - Probability and Stats Computing
+          </span>{' '}
+          repository showcases all of my lab assignments from this class from my
+          time at California State University, Long Beach. These lab assignments
+          touch upon the following subjects:
+          <ol>
+            <li>Random Numbers and Stochastic Experiments</li>
+            <li>Conditional Probabilities</li>
+            <li>Binomial and Poisson Distributions</li>
+            <li>Central Limit Theorem</li>
+            <li>Confidence Intervals</li>
+            <li>Markov Chains</li>
+          </ol>
+        </p>
+        <p>
+          Refer to each project folder to view in-depth documentation. All
+          assignments are coded with Python
         </p>
 
         <div>
