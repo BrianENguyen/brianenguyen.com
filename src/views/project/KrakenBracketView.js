@@ -5,7 +5,7 @@ import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
 
 const KrakenBracketView = () => {
-  const jumboTitle = 'CSULB Tzu Ching';
+  const jumboTitle = 'Kraken Bracket';
 
   return (
     <div>
