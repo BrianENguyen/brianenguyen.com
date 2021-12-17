@@ -14,28 +14,38 @@ const SIMDView = () => {
         <p className='project-view__description'>
           <span className='project-view__description__title'>
             SIMD Enhanced MIPS Instructions
-          </span>
+          </span>{' '}
           is a custom instruction set architecture (ISA) that utilizes the
           million instructions per second (MIPS) ISA. This process is documented
-          in the Programmers' Reference Manual which provides an in-depth
-          understanding of computer architecture.
+          in the Programmers' Reference Manual (100+ pages) which provides an
+          in-depth understanding of computer architecture. All instructions are
+          written in assembly code
         </p>
 
         <div>
           <p>
-            <a href='' target='_blank' rel='noreferrer'>
+            <a
+              href='https://github.com/Brian-E-Nguyen/SIMD-Enhanced-MIPS-Instructions/blob/master/SMID-Enhanced-MIPS-Instructions.pdf'
+              target='_blank'
+              rel='noreferrer'
+            >
               <BtnStandard>View Documentation</BtnStandard>
             </a>
           </p>
           <p>
-            <a href='' target='_blank' rel='noreferrer'>
+            <a
+              href='https://github.com/Brian-E-Nguyen/SIMD-Enhanced-MIPS-Instructions'
+              target='_blank'
+              rel='noreferrer'
+            >
               <BtnStandard>View Repository</BtnStandard>
             </a>
           </p>
+          <img
+            src='https://res.cloudinary.com/buraiyen/image/upload/v1620240514/BEN_Website/projects/simd_ndwgst.jpg'
+            className='project-view__image'
+          />
         </div>
-      </Container>
-      <Container>
-        <div className='project-view__personal-notes'></div>
       </Container>
     </div>
   );
