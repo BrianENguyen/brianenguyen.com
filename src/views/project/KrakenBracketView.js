@@ -40,7 +40,13 @@ const KrakenBracketView = () => {
         </p>
         <div className='project-view__tech-stack'>
           <h2>Tech Stack</h2>
-          <ul></ul>
+          <ul>
+            <li>Vue.js</li>
+            <li>Vuetify</li>
+            <li>ASP .NET 2.2</li>
+            <li>.NET Core 2.2</li>
+            <li>MySQL</li>
+          </ul>
         </div>
       </Container>
       <Container>
