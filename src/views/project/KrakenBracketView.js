@@ -49,6 +49,18 @@ const KrakenBracketView = () => {
           </ul>
         </div>
 
+        <div>
+          <p>
+            <a
+              href='https://github.com/TheBoiZcecs491/Kraken-Bracket/tree/master'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <BtnStandard>View Repository</BtnStandard>
+            </a>
+          </p>
+        </div>
+
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1620240516/BEN_Website/projects/krakenbracket_wvd57j.jpg'
           className='project-view__image'
