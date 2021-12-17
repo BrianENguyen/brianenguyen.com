@@ -20,8 +20,9 @@ const ProjectData = [
     link: '/first-personal-site',
   },
   {
-    title: 'Kraken Bracket',
+    title: 'Senior Project: Kraken Bracket',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/v1639530141/BEN_Website/projects/florian-olivo_gaming_im9ugb.jpg',
+    link: '/kraken-bracket',
   },
 ];
 
