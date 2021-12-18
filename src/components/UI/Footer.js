@@ -7,7 +7,10 @@ const Footer = () => {
       <Container maxWidth='xl'>
         <Grid container spacing={3}>
           <Grid item sm={12} md={4}>
-            <a href='mailto:brian.edison.nguyen@gmail.ccom'>
+            <a
+              href='mailto:brian.edison.nguyen@gmail.ccom'
+              className='footer__link'
+            >
               brian.edison.nguyen@gmail.com
             </a>
           </Grid>{' '}

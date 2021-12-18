@@ -3,3 +3,13 @@
   text-align: center;
   padding: 5rem 0;
 }
+
+.footer__link {
+  color: #79c2d0;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+.footer__link:hover {
+  color: white;
+  transition: 0.5s;
+}
