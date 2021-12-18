@@ -1,11 +1,30 @@
 import { TextField, Grid } from '@mui/material';
+import emailjs from 'emailjs-com';
 
 import BtnStandard from '../UI/Button/BtnStandard';
 import './ContactForm.css';
 
 const ContactForm = (props) => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        'service_1xwndxg',
+        'template_fx6y7uj',
+        e.target,
+        'user_4vVpxSkvODPvEMWOc492H'
+      )
+      .then((result) => {
+        console.log(result.text);
+      })
+      .catch((error) => {
+        console.log(error.text);
+      });
+    e.target.reset();
+  };
+
   return (
-    <form className='contact-form'>
+    <form className='contact-form' onSubmit={sendEmail}>
       <Grid container spacing={2}>
         <Grid item xs={6} md={6}>
           <TextField
@@ -30,6 +49,7 @@ const ContactForm = (props) => {
         required
         id='outlined-required'
         label='Email'
+        name='email'
       />
       <TextField
         className='contact-form__field'
@@ -38,6 +58,7 @@ const ContactForm = (props) => {
         maxRows={4}
         id='outlined-required'
         label='Your Message'
+        name='message'
       />
       <BtnStandard />
     </form>
