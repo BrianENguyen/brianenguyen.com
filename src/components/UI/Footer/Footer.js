@@ -1,6 +1,8 @@
 import { Grid, Container } from '@mui/material';
 
+import FooterButtons from './FooterButtons';
 import './Footer.css';
+
 const Footer = () => {
   return (
     <footer className='footer'>
