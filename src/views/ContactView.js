@@ -10,7 +10,10 @@ const ContactView = () => {
   return (
     <div
       className='contact'
-      style={{ backgroundColor: 'white', color: 'black' }}
+      style={{
+        backgroundColor: 'white',
+        color: 'black',
+      }}
     >
       <Jumbotron image={jumboImage} title={jumboText} />
       <Container maxWidth='lg'>
@@ -19,7 +22,8 @@ const ContactView = () => {
           <a href='mailto:brian.edison.nguyen@gmail.com'>
             brian.edison.nguyen@gmail.com
           </a>
-          , or feel free to use the form below to email me
+          , or feel free to use the form below to email me. Please make sure
+          that your email address is correct
         </p>
         <ContactForm />
       </Container>
