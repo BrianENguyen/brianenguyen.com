@@ -11,6 +11,16 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+.btn-standard-light {
+  color: rgb(0, 0, 0) !important;
+  border: 1px solid #79c2d0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .btn-standard:hover {
   background-color: #79c2d0;
+}
+.btn-standard-light:hover {
+  background-color: #79c2d0;
+  color: white !important;
 }
