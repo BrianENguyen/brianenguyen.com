@@ -9,20 +9,24 @@ const Footer = () => {
     <footer className='footer'>
       <Container maxWidth='xl'>
         <Grid container spacing={3}>
-          <Grid item sm={12} md={4}>
-            <a
-              href='mailto:brian.edison.nguyen@gmail.ccom'
-              className='footer__link'
-            >
-              brian.edison.nguyen@gmail.com
-            </a>
+          <Grid item xs={12} md={4}>
+            <div className='footer__section'>
+              <a
+                href='mailto:brian.edison.nguyen@gmail.ccom'
+                className='footer__link'
+              >
+                brian.edison.nguyen@gmail.com
+              </a>
+            </div>
           </Grid>{' '}
-          <Grid item sm={12} md={4}>
+          <Grid item xs={12} md={4}>
             {/* FIXME: misaligned brand */}
             <FooterBrand />
           </Grid>{' '}
-          <Grid item sm={12} md={4}>
-            <FooterButtons />
+          <Grid item xs={12} md={4}>
+            <div className='footer__section'>
+              <FooterButtons />
+            </div>
           </Grid>
         </Grid>
       </Container>
