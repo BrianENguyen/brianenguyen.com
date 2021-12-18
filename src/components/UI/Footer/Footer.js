@@ -33,7 +33,7 @@ const Footer = () => {
       </Container>
       <hr className='footer__line-divider' />
       <Container maxWidth='xs'>
-        <p>{new Date().getFullYear()} Brian Nguyen. All rights reserved</p>
+        <p className="footer__copyright">{new Date().getFullYear()} Brian Nguyen. All rights reserved</p>
       </Container>
     </footer>
   );
