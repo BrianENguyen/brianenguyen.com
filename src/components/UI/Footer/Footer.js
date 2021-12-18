@@ -25,6 +25,7 @@ const Footer = () => {
           </Grid>{' '}
           <Grid item sm={12} md={4}>
             {/* TODO: footer social links  */}
+            <FooterButtons />
           </Grid>
         </Grid>
       </Container>
