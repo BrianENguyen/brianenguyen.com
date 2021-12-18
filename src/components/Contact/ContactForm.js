@@ -55,6 +55,7 @@ const ContactForm = (props) => {
         id='outlined-required'
         label='Email'
         name='email'
+        type='email'
       />
       {/* MESSAGE */}
       <TextField
