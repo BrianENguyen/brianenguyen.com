@@ -1,7 +1,7 @@
 import { TextField, Grid } from '@mui/material';
 import emailjs from 'emailjs-com';
 
-import BtnStandard from '../UI/Button/BtnStandard';
+import BtnStandardLight from '../UI/Button/BtnStandardLight';
 import './ContactForm.css';
 
 const ContactForm = (props) => {
@@ -27,23 +27,28 @@ const ContactForm = (props) => {
     <form className='contact-form' onSubmit={sendEmail}>
       <Grid container spacing={2}>
         <Grid item xs={6} md={6}>
+          {/* FIRST NAME */}
           <TextField
             className='contact-form__field'
             required
             id='outlined-required'
             label='First Name'
+            name='first_name'
           />
         </Grid>
         <Grid item xs={6} md={6}>
+          {/* LAST NAME */}
           <TextField
             className='contact-form__field'
             required
             id='outlined-required'
             label='Last Name'
+            name='last_name'
           />
         </Grid>
       </Grid>
 
+      {/* EMAIL */}
       <TextField
         className='contact-form__field'
         required
@@ -51,6 +56,7 @@ const ContactForm = (props) => {
         label='Email'
         name='email'
       />
+      {/* MESSAGE */}
       <TextField
         className='contact-form__field'
         required
@@ -60,7 +66,7 @@ const ContactForm = (props) => {
         label='Your Message'
         name='message'
       />
-      <BtnStandard />
+      <BtnStandardLight>Submit</BtnStandardLight>
     </form>
   );
 };
