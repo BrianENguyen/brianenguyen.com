@@ -1,6 +1,7 @@
 import { Grid, Container } from '@mui/material';
 
 import FooterButtons from './FooterButtons';
+import FooterBrand from './FooterBrand';
 import './Footer.css';
 
 const Footer = () => {
@@ -17,14 +18,10 @@ const Footer = () => {
             </a>
           </Grid>{' '}
           <Grid item sm={12} md={4}>
-            <img
-              src='https://res.cloudinary.com/buraiyen/image/upload/v1620240495/BEN_Website/BEN-logo-transparent_rintta.png'
-              width='175px'
-              alt=''
-            ></img>
+            {/* FIXME: misaligned brand */}
+            <FooterBrand />
           </Grid>{' '}
           <Grid item sm={12} md={4}>
-            {/* TODO: footer social links  */}
             <FooterButtons />
           </Grid>
         </Grid>
