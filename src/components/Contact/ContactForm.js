@@ -1,11 +1,11 @@
 import { TextField, Grid } from '@mui/material';
 import { useState } from 'react';
-import emailjs from 'emailjs-com';
 import * as yup from 'yup';
 
 import { formSchema } from './ContactFormValidation';
 import BtnStandardLight from '../UI/Button/BtnStandardLight';
 import './ContactForm.css';
+import { submitForm } from './ContactFormSubmit';
 
 const ContactForm = (props) => {
   const [firstNameValid, setFirstNameValid] = useState(true);
@@ -13,7 +13,7 @@ const ContactForm = (props) => {
   const [emailValid, setEmailValid] = useState(true);
   const [messageValid, setMessageValid] = useState(true);
 
-  const sendEmail = async (event) => {
+  const validateForm = async (event) => {
     event.preventDefault();
 
     if (firstNameValid && lastNameValid && emailValid && messageValid) {
@@ -32,21 +32,7 @@ const ContactForm = (props) => {
       };
       const isValid = await formSchema.isValid(formData);
       if (isValid) {
-        emailjs
-          .sendForm(
-            'service_1xwndxg',
-            'template_fx6y7uj',
-            event.target,
-            'user_4vVpxSkvODPvEMWOc492H'
-          )
-          .then((result) => {
-            console.log(result.text);
-          })
-          .catch((error) => {
-            console.log(error.text);
-          });
-        event.target.reset();
-        alert('You submitted the form!');
+        submitForm(event);
       } else {
         alert('Uh oh!');
       }
@@ -83,7 +69,7 @@ const ContactForm = (props) => {
     } else setMessageValid(false);
   };
   return (
-    <form className='contact-form' onSubmit={sendEmail}>
+    <form className='contact-form' onSubmit={validateForm}>
       <Grid container spacing={2}>
         <Grid item xs={6} md={6}>
           <TextField
