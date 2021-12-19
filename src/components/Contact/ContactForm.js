@@ -1,11 +1,12 @@
 import { TextField, Grid } from '@mui/material';
 import emailjs from 'emailjs-com';
+import { useForm } from 'react-hook-form';
 
 import BtnStandardLight from '../UI/Button/BtnStandardLight';
 import './ContactForm.css';
 
 const ContactForm = (props) => {
-  const sendEmail = (e) => {
+  const sendEmail = (data, e) => {
     e.preventDefault();
     emailjs
       .sendForm(
@@ -21,26 +22,25 @@ const ContactForm = (props) => {
         console.log(error.text);
       });
     e.target.reset();
+
+    // console.log(data);
   };
 
   return (
     <form className='contact-form' onSubmit={sendEmail}>
       <Grid container spacing={2}>
         <Grid item xs={6} md={6}>
-          {/* FIRST NAME */}
           <TextField
             className='contact-form__field'
-            required
             id='outlined-required'
             label='First Name'
             name='first_name'
+            placeholder='First name'
           />
         </Grid>
         <Grid item xs={6} md={6}>
-          {/* LAST NAME */}
           <TextField
             className='contact-form__field'
-            required
             id='outlined-required'
             label='Last Name'
             name='last_name'
@@ -48,26 +48,22 @@ const ContactForm = (props) => {
         </Grid>
       </Grid>
 
-      {/* EMAIL */}
       <TextField
         className='contact-form__field'
-        required
         id='outlined-required'
         label='Email'
         name='email'
         type='email'
       />
-      {/* MESSAGE */}
+
       <TextField
         className='contact-form__field'
-        required
         multiline
         maxRows={4}
         id='outlined-required'
         label='Your Message'
         name='message'
       />
-      <BtnStandardLight>Submit</BtnStandardLight>
     </form>
   );
 };
