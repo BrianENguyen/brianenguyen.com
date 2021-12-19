@@ -34,10 +34,10 @@ const ContactForm = (props) => {
       if (isValid) {
         submitForm(event);
       } else {
-        alert('Uh oh!');
+        alert('One or more of your inputs are invalid!');
       }
     } else {
-      alert('Uh oh!');
+      alert('One or more of your inputs are invalid!');
     }
   };
 
