@@ -1,4 +1,5 @@
 import { TextField, Grid } from '@mui/material';
+import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import * as yup from 'yup';
 
@@ -7,6 +8,11 @@ import BtnStandardLight from '../UI/Button/BtnStandardLight';
 import './ContactForm.css';
 
 const ContactForm = (props) => {
+  const [firstNameValid, setFirstNameValid] = useState(false);
+  const [lastNameValid, setLastNameValid] = useState(false);
+  const [emailValid, setEmailValid] = useState(false);
+  const [messageValid, setMessageValid] = useState(false);
+
   const sendEmail = async (event) => {
     event.preventDefault();
 
@@ -43,6 +49,30 @@ const ContactForm = (props) => {
     }
   };
 
+  const firstNameHandler = (e) => {
+    const firstName = e.target.value;
+    if (firstName.length > 0) {
+      setFirstNameValid(true);
+    } else setFirstNameValid(false);
+  };
+  const lastNameHandler = (e) => {
+    const lastName = e.target.value;
+    if (lastName.length > 0) {
+      setLastNameValid(true);
+    } else setLastNameValid(false);
+  };
+  const emailHandler = (e) => {
+    const email = e.target.value;
+    if (email.length > 0) {
+      setEmailValid(true);
+    } else setEmailValid(false);
+  };
+  const messageHandler = (e) => {
+    const message = e.target.value;
+    if (message.length > 0) {
+      setMessageValid(true);
+    } else setMessageValid(false);
+  };
   return (
     <form className='contact-form' onSubmit={sendEmail}>
       <Grid container spacing={2}>
@@ -53,6 +83,8 @@ const ContactForm = (props) => {
             label='First Name'
             name='first_name'
             placeholder='First name'
+            error={firstNameValid ? false : true}
+            onChange={firstNameHandler}
           />
         </Grid>
         <Grid item xs={6} md={6}>
@@ -61,6 +93,8 @@ const ContactForm = (props) => {
             id='last-name'
             label='Last Name'
             name='last_name'
+            error={lastNameValid ? false : true}
+            onChange={lastNameHandler}
           />
         </Grid>
       </Grid>
@@ -71,6 +105,8 @@ const ContactForm = (props) => {
         label='Email'
         name='email'
         type='email'
+        error={emailValid ? false : true}
+        onChange={emailHandler}
       />
 
       <TextField
@@ -80,6 +116,8 @@ const ContactForm = (props) => {
         id='message'
         label='Your Message'
         name='message'
+        error={messageValid ? false : true}
+        onChange={messageHandler}
       />
       <BtnStandardLight>Submit</BtnStandardLight>
     </form>
