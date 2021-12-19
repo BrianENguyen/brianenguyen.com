@@ -8,42 +8,48 @@ import BtnStandardLight from '../UI/Button/BtnStandardLight';
 import './ContactForm.css';
 
 const ContactForm = (props) => {
-  const [firstNameValid, setFirstNameValid] = useState(false);
-  const [lastNameValid, setLastNameValid] = useState(false);
-  const [emailValid, setEmailValid] = useState(false);
-  const [messageValid, setMessageValid] = useState(false);
+  const [firstNameValid, setFirstNameValid] = useState(true);
+  const [lastNameValid, setLastNameValid] = useState(true);
+  const [emailValid, setEmailValid] = useState(true);
+  const [messageValid, setMessageValid] = useState(true);
 
   const sendEmail = async (event) => {
     event.preventDefault();
 
-    const fName = document.getElementById('first-name').value;
-    const lName = document.getElementById('last-name').value;
-    const e = document.getElementById('email').value;
-    const m = document.getElementById('message').value;
+    if (firstNameValid && lastNameValid && emailValid && messageValid) {
+      event.preventDefault();
 
-    let formData = {
-      firstName: fName,
-      lastName: lName,
-      email: e,
-      message: m,
-    };
-    const isValid = await formSchema.isValid(formData);
-    if (isValid) {
-      emailjs
-        .sendForm(
-          'service_1xwndxg',
-          'template_fx6y7uj',
-          event.target,
-          'user_4vVpxSkvODPvEMWOc492H'
-        )
-        .then((result) => {
-          console.log(result.text);
-        })
-        .catch((error) => {
-          console.log(error.text);
-        });
-      event.target.reset();
-      alert('You submitted the form!');
+      const fName = document.getElementById('first-name').value;
+      const lName = document.getElementById('last-name').value;
+      const e = document.getElementById('email').value;
+      const m = document.getElementById('message').value;
+
+      let formData = {
+        firstName: fName,
+        lastName: lName,
+        email: e,
+        message: m,
+      };
+      const isValid = await formSchema.isValid(formData);
+      if (isValid) {
+        emailjs
+          .sendForm(
+            'service_1xwndxg',
+            'template_fx6y7uj',
+            event.target,
+            'user_4vVpxSkvODPvEMWOc492H'
+          )
+          .then((result) => {
+            console.log(result.text);
+          })
+          .catch((error) => {
+            console.log(error.text);
+          });
+        event.target.reset();
+        alert('You submitted the form!');
+      } else {
+        alert('Uh oh!');
+      }
     } else {
       alert('Uh oh!');
     }
@@ -63,7 +69,10 @@ const ContactForm = (props) => {
   };
   const emailHandler = (e) => {
     const email = e.target.value;
-    if (email.length > 0) {
+    const re =
+      /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+    const emailRe = email.match(re);
+    if (email.length > 0 && emailRe) {
       setEmailValid(true);
     } else setEmailValid(false);
   };
