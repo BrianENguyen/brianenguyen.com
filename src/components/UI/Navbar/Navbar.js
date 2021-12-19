@@ -41,6 +41,10 @@ const Navbar = () => {
     showMobileButton();
   }, []);
 
+  /*FIXME: navbar doesn't change BG on initial mobile view state
+    TODO: smooth animation when clicking on mobile button 
+     */
+
   window.addEventListener('resize', showMobileButton);
   window.addEventListener('scroll', showBackground);
 

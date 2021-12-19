@@ -22,6 +22,7 @@ const Passion = () => {
                 technologies, such as HTML/CSS/JS, Vue, React, and more. If you
                 need a website made, then feel free to reach out to me
               </p>
+              {/* TODO: add button that links to portfolio */}
             </div>
           </Grid>
         </Grid>
