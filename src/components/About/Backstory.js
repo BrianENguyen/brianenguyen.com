@@ -4,6 +4,7 @@ import './Backstory.css';
 
 const Backstory = () => {
   return (
+    // FIXME: add a container. the mobile view looks very scuffed
     <div className='backstory'>
       <Grid container spacing={2}>
         <Grid item xs={12} md={4}>

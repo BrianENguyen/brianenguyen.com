@@ -42,6 +42,7 @@ const Navbar = () => {
   }, []);
 
   /*FIXME: navbar doesn't change BG on initial mobile view state
+    FIXME: mobile menu doesn't go away when clicking on the link
     TODO: smooth animation when clicking on mobile button 
      */
 
