@@ -69,6 +69,9 @@ const ContactForm = (props) => {
       setMessageValid(true);
     } else setMessageValid(false);
   };
+
+  // TODO: add asterisks to all placeholders
+  // TODO: add an error message for invalid inputs
   return (
     <form className='contact-form' onSubmit={validateForm}>
       <Grid container spacing={2}>
