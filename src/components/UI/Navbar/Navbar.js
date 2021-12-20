@@ -11,9 +11,11 @@ const Navbar = () => {
   const [background, setBackground] = useState(false);
 
   // Functions
-  const showMobileButton = () => {
-    if (window.innerWidth <= 732) setMobileButton(true);
-    else setMobileButton(false);
+  const showMobileView = () => {
+    if (window.innerWidth <= 732) {
+      setMobileButton(true);
+      showBackground();
+    } else setMobileButton(false);
   };
 
   const showMobileMenu = () => {
@@ -38,7 +40,7 @@ const Navbar = () => {
   );
 
   useEffect(() => {
-    showMobileButton();
+    showMobileView();
   }, []);
 
   /*FIXME: navbar doesn't change BG on initial mobile view state
@@ -46,7 +48,7 @@ const Navbar = () => {
     TODO: smooth animation when clicking on mobile button 
      */
 
-  window.addEventListener('resize', showMobileButton);
+  window.addEventListener('resize', showMobileView);
   window.addEventListener('scroll', showBackground);
 
   return (
