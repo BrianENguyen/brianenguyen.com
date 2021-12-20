@@ -25,6 +25,10 @@ const Navbar = () => {
     }
   };
 
+  const hideMobileMenu = () => {
+    setMobileMenu(false);
+  };
+
   const showBackground = () => {
     if (window.scrollY >= 100 || window.innerWidth <= 732) {
       setBackground(true);
@@ -59,30 +63,43 @@ const Navbar = () => {
         </Link>
       </div>
       {mobileButton && mobileButtonContent}
+      {/* FIXME: mobile links are slightly more to the right */}
       <div className={mobileMenu ? 'navbar__links' : 'navbar__links active'}>
         <ul>
           <li>
-            <Link className='navbar__link' to='/'>
+            <Link className='navbar__link' to='/' onClick={hideMobileMenu}>
               Home
             </Link>
           </li>
           <li>
-            <Link className='navbar__link' to='/about'>
+            <Link className='navbar__link' to='/about' onClick={hideMobileMenu}>
               About
             </Link>
           </li>
           <li>
-            <Link className='navbar__link' to='/portfolio'>
+            <Link
+              className='navbar__link'
+              to='/portfolio'
+              onClick={hideMobileMenu}
+            >
               Portfolio
             </Link>
           </li>
           <li>
-            <Link className='navbar__link' to='/resume'>
+            <Link
+              className='navbar__link'
+              to='/resume'
+              onClick={hideMobileMenu}
+            >
               Resume
             </Link>
           </li>
           <li>
-            <Link className='navbar__link' to='/contact'>
+            <Link
+              className='navbar__link'
+              to='/contact'
+              onClick={hideMobileMenu}
+            >
               Contact
             </Link>
           </li>
