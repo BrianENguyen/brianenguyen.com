@@ -12,6 +12,7 @@ const Footer = () => {
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
               <div className='footer__section'>
+                {/* FIXME: href */}
                 <a
                   href='mailto:brian.edison.nguyen@gmail.ccom'
                   className='footer__link'

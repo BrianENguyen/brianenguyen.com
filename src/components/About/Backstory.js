@@ -12,9 +12,10 @@ const Backstory = () => {
         </Grid>
         <Grid item xs={12} md={8}>
           <p>
-            I am based in California my entire life. I've been passionate about
-            computers ever since I played video games when I was young. I knew
-            that a career related to computers would be a perfect option for me
+            {/* FIXME: sentence structure */}I am based in California my entire
+            life. I've been passionate about computers ever since I played video
+            games when I was young. I knew that a career related to computers
+            would be a perfect option for me
           </p>
           <p>
             I obtained a Bachelor's in Computer Science from California State

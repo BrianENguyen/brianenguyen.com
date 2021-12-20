@@ -30,6 +30,7 @@ const ContactForm = (props) => {
         email: e,
         message: m,
       };
+      // TODO: change alert comments
       const isValid = await formSchema.isValid(formData);
       if (isValid) {
         submitForm(event);
