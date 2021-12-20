@@ -74,14 +74,17 @@
   .navbar__links ul {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
   }
+
   .navbar__links.active ul {
     display: none;
     width: 100%;
     flex-direction: column;
   }
   .navbar__links li {
-    text-align: center;
     margin: 20px 0;
     margin-right: 0;
   }

@@ -47,10 +47,9 @@ const Navbar = () => {
     showMobileView();
   }, []);
 
-  /*FIXME: navbar doesn't change BG on initial mobile view state
-    FIXME: mobile menu doesn't go away when clicking on the link
-    TODO: smooth animation when clicking on mobile button 
-     */
+  /*
+  TODO: smooth animation when clicking on mobile button 
+  */
 
   window.addEventListener('resize', showMobileView);
   window.addEventListener('scroll', showBackground);
