@@ -15,6 +15,7 @@ const Passion = () => {
           </Grid>
           <Grid item sm={12} md={7}>
             <div className='passion__text'>
+              {/* TODO: add name */}
               <h2>My passion is front-end web development</h2>
               <p>
                 I love making websites look beautiful. I have years of

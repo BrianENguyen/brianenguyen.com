@@ -6,6 +6,8 @@ import RecentProjectList from '../components/Projects/RecentProjectList';
 import WebCardList from '../components/Home/WebCardList';
 
 const HomeView = () => {
+  // TODO: add description "2020 Computer Science Graduate and Aspiring Front-end Developer"
+  // TODO: change jumbo image to me coding
   const jumboImage =
     'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70/v1620240501/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg';
   const jumboTitle = 'Brian E. Nguyen';

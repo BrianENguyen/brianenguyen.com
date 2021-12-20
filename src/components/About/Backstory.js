@@ -5,6 +5,7 @@ import './Backstory.css';
 const Backstory = () => {
   return (
     // FIXME: add a container. the mobile view looks very scuffed
+    // TODO: add future goals
     <div className='backstory'>
       <Grid container spacing={2}>
         <Grid item xs={12} md={4}>
@@ -12,10 +13,10 @@ const Backstory = () => {
         </Grid>
         <Grid item xs={12} md={8}>
           <p>
-            {/* FIXME: sentence structure */}I am based in California my entire
-            life. I've been passionate about computers ever since I played video
-            games when I was young. I knew that a career related to computers
-            would be a perfect option for me
+            {/* FIXME: sentence structure and expand more on this first paragraph */}
+            I am based in California my entire life. I've been passionate about
+            computers ever since I played video games when I was young. I knew
+            that a career related to computers would be a perfect option for me
           </p>
           <p>
             I obtained a Bachelor's in Computer Science from California State
