@@ -3,6 +3,7 @@ import { Grid, Container } from '@mui/material';
 import FooterButtons from './FooterButtons';
 import FooterBrand from './FooterBrand';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -37,7 +38,9 @@ const Footer = () => {
         <p className='footer__copyright'>
           {new Date().getFullYear()} Brian Nguyen. All rights reserved
         </p>
-        {/* TODO: add privacy policy link */}
+        <Link to='/privacy-policy' className='footer__privacy-policy-link'>
+          Privacy Policy
+        </Link>
       </Container>
     </footer>
   );
