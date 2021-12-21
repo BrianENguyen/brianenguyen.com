@@ -1,50 +1,15 @@
 import { Container } from '@mui/material';
+import '../components/PrivacyPolicy/PrivacyPolicy.css';
+
+import PrivacyIntro from '../components/PrivacyPolicy/PrivacyIntro';
 
 const PrivacyView = () => {
   return (
-    <div
-      className='privacy'
-      style={{ marginTop: 10 + 'rem', fontSize: 1.2 + 'rem' }}
-    >
+    <div className='privacy'>
       <Container>
-        <h1 class='project-title'>Privacy Policy</h1>
-        <div class='privacy-description'>
-          <p>
-            This Privacy Policy describes how your personal information is
-            collected, used, and shared when you visit{' '}
-            <a href='https://www.brianenguyen.com/'>
-              https://www.brianenguyen.com/
-            </a>{' '}
-            (the “Site”).
-          </p>
-
-          <p>
-            If you have additional questions or require more information about
-            our Privacy Policy, do not hesitate to contact me.
-          </p>
-
-          <p>
-            This Privacy Policy applies only to our online activities and is
-            valid for visitors to our website with regards to the information
-            that they shared and/or collect in the Site. This policy is not
-            applicable to any information collected offline or via channels
-            other than this website. Our Privacy Policy was created with the
-            help of the{' '}
-            <a href='https://www.privacypolicyonline.com/privacy-policy-generator/'>
-              Online Generator of Privacy Policy
-            </a>
-            .
-          </p>
-        </div>
-        <h2>Consent</h2>
-        <div class='privacy-description'>
-          <p>
-            By using our website, you hereby consent to our Privacy Policy and
-            agree to its terms.
-          </p>
-        </div>
-        <h2>Information we collect</h2>
-        <div class='privacy-description'>
+        <PrivacyIntro />
+        <div>
+          <h2>Information we collect</h2>
           <p>
             The personal information that you are asked to provide, and the
             reasons why you are asked to provide it, will be made clear to you
@@ -57,8 +22,9 @@ const PrivacyView = () => {
             other information you may choose to provide.
           </p>
         </div>
-        <h2>How we use your information</h2>
-        <div class='privacy-description'>
+        <div>
+          <h2>How we use your information</h2>
+
           <p>
             We use the information we collect in various ways, including to:
           </p>
@@ -76,8 +42,8 @@ const PrivacyView = () => {
             <li>Find and prevent fraud</li>
           </ul>
         </div>
-        <h2>Log Files</h2>
-        <div class='privacy-description'>
+        <div>
+          <h2>Log Files</h2>
           <p>
             The Site follows a standard procedure of using log files. These
             files log visitors when they visit websites. All hosting companies
@@ -92,8 +58,8 @@ const PrivacyView = () => {
           </p>
         </div>
 
-        <h2>Cookies and Web Beacons</h2>
         <div class='privacy-description'>
+          <h2>Cookies and Web Beacons</h2>
           <p>
             Like any other website, the Site uses 'cookies'. These cookies are
             used to store information including visitors' preferences, and the
@@ -111,8 +77,8 @@ const PrivacyView = () => {
             .
           </p>
         </div>
-        <h2>Advertising Partners Privacy Policies</h2>
-        <div class='privacy-description'>
+        <div>
+          <h2>Advertising Partners Privacy Policies</h2>
           <p>
             You may consult this list to find the Privacy Policy for each of the
             advertising partners of the Site.
@@ -134,8 +100,9 @@ const PrivacyView = () => {
             that are used by third-party advertisers.
           </p>
         </div>
-        <h2>Third Party Privacy Policies</h2>
-        <div class='privacy-description'>
+        <div>
+          <h2>Third Party Privacy Policies</h2>
+
           <p>
             The Site's Privacy Policy does not apply to other advertisers or
             websites. Thus, we are advising you to consult the respective
@@ -152,72 +119,76 @@ const PrivacyView = () => {
           </p>
         </div>
 
-        <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
-        <div class='privacy-description'>
+        <div>
+          <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
           <p>
             Under the CCPA, among other rights, California consumers have the
             right to:
           </p>
-          <p>
-            Request that a business that collects a consumer's personal data
-            disclose the categories and specific pieces of personal data that a
-            business has collected about consumers.
-          </p>
-          <p>
-            Request that a business delete any personal data about the consumer
-            that a business has collected.
-          </p>
-          <p>
-            Request that a business that sells a consumer's personal data, not
-            sell the consumer's personal data.
-          </p>
-          <p>
-            If you make a request, we have one month to respond to you. If you
-            would like to exercise any of these rights, please contact us.
-          </p>
+          <ul>
+            <li>
+              Request that a business that collects a consumer's personal data
+              disclose the categories and specific pieces of personal data that
+              a business has collected about consumers.
+            </li>
+            <li>
+              Request that a business delete any personal data about the
+              consumer that a business has collected.
+            </li>
+            <li>
+              Request that a business that sells a consumer's personal data, not
+              sell the consumer's personal data.
+            </li>
+            <li>
+              If you make a request, we have one month to respond to you. If you
+              would like to exercise any of these rights, please contact us.
+            </li>
+          </ul>
         </div>
         <h2>GDPR Data Protection Rights</h2>
 
-        <div class='privacy-description'>
+        <div>
           <p>
             We would like to make sure you are fully aware of all of your data
             protection rights. Every user is entitled to the following:
           </p>
-          <p>
-            The right to access – You have the right to request copies of your
-            personal data. We may charge you a small fee for this service.
-          </p>
-          <p>
-            The right to rectification – You have the right to request that we
-            correct any information you believe is inaccurate. You also have the
-            right to request that we complete the information you believe is
-            incomplete.
-          </p>
-          <p>
-            The right to erasure – You have the right to request that we erase
-            your personal data, under certain conditions.
-          </p>
-          <p>
-            The right to restrict processing – You have the right to request
-            that we restrict the processing of your personal data, under certain
-            conditions.
-          </p>
-          <p>
-            The right to object to processing – You have the right to object to
-            our processing of your personal data, under certain conditions.
-          </p>
-          <p>
-            The right to data portability – You have the right to request that
-            we transfer the data that we have collected to another organization,
-            or directly to you, under certain conditions.
-          </p>
-          <p>
-            If you make a request, we have one month to respond to you. If you
-            would like to exercise any of these rights, please contact us.
-          </p>
+          <ul>
+            <li>
+              The right to access – You have the right to request copies of your
+              personal data. We may charge you a small fee for this service.
+            </li>
+            <li>
+              The right to rectification – You have the right to request that we
+              correct any information you believe is inaccurate. You also have
+              the right to request that we complete the information you believe
+              is incomplete.
+            </li>
+            <li>
+              The right to erasure – You have the right to request that we erase
+              your personal data, under certain conditions.
+            </li>
+            <li>
+              The right to restrict processing – You have the right to request
+              that we restrict the processing of your personal data, under
+              certain conditions.
+            </li>
+            <li>
+              The right to object to processing – You have the right to object
+              to our processing of your personal data, under certain conditions.
+            </li>
+            <li>
+              The right to data portability – You have the right to request that
+              we transfer the data that we have collected to another
+              organization, or directly to you, under certain conditions.
+            </li>
+            <li>
+              If you make a request, we have one month to respond to you. If you
+              would like to exercise any of these rights, please contact us.
+            </li>
+          </ul>
         </div>
-        <h2>Children's Information</h2>
-        <div class='privacy-description'>
+        <div>
+          <h2>Children's Information</h2>
           <p>
             Another part of our priority is adding protection for children while
             using the internet. We encourage parents and guardians to observe,
