@@ -6,6 +6,7 @@ import PortfolioView from './views/PortfolioView';
 import ResumeView from './views/ResumeView';
 import ContactView from './views/ContactView';
 import ErrorView from './views/ErrorView';
+import PrivacyView from './views/PrivacyView';
 import NewSiteView from './views/project/NewSiteView';
 import ThuView from './views/project/ThuView';
 import LBTCView from './views/project/LBTCView';
@@ -40,6 +41,7 @@ function App() {
           <Route path='/kraken-bracket' component={KrakenBracketView} />
           <Route path='/simd' component={SIMDView} />
           <Route path='/probability-stats' component={ProbAndStatsView} />
+          <Route path='/privacy-policy' component={PrivacyView} />
           <Route path='*' component={ErrorView} />
         </Switch>
       </header>
