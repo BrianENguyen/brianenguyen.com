@@ -9,6 +9,7 @@
 
 .tech-card:hover {
   border-color: #434a57;
+  border-left-color: #79c2d0;
   transition: 0.5s;
 }
 
