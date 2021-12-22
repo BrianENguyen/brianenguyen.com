@@ -1,10 +1,17 @@
 import { Link } from 'react-router-dom';
 import { CgClose } from 'react-icons/cg';
 import { Grid } from '@mui/material';
+import { useState } from 'react';
 import './PrivacyDialog.css';
 
 const PrivacyDialog = () => {
-  return (
+  const [isVisible, setVisibility] = useState(true);
+
+  const visibilityHander = () => {
+    setVisibility(false);
+  };
+
+  const dialogContent = (
     <div className='privacy-dialog'>
       <Grid container>
         <Grid item xs={11}>
@@ -15,11 +22,15 @@ const PrivacyDialog = () => {
           </p>
         </Grid>
         <Grid item xs={1}>
-          <CgClose className='privacy-dialog__close-btn' />
+          <CgClose
+            className='privacy-dialog__close-btn'
+            onClick={visibilityHander}
+          />
         </Grid>
       </Grid>
     </div>
   );
+  return isVisible && dialogContent;
 };
 
 export default PrivacyDialog;
