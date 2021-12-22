@@ -17,6 +17,7 @@ import SIMDView from './views/project/SIMDView';
 import ProbAndStatsView from './views/project/ProbAndStatsView';
 import Navbar from './components/UI/Navbar/Navbar';
 import Footer from './components/UI/Footer/Footer';
+import PrivacyDialog from './components/PrivacyPolicy/PrivacyDialog';
 import './App.css';
 
 import ScrollToTop from './components/Helper/ScrollToTop';
@@ -45,6 +46,7 @@ function App() {
           <Route path='*' component={ErrorView} />
         </Switch>
       </header>
+      <PrivacyDialog />
       <Footer />
     </div>
   );
