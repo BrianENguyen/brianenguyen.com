@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { CgClose } from 'react-icons/cg';
-import { Grid } from '@mui/material';
 import { useState } from 'react';
 import './PrivacyDialog.css';
 
