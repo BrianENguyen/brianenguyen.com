@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 
+import './PrivacyDialog.css';
+
 const PrivacyDialog = () => {
   return (
-    <div>
+    <div className='privacy-dialog'>
       <h1>Privacy Notice</h1>
       <p>
         I use Google Analytics, cookies, and other technologies to help me
