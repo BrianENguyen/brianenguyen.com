@@ -9,10 +9,7 @@
 }
 
 .jumbotron__content {
-  padding-top: 45vh;
-}
-.jumbotron__content--home {
-  padding-top: 30vh;
+  padding-top: 40vh;
 }
 
 .jumbotron__title {
@@ -24,9 +21,4 @@
 .jumbotron__description {
   text-align: center;
   font-size: 1.5rem;
-}
-
-.jumbotron__logo {
-  width: 300px;
-  padding: 0;
 }
