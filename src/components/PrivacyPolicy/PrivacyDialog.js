@@ -13,21 +13,15 @@ const PrivacyDialog = () => {
 
   const dialogContent = (
     <div className='privacy-dialog'>
-      <Grid container>
-        <Grid item xs={11}>
-          <p>
-            I use Google Analytics, cookies, and other technologies to help me
-            understand how you use this website.{' '}
-            <Link to='/privacy-policy'>Privacy Policy</Link>
-          </p>
-        </Grid>
-        <Grid item xs={1}>
-          <CgClose
-            className='privacy-dialog__close-btn'
-            onClick={visibilityHander}
-          />
-        </Grid>
-      </Grid>
+      <CgClose
+        className='privacy-dialog__close-btn'
+        onClick={visibilityHander}
+      />
+      <p>
+        I use Google Analytics, cookies, and other technologies to help me
+        understand how you use this website.{' '}
+        <Link to='/privacy-policy'>Privacy Policy</Link>
+      </p>
     </div>
   );
   return isVisible && dialogContent;
