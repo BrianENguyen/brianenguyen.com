@@ -70,7 +70,6 @@ const ContactForm = (props) => {
     } else setMessageValid(false);
   };
 
-  // TODO: add asterisks to all placeholders
   // TODO: add an error message for invalid inputs
   return (
     <form className='contact-form' onSubmit={validateForm}>
@@ -79,9 +78,8 @@ const ContactForm = (props) => {
           <TextField
             className='contact-form__field'
             id='first-name'
-            label='First Name'
+            label='First Name *'
             name='first_name'
-            placeholder='First name'
             error={firstNameValid ? false : true}
             onChange={firstNameHandler}
           />
@@ -90,7 +88,7 @@ const ContactForm = (props) => {
           <TextField
             className='contact-form__field'
             id='last-name'
-            label='Last Name'
+            label='Last Name *'
             name='last_name'
             error={lastNameValid ? false : true}
             onChange={lastNameHandler}
@@ -101,7 +99,7 @@ const ContactForm = (props) => {
       <TextField
         className='contact-form__field'
         id='email'
-        label='Email'
+        label='Email *'
         name='email'
         type='email'
         error={emailValid ? false : true}
@@ -113,7 +111,7 @@ const ContactForm = (props) => {
         multiline
         maxRows={4}
         id='message'
-        label='Your Message'
+        label='Your Message *'
         name='message'
         error={messageValid ? false : true}
         onChange={messageHandler}
