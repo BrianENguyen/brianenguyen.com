@@ -94,7 +94,9 @@ const ContactForm = (props) => {
             error={firstNameValid ? false : true}
             onChange={firstNameHandler}
           />
-          {!firstNameValid && <p>Field cannot be blank</p>}
+          {!firstNameValid && (
+            <p className='contact-form__error'>Field cannot be blank</p>
+          )}
         </Grid>
         {/* Last name */}
         <Grid item xs={6} md={6}>
@@ -106,7 +108,9 @@ const ContactForm = (props) => {
             error={lastNameValid ? false : true}
             onChange={lastNameHandler}
           />
-          {!lastNameValid && <p>Field cannot be blank</p>}
+          {!lastNameValid && (
+            <p className='contact-form__error'>Field cannot be blank</p>
+          )}
         </Grid>
       </Grid>
       {/* Email */}
@@ -119,7 +123,7 @@ const ContactForm = (props) => {
         error={emailValid ? false : true}
         onChange={emailHandler}
       />
-      {!emailValid && emailError}
+      {!emailValid && <p className='contact-form__error'>{emailError}</p>}
 
       {/* Message */}
       <TextField
@@ -132,7 +136,9 @@ const ContactForm = (props) => {
         error={messageValid ? false : true}
         onChange={messageHandler}
       />
-      {!messageValid && <p>Field cannot be blank</p>}
+      {!messageValid && (
+        <p className='contact-form__error'>Field cannot be blank</p>
+      )}
 
       <BtnStandardLight>Submit</BtnStandardLight>
     </form>
