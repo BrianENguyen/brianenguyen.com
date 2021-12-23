@@ -13,6 +13,8 @@ const ContactForm = (props) => {
   const [emailValid, setEmailValid] = useState(true);
   const [messageValid, setMessageValid] = useState(true);
 
+  const [emailError, setEmailError] = useState('');
+
   const validateForm = async (event) => {
     event.preventDefault();
 
@@ -56,12 +58,21 @@ const ContactForm = (props) => {
   };
   const emailHandler = (e) => {
     const email = e.target.value;
-    const re =
-      /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    const emailRe = email.match(re);
-    if (email.length > 0 && emailRe) {
-      setEmailValid(true);
-    } else setEmailValid(false);
+
+    if (email.length > 0) {
+      const re =
+        /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+      const isValidEmailFormat = email.match(re);
+      if (isValidEmailFormat) {
+        setEmailValid(true);
+      } else {
+        setEmailValid(false);
+        setEmailError('Invalid email');
+      }
+    } else {
+      setEmailValid(false);
+      setEmailError('Field cannot be blank');
+    }
   };
   const messageHandler = (e) => {
     const message = e.target.value;
@@ -70,10 +81,10 @@ const ContactForm = (props) => {
     } else setMessageValid(false);
   };
 
-  // TODO: add an error message for invalid inputs
   return (
     <form className='contact-form' onSubmit={validateForm}>
       <Grid container spacing={2}>
+        {/* First name */}
         <Grid item xs={6} md={6}>
           <TextField
             className='contact-form__field'
@@ -83,7 +94,9 @@ const ContactForm = (props) => {
             error={firstNameValid ? false : true}
             onChange={firstNameHandler}
           />
+          {!firstNameValid && <p>Field cannot be blank</p>}
         </Grid>
+        {/* Last name */}
         <Grid item xs={6} md={6}>
           <TextField
             className='contact-form__field'
@@ -93,9 +106,10 @@ const ContactForm = (props) => {
             error={lastNameValid ? false : true}
             onChange={lastNameHandler}
           />
+          {!lastNameValid && <p>Field cannot be blank</p>}
         </Grid>
       </Grid>
-
+      {/* Email */}
       <TextField
         className='contact-form__field'
         id='email'
@@ -105,7 +119,9 @@ const ContactForm = (props) => {
         error={emailValid ? false : true}
         onChange={emailHandler}
       />
+      {!emailValid && emailError}
 
+      {/* Message */}
       <TextField
         className='contact-form__field'
         multiline
@@ -116,6 +132,8 @@ const ContactForm = (props) => {
         error={messageValid ? false : true}
         onChange={messageHandler}
       />
+      {!messageValid && <p>Field cannot be blank</p>}
+
       <BtnStandardLight>Submit</BtnStandardLight>
     </form>
   );
