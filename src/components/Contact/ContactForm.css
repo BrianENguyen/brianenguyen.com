@@ -9,6 +9,10 @@
   margin: 1rem 0 !important;
 }
 
-.contact-form__error {
+.contact-form__message--error {
   color: rgb(207, 0, 0);
+}
+.contact-form__message--success {
+  color: #4caf50;
+  font-size: 1.3rem;
 }
