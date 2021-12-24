@@ -7,7 +7,7 @@ const WebCardList = () => {
     <div>
       <Grid container spacing={3}>
         {WebCardData.map((content, i) => (
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} key={i}>
             <WebCard
               title={content.title}
               description={content.description}

@@ -1,9 +1,8 @@
 import { Container } from '@mui/material';
 
 import Jumbotron from '../../components/UI/Jumbotron';
-import BtnStandard from '../../components/UI/Button/BtnStandard';
-import './ProjectView.css';
 
+// TODO: link to old site and repo
 const FirstSiteView = () => {
   const jumboTitle = 'My First Personal Website';
 
@@ -31,14 +30,17 @@ const FirstSiteView = () => {
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639689243/BEN_Website/projects/firstsite-1_h2xzox.png'
           className='project-view__image'
+          alt=''
         />
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639689243/BEN_Website/projects/firstsite-2_ryw1ve.png'
           className='project-view__image'
+          alt=''
         />
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639689351/BEN_Website/projects/firstsite-3_ojidcq.png'
           className='project-view__image'
+          alt=''
         />
       </Container>
 

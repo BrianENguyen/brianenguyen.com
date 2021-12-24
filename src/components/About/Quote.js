@@ -10,6 +10,7 @@ const Quote = () => {
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1087/v1639368996/BEN_Website/BEN_rosegarden.jpg'
             className='quote__image'
+            alt=''
           />
         </Grid>
         <Grid item xs={12} md={6}>
