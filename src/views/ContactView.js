@@ -23,7 +23,8 @@ const ContactView = () => {
             brian.edison.nguyen@gmail.com
           </a>
           , or feel free to use the form below to email me. Please make sure
-          that your email address is correct
+          that your email address is correct. I'll do my best to respond to you
+          as soon as I can!
         </p>
         <ContactForm />
       </Container>
