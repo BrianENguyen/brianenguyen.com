@@ -1,9 +1,8 @@
 import { Container } from '@mui/material';
 
 import Jumbotron from '../../components/UI/Jumbotron';
-import BtnStandard from '../../components/UI/Button/BtnStandard';
-import './ProjectView.css';
 
+// TODO: link to old site and repo
 const FirstSiteView = () => {
   const jumboTitle = 'My First Personal Website';
 
