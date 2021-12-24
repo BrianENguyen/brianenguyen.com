@@ -31,14 +31,17 @@ const FirstSiteView = () => {
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639689243/BEN_Website/projects/firstsite-1_h2xzox.png'
           className='project-view__image'
+          alt=''
         />
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639689243/BEN_Website/projects/firstsite-2_ryw1ve.png'
           className='project-view__image'
+          alt=''
         />
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639689351/BEN_Website/projects/firstsite-3_ojidcq.png'
           className='project-view__image'
+          alt=''
         />
       </Container>
 

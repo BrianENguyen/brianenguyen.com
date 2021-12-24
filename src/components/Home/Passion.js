@@ -11,6 +11,7 @@ const Passion = () => {
             <img
               src='https://res.cloudinary.com/buraiyen/image/upload/v1620240502/BEN_Website/BEN_profile_pic_x81uf8.jpg'
               className='passion__image'
+              alt=''
             />
           </Grid>
           <Grid item sm={12} md={7}>
