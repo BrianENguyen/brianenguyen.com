@@ -16,9 +16,8 @@ const Projects = () => {
       </div>
       <Grid container spacing={2}>
         {ProjectData.map((project, i) => (
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={12} sm={6} key={i}>
             <Project
-              key={i}
               title={project.title}
               src={project.src}
               link={project.link}
