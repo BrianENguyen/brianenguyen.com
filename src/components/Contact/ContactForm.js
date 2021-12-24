@@ -1,6 +1,5 @@
 import { TextField, Grid } from '@mui/material';
 import { useState } from 'react';
-import * as yup from 'yup';
 
 import { formSchema } from './ContactFormValidation';
 import BtnStandardLight from '../UI/Button/BtnStandardLight';
@@ -12,6 +11,9 @@ const ContactForm = (props) => {
   const [lastNameValid, setLastNameValid] = useState(true);
   const [emailValid, setEmailValid] = useState(true);
   const [messageValid, setMessageValid] = useState(true);
+
+  const [emailError, setEmailError] = useState('');
+  const [formSent, setFormSent] = useState(false);
 
   const validateForm = async (event) => {
     event.preventDefault();
@@ -30,15 +32,15 @@ const ContactForm = (props) => {
         email: e,
         message: m,
       };
-      // TODO: change alert comments
       const isValid = await formSchema.isValid(formData);
       if (isValid) {
-        submitForm(event);
-      } else {
-        alert('One or more of your inputs are invalid!');
+        try {
+          submitForm(event);
+          setFormSent(true);
+        } catch {
+          setFormSent(false);
+        }
       }
-    } else {
-      alert('One or more of your inputs are invalid!');
     }
   };
 
@@ -56,12 +58,21 @@ const ContactForm = (props) => {
   };
   const emailHandler = (e) => {
     const email = e.target.value;
-    const re =
-      /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    const emailRe = email.match(re);
-    if (email.length > 0 && emailRe) {
-      setEmailValid(true);
-    } else setEmailValid(false);
+
+    if (email.length > 0) {
+      const re =
+        /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+      const isValidEmailFormat = email.match(re);
+      if (isValidEmailFormat) {
+        setEmailValid(true);
+      } else {
+        setEmailValid(false);
+        setEmailError('Invalid email');
+      }
+    } else {
+      setEmailValid(false);
+      setEmailError('Field cannot be blank');
+    }
   };
   const messageHandler = (e) => {
     const message = e.target.value;
@@ -70,55 +81,73 @@ const ContactForm = (props) => {
     } else setMessageValid(false);
   };
 
-  // TODO: add asterisks to all placeholders
-  // TODO: add an error message for invalid inputs
   return (
     <form className='contact-form' onSubmit={validateForm}>
       <Grid container spacing={2}>
+        {/* First name */}
         <Grid item xs={6} md={6}>
           <TextField
             className='contact-form__field'
             id='first-name'
-            label='First Name'
+            label='First Name *'
             name='first_name'
-            placeholder='First name'
             error={firstNameValid ? false : true}
             onChange={firstNameHandler}
           />
+          {!firstNameValid && (
+            <p className='contact-form__message--error'>
+              Field cannot be blank
+            </p>
+          )}
         </Grid>
+        {/* Last name */}
         <Grid item xs={6} md={6}>
           <TextField
             className='contact-form__field'
             id='last-name'
-            label='Last Name'
+            label='Last Name *'
             name='last_name'
             error={lastNameValid ? false : true}
             onChange={lastNameHandler}
           />
+          {!lastNameValid && (
+            <p className='contact-form__message--error'>
+              Field cannot be blank
+            </p>
+          )}
         </Grid>
       </Grid>
-
+      {/* Email */}
       <TextField
         className='contact-form__field'
         id='email'
-        label='Email'
+        label='Email *'
         name='email'
         type='email'
         error={emailValid ? false : true}
         onChange={emailHandler}
       />
+      {!emailValid && (
+        <p className='contact-form__message--error'>{emailError}</p>
+      )}
 
+      {/* Message */}
       <TextField
         className='contact-form__field'
         multiline
         maxRows={4}
         id='message'
-        label='Your Message'
+        label='Your Message *'
         name='message'
         error={messageValid ? false : true}
         onChange={messageHandler}
       />
+      {!messageValid && (
+        <p className='contact-form__message--error'>Field cannot be blank</p>
+      )}
+
       <BtnStandardLight>Submit</BtnStandardLight>
+      {formSent && <p className='contact-form__message--success'>Form sent!</p>}
     </form>
   );
 };
