@@ -1,6 +1,5 @@
 import { TextField, Grid } from '@mui/material';
 import { useState } from 'react';
-import * as yup from 'yup';
 
 import { formSchema } from './ContactFormValidation';
 import BtnStandardLight from '../UI/Button/BtnStandardLight';
@@ -14,6 +13,7 @@ const ContactForm = (props) => {
   const [messageValid, setMessageValid] = useState(true);
 
   const [emailError, setEmailError] = useState('');
+  const [formSent, setFormSent] = useState(false);
 
   const validateForm = async (event) => {
     event.preventDefault();
@@ -32,15 +32,15 @@ const ContactForm = (props) => {
         email: e,
         message: m,
       };
-      // TODO: change alert comments
       const isValid = await formSchema.isValid(formData);
       if (isValid) {
-        submitForm(event);
-      } else {
-        alert('One or more of your inputs are invalid!');
+        try {
+          submitForm(event);
+          setFormSent(true);
+        } catch {
+          setFormSent(false);
+        }
       }
-    } else {
-      alert('One or more of your inputs are invalid!');
     }
   };
 
@@ -95,7 +95,9 @@ const ContactForm = (props) => {
             onChange={firstNameHandler}
           />
           {!firstNameValid && (
-            <p className='contact-form__error'>Field cannot be blank</p>
+            <p className='contact-form__message--error'>
+              Field cannot be blank
+            </p>
           )}
         </Grid>
         {/* Last name */}
@@ -109,7 +111,9 @@ const ContactForm = (props) => {
             onChange={lastNameHandler}
           />
           {!lastNameValid && (
-            <p className='contact-form__error'>Field cannot be blank</p>
+            <p className='contact-form__message--error'>
+              Field cannot be blank
+            </p>
           )}
         </Grid>
       </Grid>
@@ -123,7 +127,9 @@ const ContactForm = (props) => {
         error={emailValid ? false : true}
         onChange={emailHandler}
       />
-      {!emailValid && <p className='contact-form__error'>{emailError}</p>}
+      {!emailValid && (
+        <p className='contact-form__message--error'>{emailError}</p>
+      )}
 
       {/* Message */}
       <TextField
@@ -137,10 +143,11 @@ const ContactForm = (props) => {
         onChange={messageHandler}
       />
       {!messageValid && (
-        <p className='contact-form__error'>Field cannot be blank</p>
+        <p className='contact-form__message--error'>Field cannot be blank</p>
       )}
 
       <BtnStandardLight>Submit</BtnStandardLight>
+      {formSent && <p className='contact-form__message--success'>Form sent!</p>}
     </form>
   );
 };
