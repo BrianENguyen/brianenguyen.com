@@ -1,7 +1,7 @@
 const ProjectData = [
   {
     title: 'New Personal Website',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1639774676/BEN_Website/projects/ben_longexposure.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1236/v1639689762/BEN_Website/projects/ben_firstsite_cover.jpg',
     link: '/new-site',
   },
   {
@@ -21,7 +21,7 @@ const ProjectData = [
   },
   {
     title: 'First Personal Website',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1236/v1639689762/BEN_Website/projects/ben_firstsite_cover.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1639774676/BEN_Website/projects/ben_longexposure.jpg',
     link: '/first-personal-site',
   },
   {
