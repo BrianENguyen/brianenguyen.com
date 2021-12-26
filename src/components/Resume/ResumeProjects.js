@@ -26,26 +26,26 @@ const ResumeProjects = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} md={4} lg={6}>
           <h3 className='resume__leftcolumn--header'>
-            Remade Personal Portfolio |{' '}
+            Thu Nguyen’s Website |{' '}
             <span>
               <a href='#'>Test</a>
             </span>
           </h3>
         </Grid>
         <Grid item xs={12} md={8} lg={6}>
-          <h3 className='resume__rightcolumn--header'>January 2022</h3>
+          <h3 className='resume__rightcolumn--header'>December 2021</h3>
         </Grid>
         <Grid item xs={12}>
           <p>
-            Redesigned and redeveloped version of my old website using React.js,
-            Material Design Framework, React Router, and EmailJS
+            Personal website made for a colleague. Developed with React.js and
+            Material UI. Utilizes states
           </p>
         </Grid>
       </Grid>
       <Grid container spacing={2}>
         <Grid item xs={12} md={4} lg={6}>
           <h3 className='resume__leftcolumn--header'>
-            Remade Personal Portfolio |{' '}
+            CSULB Tzu Ching |{' '}
             <span>
               <a href='#'>Test</a>
             </span>
@@ -56,15 +56,18 @@ const ResumeProjects = () => {
         </Grid>
         <Grid item xs={12}>
           <p>
-            Redesigned and redeveloped version of my old website using React.js,
-            Material Design Framework, React Router, and EmailJS
+            CSULB Tzu Ching is a collegiate volunteering organization that
+            focuses on medicine, education, charity, and humanistic culture.
+            Website developed using the Vue.js framework with single-page
+            application architecture. Utilizes animations and Vuetify material
+            design framework
           </p>
         </Grid>
       </Grid>
       <Grid container spacing={2}>
         <Grid item xs={12} md={4} lg={6}>
           <h3 className='resume__leftcolumn--header'>
-            Remade Personal Portfolio |{' '}
+            Personal Portfolio |{' '}
             <span>
               <a href='#'>Test</a>
             </span>
@@ -75,8 +78,9 @@ const ResumeProjects = () => {
         </Grid>
         <Grid item xs={12}>
           <p>
-            Redesigned and redeveloped version of my old website using React.js,
-            Material Design Framework, React Router, and EmailJS
+            My personal portfolio that showcases my programming work. Developed
+            with Embedded JavaScript, CSS, Bootstrap 4, JavaScript, and
+            Nodemailer
           </p>
         </Grid>
       </Grid>
