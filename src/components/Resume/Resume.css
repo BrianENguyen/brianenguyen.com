@@ -68,9 +68,9 @@
     padding: 0 0px !important;
     font-size: 1.25rem;
   }
-  .resume__leftcolumn--description {
-    font-style: italic;
-    margin-top: -10px;
+  .resume__leftcolumn--description,
+  .resume__leftcolumn--project-description {
+    margin-top: -5px;
   }
   .resume__links ul {
     flex-direction: column;
