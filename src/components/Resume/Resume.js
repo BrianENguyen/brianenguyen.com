@@ -1,6 +1,7 @@
 import { Container } from '@mui/material';
 
 import ResumeTitle from './ResumeTitle';
+import ResumeEducation from './ResumeEducation';
 import './Resume.css';
 
 const Resume = () => {
@@ -8,6 +9,7 @@ const Resume = () => {
     <div className='resume'>
       <Container>
         <ResumeTitle />
+        <ResumeEducation />
       </Container>
     </div>
   );
