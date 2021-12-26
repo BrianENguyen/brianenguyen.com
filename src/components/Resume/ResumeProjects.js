@@ -33,7 +33,7 @@ const ResumeProjects = () => {
           </h3>
         </Grid>
         <Grid item xs={12} md={8} lg={6}>
-          <h3 className='resume__rightcolumn--header'>December 2021</h3>
+          <h3 className='resume__rightcolumn--header'>November 2021</h3>
         </Grid>
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
@@ -52,7 +52,7 @@ const ResumeProjects = () => {
           </h3>
         </Grid>
         <Grid item xs={12} md={8} lg={6}>
-          <h3 className='resume__rightcolumn--header'>January 2022</h3>
+          <h3 className='resume__rightcolumn--header'>April 2021</h3>
         </Grid>
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
