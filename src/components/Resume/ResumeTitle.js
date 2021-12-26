@@ -42,11 +42,13 @@ const ResumeTitle = () => {
           </li>
         </ul>
       </div>
-      <p>
-        A California second-year business administration student seeking an
-        internship position in accounting to apply knowledge and to support the
-        company’s growth.
-      </p>
+      <div>
+        <h2 className='resume__header'>Objective</h2>
+        <p>
+          Bachelor’s of Science in Computer Science graduate seeking an
+          internship or full-time entry-level position in front-end development
+        </p>
+      </div>
     </div>
   );
 };
