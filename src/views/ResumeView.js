@@ -1,4 +1,5 @@
 import Jumbotron from '../components/UI/Jumbotron';
+import Resume from '../components/Resume/Resume';
 
 const ResumeView = () => {
   const jumboText = 'Resume';
@@ -8,7 +9,7 @@ const ResumeView = () => {
     // TODO: resume
     <div className='portfolio'>
       <Jumbotron image={jumboImage} title={jumboText} />
-      <h1>Resume</h1>
+      <Resume />
     </div>
   );
 };
