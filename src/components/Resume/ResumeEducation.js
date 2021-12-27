@@ -13,7 +13,9 @@ const ResumeEducation = () => {
           </h3>
         </Grid>
         <Grid item xs={12} md={8} lg={6}>
-          <h3 className='resume__rightcolumn--header'>Long Beach, CA</h3>
+          <h3 className='resume__rightcolumn--header'>
+            Graduation Date: May 2020
+          </h3>
         </Grid>
         <Grid item xs={12} md={4} lg={6}>
           <p className='resume__leftcolumn--description'>
@@ -21,9 +23,7 @@ const ResumeEducation = () => {
           </p>
         </Grid>
         <Grid item xs={12} md={8} lg={6}>
-          <p className='resume__rightcolumn--description'>
-            Graduation Date: May 2020
-          </p>
+          <p className='resume__rightcolumn--description'>Long Beach, CA</p>
         </Grid>
       </Grid>
     </div>
