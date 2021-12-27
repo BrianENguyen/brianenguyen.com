@@ -21,6 +21,7 @@ ul.resume__links {
   list-style: none;
   margin: auto;
   padding: 0;
+  margin: 10px 0;
 }
 .resume__header {
   font-weight: 700;
@@ -54,15 +55,13 @@ ul.resume__links {
 }
 
 .resume__title__right {
-  text-align: left;
-}
-@media (min-width: 576px) {
-  .resume__title__right {
-    text-align: right;
-  }
+  text-align: right;
 }
 
 @media (max-width: 899px) {
+  .resume__title__right {
+    text-align: left;
+  }
   .resume__rightcolumn--header {
     float: left;
     padding: 0;

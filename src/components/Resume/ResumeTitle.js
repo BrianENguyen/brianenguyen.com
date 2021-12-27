@@ -5,7 +5,7 @@ const ResumeTitle = () => {
     <div>
       <h1 className='resume__title'>Brian E. Nguyen</h1>
       <Grid container>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <ul className='resume__links'>
             <li>
               <a
@@ -27,7 +27,7 @@ const ResumeTitle = () => {
             </li>
           </ul>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <ul className='resume__links resume__title__right'>
             <li>
               <a
