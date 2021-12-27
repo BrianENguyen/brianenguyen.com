@@ -13,14 +13,14 @@
   margin: 10px 0;
 }
 
-.resume__links ul {
+ul.resume__links {
   margin: 0;
   padding: 0;
-  display: flex;
 }
 .resume__links li {
   list-style: none;
   margin: auto;
+  padding: 0;
 }
 .resume__header {
   font-weight: 700;
@@ -51,6 +51,15 @@
 .resume__list,
 .resume__description {
   margin-top: -10px;
+}
+
+.resume__title__right {
+  text-align: left;
+}
+@media (min-width: 576px) {
+  .resume__title__right {
+    text-align: right;
+  }
 }
 
 @media (max-width: 899px) {
