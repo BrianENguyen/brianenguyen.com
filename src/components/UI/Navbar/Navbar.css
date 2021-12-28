@@ -25,6 +25,7 @@
 .navbar__links ul {
   display: flex;
   list-style: none;
+  text-transform: uppercase;
 }
 
 .navbar__link {
