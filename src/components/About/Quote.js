@@ -19,7 +19,7 @@ const Quote = () => {
             prestige, or power. It is a life that is filled with true
             friendships, sharing, and caring for each other.
           </p>
-          <p className='quote__author'>~ Dharma Master Chen Yeng ~</p>
+          <p className='quote__author'>— Dharma Master Chen Yeng</p>
         </Grid>
       </Grid>
     </div>

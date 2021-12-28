@@ -11,6 +11,7 @@
 
 .quote__author {
   text-align: center;
+  font-style: italic;
 }
 
 @media (min-width: 0px) {
