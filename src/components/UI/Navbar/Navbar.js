@@ -47,10 +47,6 @@ const Navbar = () => {
     showMobileView();
   }, []);
 
-  /*
-  TODO: smooth animation when clicking on mobile button 
-  */
-
   window.addEventListener('resize', showMobileView);
   window.addEventListener('scroll', showBackground);
 
@@ -62,7 +58,6 @@ const Navbar = () => {
         </Link>
       </div>
       {mobileButton && mobileButtonContent}
-      {/* FIXME: mobile links are slightly more to the right */}
       <div className={mobileMenu ? 'navbar__links' : 'navbar__links active'}>
         <ul>
           <li>
