@@ -1,4 +1,6 @@
 import { Container } from '@mui/material';
+import { TitleChange } from '../components/Helper/TitleChange';
+
 import '../components/PrivacyPolicy/PrivacyPolicy.css';
 
 import PrivacyIntro from '../components/PrivacyPolicy/PrivacyIntro';
@@ -11,6 +13,8 @@ import PrivacyGDPR from '../components/PrivacyPolicy/PrivacyGDPR';
 import PrivacyChildRights from '../components/PrivacyPolicy/PrivacyChildRights';
 
 const PrivacyView = () => {
+  TitleChange('Privacy Policy | BEN');
+
   return (
     <div className='privacy'>
       <Container>
