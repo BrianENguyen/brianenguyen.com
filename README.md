@@ -23,6 +23,13 @@ My personal website / portfolio that showcases information about me, my programm
 4. Resume
 5. Contact
 
+## Technologies Used
+
+- React.js
+- React Router
+- Material UI
+- EmailJS
+
 ## Licensing
 
 Feel free to inspect my code and reuse what is appropriate. You may not use any photos/icons that have the `BEN_` or `BEN-` prefix
