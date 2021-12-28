@@ -1,4 +1,5 @@
 import { Container } from '@mui/material';
+import { TitleChange } from '../../components/Helper/TitleChange';
 
 import Jumbotron from '../../components/UI/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
@@ -6,6 +7,7 @@ import './ProjectView.css';
 
 const ProbAndStatsView = () => {
   const jumboTitle = 'EE 381 - Probability and Stats Computing';
+  TitleChange('Probability and Stats | BEN');
 
   return (
     <div>
