@@ -22,3 +22,8 @@ My personal website / portfolio that showcases information about me, my programm
 
 4. Resume
 5. Contact
+
+## Licensing
+
+Feel free to inspect my code and reuse what is appropriate. You may not use any photos/icons that have the `BEN_` or `BEN-` prefix
+without my permission, as they are owned by me. All other directories and files are MIT Licensed (where applicable).
