@@ -20,6 +20,9 @@
   .quote__content {
     font-size: 2rem;
   }
+  .quote__author {
+    font-size: 2rem;
+  }
   .quote__image {
     width: 50vw;
   }
@@ -29,7 +32,10 @@
     padding: 0 10rem;
   }
   .quote__content {
-    font-size: 2rem;
+    font-size: 6vw;
+  }
+  .quote__author {
+    font-size: 4vw;
   }
   .quote__image {
     width: 25vw;
@@ -42,10 +48,13 @@
   .quote__image {
     width: 30vw;
   }
+  .quote__author {
+    font-size: 2vw;
+  }
 }
 @media (min-width: 1200px) {
   .quote__content {
-    font-size: 4vw;
+    font-size: 3.75vw;
   }
   .quote__image {
     width: 30vw;
