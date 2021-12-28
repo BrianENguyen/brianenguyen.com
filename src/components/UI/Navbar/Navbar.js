@@ -11,9 +11,11 @@ const Navbar = () => {
   const [background, setBackground] = useState(false);
 
   // Functions
-  const showMobileButton = () => {
-    if (window.innerWidth <= 732) setMobileButton(true);
-    else setMobileButton(false);
+  const showMobileView = () => {
+    if (window.innerWidth <= 850) {
+      setMobileButton(true);
+      showBackground();
+    } else setMobileButton(false);
   };
 
   const showMobileMenu = () => {
@@ -23,8 +25,12 @@ const Navbar = () => {
     }
   };
 
+  const hideMobileMenu = () => {
+    setMobileMenu(false);
+  };
+
   const showBackground = () => {
-    if (window.scrollY >= 100 || window.innerWidth <= 732) {
+    if (window.scrollY >= 100 || window.innerWidth <= 850) {
       setBackground(true);
     } else setBackground(false);
   };
@@ -38,15 +44,10 @@ const Navbar = () => {
   );
 
   useEffect(() => {
-    showMobileButton();
+    showMobileView();
   }, []);
 
-  /*FIXME: navbar doesn't change BG on initial mobile view state
-    FIXME: mobile menu doesn't go away when clicking on the link
-    TODO: smooth animation when clicking on mobile button 
-     */
-
-  window.addEventListener('resize', showMobileButton);
+  window.addEventListener('resize', showMobileView);
   window.addEventListener('scroll', showBackground);
 
   return (
@@ -60,27 +61,39 @@ const Navbar = () => {
       <div className={mobileMenu ? 'navbar__links' : 'navbar__links active'}>
         <ul>
           <li>
-            <Link className='navbar__link' to='/'>
+            <Link className='navbar__link' to='/' onClick={hideMobileMenu}>
               Home
             </Link>
           </li>
           <li>
-            <Link className='navbar__link' to='/about'>
+            <Link className='navbar__link' to='/about' onClick={hideMobileMenu}>
               About
             </Link>
           </li>
           <li>
-            <Link className='navbar__link' to='/portfolio'>
+            <Link
+              className='navbar__link'
+              to='/portfolio'
+              onClick={hideMobileMenu}
+            >
               Portfolio
             </Link>
           </li>
           <li>
-            <Link className='navbar__link' to='/resume'>
+            <Link
+              className='navbar__link'
+              to='/resume'
+              onClick={hideMobileMenu}
+            >
               Resume
             </Link>
           </li>
           <li>
-            <Link className='navbar__link' to='/contact'>
+            <Link
+              className='navbar__link'
+              to='/contact'
+              onClick={hideMobileMenu}
+            >
               Contact
             </Link>
           </li>
