@@ -1,9 +1,14 @@
+import { useEffect } from 'react';
 import { Grid, Container } from '@mui/material';
+import Aos from 'aos';
 import { Link } from 'react-router-dom';
 import BtnStandard from '../UI/Button/BtnStandard';
 import './Passion.css';
 
 const Passion = () => {
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   return (
     <div className='passion'>
       <Container>
@@ -17,7 +22,9 @@ const Passion = () => {
           </Grid>
           <Grid item sm={12} md={7}>
             <div className='passion__text'>
-              <h2>My passion is front-end web development</h2>
+              <h2 data-aos='fade-left'>
+                My passion is front-end web development
+              </h2>
               <p>
                 I love making websites look beautiful. I have years of
                 experience being a web developer with many different

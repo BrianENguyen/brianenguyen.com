@@ -1,10 +1,15 @@
+import { useEffect } from 'react';
 import { Grid } from '@mui/material';
+import Aos from 'aos';
 
 import Project from './Project';
 import ProjectData from '../Helper/ProjectData';
 import './RecentProjects.css';
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className='recent-projects'>
       <div className='recent-projects__intro'>
@@ -16,7 +21,13 @@ const Projects = () => {
       </div>
       <Grid container spacing={2}>
         {ProjectData.map((project, i) => (
-          <Grid item xs={12} sm={6} key={i}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            key={i}
+            data-aos={i % 2 == 0 ? 'fade-right' : 'fade-left'}
+          >
             <Project
               title={project.title}
               src={project.src}
