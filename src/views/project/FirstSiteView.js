@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 import { TitleChange } from '../../components/Helper/TitleChange';
-
+import BtnStandard from '../../components/UI/Button/BtnStandard';
 import Jumbotron from '../../components/UI/Jumbotron';
 
 // TODO: link to old site and repo
@@ -29,7 +29,17 @@ const FirstSiteView = () => {
             <li>Express.js</li>
           </ul>
         </div>
-
+        <div>
+          <p>
+            <a
+              href='https://github.com/Brian-E-Nguyen/BEN-Website'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <BtnStandard>View Repository</BtnStandard>
+            </a>
+          </p>
+        </div>
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639689243/BEN_Website/projects/firstsite-1_h2xzox.png'
           className='project-view__image'
