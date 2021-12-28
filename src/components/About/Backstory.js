@@ -1,14 +1,20 @@
 import { Grid, Container } from '@mui/material';
-
+import { useEffect } from 'react';
+import Aos from 'aos';
 import './Backstory.css';
 
 const Backstory = () => {
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   return (
     <div className='backstory'>
       <Container maxWidth='xl'>
         <Grid container spacing={2}>
           <Grid item xs={12} md={4}>
-            <h2 className='backstory__header'>My Story</h2>
+            <h2 data-aos='fade-up' className='backstory__header'>
+              My Story
+            </h2>
           </Grid>
           <Grid item xs={12} md={8}>
             <p>
