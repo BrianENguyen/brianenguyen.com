@@ -12,7 +12,7 @@ const Navbar = () => {
 
   // Functions
   const showMobileView = () => {
-    if (window.innerWidth <= 732) {
+    if (window.innerWidth <= 850) {
       setMobileButton(true);
       showBackground();
     } else setMobileButton(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   const showBackground = () => {
-    if (window.scrollY >= 100 || window.innerWidth <= 732) {
+    if (window.scrollY >= 100 || window.innerWidth <= 850) {
       setBackground(true);
     } else setBackground(false);
   };
