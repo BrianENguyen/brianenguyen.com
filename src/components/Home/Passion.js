@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { Grid, Container } from '@mui/material';
 import { Link } from 'react-router-dom';
 import BtnStandard from '../UI/Button/BtnStandard';

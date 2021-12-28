@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { Grid } from '@mui/material';
 
 import Project from './Project';

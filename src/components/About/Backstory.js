@@ -1,5 +1,4 @@
 import { Grid, Container } from '@mui/material';
-import { useEffect } from 'react';
 import './Backstory.css';
 
 const Backstory = () => {
