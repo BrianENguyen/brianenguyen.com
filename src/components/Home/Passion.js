@@ -22,7 +22,7 @@ const Passion = () => {
           </Grid>
           <Grid item sm={12} md={7}>
             <div className='passion__text'>
-              <h2 data-aos='fade-left'>
+              <h2 data-aos='fade-down'>
                 My passion is front-end web development
               </h2>
               <p>

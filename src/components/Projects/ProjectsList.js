@@ -21,13 +21,7 @@ const Projects = () => {
       </div>
       <Grid container spacing={2}>
         {ProjectData.map((project, i) => (
-          <Grid
-            item
-            xs={12}
-            sm={6}
-            key={i}
-            data-aos={i % 2 === 0 ? 'fade-right' : 'fade-left'}
-          >
+          <Grid item xs={12} sm={6} key={i} data-aos='fade-up'>
             <Project
               title={project.title}
               src={project.src}
