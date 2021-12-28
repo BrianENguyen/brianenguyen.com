@@ -34,3 +34,10 @@ My personal website / portfolio that showcases information about me, my programm
 
 Feel free to inspect my code and reuse what is appropriate. You may not use any photos/icons that have the `BEN_` or `BEN-` prefix
 without my permission, as they are owned by me. All other directories and files are MIT Licensed (where applicable).
+
+## Images
+
+![img1](./readme-img/img1.png)
+![img2](./readme-img/img2.png)
+![img3](./readme-img/img3.png)
+![img4](./readme-img/img4.png)
