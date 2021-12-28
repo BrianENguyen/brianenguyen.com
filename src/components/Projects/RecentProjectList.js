@@ -24,7 +24,7 @@ const RecentProjects = () => {
             xs={12}
             sm={6}
             key={i}
-            data-aos={i % 2 == 0 ? 'fade-right' : 'fade-left'}
+            data-aos={i % 2 === 0 ? 'fade-right' : 'fade-left'}
           >
             <Project
               title={project.title}
