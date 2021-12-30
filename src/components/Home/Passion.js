@@ -21,8 +21,7 @@ const Passion = () => {
               <p>
                 I love making beautiful websites. I have at least 3 years of
                 experience being a web developer with many different
-                technologies, such as HTML/CSS/JS, Vue, React, and more. If you
-                need a website made, then feel free to reach out to me
+                technologies, such as HTML/CSS/JS, Vue, React, and more.
               </p>
               <center>
                 <Link to='/portfolio'>
