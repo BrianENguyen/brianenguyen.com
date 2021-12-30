@@ -9,7 +9,11 @@ const ResumeProjects = () => {
           <h3 className='resume__leftcolumn--header'>
             Remade Personal Portfolio |{' '}
             <span>
-              <a href='https://bit.ly/BEN-Portfolio-Remade'>
+              <a
+                href='https://bit.ly/BEN-Portfolio-Remade'
+                target='_blank'
+                rel='noreferrer'
+              >
                 bit.ly/BEN-Portfolio-Remade
               </a>
             </span>
@@ -30,7 +34,9 @@ const ResumeProjects = () => {
           <h3 className='resume__leftcolumn--header'>
             Thu Nguyen’s Website |{' '}
             <span>
-              <a href='https://bit.ly/BEN-Thu'>bit.ly/BEN-Thu</a>
+              <a href='https://bit.ly/BEN-Thu' target='_blank' rel='noreferrer'>
+                bit.ly/BEN-Thu
+              </a>
             </span>
           </h3>
         </Grid>
@@ -49,7 +55,13 @@ const ResumeProjects = () => {
           <h3 className='resume__leftcolumn--header'>
             CSULB Tzu Ching |{' '}
             <span>
-              <a href='https://bit.ly/BEN-LBTC'>bit.ly/BEN-LBTC</a>
+              <a
+                href='https://bit.ly/BEN-LBTC'
+                target='_blank'
+                rel='noreferrer'
+              >
+                bit.ly/BEN-LBTC
+              </a>
             </span>
           </h3>
         </Grid>
@@ -71,7 +83,13 @@ const ResumeProjects = () => {
           <h3 className='resume__leftcolumn--header'>
             Personal Portfolio |{' '}
             <span>
-              <a href='https://bit.ly/BEN-Portfolio'>bit.ly/BEN-Portfolio</a>
+              <a
+                href='https://bit.ly/BEN-Portfolio'
+                target='_blank'
+                rel='noreferrer'
+              >
+                bit.ly/BEN-Portfolio
+              </a>
             </span>
           </h3>
         </Grid>
