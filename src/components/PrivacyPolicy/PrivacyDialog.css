@@ -6,6 +6,7 @@
   background-color: rgb(0, 0, 0);
   padding: 1rem;
   width: 30%;
+  z-index: 1;
 }
 
 .privacy-dialog__close-btn {
