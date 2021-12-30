@@ -21,6 +21,7 @@ const Projects = () => {
               title={project.title}
               src={project.src}
               link={project.link}
+              credit={project.photoCredit}
             />
           </Grid>
         ))}
