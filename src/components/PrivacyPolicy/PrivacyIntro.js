@@ -5,8 +5,8 @@ const PrivacyIntro = () => {
       <p>
         This Privacy Policy describes how your personal information is
         collected, used, and shared when you visit{' '}
-        <a href='https://www.brianenguyen.com/'>
-          https://www.brianenguyen.com/
+        <a href='https://brianenguyen.com/' target='_blank' rel='noreferrer'>
+          brianenguyen.com
         </a>{' '}
         (the “Site”).
       </p>

@@ -9,7 +9,7 @@ const ResumeTitle = () => {
           <ul className='resume__links'>
             <li>
               <a
-                href='https://www.brianenguyen.com/'
+                href='https://brianenguyen.com/'
                 target='_blank'
                 rel='noreferrer'
               >
