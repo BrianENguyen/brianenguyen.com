@@ -66,8 +66,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className='navbar__link' to='/about' onClick={hideMobileMenu}>
-              About
+            <Link
+              className='navbar__link'
+              to='/resume'
+              onClick={hideMobileMenu}
+            >
+              Resume
             </Link>
           </li>
           <li>
@@ -80,12 +84,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link
-              className='navbar__link'
-              to='/resume'
-              onClick={hideMobileMenu}
-            >
-              Resume
+            <Link className='navbar__link' to='/about' onClick={hideMobileMenu}>
+              About
             </Link>
           </li>
           <li>
