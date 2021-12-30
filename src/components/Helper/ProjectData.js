@@ -18,6 +18,10 @@ const ProjectData = [
     title: 'YelpCamp',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/v1639529477/BEN_Website/projects/hugues-de-buyer_camp_fc2lzb.jpg',
     link: '/yelpcamp',
+    photoCredit: {
+      name: 'Hugues de Buyer-Mimeure',
+      link: 'https://unsplash.com/@huguesdb',
+    },
   },
   {
     title: 'First Personal Website',
@@ -28,6 +32,10 @@ const ProjectData = [
     title: 'Senior Project: Kraken Bracket',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/v1639530141/BEN_Website/projects/florian-olivo_gaming_im9ugb.jpg',
     link: '/kraken-bracket',
+    photoCredit: {
+      name: 'Florian Olivo',
+      link: 'https://unsplash.com/@florianolv',
+    },
   },
 ];
 
