@@ -21,6 +21,7 @@ const ResumeTitle = () => {
                 href='mailto:brian.edison.nguyen@gmail.com'
                 target='_blank'
                 rel='noreferrer'
+                style={{ wordBreak: 'break-word' }}
               >
                 brian.edison.nguyen@gmail.com
               </a>
