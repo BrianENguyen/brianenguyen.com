@@ -23,7 +23,7 @@ const WebCardData = [
     title: 'Contact',
     description:
       "Get in touch we me for any reason, whether it'd be for services, inquiries or just chatting",
-    linkText: 'View portfolio',
+    linkText: 'Contact',
     link: '/contact',
   },
 ];
