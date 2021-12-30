@@ -13,7 +13,7 @@ const ResumeView = () => {
   return (
     <div style={{ marginBottom: 3 + 'rem' }}>
       <Jumbotron image={jumboImage} title={jumboText} />
-      <center>
+      <center style={{ marginTop: 3 + 'rem' }}>
         <a
           href='https://u.pcloud.link/publink/show?code=XZ4BKaXZjSqBAzUDjlBJhTfrfj0uvYc9bp70'
           target='_blank'
