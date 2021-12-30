@@ -17,9 +17,8 @@ const PrivacyDialog = () => {
         onClick={visibilityHander}
       />
       <p>
-        I use Google Analytics, cookies, and other technologies to help me
-        understand how you use this website.{' '}
-        <Link to='/privacy-policy'>Privacy Policy</Link>
+        I use cookies and other technologies to help me understand how you use
+        this website. <Link to='/privacy-policy'>Privacy Policy</Link>
       </p>
     </div>
   );
