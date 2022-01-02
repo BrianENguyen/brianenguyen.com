@@ -4,8 +4,11 @@ const ImageGallery = () => {
   return (
     <div>
       <Container maxWidth='xl'>
-        <h1 className='header'>Glimpse into my life</h1>
-        <h2 className='subheader'>Some things that I have done recently</h2>
+        <h1 className='header'>Capturing Art Through the Lens</h1>
+        <h2 className='subheader'>
+          I am an avid photographer. Below are some photos from my recent
+          adventures
+        </h2>
         <ImageList variant='masonry' cols={3} gap={20}>
           {ImageGalleryData.map((image, i) => (
             <ImageListItem src key={i}>
