@@ -8,11 +8,11 @@ const Projects = () => {
   return (
     <div className='recent-projects'>
       <div className='recent-projects__intro'>
-        <h1 className='recent-projects__header'>My Work</h1>
-        <h1 className='recent-projects__description'>
+        <h1 className='header'>My Work</h1>
+        <h2 className='subheader'>
           A collection of various websites that I have designed and developed,
           and other programming projects that I'm proud of
-        </h1>
+        </h2>
       </div>
       <Grid container spacing={2}>
         {ProjectData.map((project, i) => (

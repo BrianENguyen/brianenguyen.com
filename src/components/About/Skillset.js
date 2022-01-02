@@ -18,8 +18,8 @@ const Skillset = () => {
   return (
     <div className='skillset'>
       <Container>
-        <h1 className='skillset__header'>Skillset</h1>
-        <h1 className='skillset__description'>
+        <h1 className='header'>Skillset</h1>
+        <h1 className='subheader'>
           Languages / Frameworks / Libraries that I use
         </h1>
         <Grid container spacing={3}>

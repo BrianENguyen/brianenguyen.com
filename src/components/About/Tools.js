@@ -13,8 +13,8 @@ const Tools = () => {
   return (
     <div className='tools'>
       <Container>
-        <h1 className='tools__header'>Tools</h1>
-        <h1 className='tools__description'>
+        <h1 className='header'>Tools</h1>
+        <h1 className='subheader'>
           Other technologies to help me build my websites
         </h1>
         <Grid container spacing={3} className='test'>
