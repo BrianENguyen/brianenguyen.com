@@ -4,6 +4,7 @@ import Quote from '../components/About/Quote';
 import Backstory from '../components/About/Backstory';
 import Skillset from '../components/About/Skillset';
 import Tools from '../components/About/Tools';
+import ImageGallery from '../components/About/ImageGallery';
 import Jumbotron from '../components/UI/Jumbotron';
 
 const AboutView = () => {
@@ -18,6 +19,7 @@ const AboutView = () => {
       <Jumbotron image={jumboImage} title={jumboText} />
       <Quote />
       <Backstory />
+      <ImageGallery />
       <Skillset />
       <Tools />
     </div>
