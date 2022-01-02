@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); */
 
 .quote {
   /* padding: 0 10rem; */
@@ -6,7 +6,7 @@
 }
 
 .quote__content {
-  font-family: 'Meow Script', cursive;
+  /* font-family: 'Meow Script', cursive; */
 }
 
 .quote__author {
@@ -33,7 +33,7 @@
     padding: 0 10rem;
   }
   .quote__content {
-    font-size: 6vw;
+    font-size: 4vw;
   }
   .quote__author {
     font-size: 4vw;
@@ -44,7 +44,7 @@
 }
 @media (min-width: 992px) {
   .quote__content {
-    font-size: 5vw;
+    font-size: 3vw;
   }
   .quote__image {
     width: 30vw;
@@ -55,9 +55,9 @@
 }
 @media (min-width: 1200px) {
   .quote__content {
-    font-size: 3.75vw;
+    font-size: 2.5vw;
   }
   .quote__image {
-    width: 30vw;
+    width: 25vw;
   }
 }
