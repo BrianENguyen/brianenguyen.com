@@ -11,7 +11,7 @@ const ImageGallery = () => {
         </h2>
         <ImageList variant='masonry' cols={3} gap={20}>
           {ImageGalleryData.map((image, i) => (
-            <ImageListItem src key={i}>
+            <ImageListItem key={i}>
               <img
                 src={`${image.src}?w=248&fit=crop&auto=format`}
                 srcSet={`${image.src}?w=248&fit=crop&auto=format&dpr=2 2x`}
