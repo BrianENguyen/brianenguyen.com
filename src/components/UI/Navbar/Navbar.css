@@ -42,7 +42,6 @@
 .navbar__link.active {
   color: #79c2d0;
   padding-bottom: 0.25rem;
-  border-bottom: 1px solid #79c2d0;
   transition: 0.3s;
 }
 
