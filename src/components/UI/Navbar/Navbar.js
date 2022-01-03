@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 import NavbarBrand from './NavbarBrand';
@@ -53,49 +53,63 @@ const Navbar = () => {
   return (
     <nav className={background ? 'navbar navbar--scroll' : 'navbar'}>
       <div>
-        <Link className='navbar__brand' to='/'>
+        <NavLink className='navbar__brand' to='/'>
           <NavbarBrand />
-        </Link>
+        </NavLink>
       </div>
       {mobileButton && mobileButtonContent}
       <div className={mobileMenu ? 'navbar__links' : 'navbar__links active'}>
         <ul>
           <li>
-            <Link className='navbar__link' to='/' onClick={hideMobileMenu}>
+            <NavLink
+              exact
+              className='navbar__link'
+              activeClassName='navbar__link active'
+              to='/'
+              onClick={hideMobileMenu}
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
+            <NavLink
               className='navbar__link'
+              activeClassName='navbar__link active'
               to='/resume'
               onClick={hideMobileMenu}
             >
               Resume
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
+            <NavLink
               className='navbar__link'
+              activeClassName='navbar__link active'
               to='/portfolio'
               onClick={hideMobileMenu}
             >
               Portfolio
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='navbar__link' to='/about' onClick={hideMobileMenu}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
+            <NavLink
               className='navbar__link'
+              activeClassName='navbar__link active'
+              to='/about'
+              onClick={hideMobileMenu}
+            >
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className='navbar__link'
+              activeClassName='navbar__link active'
               to='/contact'
               onClick={hideMobileMenu}
             >
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>

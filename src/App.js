@@ -29,7 +29,7 @@ function App() {
       <header className='App-header'>
         <ScrollToTop />
         <Switch>
-          <Route path='/' exact component={HomeView} />
+          <Route exact path='/' component={HomeView} />
           <Route path='/about' component={AboutView} />
           <Route path='/portfolio' component={PortfolioView} />
           <Route path='/resume' component={ResumeView} />
