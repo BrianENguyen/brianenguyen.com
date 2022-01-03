@@ -4,6 +4,8 @@ import Quote from '../components/About/Quote';
 import Backstory from '../components/About/Backstory';
 import Skillset from '../components/About/Skillset';
 import Tools from '../components/About/Tools';
+import ImageGallery from '../components/About/ImageGallery';
+import Facts from '../components/About/Facts';
 import Jumbotron from '../components/UI/Jumbotron';
 
 const AboutView = () => {
@@ -17,7 +19,9 @@ const AboutView = () => {
     <div className='about'>
       <Jumbotron image={jumboImage} title={jumboText} />
       <Quote />
+      <Facts />
       <Backstory />
+      <ImageGallery />
       <Skillset />
       <Tools />
     </div>
