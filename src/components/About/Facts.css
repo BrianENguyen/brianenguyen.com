@@ -3,3 +3,8 @@
   max-width: 400px;
   object-fit: cover;
 }
+.facts__section {
+  padding-left: 0;
+  padding-top: 0;
+  top: 50%;
+}
