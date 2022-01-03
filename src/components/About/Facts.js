@@ -1,5 +1,6 @@
 import { Container } from '@mui/material';
 import { Grid } from '@mui/material';
+import './Facts.css';
 const Facts = () => {
   return (
     <div>
@@ -8,8 +9,8 @@ const Facts = () => {
           <Grid item xs={12} sm={12} lg={4}>
             <img
               src='https://res.cloudinary.com/buraiyen/image/upload/v1641160435/BEN_Website/photo-gallery/BEN_mimi.jpg'
-              width='450px'
               alt='Me holding Mimi'
+              className='facts__image'
             />
           </Grid>
           <Grid item xs={12} sm={12} lg={8}>
