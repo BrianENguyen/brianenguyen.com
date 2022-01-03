@@ -1,10 +1,19 @@
 .facts__image {
   width: 100%;
-  max-width: 400px;
   object-fit: cover;
 }
 .facts__section {
   padding-left: 0;
   padding-top: 0;
   top: 50%;
+}
+@media (min-width: 600px) {
+  .facts__image {
+    max-width: 30vw;
+  }
+}
+@media (min-width: 992px) {
+  .facts__image {
+    max-width: 50vw;
+  }
 }
