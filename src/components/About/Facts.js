@@ -6,11 +6,13 @@ const Facts = () => {
       <Container>
         <Grid container spacing={5}>
           <Grid item sm={12} md={4}>
-            <img
-              src='https://res.cloudinary.com/buraiyen/image/upload/v1641160435/BEN_Website/photo-gallery/BEN_mimi.jpg'
-              alt='Me holding Mimi'
-              className='facts__image'
-            />
+            <center>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/v1641160435/BEN_Website/photo-gallery/BEN_mimi.jpg'
+                alt='Me holding Mimi'
+                className='facts__image'
+              />
+            </center>
           </Grid>
           <Grid item sm={12} md={8}>
             <div className='facts__section'>
