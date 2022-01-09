@@ -24,8 +24,8 @@ const ResumeProjects = () => {
         </Grid>
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
-            Redesigned and redeveloped version of my old website using React.js,
-            Material Design Framework, React Router, and EmailJS
+            Redesigned and redeveloped version of former portfolio using
+            React.js, Material Design Framework, React Router, and EmailJS
           </p>
         </Grid>
       </Grid>
@@ -45,8 +45,8 @@ const ResumeProjects = () => {
         </Grid>
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
-            Personal website made for a colleague. Developed with React.js and
-            Material UI. Utilizes states
+            Personal website developed for a colleague. Developed with React.js,
+            Material UI Framework, and EmailJS
           </p>
         </Grid>
       </Grid>
@@ -70,10 +70,9 @@ const ResumeProjects = () => {
         </Grid>
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
-            CSULB Tzu Ching is a collegiate volunteering organization that
-            focuses on medicine, education, charity, and humanistic culture.
-            Website developed using the Vue.js framework with single-page
-            application architecture. Utilizes animations and Vuetify material
+            Website developed for CSULB Tzu Ching, a collegiate volunteering
+            organization that focuses on medicine, education, charity, and
+            humanistic culture. Developed with the Vue.js and Vuetify material
             design framework
           </p>
         </Grid>
@@ -98,9 +97,8 @@ const ResumeProjects = () => {
         </Grid>
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
-            My personal portfolio that showcases my programming work. Developed
-            with Embedded JavaScript, CSS, Bootstrap 4, JavaScript, and
-            Nodemailer
+            Personal portfolio that showcases programming work. Developed with
+            Embedded JavaScript, CSS, Bootstrap 4, JavaScript, and Nodemailer
           </p>
         </Grid>
       </Grid>
