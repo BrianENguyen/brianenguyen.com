@@ -12,7 +12,8 @@ const ResumeSkills = () => {
         </li>
         <li>
           <p>
-            <b>Libraries / Frameworks:</b> Vue.js, React.js Bootstrap 4
+            <b>Libraries / Frameworks:</b> Vue.js, React.js Bootstrap 4,
+            Vuetify, React Material UI
           </p>
         </li>
         <li>
