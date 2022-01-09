@@ -25,7 +25,7 @@ const ResumeProjects = () => {
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
             Redesigned and redeveloped version of former portfolio using
-            React.js, Material Design Framework, React Router, and EmailJS
+            React.js, Material UI Framework, React Router, and EmailJS
           </p>
         </Grid>
       </Grid>
