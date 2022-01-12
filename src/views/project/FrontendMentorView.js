@@ -52,6 +52,26 @@ const FrontendMentorView = () => {
             </a>
           </p>
         </div>
+        <img
+          src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_914/v1642029333/BEN_Website/projects/frontendmentor1_jctzjw.png'
+          className='project-view__image'
+          alt=''
+        />
+        <img
+          src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_914/v1642029333/BEN_Website/projects/frontendmentor2_rmy98h.png'
+          className='project-view__image'
+          alt=''
+        />
+        <img
+          src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_914/v1642029333/BEN_Website/projects/frontendmentor3_q1azoi.png'
+          className='project-view__image'
+          alt=''
+        />
+        <img
+          src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_914/v1642029333/BEN_Website/projects/frontendmentor4_azhyvp.png'
+          className='project-view__image'
+          alt=''
+        />
       </Container>
     </div>
   );
