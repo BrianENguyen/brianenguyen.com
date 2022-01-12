@@ -35,11 +35,20 @@ const FrontendMentorView = () => {
         <div>
           <p>
             <a
-              href='https://github.com/Brian-E-Nguyen/BEN-Website'
+              href='https://github.com/Brian-E-Nguyen/frontend-mentor-challenges'
               target='_blank'
               rel='noreferrer'
             >
               <BtnStandard>View Repository</BtnStandard>
+            </a>
+          </p>
+          <p>
+            <a
+              href='https://frontend-mentor-challenges.pages.dev/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <BtnStandard>View Deployed App</BtnStandard>
             </a>
           </p>
         </div>
