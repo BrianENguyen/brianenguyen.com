@@ -7,6 +7,7 @@ import ResumeView from './views/ResumeView';
 import ContactView from './views/ContactView';
 import ErrorView from './views/ErrorView';
 import PrivacyView from './views/PrivacyView';
+import FrontendMentorView from './views/project/FrontendMentorView';
 import NewSiteView from './views/project/NewSiteView';
 import ThuView from './views/project/ThuView';
 import LBTCView from './views/project/LBTCView';
@@ -34,6 +35,10 @@ function App() {
           <Route path='/portfolio' component={PortfolioView} />
           <Route path='/resume' component={ResumeView} />
           <Route path='/contact' component={ContactView} />
+          <Route
+            path='/frontend-mentor-challenges'
+            component={FrontendMentorView}
+          />
           <Route path='/new-site' component={NewSiteView} />
           <Route path='/thu-nguyen' component={ThuView} />
           <Route path='/csulb-tzu-ching' component={LBTCView} />
