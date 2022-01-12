@@ -1,5 +1,10 @@
 const ProjectData = [
   {
+    title: 'Frontend Mentor Challenges',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_914/v1642029333/BEN_Website/projects/frontendmentor1_jctzjw.png',
+    link: '/frontend-mentor-challenges',
+  },
+  {
     title: 'New Personal Website',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1236/v1639689762/BEN_Website/projects/ben_firstsite_cover.jpg',
     link: '/new-site',
