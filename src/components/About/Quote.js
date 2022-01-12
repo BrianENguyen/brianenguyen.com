@@ -1,5 +1,3 @@
-import { Grid } from '@mui/material';
-
 import './Quote.css';
 
 const Quote = () => {

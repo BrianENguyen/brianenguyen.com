@@ -45,7 +45,7 @@ const Navbar = () => {
 
   useEffect(() => {
     showMobileView();
-  }, []);
+  });
 
   window.addEventListener('resize', showMobileView);
   window.addEventListener('scroll', showBackground);
