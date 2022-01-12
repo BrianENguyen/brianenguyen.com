@@ -72,6 +72,15 @@ const FrontendMentorView = () => {
           className='project-view__image'
           alt=''
         />
+        <div className='project-view__personal-notes'>
+          <h2>Personal Notes:</h2>
+          <p>
+            I sincerely appreciate doing these challenges because they not only
+            help me brush up on my front-end skills, but they also make me learn
+            new techniques, like grid, transitions, relative and absolute
+            positioning, etc.
+          </p>
+        </div>
       </Container>
     </div>
   );
