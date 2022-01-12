@@ -16,12 +16,13 @@ const FrontendMentorView = () => {
           <span className='project-view__description__title'>
             Frontend Mentor
           </span>{' '}
-          is an website that helps individuals gain experience of building
-          websites and providing code reviews. The website and repository below
-          are challenges that I have attempted that were provided from Frontend
+          (<a href='https://www.frontendmentor.io/'>frontendmentor.io</a>) is a
+          website that helps individuals gain experience of building websites
+          and providing code reviews. The website and repository below are
+          challenges that I have attempted that were provided from Frontend
           Mentor. All challenges are solved using vanilla HTML, CSS, and
           JavaScript. No frontend frameworks or libraries (with the exception of
-          using icons) are used.
+          icons) are used.
         </p>
         <div className='project-view__tech-stack'>
           <h2>Tech Stack</h2>
