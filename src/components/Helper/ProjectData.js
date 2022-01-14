@@ -1,12 +1,12 @@
 const ProjectData = [
   {
     title: 'Frontend Mentor Challenges',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_914/v1642029333/BEN_Website/projects/frontendmentor1_jctzjw.png',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,e_brightness:85,w_1025/v1642187660/BEN_Website/projects/BEN_frontend.jpg',
     link: '/frontend-mentor-challenges',
   },
   {
     title: 'New Personal Website',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1236/v1639689762/BEN_Website/projects/ben_firstsite_cover.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1723/v1639358227/BEN_Website/projects/BEN_3098_islkyr.jpg',
     link: '/new-site',
   },
   {
