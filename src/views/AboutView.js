@@ -9,7 +9,7 @@ import Jumbotron from '../components/UI/Jumbotron';
 const AboutView = () => {
   const jumboText = 'About Me';
   const jumboImage =
-    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_3098_islkyr.jpg';
+    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_legoart.jpg';
 
   TitleChange('About | BEN');
 
