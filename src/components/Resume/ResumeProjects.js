@@ -5,6 +5,33 @@ const ResumeProjects = () => {
     <div>
       <h2 className='resume__header'>Projects</h2>
       <Grid container spacing={2}>
+        <Grid item xs={12} md={4} lg={6}>
+          <h3 className='resume__leftcolumn--header'>
+            Frontend Mentor Challenges |{' '}
+            <span>
+              <a
+                href='https://bit.ly/BEN-frontend-mentor'
+                target='_blank'
+                rel='noreferrer'
+              >
+                bit.ly/BEN-frontend-mentor
+              </a>
+            </span>
+          </h3>
+        </Grid>
+        <Grid item xs={12} md={8} lg={6}>
+          <h3 className='resume__rightcolumn--header'>
+            January 2022 – Present
+          </h3>
+        </Grid>
+        <Grid item xs={12}>
+          <p className='resume__leftcolumn--project-description'>
+            Developed various front-end components from challenges provided by
+            frontendmentor.io, using HTML, CSS, and JavaScript
+          </p>
+        </Grid>
+      </Grid>
+      <Grid container spacing={2}>
         <Grid item xs={12} sm={8}>
           <h3 className='resume__leftcolumn--header'>
             Remade Personal Portfolio |{' '}
@@ -26,27 +53,6 @@ const ResumeProjects = () => {
           <p className='resume__leftcolumn--project-description'>
             Redesigned and redeveloped version of former portfolio using
             React.js, Material UI Framework, React Router, and EmailJS
-          </p>
-        </Grid>
-      </Grid>
-      <Grid container spacing={2}>
-        <Grid item xs={12} md={4} lg={6}>
-          <h3 className='resume__leftcolumn--header'>
-            Thu Nguyen’s Website |{' '}
-            <span>
-              <a href='https://bit.ly/BEN-Thu' target='_blank' rel='noreferrer'>
-                bit.ly/BEN-Thu
-              </a>
-            </span>
-          </h3>
-        </Grid>
-        <Grid item xs={12} md={8} lg={6}>
-          <h3 className='resume__rightcolumn--header'>December 2021</h3>
-        </Grid>
-        <Grid item xs={12}>
-          <p className='resume__leftcolumn--project-description'>
-            Personal website developed for a colleague. Developed with React.js,
-            Material UI Framework, and EmailJS
           </p>
         </Grid>
       </Grid>
