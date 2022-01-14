@@ -2,11 +2,13 @@
   position: fixed;
   bottom: 10px;
   margin-left: 1.2rem;
-  border: 1px solid #79c2d0;
+  border: 2px solid #79c2d0;
+  border-left-width: 5px;
   background-color: rgb(0, 0, 0);
   padding: 1rem;
   width: 30%;
   z-index: 1;
+  border-radius: 5px;
 }
 
 .privacy-dialog__close-btn {
