@@ -37,13 +37,13 @@ h4 {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(153, 153, 153);
-  transition: background-color 0.3s;
+  background-color: rgb(153, 153, 153);
+  border-radius: 15px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(104, 104, 104);
+  background-color: rgb(134, 134, 134);
 }
 
 .header {
