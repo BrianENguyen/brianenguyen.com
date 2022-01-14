@@ -8,7 +8,7 @@ const Facts = () => {
           <Grid item sm={12} md={4}>
             <center>
               <img
-                src='https://res.cloudinary.com/buraiyen/image/upload/v1641160435/BEN_Website/photo-gallery/BEN_mimi.jpg'
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1162/v1642186572/BEN_Website/BEN_profilenight.jpg'
                 alt='Me holding Mimi'
                 className='facts__image'
               />
