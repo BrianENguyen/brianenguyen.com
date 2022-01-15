@@ -54,8 +54,8 @@ const ResumeTitle = () => {
       <div>
         <h2 className='resume__header'>Objective</h2>
         <p>
-          Bachelor’s of Science in Computer Science graduate seeking an
-          internship or full-time entry-level position in front-end development
+          Bachelor’s of Science in Computer Science graduate seeking a part-time
+          or full-time entry-level position in front-end development
         </p>
       </div>
     </div>
