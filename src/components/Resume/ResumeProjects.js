@@ -32,7 +32,7 @@ const ResumeProjects = () => {
         </Grid>
       </Grid>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={8}>
+        <Grid item xs={12} md={4} lg={6}>
           <h3 className='resume__leftcolumn--header'>
             Remade Personal Portfolio |{' '}
             <span>
@@ -46,7 +46,7 @@ const ResumeProjects = () => {
             </span>
           </h3>
         </Grid>
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={12} md={8} lg={6}>
           <h3 className='resume__rightcolumn--header'>January 2022</h3>
         </Grid>
         <Grid item xs={12}>
