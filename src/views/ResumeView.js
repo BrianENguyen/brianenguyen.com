@@ -15,7 +15,7 @@ const ResumeView = () => {
       <Jumbotron image={jumboImage} title={jumboText} />
       <center style={{ marginTop: 3 + 'rem' }}>
         <a
-          href='https://u.pcloud.link/publink/show?code=XZ4BKaXZjSqBAzUDjlBJhTfrfj0uvYc9bp70'
+          href='https://u.pcloud.link/publink/show?code=XZmLriXZ5s0NbDhswCX93zpTdtz505tY8ARX'
           target='_blank'
           rel='noreferrer'
         >
@@ -25,7 +25,7 @@ const ResumeView = () => {
       <Resume />
       <center>
         <a
-          href='https://u.pcloud.link/publink/show?code=XZ4BKaXZjSqBAzUDjlBJhTfrfj0uvYc9bp70'
+          href='https://u.pcloud.link/publink/show?code=XZmLriXZ5s0NbDhswCX93zpTdtz505tY8ARX'
           target='_blank'
           rel='noreferrer'
         >
