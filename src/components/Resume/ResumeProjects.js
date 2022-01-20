@@ -107,7 +107,7 @@ const ResumeProjects = () => {
             a more streamlined service for users and to promote more social
             aspects between tournament players, spectators, and organizers
           </p>
-          <ul>
+          <ul className='resume__list'>
             <li>Front-end developed with Vue.js</li>
             <li>
               Back-end developed with ASP .NET Core 2.2 for web API’s, along
