@@ -34,7 +34,7 @@ const ResumeProjects = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} md={4} lg={6}>
           <h3 className='resume__leftcolumn--header'>
-            Remade Personal Portfolio |{' '}
+            Personal Portfolio |{' '}
             <span>
               <a
                 href='https://bit.ly/BEN-Portfolio-Remade'
@@ -51,7 +51,7 @@ const ResumeProjects = () => {
         </Grid>
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
-            Redesigned and redeveloped version of former portfolio using
+            Personal portfolio that showcases programming work. Developed with
             React.js, Material UI Framework, React Router, and EmailJS
           </p>
         </Grid>
