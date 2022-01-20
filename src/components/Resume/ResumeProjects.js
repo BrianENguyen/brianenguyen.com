@@ -86,26 +86,51 @@ const ResumeProjects = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} md={4} lg={6}>
           <h3 className='resume__leftcolumn--header'>
-            Personal Portfolio |{' '}
+            Senior Project: Kraken Bracket |{' '}
             <span>
               <a
-                href='https://bit.ly/BEN-Portfolio'
+                href='https://bit.ly/Kraken-Bracket'
                 target='_blank'
                 rel='noreferrer'
               >
-                bit.ly/BEN-Portfolio
+                bit.ly/Kraken-Bracket
               </a>
             </span>
           </h3>
         </Grid>
         <Grid item xs={12} md={8} lg={6}>
-          <h3 className='resume__rightcolumn--header'>April 2021</h3>
+          <h3 className='resume__rightcolumn--header'>May 2020</h3>
         </Grid>
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
-            Personal portfolio that showcases programming work. Developed with
-            Embedded JavaScript, CSS, Bootstrap 4, JavaScript, and Nodemailer
+            An alternative bracket-creation app, Kraken Bracket aims to provide
+            a more streamlined service for users and to promote more social
+            aspects between tournament players, spectators, and organizers
           </p>
+          <ul>
+            <li>Front-end developed with Vue.js</li>
+            <li>
+              Back-end developed with ASP .NET Core 2.2 for web API’s, along
+              with .NET Core 2.2 for business rules/data access
+            </li>
+            <li>
+              Integrated back-end data to the front-end for tournament bracket,
+              authentication, and authorization modules
+            </li>
+            <li>
+              Produced unit and E2E testing for various front-end and back-end
+              features
+            </li>
+            <li>
+              Taught all team members Vue.js fundamentals; improved productivity
+              by 20%
+            </li>
+            <li>Followed Agile through Scrum Methodology</li>
+            <li>
+              Dealt with scope creep and resource creep. Developed remote work
+              skills
+            </li>
+          </ul>
         </Grid>
       </Grid>
     </div>
