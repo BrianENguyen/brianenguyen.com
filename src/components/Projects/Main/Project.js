@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom';
 
 const Project = (props) => {
   return (
-    <div>
+    <div className='project'>
       <Link to={props.link}>
-        <img src={props.src} className='recent-project__image' alt='' />
+        <div>
+          <img src={props.src} className='recent-project__image' alt='' />
+          <h3 className='recent-project__title'>{props.title}</h3>
+        </div>
       </Link>
-      <h3 className='recent-project__title'>{props.title}</h3>
+
       {props.credit && (
         <p>
           Photo by{' '}
