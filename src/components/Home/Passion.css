@@ -17,20 +17,5 @@
 .passion__image {
   width: 100%;
   max-width: 500px;
+  border-radius: 3%;
 }
-
-/* @media (min-width: 0px) {
-  .passion__image {
-    width: 80vw;
-  }
-}
-@media (min-width: 600px) {
-  .passion__image {
-    width: 35vw;
-  }
-}
-@media (min-width: 992px) {
-  .passion__image {
-    width: 25vw;
-  }
-} */
