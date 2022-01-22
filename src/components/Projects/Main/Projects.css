@@ -2,11 +2,11 @@
   text-decoration: none;
 }
 
-.project__main .recent-project__image {
+.project__main .project__image {
   transition: filter 0.3s;
 }
 
-.project__main:hover .recent-project__image {
+.project__main:hover .project__image {
   filter: brightness(70%);
 }
 
