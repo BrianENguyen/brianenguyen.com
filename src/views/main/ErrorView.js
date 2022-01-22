@@ -1,5 +1,5 @@
-import Jumbotron from '../components/UI/Jumbotron/Jumbotron';
-import { TitleChange } from '../components/Helper/TitleChange';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import { TitleChange } from '../../components/Helper/TitleChange';
 
 const ErrorView = () => {
   TitleChange('404 | BEN');

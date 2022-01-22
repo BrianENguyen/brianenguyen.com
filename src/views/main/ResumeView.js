@@ -1,7 +1,7 @@
-import Jumbotron from '../components/UI/Jumbotron/Jumbotron';
-import Resume from '../components/Resume/Resume';
-import BtnStandard from '../components/UI/Button/BtnStandard';
-import { TitleChange } from '../components/Helper/TitleChange';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import Resume from '../../components/Resume/Resume';
+import BtnStandard from '../../components/UI/Button/BtnStandard';
+import { TitleChange } from '../../components/Helper/TitleChange';
 
 const ResumeView = () => {
   TitleChange('Resume | BEN');
