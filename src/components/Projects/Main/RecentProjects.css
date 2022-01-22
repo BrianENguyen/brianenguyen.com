@@ -32,11 +32,10 @@
   margin: 0 20px;
 }
 .recent-project__image {
-  transition: 0.3s;
+  transition: filter 0.3s;
 }
 .recent-project__image:hover {
-  filter: brightness(80%);
-  transition: 0.3s;
+  filter: brightness(70%);
 }
 .recent-project__image {
   max-width: 800px;
