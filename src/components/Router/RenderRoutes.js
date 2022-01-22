@@ -6,6 +6,7 @@ const RenderRoutes = () => {
       {ROUTES.map((route) => (
         <Route
           path={route.path}
+          key={route.key}
           exact={route.exact}
           component={route.component}
         />

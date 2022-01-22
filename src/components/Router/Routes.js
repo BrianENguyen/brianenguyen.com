@@ -16,23 +16,34 @@ import SIMDView from '../../views/project/SIMDView';
 import ProbAndStatsView from '../../views/project/ProbAndStatsView';
 
 const ROUTES = [
-  { path: '/', exact: true, component: HomeView },
-  { path: '/resume', component: ResumeView },
-  { path: '/portfolio', component: PortfolioView },
-  { path: '/about', component: AboutView },
-  { path: '/contact', component: ContactView },
-  { path: '/about', component: AboutView },
-  { path: '/privacy-policy', component: PrivacyView },
-  { path: '/frontend-mentor-challenges', component: FrontendMentorView },
-  { path: '/new-site', component: NewSiteView },
-  { path: '/thu-nguyen', component: ThuView },
-  { path: '/csulb-tzu-ching', component: LBTCView },
-  { path: '/yelpcamp', component: YelpCamp },
-  { path: '/first-site', component: FirstSiteView },
-  { path: '/kraken-bracket', component: KrakenBracketView },
-  { path: '/simd', component: SIMDView },
-  { path: '/probability-stats', component: ProbAndStatsView },
-  { path: '*', component: ErrorView },
+  { path: '/', exact: true, key: 'Home', component: HomeView },
+  { path: '/resume', key: 'Resume', component: ResumeView },
+  { path: '/portfolio', key: 'Portfolio', component: PortfolioView },
+  { path: '/about', key: 'About', component: AboutView },
+  { path: '/contact', key: 'Contact', component: ContactView },
+  { path: '/privacy-policy', key: 'Privacy Policy', component: PrivacyView },
+  {
+    path: '/frontend-mentor-challenges',
+    key: 'Frontend Mentor Challenges',
+    component: FrontendMentorView,
+  },
+  { path: '/new-site', key: 'New Website', component: NewSiteView },
+  { path: '/thu-nguyen', key: 'Thu Nguyen', component: ThuView },
+  { path: '/csulb-tzu-ching', key: 'CSULB Tzu Ching', component: LBTCView },
+  { path: '/yelpcamp', key: 'YelpCamp', component: YelpCamp },
+  { path: '/first-site', key: 'First Site', component: FirstSiteView },
+  {
+    path: '/kraken-bracket',
+    key: 'Kraken Bracket',
+    component: KrakenBracketView,
+  },
+  { path: '/simd', key: 'SIMD', component: SIMDView },
+  {
+    path: '/probability-stats',
+    key: 'Probability and Stats',
+    component: ProbAndStatsView,
+  },
+  { path: '*', key: 'Error', component: ErrorView },
 ];
 
 export default ROUTES;
