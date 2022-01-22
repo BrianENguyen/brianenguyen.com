@@ -10,52 +10,37 @@
   filter: brightness(70%);
 }
 
-.recent-projects__intro {
+.projects__intro {
   margin-top: 10rem;
   margin-bottom: 20rem;
 }
 
-.recent-projects {
+.recent-projects,
+.projects {
   margin: 5rem 0;
 }
 
-.recent-projects__header {
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-.recent-projects__description {
-  font-size: 3rem;
-  font-weight: 300;
-  margin-top: 0;
-  margin-bottom: 40px;
-}
-
-.recent-project__title {
+.project__title {
   color: white;
   font-size: 2rem;
 }
 
-.recent-project__section {
-  margin: 0 20px;
-}
-
-.recent-project__image {
+.project__image {
   max-width: 800px;
 }
 
 @media (min-width: 0px) {
-  .recent-project__image {
+  .project__image {
     width: 95vw;
   }
 }
 @media (min-width: 600px) {
-  .recent-project__image {
+  .project__image {
     width: 45vw;
   }
 }
 @media (min-width: 992px) {
-  .recent-project__image {
+  .project__image {
     width: 38vw;
   }
 }

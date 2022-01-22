@@ -6,8 +6,8 @@ import './RecentProjects.css';
 
 const Projects = () => {
   return (
-    <div className='recent-projects'>
-      <div className='recent-projects__intro'>
+    <div className='projects'>
+      <div className='projects__intro'>
         <h1 className='header'>My Work</h1>
         <h2 className='subheader'>
           A collection of various websites that I have designed and developed,
