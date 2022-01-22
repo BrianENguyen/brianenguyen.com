@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import { TitleChange } from '../components/Helper/TitleChange';
 import Jumbotron from '../components/UI/Jumbotron/Jumbotron';
-import ProjectsList from '../components/Projects/ProjectsList';
+import ProjectsList from '../components/Projects/Main/ProjectsList';
 import OtherProjectsList from '../components/Projects/Other/OtherProjectsList';
 
 const PortfolioView = () => {

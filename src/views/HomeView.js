@@ -3,7 +3,7 @@ import { TitleChange } from '../components/Helper/TitleChange';
 
 import Jumbotron from '../components/UI/Jumbotron/Jumbotron';
 import Passion from '../components/Home/Passion';
-import RecentProjectList from '../components/Projects/RecentProjectList';
+import RecentProjectList from '../components/Projects/Main/RecentProjectList';
 import WebCardList from '../components/Home/WebCardList';
 
 const HomeView = () => {
