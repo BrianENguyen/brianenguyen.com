@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import { TitleChange } from '../../components/Helper/TitleChange';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
-import Jumbotron from '../../components/UI/Jumbotron';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 // TODO: link to old site and repo
 const FirstSiteView = () => {

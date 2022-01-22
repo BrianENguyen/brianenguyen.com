@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
 

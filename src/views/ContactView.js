@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 
-import Jumbotron from '../components/UI/Jumbotron';
+import Jumbotron from '../components/UI/Jumbotron/Jumbotron';
 import ContactForm from '../components/Contact/ContactForm';
 import { TitleChange } from '../components/Helper/TitleChange';
 

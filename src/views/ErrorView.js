@@ -1,4 +1,4 @@
-import Jumbotron from '../components/UI/Jumbotron';
+import Jumbotron from '../components/UI/Jumbotron/Jumbotron';
 import { TitleChange } from '../components/Helper/TitleChange';
 
 const ErrorView = () => {
