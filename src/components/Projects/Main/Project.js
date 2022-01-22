@@ -1,4 +1,4 @@
-import './RecentProjects.css';
+import './Projects.css';
 import { Link } from 'react-router-dom';
 
 const Project = (props) => {

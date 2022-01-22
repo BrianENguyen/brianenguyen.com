@@ -2,7 +2,7 @@ import { Grid } from '@mui/material';
 
 import Project from './Project';
 import ProjectData from '../../Helper/ProjectData';
-import './RecentProjects.css';
+import './Projects.css';
 const RecentProjects = () => {
   return (
     <div className='recent-projects'>
