@@ -14,7 +14,12 @@
   font-size: 1.25rem;
 }
 
-@media (min-width: 0px) {
+.passion__image {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* @media (min-width: 0px) {
   .passion__image {
     width: 80vw;
   }
@@ -28,4 +33,4 @@
   .passion__image {
     width: 25vw;
   }
-}
+} */
