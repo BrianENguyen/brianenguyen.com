@@ -2,23 +2,35 @@ import './RecentProjects.css';
 import { Link } from 'react-router-dom';
 
 const Project = (props) => {
-  return (
-    <div className='project'>
-      <Link to={props.link}>
-        <div>
-          <img src={props.src} className='recent-project__image' alt='' />
-          <h3 className='recent-project__title'>{props.title}</h3>
-        </div>
-      </Link>
-
+  let photoCreditSection = (
+    <div className='project__photo-credit'>
       {props.credit && (
         <p>
           Photo by{' '}
-          <a href={props.credit.link} target='_blank' rel='noreferrer'>
+          <a
+            className='project__photo-credit '
+            href={props.credit.link}
+            target='_blank'
+            rel='noreferrer'
+          >
             {props.credit.name}
           </a>
         </p>
       )}
+    </div>
+  );
+
+  return (
+    <div className='project'>
+      <div className='project__main'>
+        <Link to={props.link}>
+          <div>
+            <img src={props.src} className='recent-project__image' alt='' />
+            <h3 className='recent-project__title'>{props.title}</h3>
+          </div>
+        </Link>
+      </div>
+      {props.credit && photoCreditSection}
     </div>
   );
 };

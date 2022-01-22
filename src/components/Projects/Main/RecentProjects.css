@@ -1,12 +1,12 @@
-.project a {
+.project__main a {
   text-decoration: none;
 }
 
-.project .recent-project__image {
+.project__main .recent-project__image {
   transition: filter 0.3s;
 }
 
-.project:hover .recent-project__image {
+.project__main:hover .recent-project__image {
   filter: brightness(70%);
 }
 
