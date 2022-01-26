@@ -9,25 +9,18 @@ const ResumeSpecialization = () => {
           <h3 className='resume__leftcolumn--header'>
             Google IT Automation with Python |{' '}
             <span>
-              <a
-                href='https://bit.ly/BEN-frontend-mentor'
-                target='_blank'
-                rel='noreferrer'
-              >
-                bit.ly/BEN-frontend-mentor
+              <a href='bit.ly/3dgmU1S' target='_blank' rel='noreferrer'>
+                bit.ly/3dgmU1S
               </a>
             </span>
           </h3>
         </Grid>
         <Grid item xs={12} md={8} lg={6}>
-          <h3 className='resume__rightcolumn--header'>
-            January 2022 – Present
-          </h3>
+          <h3 className='resume__rightcolumn--header'>Issued Sept. 2020</h3>
         </Grid>
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
-            Developed various front-end components from challenges provided by
-            frontendmentor.io, using HTML, CSS, and JavaScript
+            Online Course - Coursera
           </p>
         </Grid>
       </Grid>
