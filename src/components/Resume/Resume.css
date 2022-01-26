@@ -26,6 +26,7 @@ ul.resume__links {
 .resume__header {
   font-weight: 700;
   border-bottom: 1px solid black;
+  text-transform: uppercase;
 }
 
 .resume__leftcolumn--header {

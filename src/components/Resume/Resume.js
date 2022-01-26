@@ -5,6 +5,7 @@ import ResumeEducation from './ResumeEducation';
 import ResumeProjects from './ResumeProjects';
 import ResumeExperience from './ResumeExperience';
 import ResumeSkills from './ResumeSkills';
+import ResumeLeadership from './ResumeLeadership';
 import './Resume.css';
 
 const Resume = () => {
@@ -16,6 +17,7 @@ const Resume = () => {
         <ResumeExperience />
         <ResumeProjects />
         <ResumeSkills />
+        <ResumeLeadership />
       </Container>
     </div>
   );
