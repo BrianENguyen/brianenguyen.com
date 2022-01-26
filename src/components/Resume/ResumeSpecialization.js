@@ -9,7 +9,7 @@ const ResumeSpecialization = () => {
           <h3 className='resume__leftcolumn--header'>
             Google IT Automation with Python |{' '}
             <span>
-              <a href='bit.ly/3dgmU1S' target='_blank' rel='noreferrer'>
+              <a href='https://bit.ly/3dgmU1S' target='_blank' rel='noreferrer'>
                 bit.ly/3dgmU1S
               </a>
             </span>
