@@ -4,12 +4,13 @@ import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import ContactForm from '../../components/Contact/ContactForm';
 import { TitleChange } from '../../components/Helper/TitleChange';
 
+import { ContactData } from '../../components/Helper/JumbotronData';
+
 const ContactView = () => {
   TitleChange('Contact | BEN');
 
-  const jumboText = 'Contact';
-  const jumboImage =
-    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1447,b_black,o_70/v1620240502/BEN_Website/jumbotron/BEN_casino_gwmqob.jpg';
+  const jumboText = ContactData.title;
+  const jumboImage = ContactData.image;
   return (
     <div
       className='contact'

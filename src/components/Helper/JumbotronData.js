@@ -24,4 +24,10 @@ const AboutData = {
   title: 'About',
 };
 
-export { HomeData, ResumeData, PortfolioData, AboutData };
+const ContactData = {
+  image:
+    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg',
+  title: 'Contact',
+};
+
+export { HomeData, ResumeData, PortfolioData, AboutData, ContactData };
