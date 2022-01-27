@@ -30,4 +30,19 @@ const ContactData = {
   title: 'Contact',
 };
 
-export { HomeData, ResumeData, PortfolioData, AboutData, ContactData };
+const ErrorData = {
+  image:
+    'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg',
+  title: '404 Error',
+  description: `The page that you are trying to reach does not or no longer exists. 
+    If this is an issue, then feel free to contact me`,
+};
+
+export {
+  HomeData,
+  ResumeData,
+  PortfolioData,
+  AboutData,
+  ContactData,
+  ErrorData,
+};
