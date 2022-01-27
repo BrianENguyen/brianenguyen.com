@@ -6,10 +6,11 @@ import ImageGallery from '../../components/About/ImageGallery';
 import Facts from '../../components/About/Facts';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
+import { AboutData } from '../../components/Helper/JumbotronData';
+
 const AboutView = () => {
   const jumboText = 'About Me';
-  const jumboImage =
-    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_legoart.jpg';
+  const jumboImage = AboutData.image;
 
   TitleChange('About | BEN');
 
