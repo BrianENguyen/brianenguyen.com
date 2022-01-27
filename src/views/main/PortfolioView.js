@@ -3,11 +3,11 @@ import { TitleChange } from '../../components/Helper/TitleChange';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import ProjectsList from '../../components/Projects/Main/ProjectsList';
 import OtherProjectsList from '../../components/Projects/Other/OtherProjectsList';
+import { PortfolioData } from '../../components/Helper/JumbotronData';
 
 const PortfolioView = () => {
-  const jumboText = 'Portfolio';
-  const jumboImage =
-    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1447,b_black,o_70/v1620240500/BEN_Website/jumbotron/BEN_code_hijtco.jpg';
+  const jumboText = PortfolioData.title;
+  const jumboImage = PortfolioData.image;
 
   TitleChange('Portfolio | BEN');
 
