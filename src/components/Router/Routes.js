@@ -31,7 +31,7 @@ const ROUTES = [
   { path: '/thu-nguyen', key: 'Thu Nguyen', component: ThuView },
   { path: '/csulb-tzu-ching', key: 'CSULB Tzu Ching', component: LBTCView },
   { path: '/yelpcamp', key: 'YelpCamp', component: YelpCamp },
-  { path: '/first-site', key: 'First Site', component: FirstSiteView },
+  { path: '/first-personal-site', key: 'First Site', component: FirstSiteView },
   {
     path: '/kraken-bracket',
     key: 'Kraken Bracket',
