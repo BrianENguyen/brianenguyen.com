@@ -5,8 +5,10 @@ import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
 
+import { NewSiteData } from '../../components/Helper/JumbotronData';
+
 const NewSiteView = () => {
-  const jumboTitle = 'My New Website';
+  const jumboTitle = NewSiteData.title;
   TitleChange('My New Website | BEN');
 
   return (

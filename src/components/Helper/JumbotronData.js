@@ -54,6 +54,10 @@ const LBTCData = {
   title: 'CSULB Tzu Ching',
 };
 
+const NewSiteData = {
+  title: 'My New Website',
+};
+
 export {
   HomeData,
   ResumeData,
@@ -65,4 +69,5 @@ export {
   FrontendMentorData,
   KrakenBracketData,
   LBTCData,
+  NewSiteData,
 };
