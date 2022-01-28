@@ -2,11 +2,12 @@ import { Container } from '@mui/material';
 import { TitleChange } from '../../components/Helper/TitleChange';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import { FrontendMentorData } from '../../components/Helper/JumbotronData';
 
 const FrontendMentorView = () => {
   TitleChange('Frontend Mentor Challenges | BEN');
 
-  const jumboTitle = 'Frontend Mentor Challenges';
+  const jumboTitle = FrontendMentorData.title;
 
   return (
     <div className='frontend-mentor'>

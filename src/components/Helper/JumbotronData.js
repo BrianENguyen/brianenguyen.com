@@ -42,6 +42,10 @@ const FirstSiteData = {
   title: 'My First Personal Website',
 };
 
+const FrontendMentorData = {
+  title: 'Frontend Mentor Challenges',
+};
+
 export {
   HomeData,
   ResumeData,
@@ -50,4 +54,5 @@ export {
   ContactData,
   ErrorData,
   FirstSiteData,
+  FrontendMentorData,
 };
