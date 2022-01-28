@@ -5,8 +5,10 @@ import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
 
+import { LBTCData } from '../../components/Helper/JumbotronData';
+
 const LBTCView = () => {
-  const jumboTitle = 'CSULB Tzu Ching';
+  const jumboTitle = LBTCData.title;
   TitleChange('CSULB Tzu Ching | BEN');
 
   return (

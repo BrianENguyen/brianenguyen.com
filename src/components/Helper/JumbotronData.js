@@ -50,6 +50,10 @@ const KrakenBracketData = {
   title: 'Senior Project: Kraken Bracket',
 };
 
+const LBTCData = {
+  title: 'CSULB Tzu Ching',
+};
+
 export {
   HomeData,
   ResumeData,
@@ -60,4 +64,5 @@ export {
   FirstSiteData,
   FrontendMentorData,
   KrakenBracketData,
+  LBTCData,
 };
