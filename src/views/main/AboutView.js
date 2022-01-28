@@ -1,12 +1,10 @@
-import { TitleChange } from '../../components/Helper/TitleChange';
-
-import Quote from '../../components/About/Quote';
 import Backstory from '../../components/About/Backstory';
-import ImageGallery from '../../components/About/ImageGallery';
 import Facts from '../../components/About/Facts';
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
-
+import ImageGallery from '../../components/About/ImageGallery';
+import Quote from '../../components/About/Quote';
 import { AboutData } from '../../components/Helper/JumbotronData';
+import { TitleChange } from '../../components/Helper/TitleChange';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 const AboutView = () => {
   const jumboTitle = 'About Me';

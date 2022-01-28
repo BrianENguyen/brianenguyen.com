@@ -1,10 +1,8 @@
 import { Container } from '@mui/material';
-
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import ContactForm from '../../components/Contact/ContactForm';
-import { TitleChange } from '../../components/Helper/TitleChange';
-
 import { ContactData } from '../../components/Helper/JumbotronData';
+import { TitleChange } from '../../components/Helper/TitleChange';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 const ContactView = () => {
   TitleChange('Contact | BEN');

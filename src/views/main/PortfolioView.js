@@ -1,9 +1,9 @@
 import { Container } from '@mui/material';
+import { PortfolioData } from '../../components/Helper/JumbotronData';
 import { TitleChange } from '../../components/Helper/TitleChange';
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import ProjectsList from '../../components/Projects/Main/ProjectsList';
 import OtherProjectsList from '../../components/Projects/Other/OtherProjectsList';
-import { PortfolioData } from '../../components/Helper/JumbotronData';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 const PortfolioView = () => {
   const jumboTitle = PortfolioData.title;

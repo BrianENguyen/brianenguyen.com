@@ -1,11 +1,11 @@
 import { Container } from '@mui/material';
+import { HomeData } from '../../components/Helper/JumbotronData';
 import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import Passion from '../../components/Home/Passion';
-import RecentProjectList from '../../components/Projects/Main/RecentProjectList';
 import WebCardList from '../../components/Home/WebCardList';
-import { HomeData } from '../../components/Helper/JumbotronData';
+import RecentProjectList from '../../components/Projects/Main/RecentProjectList';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 const HomeView = () => {
   TitleChange('Brian E. Nguyen');
