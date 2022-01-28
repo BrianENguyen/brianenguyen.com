@@ -4,9 +4,10 @@ import { TitleChange } from '../../components/Helper/TitleChange';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
+import { KrakenBracketData } from '../../components/Helper/JumbotronData';
 
 const KrakenBracketView = () => {
-  const jumboTitle = 'Senior Project: Kraken Bracket';
+  const jumboTitle = KrakenBracketData.title;
   TitleChange('Kraken Bracket | BEN');
 
   return (

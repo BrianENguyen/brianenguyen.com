@@ -46,6 +46,10 @@ const FrontendMentorData = {
   title: 'Frontend Mentor Challenges',
 };
 
+const KrakenBracketData = {
+  title: 'Senior Project: Kraken Bracket',
+};
+
 export {
   HomeData,
   ResumeData,
@@ -55,4 +59,5 @@ export {
   ErrorData,
   FirstSiteData,
   FrontendMentorData,
+  KrakenBracketData,
 };
