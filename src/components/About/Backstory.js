@@ -1,4 +1,4 @@
-import { Grid, Container } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 import './Backstory.css';
 
 const Backstory = () => {

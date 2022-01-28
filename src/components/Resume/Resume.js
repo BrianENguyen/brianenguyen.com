@@ -1,13 +1,12 @@
 import { Container } from '@mui/material';
-
-import ResumeTitle from './ResumeTitle';
-import ResumeEducation from './ResumeEducation';
-import ResumeProjects from './ResumeProjects';
-import ResumeExperience from './ResumeExperience';
-import ResumeSkills from './ResumeSkills';
-import ResumeLeadership from './ResumeLeadership';
-import ResumeSpecialization from './ResumeSpecialization';
 import './Resume.css';
+import ResumeEducation from './ResumeEducation';
+import ResumeExperience from './ResumeExperience';
+import ResumeLeadership from './ResumeLeadership';
+import ResumeProjects from './ResumeProjects';
+import ResumeSkills from './ResumeSkills';
+import ResumeSpecialization from './ResumeSpecialization';
+import ResumeTitle from './ResumeTitle';
 
 const Resume = () => {
   return (

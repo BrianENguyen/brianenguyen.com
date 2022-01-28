@@ -1,5 +1,6 @@
-import { Grid, Container } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 import './Facts.css';
+
 const Facts = () => {
   return (
     <div className='facts'>

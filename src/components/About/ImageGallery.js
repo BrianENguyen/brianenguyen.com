@@ -1,5 +1,6 @@
 import { Container, ImageList, ImageListItem } from '@mui/material';
 import { ImageGalleryData } from '../Helper/ImageGalleryData';
+
 const ImageGallery = () => {
   return (
     <div>

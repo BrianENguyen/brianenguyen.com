@@ -1,10 +1,9 @@
-import { TextField, Grid } from '@mui/material';
+import { Grid, TextField } from '@mui/material';
 import { useState } from 'react';
-
-import { formSchema } from './ContactFormValidation';
 import BtnStandardLight from '../UI/Button/BtnStandardLight';
 import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
+import { formSchema } from './ContactFormValidation';
 
 const ContactForm = (props) => {
   const [firstNameValid, setFirstNameValid] = useState(true);
