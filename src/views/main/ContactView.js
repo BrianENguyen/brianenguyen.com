@@ -9,7 +9,7 @@ import { ContactData } from '../../components/Helper/JumbotronData';
 const ContactView = () => {
   TitleChange('Contact | BEN');
 
-  const jumboText = ContactData.title;
+  const jumboTitle = ContactData.title;
   const jumboImage = ContactData.image;
   return (
     <div
@@ -19,7 +19,7 @@ const ContactView = () => {
         color: 'black',
       }}
     >
-      <Jumbotron image={jumboImage} title={jumboText} />
+      <Jumbotron image={jumboImage} title={jumboTitle} />
       <Container maxWidth='lg'>
         <p>
           You can contact me directly at{' '}

@@ -6,14 +6,14 @@ import OtherProjectsList from '../../components/Projects/Other/OtherProjectsList
 import { PortfolioData } from '../../components/Helper/JumbotronData';
 
 const PortfolioView = () => {
-  const jumboText = PortfolioData.title;
+  const jumboTitle = PortfolioData.title;
   const jumboImage = PortfolioData.image;
 
   TitleChange('Portfolio | BEN');
 
   return (
     <div className='portfolio'>
-      <Jumbotron image={jumboImage} title={jumboText} />
+      <Jumbotron image={jumboImage} title={jumboTitle} />
       <Container maxWidth='xl'>
         <ProjectsList />
         <OtherProjectsList />

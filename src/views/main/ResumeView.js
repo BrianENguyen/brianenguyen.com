@@ -7,12 +7,12 @@ import { ResumeData } from '../../components/Helper/JumbotronData';
 const ResumeView = () => {
   TitleChange('Resume | BEN');
 
-  const jumboText = ResumeData.title;
+  const jumboTitle = ResumeData.title;
   const jumboImage = ResumeData.image;
 
   return (
     <div style={{ marginBottom: 3 + 'rem' }}>
-      <Jumbotron image={jumboImage} title={jumboText} />
+      <Jumbotron image={jumboImage} title={jumboTitle} />
       <center style={{ marginTop: 3 + 'rem' }}>
         <a
           href='https://u.pcloud.link/publink/show?code=XZmLriXZ5s0NbDhswCX93zpTdtz505tY8ARX'
