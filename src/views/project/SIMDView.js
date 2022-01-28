@@ -1,9 +1,9 @@
 import { Container } from '@mui/material';
+import { SIMDData } from '../../components/Helper/JumbotronData';
 import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
-import { SIMDData } from '../../components/Helper/JumbotronData';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const SIMDView = () => {

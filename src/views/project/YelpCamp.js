@@ -1,10 +1,10 @@
 import { Container } from '@mui/material';
+import { YelpCampData } from '../../components/Helper/JumbotronData';
 import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import './ProjectView.css';
-import { YelpCampData } from '../../components/Helper/JumbotronData';
 
 const YelpCamp = () => {
   const jumboTitle = YelpCampData.title;
