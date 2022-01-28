@@ -4,9 +4,10 @@ import { TitleChange } from '../../components/Helper/TitleChange';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
+import { YelpCampData } from '../../components/Helper/JumbotronData';
 
 const YelpCamp = () => {
-  const jumboTitle = 'YelpCamp';
+  const jumboTitle = YelpCampData.title;
   TitleChange('YelpCamp | BEN');
 
   return (

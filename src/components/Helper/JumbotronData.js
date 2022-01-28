@@ -70,6 +70,10 @@ const ThuData = {
   title: "Thu Nguyen's Website",
 };
 
+const YelpCampData = {
+  title: 'YelpCamp',
+};
+
 export {
   HomeData,
   ResumeData,
@@ -85,4 +89,5 @@ export {
   ProbAndStatsData,
   SIMDData,
   ThuData,
+  YelpCampData,
 };
