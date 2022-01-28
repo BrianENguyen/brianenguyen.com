@@ -38,6 +38,10 @@ const ErrorData = {
     If this is an issue, then feel free to contact me`,
 };
 
+const FirstSiteData = {
+  title: 'My First Personal Website',
+};
+
 export {
   HomeData,
   ResumeData,
@@ -45,4 +49,5 @@ export {
   AboutData,
   ContactData,
   ErrorData,
+  FirstSiteData,
 };

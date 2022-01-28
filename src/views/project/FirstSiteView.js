@@ -2,12 +2,13 @@ import { Container } from '@mui/material';
 import { TitleChange } from '../../components/Helper/TitleChange';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import { FirstSiteData } from '../../components/Helper/JumbotronData';
 
 // TODO: link to old site and repo
 const FirstSiteView = () => {
   TitleChange('My First Website | BEN');
 
-  const jumboTitle = 'My First Personal Website';
+  const jumboTitle = FirstSiteData.title;
 
   return (
     <div className='old-site'>
