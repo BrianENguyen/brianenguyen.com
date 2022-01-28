@@ -5,8 +5,10 @@ import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
 
+import { ProbAndStatsData } from '../../components/Helper/JumbotronData';
+
 const ProbAndStatsView = () => {
-  const jumboTitle = 'EE 381 - Probability and Stats Computing';
+  const jumboTitle = ProbAndStatsData.title;
   TitleChange('Probability and Stats | BEN');
 
   return (

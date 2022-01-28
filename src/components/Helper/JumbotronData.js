@@ -58,6 +58,10 @@ const NewSiteData = {
   title: 'My New Website',
 };
 
+const ProbAndStatsData = {
+  title: 'EE 381 - Probability and Stats Computing',
+};
+
 export {
   HomeData,
   ResumeData,
@@ -70,4 +74,5 @@ export {
   KrakenBracketData,
   LBTCData,
   NewSiteData,
+  ProbAndStatsData,
 };
