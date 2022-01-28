@@ -1,10 +1,9 @@
-import Navbar from './components/UI/Navbar/Navbar';
-import Footer from './components/UI/Footer/Footer';
+import './App.css';
+import ScrollToTop from './components/Helper/ScrollToTop';
 import PrivacyDialog from './components/Privacy/Dialog/PrivacyDialog';
 import RenderRoutes from './components/Router/RenderRoutes';
-import './App.css';
-
-import ScrollToTop from './components/Helper/ScrollToTop';
+import Footer from './components/UI/Footer/Footer';
+import Navbar from './components/UI/Navbar/Navbar';
 
 function App() {
   return (
