@@ -66,6 +66,10 @@ const SIMDData = {
   title: 'SIMD Enhanced MIPS Instructions',
 };
 
+const ThuData = {
+  title: "Thu Nguyen's Website",
+};
+
 export {
   HomeData,
   ResumeData,
@@ -80,4 +84,5 @@ export {
   NewSiteData,
   ProbAndStatsData,
   SIMDData,
+  ThuData,
 };

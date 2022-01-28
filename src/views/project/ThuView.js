@@ -5,8 +5,10 @@ import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
 
+import { ThuData } from '../../components/Helper/JumbotronData';
+
 const ThuView = () => {
-  const jumboTitle = "Thu Nguyen's Website";
+  const jumboTitle = ThuData.title;
   TitleChange('Thu Nguyen | BEN');
 
   return (
