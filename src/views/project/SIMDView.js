@@ -3,10 +3,11 @@ import { TitleChange } from '../../components/Helper/TitleChange';
 
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import BtnStandard from '../../components/UI/Button/BtnStandard';
+import { SIMDData } from '../../components/Helper/JumbotronData';
 import './ProjectView.css';
 
 const SIMDView = () => {
-  const jumboTitle = 'SIMD Enhanced MIPS Instructions';
+  const jumboTitle = SIMDData.title;
   TitleChange('SIMD Enhanced MIPS Instructions | BEN');
 
   return (

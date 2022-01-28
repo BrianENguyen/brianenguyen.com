@@ -62,6 +62,10 @@ const ProbAndStatsData = {
   title: 'EE 381 - Probability and Stats Computing',
 };
 
+const SIMDData = {
+  title: 'SIMD Enhanced MIPS Instructions',
+};
+
 export {
   HomeData,
   ResumeData,
@@ -75,4 +79,5 @@ export {
   LBTCData,
   NewSiteData,
   ProbAndStatsData,
+  SIMDData,
 };
