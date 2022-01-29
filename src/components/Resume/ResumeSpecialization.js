@@ -3,7 +3,7 @@ import { Grid } from '@mui/material';
 const ResumeSpecialization = () => {
   return (
     <div>
-      <h2 className='resume__header'>Projects</h2>
+      <h2 className='resume__header'>Specializations</h2>
       <Grid container spacing={2}>
         <Grid item xs={12} md={4} lg={6}>
           <h3 className='resume__leftcolumn--header'>
