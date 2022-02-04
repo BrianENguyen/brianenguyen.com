@@ -10,7 +10,7 @@ const ContactForm = (props) => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [message, setMessage] = useState('');
 
   const [firstNameValid, setFirstNameValid] = useState(true);
   const [lastNameValid, setLastNameValid] = useState(true);
@@ -49,19 +49,19 @@ const ContactForm = (props) => {
     }
   };
 
-  const firstNameHandler = (e) => {
+  const firstNameChangeHandler = (e) => {
     const firstName = e.target.value;
     if (firstName.length > 0) {
       setFirstNameValid(true);
     } else setFirstNameValid(false);
   };
-  const lastNameHandler = (e) => {
+  const lastNameChangeHandler = (e) => {
     const lastName = e.target.value;
     if (lastName.length > 0) {
       setLastNameValid(true);
     } else setLastNameValid(false);
   };
-  const emailHandler = (e) => {
+  const emailChangeHandler = (e) => {
     const email = e.target.value;
 
     if (email.length > 0) {
@@ -79,7 +79,7 @@ const ContactForm = (props) => {
       setEmailError('Field cannot be blank');
     }
   };
-  const messageHandler = (e) => {
+  const messageChangeHandler = (e) => {
     const message = e.target.value;
     if (message.length > 0) {
       setMessageValid(true);
@@ -97,7 +97,7 @@ const ContactForm = (props) => {
             label='First Name *'
             name='first_name'
             error={firstNameValid ? false : true}
-            onChange={firstNameHandler}
+            onChange={firstNameChangeHandler}
           />
           {!firstNameValid && (
             <p className='contact-form__message--error'>
@@ -113,7 +113,7 @@ const ContactForm = (props) => {
             label='Last Name *'
             name='last_name'
             error={lastNameValid ? false : true}
-            onChange={lastNameHandler}
+            onChange={lastNameChangeHandler}
           />
           {!lastNameValid && (
             <p className='contact-form__message--error'>
@@ -130,7 +130,7 @@ const ContactForm = (props) => {
         name='email'
         type='email'
         error={emailValid ? false : true}
-        onChange={emailHandler}
+        onChange={emailChangeHandler}
       />
       {!emailValid && (
         <p className='contact-form__message--error'>{emailError}</p>
@@ -145,7 +145,7 @@ const ContactForm = (props) => {
         label='Your Message *'
         name='message'
         error={messageValid ? false : true}
-        onChange={messageHandler}
+        onChange={messageChangeHandler}
       />
       {!messageValid && (
         <p className='contact-form__message--error'>Field cannot be blank</p>
