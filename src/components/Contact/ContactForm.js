@@ -92,6 +92,7 @@ const ContactForm = (props) => {
             name='first_name'
             error={firstNameValid ? false : true}
             onChange={firstNameChangeHandler}
+            onBlur={validateFirstName}
           />
           {!firstNameValid && (
             <p className='contact-form__message--error'>
@@ -108,6 +109,7 @@ const ContactForm = (props) => {
             name='last_name'
             error={lastNameValid ? false : true}
             onChange={lastNameChangeHandler}
+            onBlur={validateLastName}
           />
           {!lastNameValid && (
             <p className='contact-form__message--error'>
@@ -125,6 +127,7 @@ const ContactForm = (props) => {
         type='email'
         error={emailValid ? false : true}
         onChange={emailChangeHandler}
+        onBlur={validateEmail}
       />
       {!emailValid && (
         <p className='contact-form__message--error'>{emailError}</p>
@@ -140,6 +143,7 @@ const ContactForm = (props) => {
         name='message'
         error={messageValid ? false : true}
         onChange={messageChangeHandler}
+        onBlur={validateMessage}
       />
       {!messageValid && (
         <p className='contact-form__message--error'>Field cannot be blank</p>
