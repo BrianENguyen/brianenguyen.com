@@ -1,5 +1,5 @@
 import { TextField, Grid } from '@mui/material';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import { formSchema } from './ContactFormValidation';
 import BtnStandardLight from '../UI/Button/BtnStandardLight';
@@ -7,6 +7,11 @@ import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
 
 const ContactForm = (props) => {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
   const [firstNameValid, setFirstNameValid] = useState(true);
   const [lastNameValid, setLastNameValid] = useState(true);
   const [emailValid, setEmailValid] = useState(true);
