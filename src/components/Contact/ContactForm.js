@@ -5,7 +5,7 @@ import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
 import EmailRegex from './EmailRegex';
 
-const ContactForm = (props) => {
+const ContactForm = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
@@ -19,7 +19,7 @@ const ContactForm = (props) => {
   const [emailError, setEmailError] = useState('');
   const [formSent, setFormSent] = useState(false);
 
-  const validateForm = async (event) => {
+  const validateForm = (event) => {
     event.preventDefault();
 
     if (firstNameValid && lastNameValid && emailValid && messageValid) {
