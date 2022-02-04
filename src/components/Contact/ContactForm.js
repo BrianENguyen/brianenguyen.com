@@ -50,43 +50,34 @@ const ContactForm = (props) => {
   };
 
   const firstNameChangeHandler = (event) => {
-    // const firstName = event.target.value;
-    // if (firstName.length > 0) {
-    //   setFirstNameValid(true);
-    // } else setFirstNameValid(false);
     setFirstName(event.target.value);
   };
   const lastNameChangeHandler = (event) => {
-    // const lastName = event.target.value;
-    // if (lastName.length > 0) {
-    //   setLastNameValid(true);
-    // } else setLastNameValid(false);
     setLastName(event.target.value);
   };
   const emailChangeHandler = (event) => {
     setEmail(event.target.value);
-    // const email = event.target.value;
-    // if (email.length > 0) {
-    //   const re =
-    //     /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    //   const isValidEmailFormat = email.match(re);
-    //   if (isValidEmailFormat) {
-    //     setEmailValid(true);
-    //   } else {
-    //     setEmailValid(false);
-    //     setEmailError('Invalid email');
-    //   }
-    // } else {
-    //   setEmailValid(false);
-    //   setEmailError('Field cannot be blank');
-    // }
   };
   const messageChangeHandler = (event) => {
     setMessage(event.target.value);
-    // const message = event.target.value;
-    // if (message.length > 0) {
-    //   setMessageValid(true);
-    // } else setMessageValid(false);
+  };
+
+  const validateFirstName = () => {
+    setFirstNameValid(firstName.length);
+  };
+
+  const validateLastName = () => {
+    setLastNameValid(lastName.length);
+  };
+
+  const validateEmail = () => {
+    const re =
+      /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+    setEmailValid(lastName.length && email.match(re));
+  };
+
+  const validateMessage = () => {
+    setLastNameValid(message.length);
   };
 
   return (
