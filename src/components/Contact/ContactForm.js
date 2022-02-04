@@ -73,6 +73,8 @@ const ContactForm = (props) => {
   const validateEmail = () => {
     const re =
       /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+    if (!email.length) setEmailError('Field cannot be blank');
+    if (email.length && !email.match(re)) setEmailError('Invalid email');
     setEmailValid(lastName.length && email.match(re));
   };
 
