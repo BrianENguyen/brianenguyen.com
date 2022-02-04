@@ -3,7 +3,6 @@ import { useState } from 'react';
 import BtnStandardLight from '../UI/Button/BtnStandardLight';
 import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
-import { formSchema } from './ContactFormValidation';
 import EmailRegex from './EmailRegex';
 
 const ContactForm = (props) => {
@@ -24,27 +23,11 @@ const ContactForm = (props) => {
     event.preventDefault();
 
     if (firstNameValid && lastNameValid && emailValid && messageValid) {
-      event.preventDefault();
-
-      const fName = document.getElementById('first-name').value;
-      const lName = document.getElementById('last-name').value;
-      const e = document.getElementById('email').value;
-      const m = document.getElementById('message').value;
-
-      let formData = {
-        firstName: fName,
-        lastName: lName,
-        email: e,
-        message: m,
-      };
-      const isValid = await formSchema.isValid(formData);
-      if (isValid) {
-        try {
-          submitForm(event);
-          setFormSent(true);
-        } catch {
-          setFormSent(false);
-        }
+      try {
+        submitForm(event);
+        setFormSent(true);
+      } catch {
+        setFormSent(false);
       }
     }
   };
