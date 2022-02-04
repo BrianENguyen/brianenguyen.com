@@ -1,10 +1,10 @@
-import { TextField, Grid } from '@mui/material';
-import { useState, useEffect } from 'react';
-
-import { formSchema } from './ContactFormValidation';
+import { Grid, TextField } from '@mui/material';
+import { useState } from 'react';
 import BtnStandardLight from '../UI/Button/BtnStandardLight';
 import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
+import { formSchema } from './ContactFormValidation';
+import EmailRegex from './EmailRegex';
 
 const ContactForm = (props) => {
   const [firstName, setFirstName] = useState('');
@@ -71,11 +71,11 @@ const ContactForm = (props) => {
   };
 
   const validateEmail = () => {
-    const re =
-      /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     if (!email.length) setEmailError('Field cannot be blank');
-    if (email.length && !email.match(re)) setEmailError('Invalid email');
-    setEmailValid(lastName.length && email.match(re));
+    if (email.length && !email.match(EmailRegex)) {
+      setEmailError('Invalid email');
+    }
+    setEmailValid(email.length && email.match(EmailRegex));
   };
 
   const validateMessage = () => {
