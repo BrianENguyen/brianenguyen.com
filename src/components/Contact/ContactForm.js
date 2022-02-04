@@ -77,7 +77,7 @@ const ContactForm = (props) => {
   };
 
   const validateMessage = () => {
-    setLastNameValid(message.length);
+    setMessageValid(message.length);
   };
 
   return (
