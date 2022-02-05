@@ -11,10 +11,10 @@ const ContactForm = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const [firstNameValid, setFirstNameValid] = useState(true);
-  const [lastNameValid, setLastNameValid] = useState(true);
-  const [emailValid, setEmailValid] = useState(true);
-  const [messageValid, setMessageValid] = useState(true);
+  const [firstNameValid, setFirstNameValid] = useState();
+  const [lastNameValid, setLastNameValid] = useState();
+  const [emailValid, setEmailValid] = useState();
+  const [messageValid, setMessageValid] = useState();
 
   const [emailError, setEmailError] = useState('');
   const [formSent, setFormSent] = useState(false);
@@ -23,20 +23,24 @@ const ContactForm = () => {
 
   useEffect(() => {
     setFormIsValid(
-      firstNameValid && lastNameValid && emailValid && messageValid
+      firstName.length &&
+        lastName.length &&
+        email.length &&
+        email.match(EmailRegex) &&
+        message.length
     );
-  }, [firstName, lastName, emailValid, messageValid]);
+  }, [firstName, lastName, email, message]);
 
   const validateForm = (event) => {
     event.preventDefault();
-    if (firstNameValid && lastNameValid && emailValid && messageValid) {
-      try {
-        submitForm(event);
-        setFormSent(true);
-      } catch {
-        setFormSent(false);
-      }
-    }
+    // if (!formIsValid) return;
+    console.log(formIsValid ? true : false);
+    // try {
+    //   submitForm(event);
+    //   setFormSent(true);
+    // } catch {
+    //   setFormSent(false);
+    // }
   };
 
   // Change Handlers
@@ -57,11 +61,11 @@ const ContactForm = () => {
 
   // Input validations
   const validateFirstName = () => {
-    setFirstNameValid(firstName.length);
+    setFirstNameValid(firstName.length ? true : false);
   };
 
   const validateLastName = () => {
-    setLastNameValid(lastName.length);
+    setLastNameValid(lastName.length ? true : false);
   };
 
   const validateEmail = () => {
@@ -73,7 +77,7 @@ const ContactForm = () => {
   };
 
   const validateMessage = () => {
-    setMessageValid(message.length);
+    setMessageValid(message.length ? true : false);
   };
 
   return (
@@ -86,11 +90,11 @@ const ContactForm = () => {
             id='first-name'
             label='First Name *'
             name='first_name'
-            error={firstNameValid ? false : true}
             onChange={firstNameChangeHandler}
+            error={!firstNameValid}
             onBlur={validateFirstName}
           />
-          {!firstNameValid && (
+          {firstNameValid === false && (
             <p className='contact-form__message--error'>
               Field cannot be blank
             </p>
@@ -103,11 +107,11 @@ const ContactForm = () => {
             id='last-name'
             label='Last Name *'
             name='last_name'
-            error={lastNameValid ? false : true}
+            error={!lastNameValid}
             onChange={lastNameChangeHandler}
             onBlur={validateLastName}
           />
-          {!lastNameValid && (
+          {lastNameValid === false && (
             <p className='contact-form__message--error'>
               Field cannot be blank
             </p>
@@ -121,11 +125,11 @@ const ContactForm = () => {
         label='Email *'
         name='email'
         type='email'
-        error={emailValid ? false : true}
+        error={!emailValid}
         onChange={emailChangeHandler}
         onBlur={validateEmail}
       />
-      {!emailValid && (
+      {emailValid === false && (
         <p className='contact-form__message--error'>{emailError}</p>
       )}
 
@@ -137,11 +141,11 @@ const ContactForm = () => {
         id='message'
         label='Your Message *'
         name='message'
-        error={messageValid ? false : true}
+        error={!messageValid}
         onChange={messageChangeHandler}
         onBlur={validateMessage}
       />
-      {!messageValid && (
+      {messageValid === false && (
         <p className='contact-form__message--error'>Field cannot be blank</p>
       )}
 
