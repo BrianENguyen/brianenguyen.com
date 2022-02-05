@@ -91,7 +91,6 @@ const ContactForm = () => {
             label='First Name *'
             name='first_name'
             onChange={firstNameChangeHandler}
-            error={!firstNameValid}
             onBlur={validateFirstName}
           />
           {firstNameValid === false && (
@@ -107,7 +106,6 @@ const ContactForm = () => {
             id='last-name'
             label='Last Name *'
             name='last_name'
-            error={!lastNameValid}
             onChange={lastNameChangeHandler}
             onBlur={validateLastName}
           />
@@ -125,7 +123,6 @@ const ContactForm = () => {
         label='Email *'
         name='email'
         type='email'
-        error={!emailValid}
         onChange={emailChangeHandler}
         onBlur={validateEmail}
       />
@@ -141,7 +138,6 @@ const ContactForm = () => {
         id='message'
         label='Your Message *'
         name='message'
-        error={!messageValid}
         onChange={messageChangeHandler}
         onBlur={validateMessage}
       />
