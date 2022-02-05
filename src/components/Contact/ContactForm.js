@@ -33,14 +33,14 @@ const ContactForm = () => {
 
   const validateForm = (event) => {
     event.preventDefault();
-    // if (!formIsValid) return;
-    console.log(formIsValid ? true : false);
-    // try {
-    //   submitForm(event);
-    //   setFormSent(true);
-    // } catch {
-    //   setFormSent(false);
-    // }
+    if (!formIsValid) return;
+
+    try {
+      submitForm(event);
+      setFormSent(true);
+    } catch {
+      setFormSent(false);
+    }
   };
 
   // Change Handlers
@@ -73,7 +73,7 @@ const ContactForm = () => {
     if (email.length && !email.match(EmailRegex)) {
       setEmailError('Invalid email');
     }
-    setEmailValid(email.length && email.match(EmailRegex));
+    setEmailValid(email.length && email.match(EmailRegex) ? true : false);
   };
 
   const validateMessage = () => {
