@@ -1,83 +1,89 @@
 import { Grid, TextField } from '@mui/material';
-import { useState } from 'react';
+
+import { useState, useEffect } from 'react';
 import BtnStandardLight from '../UI/Button/BtnStandardLight';
 import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
-import { formSchema } from './ContactFormValidation';
+import EmailRegex from './EmailRegex';
 
-const ContactForm = (props) => {
-  const [firstNameValid, setFirstNameValid] = useState(true);
-  const [lastNameValid, setLastNameValid] = useState(true);
-  const [emailValid, setEmailValid] = useState(true);
-  const [messageValid, setMessageValid] = useState(true);
+const ContactForm = () => {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const [firstNameValid, setFirstNameValid] = useState();
+  const [lastNameValid, setLastNameValid] = useState();
+  const [emailValid, setEmailValid] = useState();
+  const [messageValid, setMessageValid] = useState();
 
   const [emailError, setEmailError] = useState('');
   const [formSent, setFormSent] = useState(false);
 
-  const validateForm = async (event) => {
+  const [formIsValid, setFormIsValid] = useState(false);
+
+  useEffect(() => {
+    setFormIsValid(
+      firstName.length &&
+        lastName.length &&
+        email.length &&
+        email.match(EmailRegex) &&
+        message.length
+    );
+  }, [firstName, lastName, email, message]);
+
+  const validateForm = (event) => {
     event.preventDefault();
+    if (!formIsValid) return;
 
-    if (firstNameValid && lastNameValid && emailValid && messageValid) {
-      event.preventDefault();
-
-      const fName = document.getElementById('first-name').value;
-      const lName = document.getElementById('last-name').value;
-      const e = document.getElementById('email').value;
-      const m = document.getElementById('message').value;
-
-      let formData = {
-        firstName: fName,
-        lastName: lName,
-        email: e,
-        message: m,
-      };
-      const isValid = await formSchema.isValid(formData);
-      if (isValid) {
-        try {
-          submitForm(event);
-          setFormSent(true);
-        } catch {
-          setFormSent(false);
-        }
-      }
+    try {
+      submitForm(event);
+      setFormSent(true);
+    } catch {
+      setFormSent(false);
     }
   };
 
-  const firstNameHandler = (e) => {
-    const firstName = e.target.value;
-    if (firstName.length > 0) {
-      setFirstNameValid(true);
-    } else setFirstNameValid(false);
+  // Change Handlers
+  const firstNameChangeHandler = (event) => {
+    setFirstName(event.target.value);
+    setFormSent(false);
   };
-  const lastNameHandler = (e) => {
-    const lastName = e.target.value;
-    if (lastName.length > 0) {
-      setLastNameValid(true);
-    } else setLastNameValid(false);
-  };
-  const emailHandler = (e) => {
-    const email = e.target.value;
 
-    if (email.length > 0) {
-      const re =
-        /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
-      const isValidEmailFormat = email.match(re);
-      if (isValidEmailFormat) {
-        setEmailValid(true);
-      } else {
-        setEmailValid(false);
-        setEmailError('Invalid email');
-      }
-    } else {
-      setEmailValid(false);
-      setEmailError('Field cannot be blank');
-    }
+  const lastNameChangeHandler = (event) => {
+    setLastName(event.target.value);
+    setFormSent(false);
   };
-  const messageHandler = (e) => {
-    const message = e.target.value;
-    if (message.length > 0) {
-      setMessageValid(true);
-    } else setMessageValid(false);
+
+  const emailChangeHandler = (event) => {
+    setEmail(event.target.value);
+    setFormSent(false);
+  };
+
+  const messageChangeHandler = (event) => {
+    setMessage(event.target.value);
+    setFormSent(false);
+  };
+
+  // Input validations
+  const validateFirstName = () => {
+    setFirstNameValid(firstName.length ? true : false);
+  };
+
+  const validateLastName = () => {
+    setLastNameValid(lastName.length ? true : false);
+  };
+
+  const validateEmail = () => {
+    if (!email.length) setEmailError('Field cannot be blank');
+    if (email.length && !email.match(EmailRegex)) {
+      setEmailError('Invalid email');
+    }
+    setEmailValid(email.length && email.match(EmailRegex) ? true : false);
+  };
+
+  const validateMessage = () => {
+    setMessageValid(message.length ? true : false);
   };
 
   return (
@@ -90,10 +96,10 @@ const ContactForm = (props) => {
             id='first-name'
             label='First Name *'
             name='first_name'
-            error={firstNameValid ? false : true}
-            onChange={firstNameHandler}
+            onChange={firstNameChangeHandler}
+            onBlur={validateFirstName}
           />
-          {!firstNameValid && (
+          {firstNameValid === false && (
             <p className='contact-form__message--error'>
               Field cannot be blank
             </p>
@@ -106,10 +112,10 @@ const ContactForm = (props) => {
             id='last-name'
             label='Last Name *'
             name='last_name'
-            error={lastNameValid ? false : true}
-            onChange={lastNameHandler}
+            onChange={lastNameChangeHandler}
+            onBlur={validateLastName}
           />
-          {!lastNameValid && (
+          {lastNameValid === false && (
             <p className='contact-form__message--error'>
               Field cannot be blank
             </p>
@@ -123,10 +129,10 @@ const ContactForm = (props) => {
         label='Email *'
         name='email'
         type='email'
-        error={emailValid ? false : true}
-        onChange={emailHandler}
+        onChange={emailChangeHandler}
+        onBlur={validateEmail}
       />
-      {!emailValid && (
+      {emailValid === false && (
         <p className='contact-form__message--error'>{emailError}</p>
       )}
 
@@ -138,10 +144,10 @@ const ContactForm = (props) => {
         id='message'
         label='Your Message *'
         name='message'
-        error={messageValid ? false : true}
-        onChange={messageHandler}
+        onChange={messageChangeHandler}
+        onBlur={validateMessage}
       />
-      {!messageValid && (
+      {messageValid === false && (
         <p className='contact-form__message--error'>Field cannot be blank</p>
       )}
 

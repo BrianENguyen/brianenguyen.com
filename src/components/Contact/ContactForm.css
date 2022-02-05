@@ -9,6 +9,7 @@
 
 .contact-form__message--error {
   color: rgb(207, 0, 0);
+  margin-top: 0;
 }
 .contact-form__message--success {
   color: #4caf50;
