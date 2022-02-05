@@ -1,5 +1,5 @@
 import { Grid, TextField } from '@mui/material';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import BtnStandardLight from '../UI/Button/BtnStandardLight';
 import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
@@ -19,9 +19,16 @@ const ContactForm = () => {
   const [emailError, setEmailError] = useState('');
   const [formSent, setFormSent] = useState(false);
 
+  const [formIsValid, setFormIsValid] = useState(false);
+
+  useEffect(() => {
+    setFormIsValid(
+      firstNameValid && lastNameValid && emailValid && messageValid
+    );
+  }, [firstName, lastName, emailValid, messageValid]);
+
   const validateForm = (event) => {
     event.preventDefault();
-
     if (firstNameValid && lastNameValid && emailValid && messageValid) {
       try {
         submitForm(event);
@@ -32,12 +39,15 @@ const ContactForm = () => {
     }
   };
 
+  // Change Handlers
   const firstNameChangeHandler = (event) => {
     setFirstName(event.target.value);
   };
+
   const lastNameChangeHandler = (event) => {
     setLastName(event.target.value);
   };
+
   const emailChangeHandler = (event) => {
     setEmail(event.target.value);
   };
@@ -45,6 +55,7 @@ const ContactForm = () => {
     setMessage(event.target.value);
   };
 
+  // Input validations
   const validateFirstName = () => {
     setFirstNameValid(firstName.length);
   };
