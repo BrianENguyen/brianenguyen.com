@@ -46,17 +46,22 @@ const ContactForm = () => {
   // Change Handlers
   const firstNameChangeHandler = (event) => {
     setFirstName(event.target.value);
+    setFormSent(false);
   };
 
   const lastNameChangeHandler = (event) => {
     setLastName(event.target.value);
+    setFormSent(false);
   };
 
   const emailChangeHandler = (event) => {
     setEmail(event.target.value);
+    setFormSent(false);
   };
+
   const messageChangeHandler = (event) => {
     setMessage(event.target.value);
+    setFormSent(false);
   };
 
   // Input validations
