@@ -1,14 +1,35 @@
 import { Link } from 'react-router-dom';
 import { CgClose } from 'react-icons/cg';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import './PrivacyDialog.css';
 
 const PrivacyDialog = () => {
   const [isVisible, setVisibility] = useState(true);
 
+  /**
+   * useEffect is used to hide the dialog if the user visits / refreshes
+   * the website (assuming that they have already clicked on the hide button).
+   * Dialog will become visible again once the user does so at least 3 times
+   */
+
+  useEffect(() => {
+    const item = localStorage.getItem('dialogHidden');
+    if (!item) return;
+    if (item >= 3) {
+      setVisibility(true);
+      localStorage.removeItem('dialogHidden');
+      return;
+    }
+    setVisibility(false);
+    let refreshCount = item;
+    refreshCount = +refreshCount + 1;
+    localStorage.setItem('dialogHidden', refreshCount);
+  }, []);
+
   const visibilityHandler = () => {
     setVisibility(false);
+    localStorage.setItem('dialogHidden', '1');
   };
 
   const dialogContent = (
