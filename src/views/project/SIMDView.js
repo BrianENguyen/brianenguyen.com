@@ -32,7 +32,7 @@ const SIMDView = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <Button>View Documentation</Button>
+              <Button className='btn-standard'>View Documentation</Button>
             </a>
           </p>
           <p>
@@ -41,7 +41,7 @@ const SIMDView = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <Button>View Repository</Button>
+              <Button className='btn-standard'>View Repository</Button>
             </a>
           </p>
           <img

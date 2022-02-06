@@ -33,7 +33,7 @@ const ThuView = () => {
         <div>
           <p>
             <a href='https://thuhnguyen.com/' target='_blank' rel='noreferrer'>
-              <Button>View Website</Button>
+              <Button className='btn-standard'>View Website</Button>
             </a>
           </p>
           <p>
@@ -42,7 +42,7 @@ const ThuView = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <Button>View Repository</Button>
+              <Button className='btn-standard'>View Repository</Button>
             </a>
           </p>
         </div>

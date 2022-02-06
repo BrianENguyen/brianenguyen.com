@@ -42,7 +42,7 @@ const LBTCView = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <Button>View Website</Button>
+              <Button className='btn-standard'>View Website</Button>
             </a>
           </p>
           <p>
@@ -51,7 +51,7 @@ const LBTCView = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <Button>View Repository</Button>
+              <Button className='btn-standard'>View Repository</Button>
             </a>
           </p>
         </div>

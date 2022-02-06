@@ -20,7 +20,7 @@ const ResumeView = () => {
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Download Resume</Button>
+          <Button className='btn-standard'>Download Resume</Button>
         </a>
       </center>
       <Resume />
@@ -30,7 +30,7 @@ const ResumeView = () => {
           target='_blank'
           rel='noreferrer'
         >
-          <Button>Download Resume</Button>
+          <Button className='btn-standard'>Download Resume</Button>
         </a>
       </center>
     </div>

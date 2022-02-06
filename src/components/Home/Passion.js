@@ -25,7 +25,7 @@ const Passion = () => {
               </p>
               <center>
                 <Link to='/portfolio'>
-                  <Button>View My Work</Button>
+                  <Button className='btn-standard'>View My Work</Button>
                 </Link>
               </center>
             </div>

@@ -39,7 +39,7 @@ const FirstSiteView = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <Button>View Repository</Button>
+              <Button className='btn-standard'>View Repository</Button>
             </a>
           </p>
         </div>
