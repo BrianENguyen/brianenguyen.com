@@ -28,7 +28,11 @@ const ContactForm = () => {
   useEffect(() => {
     const identifier = setTimeout(() => {
       setFormIsValid(
-        firstNameValid && lastNameValid && emailValid && messageValid
+        firstName.length &&
+          lastName.length &&
+          email.length &&
+          email.match(EmailRegex) &&
+          message.length
       );
     }, 1000);
     return () => {
@@ -100,6 +104,7 @@ const ContactForm = () => {
             id='first-name'
             label='First Name *'
             name='first_name'
+            error={firstNameValid !== undefined && !firstNameValid}
             onChange={firstNameChangeHandler}
             onBlur={validateFirstName}
           />
@@ -116,6 +121,7 @@ const ContactForm = () => {
             id='last-name'
             label='Last Name *'
             name='last_name'
+            error={lastNameValid !== undefined && !lastNameValid}
             onChange={lastNameChangeHandler}
             onBlur={validateLastName}
           />
@@ -133,6 +139,7 @@ const ContactForm = () => {
         label='Email *'
         name='email'
         type='email'
+        error={emailValid !== undefined && !emailValid}
         onChange={emailChangeHandler}
         onBlur={validateEmail}
       />
@@ -148,6 +155,7 @@ const ContactForm = () => {
         id='message'
         label='Your Message *'
         name='message'
+        error={messageValid !== undefined && !messageValid}
         onChange={messageChangeHandler}
         onBlur={validateMessage}
       />
