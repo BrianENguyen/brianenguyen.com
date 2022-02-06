@@ -2,7 +2,9 @@ import './Buttons.css';
 const Button = (props) => {
   return (
     <button
-      className={`btn ${props.className} `}
+      className={`btn  ${
+        props.disabled === 0 ? 'btn-disabled' : props.className
+      }`}
       disabled={props.disabled === 0 && true}
     >
       {props.children}
