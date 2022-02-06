@@ -13,10 +13,9 @@ const PrivacyDialog = () => {
 
   const dialogContent = (
     <div className='privacy-dialog'>
-      <CgClose
-        className='privacy-dialog__close-btn'
-        onClick={visibilityHandler}
-      />
+      <button className='privacy-dialog__close-btn'>
+        <CgClose onClick={visibilityHandler} />
+      </button>
       <p>
         I use cookies and other technologies to help me understand how you use
         this website. <Link to='/privacy-policy'>Privacy Policy</Link>
