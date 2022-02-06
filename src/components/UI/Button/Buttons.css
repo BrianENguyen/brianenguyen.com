@@ -24,3 +24,8 @@
   background-color: #79c2d0;
   color: white !important;
 }
+
+.btn-disabled {
+  color: white;
+  color: gray;
+}
