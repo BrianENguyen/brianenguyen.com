@@ -48,6 +48,7 @@ const ContactForm = () => {
     try {
       submitForm(event);
       setFormSent(true);
+      setFormIsValid(false);
     } catch {
       setFormSent(false);
     }
