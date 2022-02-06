@@ -22,7 +22,7 @@ const ContactForm = () => {
   const [formIsValid, setFormIsValid] = useState(false);
 
   /**
-   * Check form validity after a one second
+   * Check form validity after a 500ms
    * pause in keystrokes
    */
   useEffect(() => {
@@ -34,7 +34,7 @@ const ContactForm = () => {
           email.match(EmailRegex) &&
           message.length
       );
-    }, 1000);
+    }, 500);
     return () => {
       clearTimeout(identifier);
     };
