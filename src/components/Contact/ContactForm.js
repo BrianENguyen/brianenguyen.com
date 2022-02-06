@@ -164,7 +164,7 @@ const ContactForm = () => {
         <p className='contact-form__message--error'>Field cannot be blank</p>
       )}
 
-      <Button className='btn-standard-light' disabled={formIsValid}>
+      <Button className='btn-standard-light' disabled={!formIsValid}>
         Submit
       </Button>
       {formSent && <p className='contact-form__message--success'>Form sent!</p>}

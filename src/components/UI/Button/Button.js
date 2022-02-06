@@ -1,11 +1,10 @@
 import './Buttons.css';
 const Button = (props) => {
+  console.log(props.disabled);
   return (
     <button
-      className={`btn  ${
-        props.disabled === 0 ? 'btn-disabled' : props.className
-      }`}
-      disabled={props.disabled === 0 && true}
+      className={`btn  ${props.disabled ? 'btn-disabled' : props.className}`}
+      disabled={props.disabled && true}
     >
       {props.children}
     </button>
