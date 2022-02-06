@@ -1,7 +1,6 @@
 import { Container } from '@mui/material';
 
 import Jumbotron from '../../components/UI/Jumbotron';
-import BtnStandard from '../../components/UI/Button/BtnStandard';
 import './ProjectView.css';
 
 const FirstSiteView = () => {

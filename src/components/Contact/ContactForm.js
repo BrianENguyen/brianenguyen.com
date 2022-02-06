@@ -1,6 +1,6 @@
 import { Grid, TextField } from '@mui/material';
 import { useState, useEffect } from 'react';
-import BtnStandardLight from '../UI/Button/BtnStandardLight';
+import Button from '../UI/Button/Button';
 import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
 import EmailRegex from './EmailRegex';
@@ -163,7 +163,9 @@ const ContactForm = () => {
         <p className='contact-form__message--error'>Field cannot be blank</p>
       )}
 
-      <BtnStandardLight>Submit</BtnStandardLight>
+      <Button className='btn-standard-light' disabled={formIsValid}>
+        Submit
+      </Button>
       {formSent && <p className='contact-form__message--success'>Form sent!</p>}
     </form>
   );

@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 
 import Jumbotron from '../../components/UI/Jumbotron';
-import BtnStandard from '../../components/UI/Button/BtnStandard';
+import Button from '../../components/UI/Button/Button';
 import './ProjectView.css';
 
 const YelpCamp = () => {
@@ -34,7 +34,7 @@ const YelpCamp = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <BtnStandard>View Website</BtnStandard>
+              <Button>View Website</Button>
             </a>
           </p>
           <p>
@@ -43,7 +43,7 @@ const YelpCamp = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <BtnStandard>View Repository</BtnStandard>
+              <Button>View Repository</Button>
             </a>
           </p>
         </div>
