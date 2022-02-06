@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 import NavbarBrand from './NavbarBrand';
@@ -11,9 +11,11 @@ const Navbar = () => {
   const [background, setBackground] = useState(false);
 
   // Functions
-  const showMobileButton = () => {
-    if (window.innerWidth <= 732) setMobileButton(true);
-    else setMobileButton(false);
+  const showMobileView = () => {
+    if (window.innerWidth <= 850) {
+      setMobileButton(true);
+      showBackground();
+    } else setMobileButton(false);
   };
 
   const showMobileMenu = () => {
@@ -23,8 +25,12 @@ const Navbar = () => {
     }
   };
 
+  const hideMobileMenu = () => {
+    setMobileMenu(false);
+  };
+
   const showBackground = () => {
-    if (window.scrollY >= 100 || window.innerWidth <= 732) {
+    if (window.scrollY >= 100 || window.innerWidth <= 850) {
       setBackground(true);
     } else setBackground(false);
   };
@@ -38,51 +44,72 @@ const Navbar = () => {
   );
 
   useEffect(() => {
-    showMobileButton();
-  }, []);
+    showMobileView();
+  });
 
-  /*FIXME: navbar doesn't change BG on initial mobile view state
-    FIXME: mobile menu doesn't go away when clicking on the link
-    TODO: smooth animation when clicking on mobile button 
-     */
-
-  window.addEventListener('resize', showMobileButton);
+  window.addEventListener('resize', showMobileView);
   window.addEventListener('scroll', showBackground);
 
   return (
     <nav className={background ? 'navbar navbar--scroll' : 'navbar'}>
       <div>
-        <Link className='navbar__brand' to='/'>
+        <NavLink className='navbar__brand' to='/'>
           <NavbarBrand />
-        </Link>
+        </NavLink>
       </div>
       {mobileButton && mobileButtonContent}
       <div className={mobileMenu ? 'navbar__links' : 'navbar__links active'}>
         <ul>
           <li>
-            <Link className='navbar__link' to='/'>
+            <NavLink
+              exact
+              className='navbar__link'
+              activeClassName='navbar__link active'
+              to='/'
+              onClick={hideMobileMenu}
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='navbar__link' to='/about'>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link className='navbar__link' to='/portfolio'>
-              Portfolio
-            </Link>
-          </li>
-          <li>
-            <Link className='navbar__link' to='/resume'>
+            <NavLink
+              className='navbar__link'
+              activeClassName='navbar__link active'
+              to='/resume'
+              onClick={hideMobileMenu}
+            >
               Resume
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='navbar__link' to='/contact'>
+            <NavLink
+              className='navbar__link'
+              activeClassName='navbar__link active'
+              to='/portfolio'
+              onClick={hideMobileMenu}
+            >
+              Portfolio
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className='navbar__link'
+              activeClassName='navbar__link active'
+              to='/about'
+              onClick={hideMobileMenu}
+            >
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className='navbar__link'
+              activeClassName='navbar__link active'
+              to='/contact'
+              onClick={hideMobileMenu}
+            >
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>

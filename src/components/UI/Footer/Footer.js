@@ -1,9 +1,8 @@
-import { Grid, Container } from '@mui/material';
-
-import FooterButtons from './FooterButtons';
-import FooterBrand from './FooterBrand';
-import './Footer.css';
+import { Container, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
+import './Footer.css';
+import FooterBrand from './FooterBrand';
+import FooterButtons from './FooterButtons';
 
 const Footer = () => {
   return (

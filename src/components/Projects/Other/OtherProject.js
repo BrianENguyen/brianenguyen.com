@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 import './OtherProjects.css';
 
-// FIXME: add margins between cards
 const OtherProject = (props) => {
   return (
     <Card className='other-project-card'>

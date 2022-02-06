@@ -1,0 +1,39 @@
+.jumbotron {
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  background: no-repeat center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  text-align: center !important;
+}
+
+.jumbotron__content {
+  padding-top: 40vh;
+}
+
+.jumbotron__title {
+  padding: 0;
+  margin: 0;
+}
+
+.jumbotron__description {
+  text-align: center;
+  font-size: 1.5rem;
+}
+@media (min-width: 0px) {
+  .jumbotron__title {
+    font-size: 15vw;
+  }
+}
+@media (min-width: 576px) {
+  .jumbotron__title {
+    font-size: 10vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron__title {
+    font-size: 6rem;
+  }
+}

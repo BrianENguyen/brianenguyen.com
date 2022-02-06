@@ -1,11 +1,14 @@
 import { Container } from '@mui/material';
+import { ProbAndStatsData } from '../../components/Helper/JumbotronData';
+import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import Button from '../../components/UI/Button/Button';
 import './ProjectView.css';
 
 const ProbAndStatsView = () => {
-  const jumboTitle = 'EE 381 - Probability and Stats Computing';
+  const jumboTitle = ProbAndStatsData.title;
+  TitleChange('Probability and Stats | BEN');
 
   return (
     <div>

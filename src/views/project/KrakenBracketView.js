@@ -1,11 +1,14 @@
 import { Container } from '@mui/material';
+import { KrakenBracketData } from '../../components/Helper/JumbotronData';
+import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import Button from '../../components/UI/Button/Button';
 import './ProjectView.css';
 
 const KrakenBracketView = () => {
-  const jumboTitle = 'Senior Project: Kraken Bracket';
+  const jumboTitle = KrakenBracketData.title;
+  TitleChange('Kraken Bracket | BEN');
 
   return (
     <div>
@@ -64,6 +67,7 @@ const KrakenBracketView = () => {
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1620240516/BEN_Website/projects/krakenbracket_wvd57j.jpg'
           className='project-view__image'
+          alt=''
         />
       </Container>
       <Container>

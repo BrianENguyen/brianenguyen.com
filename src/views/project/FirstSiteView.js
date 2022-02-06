@@ -1,10 +1,16 @@
 import { Container } from '@mui/material';
+import { FirstSiteData } from '../../components/Helper/JumbotronData';
+import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron';
-import './ProjectView.css';
+import Button from '../../components/UI/Button/Button';
 
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+
+// TODO: link to old site and repo
 const FirstSiteView = () => {
-  const jumboTitle = 'My First Personal Website';
+  TitleChange('My First Website | BEN');
+
+  const jumboTitle = FirstSiteData.title;
 
   return (
     <div className='old-site'>
@@ -26,18 +32,31 @@ const FirstSiteView = () => {
             <li>Express.js</li>
           </ul>
         </div>
-
+        <div>
+          <p>
+            <a
+              href='https://github.com/Brian-E-Nguyen/BEN-Website'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <Button>View Repository</Button>
+            </a>
+          </p>
+        </div>
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639689243/BEN_Website/projects/firstsite-1_h2xzox.png'
           className='project-view__image'
+          alt=''
         />
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639689243/BEN_Website/projects/firstsite-2_ryw1ve.png'
           className='project-view__image'
+          alt=''
         />
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1639689351/BEN_Website/projects/firstsite-3_ojidcq.png'
           className='project-view__image'
+          alt=''
         />
       </Container>
 

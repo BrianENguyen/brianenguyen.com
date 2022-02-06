@@ -1,11 +1,14 @@
 import { Container } from '@mui/material';
+import { ThuData } from '../../components/Helper/JumbotronData';
+import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import Button from '../../components/UI/Button/Button';
 import './ProjectView.css';
 
 const ThuView = () => {
-  const jumboTitle = "Thu Nguyen's Website";
+  const jumboTitle = ThuData.title;
+  TitleChange('Thu Nguyen | BEN');
 
   return (
     <div>

@@ -1,11 +1,14 @@
 import { Container } from '@mui/material';
+import { SIMDData } from '../../components/Helper/JumbotronData';
+import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import Button from '../../components/UI/Button/Button';
 import './ProjectView.css';
 
 const SIMDView = () => {
-  const jumboTitle = 'SIMD Enhanced MIPS Instructions';
+  const jumboTitle = SIMDData.title;
+  TitleChange('SIMD Enhanced MIPS Instructions | BEN');
 
   return (
     <div>
@@ -44,6 +47,7 @@ const SIMDView = () => {
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/v1620240514/BEN_Website/projects/simd_ndwgst.jpg'
             className='project-view__image'
+            alt=''
           />
         </div>
       </Container>

@@ -1,11 +1,14 @@
 import { Container } from '@mui/material';
+import { YelpCampData } from '../../components/Helper/JumbotronData';
+import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import Button from '../../components/UI/Button/Button';
 import './ProjectView.css';
 
 const YelpCamp = () => {
-  const jumboTitle = 'YelpCamp';
+  const jumboTitle = YelpCampData.title;
+  TitleChange('YelpCamp | BEN');
 
   return (
     <div className='yelpcamp'>
@@ -51,6 +54,7 @@ const YelpCamp = () => {
         <img
           src='https://res.cloudinary.com/buraiyen/image/upload/v1620240514/BEN_Website/projects/yelpcamp_collage_tarzq8.jpg'
           className='project-view__image'
+          alt=''
         />
       </Container>
     </div>

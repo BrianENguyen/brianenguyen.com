@@ -1,0 +1,29 @@
+.facts {
+  margin: 10rem 0;
+}
+
+div.facts__section {
+  top: 25%;
+  position: relative;
+}
+
+.facts__image {
+  width: 100%;
+  object-fit: cover;
+}
+@media (min-width: 0px) {
+  div.facts__section {
+    top: 0;
+    position: relative;
+  }
+}
+@media (min-width: 600px) {
+  .facts__image {
+    max-width: 50vw;
+  }
+}
+@media (min-width: 992px) {
+  .facts__image {
+    max-width: 60vw;
+  }
+}

@@ -1,10 +1,10 @@
 const WebCardData = [
   {
-    title: 'About',
+    title: 'Resume',
     description:
-      'Get to know more about me, the technologies I use, and my future goals',
-    linkText: 'About me',
-    link: '/about',
+      'View my resume to know more about my education, work experience, and more',
+    linkText: 'View resume',
+    link: '/resume',
   },
   {
     title: 'Portfolio',
@@ -13,17 +13,17 @@ const WebCardData = [
     link: '/portfolio',
   },
   {
-    title: 'Resume',
+    title: 'About',
     description:
-      'View my resume to know more about my education, work experience, and more',
-    linkText: 'View resume ',
-    link: '/resume',
+      'Dive deep into my life to know more about me, my passions, and my future goals',
+    linkText: 'About me',
+    link: '/about',
   },
   {
     title: 'Contact',
     description:
       "Get in touch we me for any reason, whether it'd be for services, inquiries or just chatting",
-    linkText: 'View portfolio',
+    linkText: 'Contact Me',
     link: '/contact',
   },
 ];

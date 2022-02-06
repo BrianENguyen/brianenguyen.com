@@ -1,5 +1,4 @@
-import { Grid, Container } from '@mui/material';
-
+import { Container, Grid } from '@mui/material';
 import './Backstory.css';
 
 const Backstory = () => {
@@ -8,7 +7,7 @@ const Backstory = () => {
       <Container maxWidth='xl'>
         <Grid container spacing={2}>
           <Grid item xs={12} md={4}>
-            <h2 className='backstory__header'>My Story</h2>
+            <h1 className='backstory__header'>My Story</h1>
           </Grid>
           <Grid item xs={12} md={8}>
             <p>

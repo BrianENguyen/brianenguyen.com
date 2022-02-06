@@ -1,11 +1,14 @@
 import { Container } from '@mui/material';
+import { LBTCData } from '../../components/Helper/JumbotronData';
+import { TitleChange } from '../../components/Helper/TitleChange';
 
-import Jumbotron from '../../components/UI/Jumbotron';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import Button from '../../components/UI/Button/Button';
 import './ProjectView.css';
 
 const LBTCView = () => {
-  const jumboTitle = 'CSULB Tzu Ching';
+  const jumboTitle = LBTCData.title;
+  TitleChange('CSULB Tzu Ching | BEN');
 
   return (
     <div>
