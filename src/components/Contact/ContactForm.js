@@ -21,14 +21,19 @@ const ContactForm = () => {
 
   const [formIsValid, setFormIsValid] = useState(false);
 
+  /**
+   * Check form validity after a one second
+   * pause in keystrokes
+   */
   useEffect(() => {
-    setFormIsValid(
-      firstName.length &&
-        lastName.length &&
-        email.length &&
-        email.match(EmailRegex) &&
-        message.length
-    );
+    const identifier = setTimeout(() => {
+      setFormIsValid(
+        firstNameValid && lastNameValid && emailValid && messageValid
+      );
+    }, 1000);
+    return () => {
+      clearTimeout(identifier);
+    };
   }, [firstName, lastName, email, message]);
 
   const validateForm = (event) => {
