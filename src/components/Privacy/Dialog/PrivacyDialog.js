@@ -22,7 +22,16 @@ const PrivacyDialog = () => {
       </p>
     </div>
   );
-  return isVisible && dialogContent;
+  return (
+    isVisible && (
+      <>
+        {ReactDOM.createPortal(
+          dialogContent,
+          document.getElementById('overlay-root')
+        )}
+      </>
+    )
+  );
 };
 
 export default PrivacyDialog;
