@@ -51,8 +51,9 @@ const ResumeProjects = () => {
         </Grid>
         <Grid item xs={12}>
           <p className='resume__leftcolumn--project-description'>
-            Personal portfolio that showcases programming work. Developed with
-            React.js, Material UI Framework, React Router, and EmailJS
+            Personal portfolio that showcases programming work. Developed with{' '}
+            <strong>React.js</strong>, <strong>Material UI Framework</strong>,{' '}
+            <strong>React Router</strong>, and <strong>EmailJS</strong>
           </p>
         </Grid>
       </Grid>
@@ -78,8 +79,8 @@ const ResumeProjects = () => {
           <p className='resume__leftcolumn--project-description'>
             Website developed for CSULB Tzu Ching, a collegiate volunteering
             organization that focuses on medicine, education, charity, and
-            humanistic culture. Developed with the Vue.js and Vuetify material
-            design framework
+            humanistic culture. Developed with the <strong>Vue.js</strong> and
+            <strong>Vuetify</strong> material design framework
           </p>
         </Grid>
       </Grid>
@@ -108,24 +109,29 @@ const ResumeProjects = () => {
             aspects between tournament players, spectators, and organizers
           </p>
           <ul className='resume__list'>
-            <li>Front-end developed with Vue.js</li>
             <li>
-              Back-end developed with ASP .NET Core 2.2 for web API’s, along
-              with .NET Core 2.2 for business rules/data access
+              Front-end developed with <strong>Vue.js</strong>
+            </li>
+            <li>
+              Back-end developed with <strong>ASP .NET Core 2.2</strong> for web
+              API’s, along with <strong>.NET Core 2.2</strong> for business
+              rules/data access
             </li>
             <li>
               Integrated back-end data to the front-end for tournament bracket,
               authentication, and authorization modules
             </li>
             <li>
-              Produced unit and E2E testing for various front-end and back-end
-              features
+              Produced <strong>unit and E2E</strong> testing for various
+              front-end and back-end features
             </li>
             <li>
               Taught all team members Vue.js fundamentals; improved productivity
               by 20%
             </li>
-            <li>Followed Agile through Scrum Methodology</li>
+            <li>
+              Followed <strong>Agile through Scrum Methodology</strong>
+            </li>
             <li>
               Dealt with scope creep and resource creep. Developed remote work
               skills
