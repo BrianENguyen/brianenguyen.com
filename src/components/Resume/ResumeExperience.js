@@ -24,12 +24,12 @@ const ResumeExperience = () => {
         <div>
           <ul className='resume__list'>
             <li>
-              Tutored children on programming fundamentals using JavaScript,
-              Lua, C#, and Scratch coding languages
+              Taught programming fundamentals using JavaScript, Lua, and C#
+              coding languages
             </li>
             <li>
-              Assisted children in creating video games and helped debugged
-              errors, which increased the completion rate by 50%
+              Assisted in creating video games and helped debugged errors, which
+              increased the completion rate by 50%
             </li>
             <li>
               Developed and led multiple STEM and game building camps that had
