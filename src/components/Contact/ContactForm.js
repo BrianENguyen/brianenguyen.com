@@ -97,7 +97,11 @@ const ContactForm = () => {
   };
 
   return (
-    <form className='contact-form' onSubmit={validateForm}>
+    <form
+      className='contact-form'
+      data-testid='contact-form'
+      onSubmit={validateForm}
+    >
       <Grid container spacing={2}>
         {/* First name */}
         <Grid item xs={6} md={6}>
