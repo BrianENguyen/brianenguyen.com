@@ -1,15 +1,16 @@
 import { Container } from '@mui/material';
+import { useEffect } from 'react';
 import { FrontendMentorData } from '../../components/Helper/JumbotronData';
-import { TitleChange } from '../../components/Helper/TitleChange';
-
+import { FrontendMentorPageTitle } from '../../components/Helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
-
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 const FrontendMentorView = () => {
-  TitleChange('Frontend Mentor Challenges | BEN');
-
   const jumboTitle = FrontendMentorData.title;
+
+  useEffect(() => {
+    document.title = FrontendMentorPageTitle;
+  }, []);
 
   return (
     <div className='frontend-mentor'>

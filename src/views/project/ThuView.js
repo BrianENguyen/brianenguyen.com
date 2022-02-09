@@ -1,14 +1,16 @@
 import { Container } from '@mui/material';
+import { useEffect } from 'react';
 import { ThuData } from '../../components/Helper/JumbotronData';
-import { TitleChange } from '../../components/Helper/TitleChange';
-
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import { ThuPageTitle } from '../../components/Helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const ThuView = () => {
   const jumboTitle = ThuData.title;
-  TitleChange('Thu Nguyen | BEN');
+  useEffect(() => {
+    document.title = ThuPageTitle;
+  }, []);
 
   return (
     <div>

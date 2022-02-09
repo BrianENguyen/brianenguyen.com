@@ -1,14 +1,16 @@
 import { Container } from '@mui/material';
+import { useEffect } from 'react';
 import { YelpCampData } from '../../components/Helper/JumbotronData';
-import { TitleChange } from '../../components/Helper/TitleChange';
-
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import { YelpCampPageTitle } from '../../components/Helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const YelpCamp = () => {
   const jumboTitle = YelpCampData.title;
-  TitleChange('YelpCamp | BEN');
+  useEffect(() => {
+    document.title = YelpCampPageTitle;
+  }, []);
 
   return (
     <div className='yelpcamp'>

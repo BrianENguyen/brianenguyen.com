@@ -1,14 +1,14 @@
 import { Container } from '@mui/material';
+import { useEffect } from 'react';
 import { FirstSiteData } from '../../components/Helper/JumbotronData';
-import { TitleChange } from '../../components/Helper/TitleChange';
-
+import { FirstSitePageTitle } from '../../components/Helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
-
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
-// TODO: link to old site and repo
 const FirstSiteView = () => {
-  TitleChange('My First Website | BEN');
+  useEffect(() => {
+    document.title = FirstSitePageTitle;
+  }, []);
 
   const jumboTitle = FirstSiteData.title;
 

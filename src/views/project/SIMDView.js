@@ -1,14 +1,16 @@
 import { Container } from '@mui/material';
+import { useEffect } from 'react';
 import { SIMDData } from '../../components/Helper/JumbotronData';
-import { TitleChange } from '../../components/Helper/TitleChange';
-
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import { SIMDPageTitle } from '../../components/Helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const SIMDView = () => {
   const jumboTitle = SIMDData.title;
-  TitleChange('SIMD Enhanced MIPS Instructions | BEN');
+  useEffect(() => {
+    document.title = SIMDPageTitle;
+  }, []);
 
   return (
     <div>
