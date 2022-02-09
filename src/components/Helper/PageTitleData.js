@@ -12,6 +12,8 @@ const ContactPageTitle = `Contact ${suffix}`;
 
 const ErrorPageTitle = `404 ${suffix}`;
 
+const PrivacyPageTitle = `Privacy Policy ${suffix}`;
+
 const FirstSitePageTitle = `My First Website ${suffix}`;
 
 const FrontendMentorPageTitle = `Frontend Mentor Challenges ${suffix}`;
@@ -37,6 +39,7 @@ export {
   AboutPageTitle,
   ContactPageTitle,
   ErrorPageTitle,
+  PrivacyPageTitle,
   FirstSitePageTitle,
   FrontendMentorPageTitle,
   KrakenBracketPageTitle,
