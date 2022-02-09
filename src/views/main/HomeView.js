@@ -1,5 +1,6 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
+import AnimatedPage from '../../components/Animations/AnimatedPage';
 import { HomeData } from '../../components/Helper/JumbotronData';
 import { HomePageTitle } from '../../components/Helper/PageTitleData';
 import Passion from '../../components/Home/Passion';
@@ -17,18 +18,20 @@ const HomeView = () => {
   const jumboDescription = HomeData.description;
 
   return (
-    <div className='home'>
-      <Jumbotron
-        image={jumboImage}
-        title={jumboTitle}
-        description={jumboDescription}
-      />
-      <Container maxWidth='xl'>
-        <Passion />
-        <WebCardList />
-        <RecentProjectList />
-      </Container>
-    </div>
+    <AnimatedPage>
+      <div className='home'>
+        <Jumbotron
+          image={jumboImage}
+          title={jumboTitle}
+          description={jumboDescription}
+        />
+        <Container maxWidth='xl'>
+          <Passion />
+          <WebCardList />
+          <RecentProjectList />
+        </Container>
+      </div>
+    </AnimatedPage>
   );
 };
 

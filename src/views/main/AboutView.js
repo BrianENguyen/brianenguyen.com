@@ -6,7 +6,7 @@ import Quote from '../../components/About/Quote';
 import { AboutData } from '../../components/Helper/JumbotronData';
 import { AboutPageTitle } from '../../components/Helper/PageTitleData';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
-
+import AnimatedPage from '../../components/Animations/AnimatedPage';
 const AboutView = () => {
   const jumboTitle = 'About Me';
   const jumboImage = AboutData.image;
@@ -16,13 +16,15 @@ const AboutView = () => {
   }, []);
 
   return (
-    <div className='about'>
-      <Jumbotron image={jumboImage} title={jumboTitle} />
-      <Quote />
-      <Facts />
-      <Backstory />
-      <ImageGallery />
-    </div>
+    <AnimatedPage>
+      <div className='about'>
+        <Jumbotron image={jumboImage} title={jumboTitle} />
+        <Quote />
+        <Facts />
+        <Backstory />
+        <ImageGallery />
+      </div>
+    </AnimatedPage>
   );
 };
 
