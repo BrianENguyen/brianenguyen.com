@@ -1,5 +1,6 @@
 import { Container } from '@mui/material';
-import { TitleChange } from '../../components/Helper/TitleChange';
+import { useEffect } from 'react';
+import { PrivacyPageTitle } from '../../components/Helper/PageTitleData';
 import PrivacyCCPA from '../../components/Privacy/Policy/PrivacyCCPA';
 import PrivacyChildRights from '../../components/Privacy/Policy/PrivacyChildRights';
 import PrivacyCookies from '../../components/Privacy/Policy/PrivacyCookies';
@@ -11,7 +12,9 @@ import '../../components/Privacy/Policy/PrivacyPolicy.css';
 import PrivacyThirdParty from '../../components/Privacy/Policy/PrivacyThirdParty';
 
 const PrivacyView = () => {
-  TitleChange('Privacy Policy | BEN');
+  useEffect(() => {
+    document.title = PrivacyPageTitle;
+  }, []);
 
   return (
     <div className='privacy'>

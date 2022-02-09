@@ -1,15 +1,18 @@
 import { Container } from '@mui/material';
+import { useEffect } from 'react';
 import ContactForm from '../../components/Contact/ContactForm';
 import { ContactData } from '../../components/Helper/JumbotronData';
-import { TitleChange } from '../../components/Helper/TitleChange';
-
+import { ContactPageTitle } from '../../components/Helper/PageTitleData';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 const ContactView = () => {
-  TitleChange('Contact | BEN');
-
   const jumboTitle = ContactData.title;
   const jumboImage = ContactData.image;
+
+  useEffect(() => {
+    document.title = ContactPageTitle;
+  }, []);
+
   return (
     <div
       className='contact'

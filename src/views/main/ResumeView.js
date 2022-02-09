@@ -1,12 +1,14 @@
+import { useEffect } from 'react';
 import { ResumeData } from '../../components/Helper/JumbotronData';
-import { TitleChange } from '../../components/Helper/TitleChange';
+import { ResumePageTitle } from '../../components/Helper/PageTitleData';
 import Resume from '../../components/Resume/Resume';
 import Button from '../../components/UI/Button/Button';
-
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 const ResumeView = () => {
-  TitleChange('Resume | BEN');
+  useEffect(() => {
+    document.title = ResumePageTitle;
+  });
 
   const jumboTitle = ResumeData.title;
   const jumboImage = ResumeData.image;

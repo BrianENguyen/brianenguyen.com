@@ -1,14 +1,16 @@
+import { useEffect } from 'react';
 import { ErrorData } from '../../components/Helper/JumbotronData';
-import { TitleChange } from '../../components/Helper/TitleChange';
-
+import { ErrorPageTitle } from '../../components/Helper/PageTitleData';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 const ErrorView = () => {
-  TitleChange('404 | BEN');
-
   const jumboImage = ErrorData.image;
   const jumboTitle = ErrorData.title;
   const jumboDescription = ErrorData.description;
+
+  useEffect(() => {
+    document.title = ErrorPageTitle;
+  }, []);
 
   return (
     <div className='error'>
