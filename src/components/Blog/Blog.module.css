@@ -8,4 +8,9 @@
 }
 
 .blog-card__link {
+  transition: color 0.3s;
+}
+
+.blog-card__link:hover {
+  color: white;
 }
