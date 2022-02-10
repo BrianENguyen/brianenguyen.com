@@ -7,6 +7,11 @@
 .blog-card__description {
 }
 
+.blog-card__image {
+  width: 350px;
+  max-width: 100%;
+}
+
 .blog-card__link {
   transition: color 0.3s;
 }
