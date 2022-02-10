@@ -13,6 +13,7 @@ html {
   background-color: black;
   color: white;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 a {
