@@ -5,6 +5,8 @@ import HomeView from '../../views/main/HomeView';
 import PortfolioView from '../../views/main/PortfolioView';
 import PrivacyView from '../../views/main/PrivacyView';
 import ResumeView from '../../views/main/ResumeView';
+import BlogView from '../../views/main/BlogView';
+
 import FirstSiteView from '../../views/project/FirstSiteView';
 import FrontendMentorView from '../../views/project/FrontendMentorView';
 import KrakenBracketView from '../../views/project/KrakenBracketView';
@@ -19,6 +21,8 @@ const ROUTES = [
   { path: '/', exact: true, key: 'Home', component: HomeView },
   { path: '/resume', key: 'Resume', component: ResumeView },
   { path: '/portfolio', key: 'Portfolio', component: PortfolioView },
+  { path: '/blog', key: 'Blog', component: BlogView },
+
   { path: '/about', key: 'About', component: AboutView },
   { path: '/contact', key: 'Contact', component: ContactView },
   { path: '/privacy-policy', key: 'Privacy Policy', component: PrivacyView },

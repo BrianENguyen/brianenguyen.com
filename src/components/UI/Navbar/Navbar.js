@@ -95,6 +95,16 @@ const Navbar = () => {
             <NavLink
               className='navbar__link'
               activeClassName='navbar__link active'
+              to='/blog'
+              onClick={hideMobileMenu}
+            >
+              Blog
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className='navbar__link'
+              activeClassName='navbar__link active'
               to='/about'
               onClick={hideMobileMenu}
             >
