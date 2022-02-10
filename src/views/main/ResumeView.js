@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import AnimatedPage from '../../components/Animations/AnimatedPage';
 import { ResumeData } from '../../components/Helper/JumbotronData';
 import { ResumePageTitle } from '../../components/Helper/PageTitleData';
 import Resume from '../../components/Resume/Resume';
@@ -14,28 +15,30 @@ const ResumeView = () => {
   const jumboImage = ResumeData.image;
 
   return (
-    <div style={{ marginBottom: 3 + 'rem' }}>
-      <Jumbotron image={jumboImage} title={jumboTitle} />
-      <center style={{ marginTop: 3 + 'rem' }}>
-        <a
-          href='https://u.pcloud.link/publink/show?code=XZmLriXZ5s0NbDhswCX93zpTdtz505tY8ARX'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <Button className='btn-standard'>Download Resume</Button>
-        </a>
-      </center>
-      <Resume />
-      <center>
-        <a
-          href='https://u.pcloud.link/publink/show?code=XZmLriXZ5s0NbDhswCX93zpTdtz505tY8ARX'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <Button className='btn-standard'>Download Resume</Button>
-        </a>
-      </center>
-    </div>
+    <AnimatedPage>
+      <div style={{ marginBottom: 3 + 'rem' }}>
+        <Jumbotron image={jumboImage} title={jumboTitle} />
+        <center style={{ marginTop: 3 + 'rem' }}>
+          <a
+            href='https://u.pcloud.link/publink/show?code=XZmLriXZ5s0NbDhswCX93zpTdtz505tY8ARX'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <Button className='btn-standard'>Download Resume</Button>
+          </a>
+        </center>
+        <Resume />
+        <center>
+          <a
+            href='https://u.pcloud.link/publink/show?code=XZmLriXZ5s0NbDhswCX93zpTdtz505tY8ARX'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <Button className='btn-standard'>Download Resume</Button>
+          </a>
+        </center>
+      </div>
+    </AnimatedPage>
   );
 };
 

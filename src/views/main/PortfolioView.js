@@ -1,5 +1,6 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
+import AnimatedPage from '../../components/Animations/AnimatedPage';
 import { PortfolioData } from '../../components/Helper/JumbotronData';
 import { PortfolioPageTitle } from '../../components/Helper/PageTitleData';
 import ProjectsList from '../../components/Projects/Main/ProjectsList';
@@ -15,13 +16,15 @@ const PortfolioView = () => {
   }, []);
 
   return (
-    <div className='portfolio'>
-      <Jumbotron image={jumboImage} title={jumboTitle} />
-      <Container maxWidth='xl'>
-        <ProjectsList />
-        <OtherProjectsList />
-      </Container>
-    </div>
+    <AnimatedPage>
+      <div className='portfolio'>
+        <Jumbotron image={jumboImage} title={jumboTitle} />
+        <Container maxWidth='xl'>
+          <ProjectsList />
+          <OtherProjectsList />
+        </Container>
+      </div>
+    </AnimatedPage>
   );
 };
 

@@ -10,6 +10,7 @@ import PrivacyIntro from '../../components/Privacy/Policy/PrivacyIntro';
 import PrivacyLog from '../../components/Privacy/Policy/PrivacyLog';
 import '../../components/Privacy/Policy/PrivacyPolicy.css';
 import PrivacyThirdParty from '../../components/Privacy/Policy/PrivacyThirdParty';
+import AnimatedPage from '../../components/Animations/AnimatedPage';
 
 const PrivacyView = () => {
   useEffect(() => {
@@ -17,18 +18,20 @@ const PrivacyView = () => {
   }, []);
 
   return (
-    <div className='privacy'>
-      <Container>
-        <PrivacyIntro />
-        <PrivacyInformation />
-        <PrivacyLog />
-        <PrivacyCookies />
-        <PrivacyThirdParty />
-        <PrivacyCCPA />
-        <PrivacyGDPR />
-        <PrivacyChildRights />
-      </Container>
-    </div>
+    <AnimatedPage>
+      <div className='privacy'>
+        <Container>
+          <PrivacyIntro />
+          <PrivacyInformation />
+          <PrivacyLog />
+          <PrivacyCookies />
+          <PrivacyThirdParty />
+          <PrivacyCCPA />
+          <PrivacyGDPR />
+          <PrivacyChildRights />
+        </Container>
+      </div>
+    </AnimatedPage>
   );
 };
 
