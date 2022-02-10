@@ -1,6 +1,6 @@
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import { BlogData } from '../../components/Helper/JumbotronData';
-import BlogCard from '../../components/Blog/BlogCard';
+import BlogList from '../../components/Blog/BlogList';
 const BlogView = () => {
   const jumboTitle = BlogData.title;
   const jumboImage = BlogData.image;
@@ -13,7 +13,7 @@ const BlogView = () => {
         title={jumboTitle}
         description={jumboDescription}
       ></Jumbotron>
-      <BlogCard></BlogCard>
+      <BlogList />
     </div>
   );
 };
