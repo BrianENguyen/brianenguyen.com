@@ -12,7 +12,7 @@ const BlogView = () => {
         image={jumboImage}
         title={jumboTitle}
         description={jumboDescription}
-      ></Jumbotron>
+      />
       <BlogList />
     </div>
   );
