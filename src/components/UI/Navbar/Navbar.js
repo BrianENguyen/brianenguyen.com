@@ -95,20 +95,20 @@ const Navbar = () => {
             <NavLink
               className='navbar__link'
               activeClassName='navbar__link active'
-              to='/blog'
+              to='/about'
               onClick={hideMobileMenu}
             >
-              Blog
+              About
             </NavLink>
           </li>
           <li>
             <NavLink
               className='navbar__link'
               activeClassName='navbar__link active'
-              to='/about'
+              to='/blog'
               onClick={hideMobileMenu}
             >
-              About
+              Blog
             </NavLink>
           </li>
           <li>
