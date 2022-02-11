@@ -14,6 +14,7 @@ const WhyBlogView = () => {
       <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
         <h1 className={classes['blog__title']}>Why I'm Blogging</h1>
         <div className={classes['blog__text']}>
+          <p className={classes['blog__date']}>2022-02-11</p>
           <h2 className={classes['blog__header']}>The Purpose</h2>
           <p>
             Something that I've noticed recently is that many tutorials that I
