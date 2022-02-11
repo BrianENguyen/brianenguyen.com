@@ -1,4 +1,4 @@
-import classes from './Blog.module.css';
+import classes from './BlogCard.module.css';
 import { Link } from 'react-router-dom';
 
 const BlogCard = (props) => {
