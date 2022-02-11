@@ -18,6 +18,18 @@ const WhyBlogView = () => {
             As of writing, I plan on providing my blogs with these kinds of
             content:
           </p>
+          <ul>
+            <li>
+              <strong>programming tutorials</strong> - this will be mainly
+              centered around web development, but I may focus on other aspects
+              as well.
+            </li>
+            <li>
+              <strong>my life</strong> - I love documenting my life so that I
+              can look back on my memories and cherish them. Additionally, this
+              gives you the opportunity to learn more about me.
+            </li>
+          </ul>
         </div>
       </div>
     </AnimatedPage>
