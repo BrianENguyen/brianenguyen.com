@@ -1,7 +1,7 @@
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
-import { BlogData } from '../../components/Helper/JumbotronData';
-import BlogList from '../../components/Blog/BlogList';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
+import BlogList from '../../components/Blog/BlogList';
+import { BlogData } from '../../components/Helper/JumbotronData';
+import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 const BlogView = () => {
   const jumboTitle = BlogData.title;
