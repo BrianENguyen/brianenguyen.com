@@ -1,9 +1,11 @@
 import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
+import { Container } from '@mui/material';
+
 const WhyBlogView = () => {
   return (
     <AnimatedPage>
-      <div className={classes['blog-container']}>
+      <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
         <h1 className={classes['blog-title']}>Why I'm Blogging</h1>
         <div className={classes['blog-text']}>
           <h2 className={classes['blog-header']}>The Purpose</h2>
@@ -31,7 +33,7 @@ const WhyBlogView = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </Container>
     </AnimatedPage>
   );
 };
