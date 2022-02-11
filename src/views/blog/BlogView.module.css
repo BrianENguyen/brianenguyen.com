@@ -3,13 +3,19 @@
   width: 1000px;
 }
 
-.blog-text p {
-  font-size: 1.2rem;
-  line-height: 2.4;
-}
-
 .blog-title {
   text-align: center;
+}
+
+.blog-header {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.blog-text p,
+.blog-text li {
+  font-size: 1.2rem;
+  line-height: 2.4;
 }
 
 @media (min-width: 0px) {
