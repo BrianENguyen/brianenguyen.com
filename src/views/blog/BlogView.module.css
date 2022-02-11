@@ -1,8 +1,30 @@
 .blog-container {
-  margin-top: 200px;
+  margin: 200px auto;
+  width: 1000px;
+}
+
+.blog-text p {
+  font-size: 1.2rem;
+  line-height: 2.4;
 }
 
 .blog-title {
-  font-size: 4rem;
   text-align: center;
+}
+
+@media (min-width: 0px) {
+  .blog-title {
+    font-size: 15vw;
+  }
+}
+@media (min-width: 576px) {
+  .blog-title {
+    font-size: 10vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .blog-title {
+    font-size: 6rem;
+  }
 }
