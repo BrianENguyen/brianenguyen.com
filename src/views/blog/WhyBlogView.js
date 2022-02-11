@@ -17,26 +17,23 @@ const WhyBlogView = () => {
           <p className={classes['blog__date']}>2022-02-11</p>
           <h2 className={classes['blog__header']}>The Purpose</h2>
           <p>
-            Something that I've noticed recently is that many tutorials that I
-            find online come from blogs. I wanted to share my knowledge and my
-            life, as well as improve my writing skills, so that's why I decided
-            to create one as well.
+            Recently, I've noticed that many online programming tutorials and
+            other tech discussions come from blogs. I've decided that I will
+            write my blog as well. The purpose of this blog is to share my
+            knowledge and my life, and to improve my writing skills.
           </p>
           <h2 className={classes['blog__header']}>What can you expect?</h2>
-          <p>
-            As of writing, I plan on providing my blogs with these kinds of
-            content:
-          </p>
+          <p>I plan on providing my blogs with the following:</p>
           <ul>
             <li>
-              <strong>programming tutorials</strong> - this will be mainly
-              centered around web development, but I may focus on other aspects
-              as well.
+              <strong>programming tutorials</strong> - these will be centered
+              around web development, but I will focus on other programming
+              fields too
             </li>
             <li>
-              <strong>my life</strong> - I love documenting my life so that I
-              can look back on my memories and cherish them. Additionally, this
-              gives you the opportunity to learn more about me.
+              <strong>my life</strong> - I love documenting my life to look back
+              on my memories and cherish them. Additionally, this gives you the
+              opportunity to learn more about me.
             </li>
           </ul>
         </div>
