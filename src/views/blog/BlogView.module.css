@@ -1,31 +1,31 @@
-.blog-title {
+.blog__title {
   text-align: center;
 }
 
-.blog-header {
+.blog__header {
   font-size: 2rem;
   text-transform: capitalize;
 }
 
-.blog-text p,
-.blog-text li {
+.blog__text p,
+.blog__text li {
   font-size: 1.2rem;
   line-height: 2.4;
 }
 
 @media (min-width: 0px) {
-  .blog-title {
+  .blog__title {
     font-size: 15vw;
   }
 }
 @media (min-width: 576px) {
-  .blog-title {
+  .blog__title {
     font-size: 10vw;
   }
 }
 
 @media (min-width: 992px) {
-  .blog-title {
+  .blog__title {
     font-size: 6rem;
   }
 }
