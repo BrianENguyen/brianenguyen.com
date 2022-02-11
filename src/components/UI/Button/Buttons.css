@@ -27,7 +27,7 @@
 }
 
 .btn.btn-disabled {
-  color: rgb(87, 87, 87);
+  color: rgb(180, 180, 180);
   background-color: #f4f4f6;
   border: 1px solid #9c9c9c;
   cursor: default;
