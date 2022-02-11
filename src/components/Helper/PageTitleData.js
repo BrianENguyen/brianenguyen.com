@@ -32,11 +32,16 @@ const ThuPageTitle = `Thu Nguyen ${suffix}`;
 
 const YelpCampPageTitle = `YelpCamp ${suffix}`;
 
+const BlogPageTitle = `Blog ${suffix}`;
+
+const WhyBlogPageTitle = `Why I'm Blogging ${suffix}`;
+
 export {
   HomePageTitle,
   ResumePageTitle,
   PortfolioPageTitle,
   AboutPageTitle,
+  BlogPageTitle,
   ContactPageTitle,
   ErrorPageTitle,
   PrivacyPageTitle,
@@ -49,4 +54,5 @@ export {
   SIMDPageTitle,
   ThuPageTitle,
   YelpCampPageTitle,
+  WhyBlogPageTitle,
 };

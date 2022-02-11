@@ -1,8 +1,14 @@
 import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 import { Container } from '@mui/material';
+import { useEffect } from 'react';
+import { WhyBlogPageTitle } from '../../components/Helper/PageTitleData';
 
 const WhyBlogView = () => {
+  useEffect(() => {
+    document.title = WhyBlogPageTitle;
+  }, []);
+
   return (
     <AnimatedPage>
       <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
