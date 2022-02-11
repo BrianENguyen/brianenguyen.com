@@ -4,6 +4,7 @@ const BlogData = [
     description: "Recently, I decided that I will start blogging. Here's why.",
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/v1642186176/BEN_Website/blog/BEN_redondobeach.jpg',
+    date: '2022-02-11',
     link: '/why-i-blog',
   },
 ];

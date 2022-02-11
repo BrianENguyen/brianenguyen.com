@@ -14,6 +14,7 @@ const BlogList = () => {
                 title={blog.title}
                 description={blog.description}
                 image={blog.image}
+                date={blog.date}
                 link={blog.link}
               />
             </Grid>
