@@ -26,7 +26,7 @@ const AboutData = {
 
 const BlogData = {
   image:
-    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v1620240499/BEN_Website/jumbotron/BEN_sunsetstare_gk1hia.jpg',
+    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v1620240499/BEN_Website/jumbotron/BEN_vegasstrip_vk4nx7.jpg',
   title: 'My Blog',
   description: `Get insights into what I have been doing recently, whether it is for my career
     or my personal life`,
