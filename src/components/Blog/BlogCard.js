@@ -4,10 +4,16 @@ import { Link } from 'react-router-dom';
 const BlogCard = (props) => {
   return (
     <div className={classes['blog-card']}>
-      <Link to={props.link}>
-        <img src={props.image} className={classes['blog-card__image']} alt='' />
-        <h1 className={classes['blog-card__title']}>{props.title}</h1>
-      </Link>
+      <div className={classes['blog-card__main-link']}>
+        <Link to={props.link}>
+          <img
+            src={props.image}
+            className={classes['blog-card__image']}
+            alt=''
+          />
+          <h1 className={classes['blog-card__title']}>{props.title}</h1>
+        </Link>
+      </div>
       <p className={classes['blog-card__description']}>{props.description}</p>
       <footer>
         &#129483;{' '}

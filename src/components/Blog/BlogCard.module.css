@@ -13,6 +13,7 @@
 .blog-card__image {
   width: 350px;
   max-width: 100%;
+  transition: filter 0.3s;
 }
 
 .blog-card__date {
@@ -27,4 +28,8 @@
 
 .blog-card__link:hover {
   color: white;
+}
+
+.blog-card__main-link:hover .blog-card__image {
+  filter: brightness(70%);
 }
