@@ -18,6 +18,7 @@ import ThuView from '../../views/project/ThuView';
 import YelpCamp from '../../views/project/YelpCamp';
 
 import WhyBlogView from '../../views/blog/WhyBlogView';
+import WhyFrontendView from '../../views/blog/WhyFrontendView';
 
 const ROUTES = [
   { path: '/', exact: true, key: 'Home', component: HomeView },
@@ -25,6 +26,8 @@ const ROUTES = [
   { path: '/portfolio', key: 'Portfolio', component: PortfolioView },
   { path: '/blog', key: 'Blog', component: BlogView },
   { path: '/why-i-blog', key: 'Why I Blog', component: WhyBlogView },
+  { path: '/why-frontend', key: 'Why Frontend', component: WhyFrontendView },
+
   { path: '/about', key: 'About', component: AboutView },
   { path: '/contact', key: 'Contact', component: ContactView },
   { path: '/privacy-policy', key: 'Privacy Policy', component: PrivacyView },
