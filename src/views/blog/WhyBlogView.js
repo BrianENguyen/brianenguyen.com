@@ -20,7 +20,9 @@ const WhyBlogView = () => {
             Recently, I've noticed that many online programming tutorials and
             other tech discussions come from blogs. I've decided that I will
             write my blog as well. The purpose of this blog is to share my
-            knowledge and my life, and to improve my writing skills.
+            knowledge and my life, and to improve my writing skills. The blog
+            can also let me learn programming concepts easily and know more
+            about myself.
           </p>
           <h2 className={classes['blog__header']}>What can you expect?</h2>
           <p>I plan on providing my blogs with the following:</p>
@@ -32,8 +34,8 @@ const WhyBlogView = () => {
             </li>
             <li>
               <strong>my life</strong> - I love documenting my life to look back
-              on my memories and cherish them. Additionally, this gives you the
-              opportunity to learn more about me.
+              on my memories and cherish them. Additionally, this allows you to
+              learn about more about me, apart from my web development passion.
             </li>
           </ul>
         </div>
