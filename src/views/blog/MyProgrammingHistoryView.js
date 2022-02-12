@@ -2,19 +2,17 @@ import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
-import { WhyFrontendPageTitle } from '../../components/Helper/PageTitleData';
+import { MyProgrammingHistoryPageTitle } from '../../components/Helper/PageTitleData';
 
-const WhyFrontendView = () => {
+const MyProgrammingHistoryView = () => {
   useEffect(() => {
-    document.title = WhyFrontendPageTitle;
+    document.title = MyProgrammingHistoryPageTitle;
   }, []);
 
   return (
     <AnimatedPage>
       <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
-        <h1 className={classes['blog__title']}>
-          Why I Chose Frontend Development
-        </h1>
+        <h1 className={classes['blog__title']}>My Programming History</h1>
         <div className={classes['blog__text']}>
           <p className={classes['blog__date']}>?????????????????</p>
           <p>
@@ -41,4 +39,4 @@ const WhyFrontendView = () => {
   );
 };
 
-export default WhyFrontendView;
+export default MyProgrammingHistoryView;
