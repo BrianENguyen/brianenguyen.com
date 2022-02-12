@@ -1,8 +1,8 @@
 const BlogData = [
   {
-    title: 'Why I Chose Frontend Development',
+    title: 'My Programming History',
     description:
-      'I was conflicted in what I wanted to do with my CS degree after graduation, but it took me 2 years to choose frontend development.',
+      'Learn about my programming history, from when I started in high school, up until now.',
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/v1644628220/BEN_Website/blog/BEN_4121_1_jw8m5b.jpg',
     date: '2022-02-11',
