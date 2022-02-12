@@ -25,6 +25,16 @@ const WhyFrontendView = () => {
             with technology since my childhood, choosing a career path related
             to technology was the right choice for me
           </p>
+          <p>
+            My first step in my career was taking my Intro to Programming class
+            in high school. I heard that there was game development there, which
+            was something that interested me since I love video games. I decided
+            to take that class, but after a few days in, I soon realize that was
+            a mistake. The school council made my teacher instruct this class,
+            but she didn't knew anything about programming. She would make us
+            read the book and practice programming on there. To make matters
+            even worse, the language that was taught in the book was C.
+          </p>
         </div>
       </Container>
     </AnimatedPage>
