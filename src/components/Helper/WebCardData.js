@@ -20,6 +20,12 @@ const WebCardData = [
     link: '/about',
   },
   {
+    title: 'Blog',
+    description: 'View some insights on my career and my life',
+    linkText: 'My Insights',
+    link: '/blog',
+  },
+  {
     title: 'Contact',
     description:
       "Get in touch we me for any reason, whether it'd be for services, inquiries or just chatting",
