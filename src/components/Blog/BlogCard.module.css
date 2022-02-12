@@ -2,6 +2,14 @@
   margin: 1rem 2rem;
 }
 
+.blog-card a {
+  text-decoration: none;
+}
+
+.blog-card__title {
+  color: white;
+}
+
 .blog-card__image {
   width: 350px;
   max-width: 100%;
@@ -14,6 +22,7 @@
 
 .blog-card__link {
   transition: color 0.3s;
+  text-decoration: underline !important;
 }
 
 .blog-card__link:hover {
