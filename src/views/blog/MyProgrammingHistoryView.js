@@ -31,7 +31,15 @@ const MyProgrammingHistoryView = () => {
             a mistake. The school council made my teacher instruct this class,
             but she didn't knew anything about programming. She would make us
             read the book and practice programming on there. To make matters
-            even worse, the language that was taught in the book was C.
+            even worse, the language that was taught in the book was C, which
+            was difficult to learn as a beginner. This class made me hate
+            programming because I thought it was this hard.
+          </p>
+          <p>
+            After I graduated, I decided to take a shot at programming again at
+            California State University, Long Beach. In my introductory computer
+            course, we've learned about Python, which was <em>way</em> easier
+            than C.
           </p>
         </div>
       </Container>
