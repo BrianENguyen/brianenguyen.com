@@ -2,20 +2,22 @@ import { motion } from 'framer-motion/dist/framer-motion';
 
 const AnimatedText = ({ children }) => {
   const animations = {
-    initial: { opacity: 0, x: -100 },
+    initial: { opacity: 0, x: 0 },
   };
 
-  console.log(children);
-  return (
-    <motion.div
+  const splitLetters = [...children];
+
+  return splitLetters.map((letter, i) => (
+    <motion.span
+      key={i}
+      variants={animations}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.7 }}
-      variants={animations}
+      transition={{ duration: 0.2 * i }}
     >
-      {children}
-    </motion.div>
-  );
+      {letter}
+    </motion.span>
+  ));
 };
 
 export default AnimatedText;
