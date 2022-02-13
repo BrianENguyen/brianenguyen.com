@@ -36,10 +36,13 @@ const MyProgrammingHistoryView = () => {
             programming because I thought it was this hard.
           </p>
           <p>
-            After I graduated, I decided to take a shot at programming again at
-            California State University, Long Beach. In my introductory computer
-            course, we've learned about Python, which was <em>way</em> easier
-            than C.
+            After I graduated from high school, I decided to take a shot at
+            programming again at California State University, Long Beach. In my
+            introductory computer course, we've learned about Python, which was{' '}
+            <em>way</em> easier than C. The first program that I was proud of
+            was one that calculated the area, circumference, surface area, and
+            volume using the radius from user input. That script made me realize
+            that programming is what I wanted to do for my future
           </p>
         </div>
       </Container>
