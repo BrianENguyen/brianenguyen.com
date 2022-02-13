@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion/dist/framer-motion';
 
-const AnimatedText = ({ children }) => {
+const AnimatedHeader = ({ children }) => {
   const animations = {
     initial: { opacity: 0 },
   };
@@ -20,4 +20,4 @@ const AnimatedText = ({ children }) => {
   ));
 };
 
-export default AnimatedText;
+export default AnimatedHeader;
