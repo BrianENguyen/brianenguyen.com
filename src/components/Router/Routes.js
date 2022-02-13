@@ -27,8 +27,8 @@ const ROUTES = [
   { path: '/blog', key: 'Blog', component: BlogView },
   { path: '/why-i-blog', key: 'Why I Blog', component: WhyBlogView },
   {
-    path: '/why-frontend',
-    key: 'Why Frontend',
+    path: '/programming-history',
+    key: 'Programming History',
     component: MyProgrammingHistoryView,
   },
 
