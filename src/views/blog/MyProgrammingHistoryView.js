@@ -44,6 +44,15 @@ const MyProgrammingHistoryView = () => {
             volume using the radius from user input. That script made me realize
             that programming is what I wanted to do for my future
           </p>
+          <p>
+            When I graduated from my university in 2020, I was lost in what I
+            wanted to do with my degree. I first decided to do full-stack
+            development because my senior project class gave me exposure to it.
+            I also decided to do Information Technology / system administration,
+            because I recently started learning about Linux and making it my . I
+            then realize those fields didn't interest me because they were too
+            technical for me.
+          </p>
         </div>
       </Container>
     </AnimatedPage>
