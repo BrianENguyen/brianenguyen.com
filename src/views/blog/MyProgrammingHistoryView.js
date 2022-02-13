@@ -15,7 +15,7 @@ const MyProgrammingHistoryView = () => {
       <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
         <h1 className={classes['blog__title']}>My Programming History</h1>
         <div className={classes['blog__text']}>
-          <p className={classes['blog__date']}>?????????????????</p>
+          <p className={classes['blog__date']}>2022-02-12</p>
           <p>
             Computer science is one of the most interesting fields in this
             world. With the exponential growth of technology, code is
