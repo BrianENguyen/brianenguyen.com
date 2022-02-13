@@ -2,7 +2,7 @@ import { motion } from 'framer-motion/dist/framer-motion';
 
 const AnimatedText = ({ children }) => {
   const animations = {
-    initial: { opacity: 0, x: 0 },
+    initial: { opacity: 0 },
   };
 
   const splitLetters = [...children];
@@ -11,7 +11,7 @@ const AnimatedText = ({ children }) => {
     <motion.span
       key={i}
       variants={animations}
-      whileInView={{ opacity: 1, x: 0 }}
+      whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.3, delay: i * 0.01 }}
     >
