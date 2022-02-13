@@ -49,9 +49,16 @@ const MyProgrammingHistoryView = () => {
             wanted to do with my degree. I first decided to do full-stack
             development because my senior project class gave me exposure to it.
             I also decided to do Information Technology / system administration,
-            because I recently started learning about Linux and making it my . I
-            then realize those fields didn't interest me because they were too
-            technical for me.
+            because I recently started learning about Linux and making it my
+            main operating system. I then realize those fields didn't interest
+            me because they were too technical for me.
+          </p>
+          <p>
+            It took me two years to finally decide what I wanted to:{' '}
+            <strong>frontend development.</strong> This field allows me to
+            express creativity in the applications I make. My sense of
+            creativity and beauty comes from my passion in photography, and I
+            hope to reflect that in my programming career.
           </p>
         </div>
       </Container>
