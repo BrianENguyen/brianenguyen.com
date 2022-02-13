@@ -1,5 +1,6 @@
 import { Container, Grid } from '@mui/material';
 import './Backstory.css';
+import AnimatedHeader from '../Animations/AnimatedHeader';
 
 const Backstory = () => {
   return (
@@ -7,7 +8,9 @@ const Backstory = () => {
       <Container maxWidth='xl'>
         <Grid container spacing={2}>
           <Grid item xs={12} md={4}>
-            <h1 className='backstory__header'>My Story</h1>
+            <h1 className='backstory__header'>
+              <AnimatedHeader>My Story</AnimatedHeader>
+            </h1>{' '}
           </Grid>
           <Grid item xs={12} md={8}>
             <p>
