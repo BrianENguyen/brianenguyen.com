@@ -36,6 +36,8 @@ const BlogPageTitle = `Blog ${suffix}`;
 
 const WhyBlogPageTitle = `Why I'm Blogging ${suffix}`;
 
+const MyProgrammingHistoryPageTitle = `My Programming History ${suffix}`;
+
 export {
   HomePageTitle,
   ResumePageTitle,
@@ -55,4 +57,5 @@ export {
   ThuPageTitle,
   YelpCampPageTitle,
   WhyBlogPageTitle,
+  MyProgrammingHistoryPageTitle,
 };

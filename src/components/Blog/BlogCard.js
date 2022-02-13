@@ -16,7 +16,7 @@ const BlogCard = (props) => {
       </div>
       <p className={classes['blog-card__description']}>{props.description}</p>
       <footer>
-        &#129483;{' '}
+        &#127751;{' '}
         <span className={classes['blog-card__date']}>{props.date}</span>
       </footer>
       <Link to={props.link} className={classes['blog-card__link']}>
