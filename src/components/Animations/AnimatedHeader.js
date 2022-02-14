@@ -7,17 +7,23 @@ const AnimatedHeader = ({ children }) => {
 
   const splitLetters = [...children];
 
-  return splitLetters.map((letter, i) => (
-    <motion.span
-      key={i}
-      variants={animations}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.3, delay: i * 0.01 }}
-    >
-      {letter}
-    </motion.span>
-  ));
+  return (
+    <>
+      {splitLetters.map((char, i) => {
+        return (
+          <motion.span
+            key={i}
+            variants={animations}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.3, delay: i * 0.01 }}
+          >
+            {char}
+          </motion.span>
+        );
+      })}
+    </>
+  );
 };
 
 export default AnimatedHeader;
