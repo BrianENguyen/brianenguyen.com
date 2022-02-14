@@ -2,7 +2,7 @@ import { Grid, Container } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Button from '../UI/Button/Button';
 import './Passion.css';
-
+import AnimatedHeader from '../Animations/AnimatedHeader';
 const Passion = () => {
   return (
     <div className='passion'>
@@ -17,7 +17,11 @@ const Passion = () => {
           </Grid>
           <Grid item sm={12} md={7}>
             <div className='passion__text'>
-              <h1>My passion is front-end web development</h1>
+              <h1>
+                <AnimatedHeader>
+                  My passion is front-end web development
+                </AnimatedHeader>
+              </h1>
               <p>
                 I love making beautiful websites. I have at least 3 years of
                 experience being a web developer with many different
