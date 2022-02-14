@@ -3,6 +3,15 @@ import { motion } from 'framer-motion/dist/framer-motion';
 const AnimatedHeader = ({ children }) => {
   const animations = {
     initial: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        duration: 0.3,
+      },
+    },
+    viewport: {
+      once: true,
+    },
   };
 
   const splitLetters = [...children];
@@ -15,8 +24,7 @@ const AnimatedHeader = ({ children }) => {
             key={i}
             variants={animations}
             whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: i * 0.01 }}
+            transition={{ delay: 0.03 * i }}
           >
             {char}
           </motion.span>
