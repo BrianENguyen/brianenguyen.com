@@ -1,12 +1,18 @@
 import { Grid, TextField } from '@mui/material';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useReducer } from 'react';
 import Button from '../UI/Button/Button';
 import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
 import EmailRegex from './EmailRegex';
 
+const firstNameReducer = () => {};
+
 const ContactForm = () => {
+  const [firstNameState, dispatchFirstName] = useReducer(firstNameReducer, {
+    value: '',
+    isValid: false,
+  });
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
