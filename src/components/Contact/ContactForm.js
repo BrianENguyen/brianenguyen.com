@@ -6,13 +6,22 @@ import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
 import EmailRegex from './EmailRegex';
 
-const firstNameReducer = () => {};
+const firstNameReducer = (state, action) => {
+  if (action.type === 'USER_INPUT') {
+    return { value: action.val, isValid: action.val.length };
+  }
+  if (action.type === 'INPUT_BLUR') {
+    return { value: state.value, isValid: state.value.length };
+  }
+  return { value: '', isValid: false };
+};
 
 const ContactForm = () => {
   const [firstNameState, dispatchFirstName] = useReducer(firstNameReducer, {
     value: '',
-    isValid: false,
+    isValid: undefined,
   });
+
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
@@ -62,7 +71,7 @@ const ContactForm = () => {
 
   // Change Handlers
   const firstNameChangeHandler = (event) => {
-    setFirstName(event.target.value);
+    dispatchFirstName({ type: 'USER_INPUT', val: event.target.value });
     setFormSent(false);
   };
 
@@ -83,7 +92,7 @@ const ContactForm = () => {
 
   // Input validations
   const validateFirstName = () => {
-    setFirstNameValid(firstName.length ? true : false);
+    dispatchFirstName({ type: 'INPUT_BLUR' });
   };
 
   const validateLastName = () => {
@@ -112,11 +121,13 @@ const ContactForm = () => {
             id='first-name'
             label='First Name *'
             name='first_name'
-            error={firstNameValid !== undefined && !firstNameValid}
+            error={
+              firstNameState.isValid !== undefined && !firstNameState.isValid
+            }
             onChange={firstNameChangeHandler}
             onBlur={validateFirstName}
           />
-          {firstNameValid === false && (
+          {firstNameState.isValid === false && (
             <p className='contact-form__message--error'>
               Field cannot be blank
             </p>
