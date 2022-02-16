@@ -29,31 +29,26 @@ const lastNameReducer = (state, action) => {
 };
 
 const emailReducer = (state, action) => {
-  let reason = '';
   if (action.type === 'USER_INPUT') {
-    if (!action.val.length) {
-      reason = 'Field cannot be blank';
-    }
-    if (!action.val.match(EmailRegex)) {
-      reason = 'Invalid email';
-    }
     return {
       value: action.val,
       isValid: action.val.length && action.val.match(EmailRegex),
-      invalidReason: reason,
+      invalidReason: !action.val.length
+        ? 'Field cannot be blank'
+        : !action.val.match(EmailRegex)
+        ? 'Invalid email'
+        : '',
     };
   }
   if (action.type === 'INPUT_BLUR') {
-    if (!state.value.length) {
-      reason = 'Field cannot be blank';
-    }
-    if (!state.value.match(EmailRegex)) {
-      reason = 'Invalid email';
-    }
     return {
       value: state.value,
       isValid: state.value.length && state.value.match(EmailRegex),
-      invalidReason: reason,
+      invalidReason: !state.value.length
+        ? 'Field cannot be blank'
+        : !state.value.match(EmailRegex)
+        ? 'Invalid email'
+        : '',
     };
   }
   return {
@@ -155,6 +150,7 @@ const ContactForm = () => {
         emailState.isValid &&
         event.target.value.length
     );
+
     setFormSent(false);
   };
 
@@ -176,11 +172,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form
-      className='contact-form'
-      data-testid='contact-form'
-      onSubmit={validateForm}
-    >
+    <form className='contact-form' onSubmit={validateForm}>
       <Grid container spacing={2}>
         {/* First name */}
         <Grid item xs={6} md={6}>
@@ -232,7 +224,7 @@ const ContactForm = () => {
         onChange={emailChangeHandler}
         onBlur={validateEmail}
       />
-      {emailState.isValid === false && (
+      {!emailState.isValid && emailState.isValid !== undefined && (
         <p className='contact-form__message--error'>
           {emailState.invalidReason}
         </p>
