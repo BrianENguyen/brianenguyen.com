@@ -29,26 +29,31 @@ const lastNameReducer = (state, action) => {
 };
 
 const emailReducer = (state, action) => {
+  let reason = '';
   if (action.type === 'USER_INPUT') {
+    if (!action.val.length) {
+      reason = 'Field cannot be blank';
+    }
+    if (!action.val.match(EmailRegex)) {
+      reason = 'Invalid email';
+    }
     return {
       value: action.val,
       isValid: action.val.length && action.val.match(EmailRegex),
-      invalidReason: !action.val.length
-        ? 'Field cannot be blank'
-        : !action.val.match(EmailRegex)
-        ? 'Invalid email'
-        : '',
+      invalidReason: reason,
     };
   }
   if (action.type === 'INPUT_BLUR') {
+    if (!state.value.length) {
+      reason = 'Field cannot be blank';
+    }
+    if (!state.value.match(EmailRegex)) {
+      reason = 'Invalid email';
+    }
     return {
       value: state.value,
       isValid: state.value.length && state.value.match(EmailRegex),
-      invalidReason: !state.value.length
-        ? 'Field cannot be blank'
-        : !state.value.match(EmailRegex)
-        ? 'Invalid email'
-        : '',
+      invalidReason: reason,
     };
   }
   return {
@@ -116,7 +121,7 @@ const ContactForm = () => {
         emailState.isValid &&
         messageState.isValid
     );
-    // setFormSent(false);
+    setFormSent(false);
   };
 
   const lastNameChangeHandler = (event) => {
@@ -127,7 +132,7 @@ const ContactForm = () => {
         emailState.isValid &&
         messageState.isValid
     );
-    // setFormSent(false);
+    setFormSent(false);
   };
 
   const emailChangeHandler = (event) => {
@@ -139,7 +144,7 @@ const ContactForm = () => {
         event.target.value.match(EmailRegex) &&
         messageState.isValid
     );
-    // setFormSent(false);
+    setFormSent(false);
   };
 
   const messageChangeHandler = (event) => {
@@ -150,8 +155,7 @@ const ContactForm = () => {
         emailState.isValid &&
         event.target.value.length
     );
-
-    // setFormSent(false);
+    setFormSent(false);
   };
 
   // Input validations
@@ -224,7 +228,7 @@ const ContactForm = () => {
         onChange={emailChangeHandler}
         onBlur={validateEmail}
       />
-      {!emailState.isValid && emailState.isValid !== undefined && (
+      {emailState.isValid === false && (
         <p className='contact-form__message--error'>
           {emailState.invalidReason}
         </p>
