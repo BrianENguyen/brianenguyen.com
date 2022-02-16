@@ -1,6 +1,6 @@
 import { Grid, TextField } from '@mui/material';
 
-import { useState, useEffect, useReducer } from 'react';
+import { useState, useReducer } from 'react';
 import Button from '../UI/Button/Button';
 import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
@@ -28,6 +28,36 @@ const lastNameReducer = (state, action) => {
   }
 };
 
+const emailReducer = (state, action) => {
+  let reason = '';
+  if (action.type === 'USER_INPUT') {
+    if (!action.val.length) {
+      reason = 'Field cannot be blank';
+    }
+    if (!action.val.match(EmailRegex)) {
+      reason = 'Invalid email';
+    }
+    return {
+      value: action.val,
+      isValid: action.val.length && action.val.match(EmailRegex),
+      invalidReason: reason,
+    };
+  }
+  if (action.type === 'INPUT_BLUR') {
+    if (!state.value.length) {
+      reason = 'Field cannot be blank';
+    }
+    if (!state.value.match(EmailRegex)) {
+      reason = 'Invalid email';
+    }
+    return {
+      value: state.value,
+      isValid: state.value.length && state.value.match(EmailRegex),
+      invalidReason: reason,
+    };
+  }
+};
+
 const ContactForm = () => {
   const [firstNameState, dispatchFirstName] = useReducer(firstNameReducer, {
     value: '',
@@ -39,12 +69,15 @@ const ContactForm = () => {
     isValid: undefined,
   });
 
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
+  const [emailState, dispatchEmail] = useReducer(emailReducer, {
+    value: '',
+    isValid: undefined,
+    invalidReason: '',
+  });
+
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const [firstNameValid, setFirstNameValid] = useState();
   const [lastNameValid, setLastNameValid] = useState();
   const [emailValid, setEmailValid] = useState();
   const [messageValid, setMessageValid] = useState();
@@ -53,25 +86,6 @@ const ContactForm = () => {
   const [formSent, setFormSent] = useState(false);
 
   const [formIsValid, setFormIsValid] = useState(false);
-
-  /**
-   * Check form validity after a 500ms
-   * pause in keystrokes
-   */
-  useEffect(() => {
-    const identifier = setTimeout(() => {
-      setFormIsValid(
-        firstName.length &&
-          lastName.length &&
-          email.length &&
-          email.match(EmailRegex) &&
-          message.length
-      );
-    }, 500);
-    return () => {
-      clearTimeout(identifier);
-    };
-  }, [firstName, lastName, email, message]);
 
   const validateForm = (event) => {
     event.preventDefault();
