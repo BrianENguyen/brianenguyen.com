@@ -115,21 +115,47 @@ const ContactForm = () => {
   // Change Handlers
   const firstNameChangeHandler = (event) => {
     dispatchFirstName({ type: 'USER_INPUT', val: event.target.value });
+    setFormIsValid(
+      event.target.value.length &&
+        lastNameState.isValid &&
+        emailState.isValid &&
+        messageState.isValid
+    );
     setFormSent(false);
   };
 
   const lastNameChangeHandler = (event) => {
     dispatchLastName({ type: 'USER_INPUT', val: event.target.value });
+    setFormIsValid(
+      firstNameState.isValid &&
+        event.target.value.length &&
+        emailState.isValid &&
+        messageState.isValid
+    );
     setFormSent(false);
   };
 
   const emailChangeHandler = (event) => {
     dispatchEmail({ type: 'USER_INPUT', val: event.target.value });
+    setFormIsValid(
+      firstNameState.isValid &&
+        lastNameState.isValid &&
+        event.target.value.length &&
+        event.target.value.match(EmailRegex) &&
+        messageState.isValid
+    );
     setFormSent(false);
   };
 
   const messageChangeHandler = (event) => {
     dispatchMessage({ type: 'USER_INPUT', val: event.target.value });
+    setFormIsValid(
+      firstNameState.isValid &&
+        lastNameState.isValid &&
+        emailState.isValid &&
+        event.target.value.length
+    );
+
     setFormSent(false);
   };
 
