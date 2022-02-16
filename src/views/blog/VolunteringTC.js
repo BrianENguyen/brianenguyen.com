@@ -17,6 +17,25 @@ const VolunteeringTC = () => {
         </h1>
         <div className={classes['blog__text']}>
           <p className={classes['blog__date']}>2022-02-??</p>
+          <p>
+            In Chinese, "tzu" means "compassion," and "chi" means "relief."
+            "With open arms and helping hands, our volunteers are here to serve
+            you."
+          </p>
+          <p>
+            I started my Tzu Chi journey back in my freshman year of university
+            in 2016, where I attended the Tzu Chi collegiate chapter of CSULB
+            (also known as CSULB Tzu Ching). I heard about this organization
+            from a friend in my class who attends their events. I heard that the
+            organization holds volunteering events, so I decided to check it
+            out. When I attended one of their meetings, I was surprised by the
+            fact that they do a lot more than just volunteering; their
+            volunteering efforts focus on a wide range of aspects, such as
+            environmental protection, education, medicine, and disaster relief.
+            In addition, they also focus on humanitarian culture and
+            vegetarianism. I was intrigued and wanted to do more with this
+            organization, so I participate in one of their volunteering events.
+          </p>
         </div>
       </Container>
     </AnimatedPage>
