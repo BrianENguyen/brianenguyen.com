@@ -1,45 +1,103 @@
 import { Grid, TextField } from '@mui/material';
 
-import { useState, useEffect } from 'react';
+import { useState, useReducer } from 'react';
 import Button from '../UI/Button/Button';
 import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
 import EmailRegex from './EmailRegex';
 
-const ContactForm = () => {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+const firstNameReducer = (state, action) => {
+  switch (action.type) {
+    case 'USER_INPUT':
+      return { value: action.val, isValid: action.val.length };
+    case 'INPUT_BLUR':
+      return { value: state.value, isValid: state.value.length };
+    default:
+      return { value: '', isValid: false };
+  }
+};
 
-  const [firstNameValid, setFirstNameValid] = useState();
-  const [lastNameValid, setLastNameValid] = useState();
-  const [emailValid, setEmailValid] = useState();
-  const [messageValid, setMessageValid] = useState();
+const lastNameReducer = (state, action) => {
+  switch (action.type) {
+    case 'USER_INPUT':
+      return { value: action.val, isValid: action.val.length };
+    case 'INPUT_BLUR':
+      return { value: state.value, isValid: state.value.length };
+    default:
+      return { value: '', isValid: false };
+  }
+};
 
-  const [emailError, setEmailError] = useState('');
-  const [formSent, setFormSent] = useState(false);
-
-  const [formIsValid, setFormIsValid] = useState(false);
-
-  /**
-   * Check form validity after a 500ms
-   * pause in keystrokes
-   */
-  useEffect(() => {
-    const identifier = setTimeout(() => {
-      setFormIsValid(
-        firstName.length &&
-          lastName.length &&
-          email.length &&
-          email.match(EmailRegex) &&
-          message.length
-      );
-    }, 500);
-    return () => {
-      clearTimeout(identifier);
+const emailReducer = (state, action) => {
+  let reason = '';
+  if (action.type === 'USER_INPUT') {
+    if (!action.val.length) {
+      reason = 'Field cannot be blank';
+    }
+    if (!action.val.match(EmailRegex)) {
+      reason = 'Invalid email';
+    }
+    return {
+      value: action.val,
+      isValid: action.val.length && action.val.match(EmailRegex),
+      invalidReason: reason,
     };
-  }, [firstName, lastName, email, message]);
+  }
+  if (action.type === 'INPUT_BLUR') {
+    if (!state.value.length) {
+      reason = 'Field cannot be blank';
+    }
+    if (!state.value.match(EmailRegex)) {
+      reason = 'Invalid email';
+    }
+    return {
+      value: state.value,
+      isValid: state.value.length && state.value.match(EmailRegex),
+      invalidReason: reason,
+    };
+  }
+  return {
+    value: '',
+    isValid: false,
+    invalidReason: '',
+  };
+};
+
+const messageReducer = (state, action) => {
+  switch (action.type) {
+    case 'USER_INPUT':
+      return { value: action.val, isValid: action.val.length };
+    case 'INPUT_BLUR':
+      return { value: state.value, isValid: state.value.length };
+    default:
+      return { value: '', isValid: false };
+  }
+};
+
+const ContactForm = () => {
+  const [firstNameState, dispatchFirstName] = useReducer(firstNameReducer, {
+    value: '',
+    isValid: undefined,
+  });
+
+  const [lastNameState, dispatchLastName] = useReducer(lastNameReducer, {
+    value: '',
+    isValid: undefined,
+  });
+
+  const [emailState, dispatchEmail] = useReducer(emailReducer, {
+    value: '',
+    isValid: undefined,
+    invalidReason: '',
+  });
+
+  const [messageState, dispatchMessage] = useReducer(messageReducer, {
+    value: '',
+    isValid: undefined,
+  });
+
+  const [formSent, setFormSent] = useState(false);
+  const [formIsValid, setFormIsValid] = useState(false);
 
   const validateForm = (event) => {
     event.preventDefault();
@@ -56,44 +114,65 @@ const ContactForm = () => {
 
   // Change Handlers
   const firstNameChangeHandler = (event) => {
-    setFirstName(event.target.value);
+    dispatchFirstName({ type: 'USER_INPUT', val: event.target.value });
+    setFormIsValid(
+      event.target.value.length &&
+        lastNameState.isValid &&
+        emailState.isValid &&
+        messageState.isValid
+    );
     setFormSent(false);
   };
 
   const lastNameChangeHandler = (event) => {
-    setLastName(event.target.value);
+    dispatchLastName({ type: 'USER_INPUT', val: event.target.value });
+    setFormIsValid(
+      firstNameState.isValid &&
+        event.target.value.length &&
+        emailState.isValid &&
+        messageState.isValid
+    );
     setFormSent(false);
   };
 
   const emailChangeHandler = (event) => {
-    setEmail(event.target.value);
+    dispatchEmail({ type: 'USER_INPUT', val: event.target.value });
+    setFormIsValid(
+      firstNameState.isValid &&
+        lastNameState.isValid &&
+        event.target.value.length &&
+        event.target.value.match(EmailRegex) &&
+        messageState.isValid
+    );
     setFormSent(false);
   };
 
   const messageChangeHandler = (event) => {
-    setMessage(event.target.value);
+    dispatchMessage({ type: 'USER_INPUT', val: event.target.value });
+    setFormIsValid(
+      firstNameState.isValid &&
+        lastNameState.isValid &&
+        emailState.isValid &&
+        event.target.value.length
+    );
     setFormSent(false);
   };
 
   // Input validations
   const validateFirstName = () => {
-    setFirstNameValid(firstName.length ? true : false);
+    dispatchFirstName({ type: 'INPUT_BLUR' });
   };
 
   const validateLastName = () => {
-    setLastNameValid(lastName.length ? true : false);
+    dispatchLastName({ type: 'INPUT_BLUR' });
   };
 
   const validateEmail = () => {
-    if (!email.length) setEmailError('Field cannot be blank');
-    if (email.length && !email.match(EmailRegex)) {
-      setEmailError('Invalid email');
-    }
-    setEmailValid(email.length && email.match(EmailRegex) ? true : false);
+    dispatchEmail({ type: 'INPUT_BLUR' });
   };
 
   const validateMessage = () => {
-    setMessageValid(message.length ? true : false);
+    dispatchMessage({ type: 'INPUT_BLUR' });
   };
 
   return (
@@ -110,11 +189,13 @@ const ContactForm = () => {
             id='first-name'
             label='First Name *'
             name='first_name'
-            error={firstNameValid !== undefined && !firstNameValid}
+            error={
+              firstNameState.isValid !== undefined && !firstNameState.isValid
+            }
             onChange={firstNameChangeHandler}
             onBlur={validateFirstName}
           />
-          {firstNameValid === false && (
+          {firstNameState.isValid === false && (
             <p className='contact-form__message--error'>
               Field cannot be blank
             </p>
@@ -127,11 +208,13 @@ const ContactForm = () => {
             id='last-name'
             label='Last Name *'
             name='last_name'
-            error={lastNameValid !== undefined && !lastNameValid}
+            error={
+              lastNameState.isValid !== undefined && !lastNameState.isValid
+            }
             onChange={lastNameChangeHandler}
             onBlur={validateLastName}
           />
-          {lastNameValid === false && (
+          {lastNameState.isValid === false && (
             <p className='contact-form__message--error'>
               Field cannot be blank
             </p>
@@ -145,12 +228,14 @@ const ContactForm = () => {
         label='Email *'
         name='email'
         type='email'
-        error={emailValid !== undefined && !emailValid}
+        error={emailState.isValid !== undefined && !emailState.isValid}
         onChange={emailChangeHandler}
         onBlur={validateEmail}
       />
-      {emailValid === false && (
-        <p className='contact-form__message--error'>{emailError}</p>
+      {emailState.isValid === false && (
+        <p className='contact-form__message--error'>
+          {emailState.invalidReason}
+        </p>
       )}
 
       {/* Message */}
@@ -161,11 +246,11 @@ const ContactForm = () => {
         id='message'
         label='Your Message *'
         name='message'
-        error={messageValid !== undefined && !messageValid}
+        error={messageState.isValid !== undefined && !messageState.isValid}
         onChange={messageChangeHandler}
         onBlur={validateMessage}
       />
-      {messageValid === false && (
+      {messageState.isValid === false && (
         <p className='contact-form__message--error'>Field cannot be blank</p>
       )}
 
