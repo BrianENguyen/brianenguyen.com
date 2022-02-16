@@ -7,13 +7,14 @@ import { submitForm } from './ContactFormSubmit';
 import EmailRegex from './EmailRegex';
 
 const firstNameReducer = (state, action) => {
-  if (action.type === 'USER_INPUT') {
-    return { value: action.val, isValid: action.val.length };
+  switch (action.type) {
+    case 'USER_INPUT':
+      return { value: action.val, isValid: action.val.length };
+    case 'INPUT_BLUR':
+      return { value: state.value, isValid: state.value.length };
+    default:
+      return { value: '', isValid: false };
   }
-  if (action.type === 'INPUT_BLUR') {
-    return { value: state.value, isValid: state.value.length };
-  }
-  return { value: '', isValid: false };
 };
 
 const lastNameReducer = (state, action) => {
