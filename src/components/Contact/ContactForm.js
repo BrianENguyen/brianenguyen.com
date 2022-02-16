@@ -63,6 +63,17 @@ const emailReducer = (state, action) => {
   };
 };
 
+const messageReducer = (state, action) => {
+  switch (action.type) {
+    case 'USER_INPUT':
+      return { value: action.val, isValid: action.val.length };
+    case 'INPUT_BLUR':
+      return { value: state.value, isValid: state.value.length };
+    default:
+      return { value: '', isValid: false };
+  }
+};
+
 const ContactForm = () => {
   const [firstNameState, dispatchFirstName] = useReducer(firstNameReducer, {
     value: '',
@@ -85,8 +96,6 @@ const ContactForm = () => {
     isValid: undefined,
   });
 
-  const [message, setMessage] = useState('');
-  const [messageValid, setMessageValid] = useState();
   const [formSent, setFormSent] = useState(false);
   const [formIsValid, setFormIsValid] = useState(false);
 
@@ -120,7 +129,7 @@ const ContactForm = () => {
   };
 
   const messageChangeHandler = (event) => {
-    setMessage(event.target.value);
+    dispatchMessage({ type: 'USER_INPUT', val: event.target.value });
     setFormSent(false);
   };
 
@@ -138,7 +147,7 @@ const ContactForm = () => {
   };
 
   const validateMessage = () => {
-    setMessageValid(message.length ? true : false);
+    dispatchMessage({ type: 'INPUT_BLUR' });
   };
 
   return (
@@ -208,11 +217,11 @@ const ContactForm = () => {
         id='message'
         label='Your Message *'
         name='message'
-        error={messageValid !== undefined && !messageValid}
+        error={messageState.isValid !== undefined && !messageState.isValid}
         onChange={messageChangeHandler}
         onBlur={validateMessage}
       />
-      {messageValid === false && (
+      {messageState.isValid === false && (
         <p className='contact-form__message--error'>Field cannot be blank</p>
       )}
 
