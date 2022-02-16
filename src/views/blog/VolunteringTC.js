@@ -11,7 +11,7 @@ const VolunteeringTC = () => {
 
   return (
     <AnimatedPage>
-      <Container style={{ marginTop: 200 + 'px' }} maxWidth="md">
+      <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
         <h1 className={classes['blog__title']}>
           Volunteering with the Tzu Chi Foundation
         </h1>
@@ -22,6 +22,7 @@ const VolunteeringTC = () => {
             "With open arms and helping hands, our volunteers are here to serve
             you."
           </p>
+          <h2 className={classes['blog__header']}>Starting My Journey</h2>
           <p>
             I started my Tzu Chi journey back in my freshman year of university
             in 2016, where I attended the Tzu Chi collegiate chapter of CSULB
@@ -41,9 +42,12 @@ const VolunteeringTC = () => {
             Tzu Chi medical clinic, where Tzu Chi volunteers provided free
             medical services, like vision, acupuncture, and flu shots, for those
             in need. For my volunteering role, I helped with Spanish
-            translations and medical form fill outs. It was a fun experiecnce
-            for me to help others in need
+            translations and medical form fill outs. It was a fun experience for
+            me to help others in need
           </p>
+          <h2 className={classes['blog__header']}>
+            Becoming an Officer / Starting My Passion in Photography
+          </h2>
         </div>
       </Container>
     </AnimatedPage>
