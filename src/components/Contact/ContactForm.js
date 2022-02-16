@@ -56,6 +56,11 @@ const emailReducer = (state, action) => {
       invalidReason: reason,
     };
   }
+  return {
+    value: '',
+    isValid: false,
+    invalidReason: '',
+  };
 };
 
 const ContactForm = () => {
@@ -75,8 +80,12 @@ const ContactForm = () => {
     invalidReason: '',
   });
 
+  const [messageState, dispatchMessage] = useReducer(messageReducer, {
+    value: '',
+    isValid: undefined,
+  });
+
   const [message, setMessage] = useState('');
-  const [lastNameValid, setLastNameValid] = useState();
   const [messageValid, setMessageValid] = useState();
   const [formSent, setFormSent] = useState(false);
   const [formIsValid, setFormIsValid] = useState(false);
@@ -167,7 +176,7 @@ const ContactForm = () => {
             onChange={lastNameChangeHandler}
             onBlur={validateLastName}
           />
-          {lastNameValid === false && (
+          {lastNameState.isValid === false && (
             <p className='contact-form__message--error'>
               Field cannot be blank
             </p>
