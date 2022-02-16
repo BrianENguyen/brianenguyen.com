@@ -16,8 +16,24 @@ const firstNameReducer = (state, action) => {
   return { value: '', isValid: false };
 };
 
+const lastNameReducer = (state, action) => {
+  switch (action.type) {
+    case 'USER_INPUT':
+      return { value: action.val, isValid: action.val.length };
+    case 'INPUT_BLUR':
+      return { value: state.value, isValid: state.value.length };
+    default:
+      return { value: '', isValid: false };
+  }
+};
+
 const ContactForm = () => {
   const [firstNameState, dispatchFirstName] = useReducer(firstNameReducer, {
+    value: '',
+    isValid: undefined,
+  });
+
+  const [lastNameState, dispatchLastName] = useReducer(lastNameReducer, {
     value: '',
     isValid: undefined,
   });
