@@ -36,6 +36,14 @@ const VolunteeringTC = () => {
             vegetarianism. I was intrigued and wanted to do more with this
             organization, so I participate in one of their volunteering events.
           </p>
+          <p>
+            My first volunteering event with them was at a medical outreach at a
+            Tzu Chi medical clinic, where Tzu Chi volunteers provided free
+            medical services, like vision, acupuncture, and flu shots, for those
+            in need. For my volunteering role, I helped with Spanish
+            translations and medical form fill outs. It was a fun experiecnce
+            for me to help others in need
+          </p>
         </div>
       </Container>
     </AnimatedPage>

@@ -2,7 +2,7 @@ const BlogData = [
   {
     title: 'Volunteering with the Tzu Chi Foundation',
     description: `I've been volunteering for Tzu Chi for five years. Learn about my
-    experiences with this organization since 2016.`,
+    experiences with this organization since 2016, how this organization helped me develop my passion for photography, and how I became president of CSULB Tzu Ching.`,
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/v1644820389/BEN_Website/blog/BEN_orientation.jpg ',
     date: '2022-02-??',
