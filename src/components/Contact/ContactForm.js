@@ -116,7 +116,7 @@ const ContactForm = () => {
         emailState.isValid &&
         messageState.isValid
     );
-    // setFormSent(false);
+    setFormSent(false);
   };
 
   const lastNameChangeHandler = (event) => {
@@ -127,7 +127,7 @@ const ContactForm = () => {
         emailState.isValid &&
         messageState.isValid
     );
-    // setFormSent(false);
+    setFormSent(false);
   };
 
   const emailChangeHandler = (event) => {
@@ -139,7 +139,7 @@ const ContactForm = () => {
         event.target.value.match(EmailRegex) &&
         messageState.isValid
     );
-    // setFormSent(false);
+    setFormSent(false);
   };
 
   const messageChangeHandler = (event) => {
@@ -151,7 +151,7 @@ const ContactForm = () => {
         event.target.value.length
     );
 
-    // setFormSent(false);
+    setFormSent(false);
   };
 
   // Input validations
