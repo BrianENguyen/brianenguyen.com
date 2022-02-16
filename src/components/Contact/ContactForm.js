@@ -75,16 +75,10 @@ const ContactForm = () => {
     invalidReason: '',
   });
 
-  const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-
   const [lastNameValid, setLastNameValid] = useState();
-  const [emailValid, setEmailValid] = useState();
   const [messageValid, setMessageValid] = useState();
-
-  const [emailError, setEmailError] = useState('');
   const [formSent, setFormSent] = useState(false);
-
   const [formIsValid, setFormIsValid] = useState(false);
 
   const validateForm = (event) => {
@@ -112,7 +106,7 @@ const ContactForm = () => {
   };
 
   const emailChangeHandler = (event) => {
-    setEmail(event.target.value);
+    dispatchEmail({ type: 'USER_INPUT', val: event.target.value });
     setFormSent(false);
   };
 
@@ -131,11 +125,7 @@ const ContactForm = () => {
   };
 
   const validateEmail = () => {
-    if (!email.length) setEmailError('Field cannot be blank');
-    if (email.length && !email.match(EmailRegex)) {
-      setEmailError('Invalid email');
-    }
-    setEmailValid(email.length && email.match(EmailRegex) ? true : false);
+    dispatchEmail({ type: 'INPUT_BLUR' });
   };
 
   const validateMessage = () => {
@@ -191,12 +181,14 @@ const ContactForm = () => {
         label='Email *'
         name='email'
         type='email'
-        error={emailValid !== undefined && !emailValid}
+        error={emailState.isValid !== undefined && !emailState.isValid}
         onChange={emailChangeHandler}
         onBlur={validateEmail}
       />
-      {emailValid === false && (
-        <p className='contact-form__message--error'>{emailError}</p>
+      {emailState.isValid === false && (
+        <p className='contact-form__message--error'>
+          {emailState.invalidReason}
+        </p>
       )}
 
       {/* Message */}
