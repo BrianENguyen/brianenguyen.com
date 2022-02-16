@@ -92,7 +92,7 @@ const ContactForm = () => {
   };
 
   const lastNameChangeHandler = (event) => {
-    setLastName(event.target.value);
+    dispatchLastName({ type: 'USER_INPUT', val: event.target.value });
     setFormSent(false);
   };
 
@@ -112,7 +112,7 @@ const ContactForm = () => {
   };
 
   const validateLastName = () => {
-    setLastNameValid(lastName.length ? true : false);
+    dispatchLastName({ type: 'INPUT_BLUR' });
   };
 
   const validateEmail = () => {
@@ -156,7 +156,9 @@ const ContactForm = () => {
             id='last-name'
             label='Last Name *'
             name='last_name'
-            error={lastNameValid !== undefined && !lastNameValid}
+            error={
+              lastNameState.isValid !== undefined && !lastNameState.isValid
+            }
             onChange={lastNameChangeHandler}
             onBlur={validateLastName}
           />
