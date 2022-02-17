@@ -157,6 +157,27 @@ const VolunteeringTC = () => {
             high school showed up, even my dad showed up. From that point, I
             felt like I was going to cry.
           </p>
+          <h2 className={classes['blog__header']}>
+            Revitalizing CSULB Tzu Ching / Current Times
+          </h2>
+          <p>
+            From there point on, CSULB Tzu Ching saw success in its events. We
+            had many members attend our event and we've gained more interest in
+            our organization, not just our events, but also our values. I was
+            grateful that the advisors and I were able to inspire a new
+            generation of officers for the next school year. When the school
+            year ended, CSULB Tzu Ching was able function for the following
+            years and is still functioning as I'm writing this. I'm glad my
+            officer journey ended on a high note. As an alumni, I still continue
+            to support this organization, whether it is maintaining the CSULB
+            Tzu Ching website, providing photography at events, or giving advice
+            to current officers.
+          </p>
+          <p>
+            If there is anything that I've learned during my journey, it's don't
+            give up to prevent things from getting worse, but rather don't give
+            up to prevent things from getting better.
+          </p>
         </div>
       </Container>
     </AnimatedPage>
