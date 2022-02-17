@@ -117,10 +117,20 @@ const VolunteeringTC = () => {
             couldn't really figure out why. Not only this hurt our events, but
             it also hurt our chances of getting new officers to help us for the
             following school years. In 2018, we only had two officers that were
-            leading CSULB Tzu Ching: the president at the time, and me, who
-            became vice-president. Our events did not get many members, which
-            caused me to be frustrated and depressed that our efforts have been
-            for nothing.
+            leading CSULB Tzu Ching: Jessica, then president, and me, the
+            vice-president. Our events did not get many members, which caused me
+            to be frustrated and depressed that our efforts have been for
+            nothing.
+          </p>
+          <p>
+            When the 2018-2019 school year ended, we weren't able to gain any
+            interest in officer positions. Jessica wasn't able to be president
+            the next school year because she was graduating the following
+            semester. And me? I wanted to give up. I didn't want to put any
+            effort in this organization if it would be for nothing. My advisors
+            at the time persuaded me to continue for one more year with their
+            support, so I did. I went into the 2019-2020 school year as the only
+            officer for CSULB Tzu Ching.
           </p>
         </div>
       </Container>
