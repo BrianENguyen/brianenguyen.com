@@ -71,7 +71,7 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               className='navbar__link'
               activeClassName='navbar__link active'
@@ -80,7 +80,7 @@ const Navbar = () => {
             >
               Resume
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               className='navbar__link'

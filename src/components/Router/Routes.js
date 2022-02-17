@@ -4,7 +4,6 @@ import ErrorView from '../../views/main/ErrorView';
 import HomeView from '../../views/main/HomeView';
 import PortfolioView from '../../views/main/PortfolioView';
 import PrivacyView from '../../views/main/PrivacyView';
-import ResumeView from '../../views/main/ResumeView';
 import BlogView from '../../views/main/BlogView';
 
 import FirstSiteView from '../../views/project/FirstSiteView';
@@ -23,7 +22,6 @@ import VolunteeringTC from '../../views/blog/VolunteeringTC';
 
 const ROUTES = [
   { path: '/', exact: true, key: 'Home', component: HomeView },
-  { path: '/resume', key: 'Resume', component: ResumeView },
   { path: '/portfolio', key: 'Portfolio', component: PortfolioView },
   { path: '/blog', key: 'Blog', component: BlogView },
   { path: '/why-i-blog', key: 'Why I Blog', component: WhyBlogView },
