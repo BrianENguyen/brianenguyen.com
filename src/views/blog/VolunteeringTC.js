@@ -198,7 +198,6 @@ const VolunteeringTC = () => {
                 alt=''
               />
             </ImageListItem>
-
             <ImageListItem>
               <img
                 src='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg'
@@ -244,6 +243,40 @@ const VolunteeringTC = () => {
             don't give up to prevent things from getting worse, but rather don't
             give up to prevent things from getting better.
           </p>
+          <h2 className={classes['blog__header']}>Special Thanks</h2>
+          <p>
+            I dedicate this blog to the following who have been with me through
+            this journey:
+          </p>
+          <ul>
+            <li>
+              <strong>Lily and Weili</strong> - these two were the founders of
+              CSULB Tzu Ching. They've made sure that I wouldn't handle the
+              organization all on my own. Without their valuable advice, we
+              wouldn't be able to make the 2019-2020 school year a successful
+              one.
+            </li>
+            <li>
+              <strong>UCI Tzu Ching</strong> - I've developed deep relationships
+              with them, which also opened the door to collaborations that are
+              happening to this day. I've been to many of their events, and in
+              turn, they've considered me as an honorary UCI Tzu Ching member.
+            </li>
+            <li>
+              <strong>Shi Gu's and Shi Buo's</strong> - these are Tzu Chi
+              volunteers who continuously provided help with our events, such as
+              bringing food at meetings, helping attract new members, and
+              organizing events for CSULB Tzu Ching to attend.
+            </li>
+            <li>
+              <strong>Samanta, Victoria, Vivienne</strong> - the president, vice
+              president, and secretary of CSULB Tzu Ching for the 2020-2021
+              school year, respectively. They took the opportunity to become
+              officers and help the organization grow for another year after I
+              graduated. Not only have I inspired them, but they have also
+              inspired me.
+            </li>
+          </ul>
         </div>
       </Container>
     </AnimatedPage>
