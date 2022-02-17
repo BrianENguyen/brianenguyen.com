@@ -20,7 +20,10 @@ const VolunteeringTC = () => {
           <p>
             In Chinese, "tzu" means "compassion," and "chi" means "relief."
             "With open arms and helping hands, our volunteers are here to serve
-            you."
+            you." The Tzu Chi Foundation is a global relief organization that
+            focuses on charity, medicine, education, and humanistic culture.
+            This blog documents my experiences with this organization starting
+            from 2016 up until now.
           </p>
           <h2 className={classes['blog__header']}>Starting My Journey</h2>
           <p>
