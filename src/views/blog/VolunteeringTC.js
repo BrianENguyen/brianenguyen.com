@@ -1,6 +1,6 @@
 import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
-import { Container } from '@mui/material';
+import { Container, ImageList, ImageListItem } from '@mui/material';
 import { useEffect } from 'react';
 import { MyProgrammingHistoryPageTitle } from '../../components/Helper/PageTitleData';
 
@@ -76,6 +76,27 @@ const VolunteeringTC = () => {
             event where I fulfilled my new historian role, and it was one of the
             most memorable events that we've hosted.
           </p>
+          <ImageList variant='masonry' cols={2} gap={10}>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg'
+                loading='lazy'
+              />
+            </ImageListItem>
+
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg'
+                loading='lazy'
+              />
+            </ImageListItem>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday3.jpg'
+                loading='lazy'
+              />
+            </ImageListItem>
+          </ImageList>
           <h2 className={classes['blog__header']}>
             Bridging the Gap for CSULB / UCI Collaborations
           </h2>
