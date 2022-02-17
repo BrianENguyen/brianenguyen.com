@@ -78,6 +78,34 @@ const VolunteeringTC = () => {
             role. This event was one of the most memorable events that we've
             hosted
           </p>
+          <h2 className={classes['blog__header']}>
+            Bridging the Gap for CSULB / UCI Collaborations
+          </h2>
+          <p>
+            One day during the summer of 2017, I saw a senior-center
+            volunteering event posted on UCI Tzu Ching's FaceBook. I was bored
+            at that time, so I reached out to them to volunteer with them. On
+            the day of that event, UCI Tzu Ching and I socialized with the
+            seniors and did performances for them to help brighten their day. In
+            addition, I was able to meet all of UCI Tzu Ching's officers and
+            advisors.
+          </p>
+          <p>
+            UCI Tzu Ching held another volunteering event during the summer,
+            which is a tutoring event. In this event, we would tutor kids grades
+            three, four, and five on reading, writing, math, and arts & crafts.
+            I used to volunteer tutoring children when I was in elementary
+            school, so attending this tutoring event brought back memories; it
+            was also a pleasure tutoring the children with UCI Tzu Ching too.
+          </p>
+          <p>
+            That day helped me form a deeper connection with the UCI Tzu Ching
+            officers. We hung out after the tutoring event at a restaurant and
+            we got to know each other more. In the months / years that followed,
+            I would continue to volunteer with UCI Tzu Ching, which eventually
+            led to them collaborating with CSULB Tzu Ching. This collaboration
+            continued to this day, all because I was bored on a summer day.
+          </p>
         </div>
       </Container>
     </AnimatedPage>
