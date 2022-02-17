@@ -279,10 +279,31 @@ const VolunteeringTC = () => {
             providing photography at events, or advising current officers.
           </p>
           <p>
-            If there is anything that I've learned during my journey, it's this:
-            don't give up to prevent things from getting worse, but rather don't
-            give up to prevent things from getting better.
+            If there is anything that I've learned during my journey, it's this:{' '}
+            <em>
+              you should not give up to prevent things from getting worse, but
+              rather, you should not give up to prevent things from getting
+              better.
+            </em>
           </p>
+          <ImageList variant='masonry' cols={1} gap={10}>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialdaygroup.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialdaygroup.jpg'
+                loading='lazy'
+                alt=''
+              />
+            </ImageListItem>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_keychain.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_keychain.jpg'
+                loading='lazy'
+                alt=''
+              />
+            </ImageListItem>
+          </ImageList>
           <h2 className={classes['blog__header']}>Special Thanks</h2>
           <p>
             I dedicate this blog to the following who have been with me through
