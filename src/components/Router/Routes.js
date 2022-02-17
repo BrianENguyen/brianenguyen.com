@@ -19,6 +19,7 @@ import YelpCamp from '../../views/project/YelpCamp';
 
 import WhyBlogView from '../../views/blog/WhyBlogView';
 import MyProgrammingHistoryView from '../../views/blog/MyProgrammingHistoryView';
+import VolunteeringTC from '../../views/blog/VolunteeringTC';
 
 const ROUTES = [
   { path: '/', exact: true, key: 'Home', component: HomeView },
@@ -26,6 +27,12 @@ const ROUTES = [
   { path: '/portfolio', key: 'Portfolio', component: PortfolioView },
   { path: '/blog', key: 'Blog', component: BlogView },
   { path: '/why-i-blog', key: 'Why I Blog', component: WhyBlogView },
+  {
+    path: '/volunteering-with-tzu-chi',
+    key: 'Volunteering with Tzu Chi',
+    component: VolunteeringTC,
+  },
+
   {
     path: '/programming-history',
     key: 'Programming History',
