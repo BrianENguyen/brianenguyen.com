@@ -48,6 +48,20 @@ const VolunteeringTC = () => {
           <h2 className={classes['blog__header']}>
             Becoming an Officer / Starting My Passion in Photography
           </h2>
+          <p>
+            At one point during my first year with CSULB Tzu Ching, one of the
+            officers couldn't fulfill her historian position. This position
+            involves taking photos for the organization at events for
+            documentation purposes. I was interested in this role because I had
+            a DSLR camera that I didn't use much and thought this opportunity
+            would help me develop my photography skills. I applied to the role
+            and the officer board decided that I was a good fit for it. The
+            president at the time told me that their decision was not mostly
+            based on my photography skills, but rather my experience and
+            dedication to the organization. I was elated for the opportunity to
+            work with the officers, develop my photography skills, and help
+            contribute to CSULB Tzu Ching.
+          </p>
         </div>
       </Container>
     </AnimatedPage>
