@@ -80,20 +80,34 @@ const VolunteeringTC = () => {
             <ImageListItem>
               <img
                 src='https://res.cloudinary.com/buraiyen/image/upload/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg'
                 loading='lazy'
+                alt=''
               />
             </ImageListItem>
 
             <ImageListItem>
               <img
                 src='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg'
                 loading='lazy'
+                alt=''
               />
             </ImageListItem>
             <ImageListItem>
               <img
-                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday3.jpg'
+                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday__3.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday__3.jpg'
                 loading='lazy'
+                alt=''
+              />
+            </ImageListItem>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg'
+                loading='lazy'
+                alt=''
               />
             </ImageListItem>
           </ImageList>
@@ -179,26 +193,34 @@ const VolunteeringTC = () => {
             <ImageListItem>
               <img
                 src='https://res.cloudinary.com/buraiyen/image/upload/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg'
                 loading='lazy'
+                alt=''
               />
             </ImageListItem>
 
             <ImageListItem>
               <img
                 src='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg'
                 loading='lazy'
+                alt=''
               />
             </ImageListItem>
             <ImageListItem>
               <img
                 src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg'
                 loading='lazy'
+                alt=''
               />
             </ImageListItem>
             <ImageListItem>
               <img
                 src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg'
                 loading='lazy'
+                alt=''
               />
             </ImageListItem>
           </ImageList>
