@@ -106,6 +106,22 @@ const VolunteeringTC = () => {
             led to them collaborating with CSULB Tzu Ching. This collaboration
             continued to this day, all because I was bored on a summer day.
           </p>
+          <h2 className={classes['blog__header']}>
+            Becoming the <em>Only</em> Officer for CSULB Tzu Ching and Leading
+            It When No One Else Would
+          </h2>
+          <p>
+            It started around 2018 when CSULB Tzu Ching started to experience
+            rough years. The number of members who attend our events started to
+            drop; not many were interested in our organization. At that time, I
+            couldn't really figure out why. Not only this hurt our events, but
+            it also hurt our chances of getting new officers to help us for the
+            following school years. In 2018, we only had two officers that were
+            leading CSULB Tzu Ching: the president at the time, and me, who
+            became vice-president. Our events did not get many members, which
+            caused me to be frustrated and depressed that our efforts have been
+            for nothing.
+          </p>
         </div>
       </Container>
     </AnimatedPage>
