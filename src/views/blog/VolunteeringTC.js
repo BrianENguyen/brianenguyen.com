@@ -48,6 +48,17 @@ const VolunteeringTC = () => {
             translations and medical form fill outs. It was a fun experience for
             me to help others in need.
           </p>
+          <ImageList variant='masonry' cols={1} gap={10}>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_wilmington.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_wilmington.jpg'
+                loading='lazy'
+                alt=''
+              />
+            </ImageListItem>
+          </ImageList>
+
           <h2 className={classes['blog__header']}>
             Becoming an Officer / Starting My Passion in Photography
           </h2>
@@ -82,8 +93,8 @@ const VolunteeringTC = () => {
           <ImageList variant='masonry' cols={2} gap={10}>
             <ImageListItem>
               <img
-                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg'
-                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg'
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg'
                 loading='lazy'
                 alt=''
               />
@@ -91,24 +102,24 @@ const VolunteeringTC = () => {
 
             <ImageListItem>
               <img
-                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg'
-                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg'
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg'
                 loading='lazy'
                 alt=''
               />
             </ImageListItem>
             <ImageListItem>
               <img
-                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday__3.jpg'
-                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday__3.jpg'
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday__3.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday__3.jpg'
                 loading='lazy'
                 alt=''
               />
             </ImageListItem>
             <ImageListItem>
               <img
-                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg'
-                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg'
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg'
                 loading='lazy'
                 alt=''
               />
@@ -141,6 +152,32 @@ const VolunteeringTC = () => {
             them collaborating with CSULB Tzu Ching. This collaboration
             continued today, all because I was bored on a summer day.
           </p>
+          <ImageList variant='masonry' cols={2} gap={10}>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_seniorcenter.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_seniorcenter.jpg'
+                loading='lazy'
+                alt=''
+              />
+            </ImageListItem>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring1.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring1.jpg'
+                loading='lazy'
+                alt=''
+              />
+            </ImageListItem>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring2.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring2.jpg'
+                loading='lazy'
+                alt=''
+              />
+            </ImageListItem>
+          </ImageList>
           <h2 className={classes['blog__header']}>
             Becoming the <em>Only</em> Officer for CSULB Tzu Ching and Leading
             It When No One Else Would
@@ -195,24 +232,24 @@ const VolunteeringTC = () => {
           <ImageList variant='masonry' cols={2} gap={10}>
             <ImageListItem>
               <img
-                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg'
-                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg'
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg'
                 loading='lazy'
                 alt=''
               />
             </ImageListItem>
             <ImageListItem>
               <img
-                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg'
-                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg'
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg'
                 loading='lazy'
                 alt=''
               />
             </ImageListItem>
             <ImageListItem>
               <img
-                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg'
-                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg'
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg'
                 loading='lazy'
                 alt=''
               />
@@ -220,7 +257,7 @@ const VolunteeringTC = () => {
             <ImageListItem>
               <img
                 src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg'
-                srcSet='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg'
+                srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1097/v1645076614/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg'
                 loading='lazy'
                 alt=''
               />
