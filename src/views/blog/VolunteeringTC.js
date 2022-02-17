@@ -62,6 +62,22 @@ const VolunteeringTC = () => {
             work with the officers, develop my photography skills, and help
             contribute to CSULB Tzu Ching.
           </p>
+          <h2 className={classes['blog__header']}>Tzu Ching Social Day</h2>
+          <p>
+            The biggest event CSULB Tzu Ching has ever held was called Tzu Ching
+            Social Day in February 25, 2017. This event is where Tzu Ching
+            members from various southern California colleges gather at one
+            college to get to hang out and know each other. CSULB Tzu Ching was
+            the host of that year's Social Day event, and the theme for that
+            event was environmental protection. Various Tzu Chings from other
+            colleges, like UC Irvine, UC San Diego, and UC Southern California,
+            attended this event. The CSULB Tzu Ching officer board taught the
+            attendees how Tzu Chi promotes environmental protection by using
+            recycled plastic to make clothes and promoting vegetarianism. This
+            event was also the first event where I fulfilled my new historian
+            role. This event was one of the most memorable events that we've
+            hosted
+          </p>
         </div>
       </Container>
     </AnimatedPage>
