@@ -7,7 +7,7 @@ const BlogData = [
       the organization by myself.`,
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/v1644820389/BEN_Website/blog/BEN_orientation.jpg ',
-    date: '2022-02-??',
+    date: '2022-02-16',
     link: '/volunteering-with-tzu-chi',
   },
   {

@@ -16,7 +16,7 @@ const VolunteeringTC = () => {
           Volunteering with the Tzu Chi Foundation
         </h1>
         <div className={classes['blog__text']}>
-          <p className={classes['blog__date']}>2022-02-??</p>
+          <p className={classes['blog__date']}>2022-02-16</p>
           <p>
             In Chinese, "tzu" means "compassion," and "chi" means "relief."
             "With open arms and helping hands, our volunteers are here to serve
