@@ -260,6 +260,13 @@ const VolunteeringTC = () => {
               one.
             </li>
             <li>
+              <strong>Jessica</strong> - she took the initiative in being the
+              president when we were experiencing down times. She had more
+              experience in leadership and managing the organization than I
+              have, so I looked up to and learned from her so I could one day
+              lead CSULB Tzu Ching.
+            </li>
+            <li>
               <strong>UCI Tzu Ching</strong> - I've developed deep relationships
               with them, which also opened the door to collaborations that are
               happening to this day. I've been to many of their events, and in
