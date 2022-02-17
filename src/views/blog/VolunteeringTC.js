@@ -175,6 +175,33 @@ const VolunteeringTC = () => {
             high school showed up, even my dad showed up. From that point, I
             felt like I was going to cry.
           </p>
+          <ImageList variant='masonry' cols={2} gap={10}>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg'
+                loading='lazy'
+              />
+            </ImageListItem>
+
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg'
+                loading='lazy'
+              />
+            </ImageListItem>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg'
+                loading='lazy'
+              />
+            </ImageListItem>
+            <ImageListItem>
+              <img
+                src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg'
+                loading='lazy'
+              />
+            </ImageListItem>
+          </ImageList>
           <h2 className={classes['blog__header']}>
             Revitalizing CSULB Tzu Ching / Current Times
           </h2>
