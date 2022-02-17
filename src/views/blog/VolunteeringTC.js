@@ -132,6 +132,31 @@ const VolunteeringTC = () => {
             support, so I did. I went into the 2019-2020 school year as the only
             officer for CSULB Tzu Ching.
           </p>
+          <p>
+            When the 2019-2020 school year started, I, with the help of advisors
+            and some past members, did the club fair event. We got around 100
+            people to sign up for our mailing list across two days. Even though
+            that number is high, my expectations were low because in past club
+            fair events, we achieved that same number but we got very low
+            turnout rates for our first general meeting; I wasn't expecting much
+            people to attend our first meeting this year either.
+          </p>
+          <p>
+            The first meeting was September 9, 2019. I arrived at the meeting
+            room at least an hour early to set things up. While I was there, all
+            I thought to myself was that only around five people would show up.
+            I would just get through this meeting and get it over with. Twenty
+            minutes before the meeting happened, one person showed up. I thought
+            that was strange because we never had someone show up to a meeting
+            that early. Then, a few minutes later, another person showed up.
+            Then, another person showed up. And another person showed up. And
+            other person showed up! Outside of the room, there was a line of
+            people waiting to get in, and I was like "OH MY GOSH! WHAT IS
+            HAPPENING?!?! WHY ARE THERE SO MANY PEOPLE?" Not only that, past
+            officers and members of CSULB Tzu Ching showed up, my friend from
+            high school showed up, even my dad showed up. From that point, I
+            felt like I was going to cry.
+          </p>
         </div>
       </Container>
     </AnimatedPage>
