@@ -1,12 +1,5 @@
 const WebCardData = [
   {
-    title: 'Resume',
-    description:
-      'View my resume to know more about my education, work experience, and more',
-    linkText: 'View resume',
-    link: '/resume',
-  },
-  {
     title: 'Portfolio',
     description: 'Feel free to take a look at projects that I have worked on',
     linkText: 'View portfolio',
