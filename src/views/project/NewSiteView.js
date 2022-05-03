@@ -38,7 +38,7 @@ const NewSiteView = () => {
           <div>
             <p>
               <a
-                href='https://github.com/Brian-E-Nguyen/BEN-Website-React'
+                href='https://github.com/Buraiyen/BEN-Website-React'
                 target='_blank'
                 rel='noreferrer'
               >

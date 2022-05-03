@@ -46,7 +46,7 @@ const ThuView = () => {
             </p>
             <p>
               <a
-                href='https://github.com/Brian-E-Nguyen/Thu-Website'
+                href='https://github.com/Buraiyen/Thu-Website'
                 target='_blank'
                 rel='noreferrer'
               >

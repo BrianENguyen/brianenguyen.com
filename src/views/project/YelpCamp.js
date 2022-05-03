@@ -46,7 +46,7 @@ const YelpCamp = () => {
             </p>
             <p>
               <a
-                href='https://github.com/Brian-E-Nguyen/YelpCamp'
+                href='https://github.com/Buraiyen/YelpCamp'
                 target='_blank'
                 rel='noreferrer'
               >

@@ -41,7 +41,7 @@ const FrontendMentorView = () => {
           <div>
             <p>
               <a
-                href='https://github.com/Brian-E-Nguyen/frontend-mentor-challenges'
+                href='https://github.com/Buraiyen/frontend-mentor-challenges'
                 target='_blank'
                 rel='noreferrer'
               >

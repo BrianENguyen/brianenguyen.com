@@ -51,7 +51,7 @@ const LBTCView = () => {
             </p>
             <p>
               <a
-                href='https://github.com/Brian-E-Nguyen/CSULB-TC-Website'
+                href='https://github.com/Buraiyen/CSULB-TC-Website'
                 target='_blank'
                 rel='noreferrer'
               >

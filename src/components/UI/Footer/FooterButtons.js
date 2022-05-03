@@ -4,7 +4,7 @@ import { GrLinkedinOption } from 'react-icons/gr';
 import './Footer.css';
 
 const FooterButtons = () => {
-  const github = 'https://github.com/Brian-E-Nguyen/';
+  const github = 'https://github.com/Buraiyen/';
   const linkedin = 'https://www.linkedin.com/in/brian-edison-nguyen/';
   const instagram = 'https://www.instagram.com/b_rye_the_asian_spy/';
 

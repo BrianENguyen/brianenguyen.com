@@ -37,7 +37,7 @@ const FirstSiteView = () => {
           <div>
             <p>
               <a
-                href='https://github.com/Brian-E-Nguyen/BEN-Website'
+                href='https://github.com/Buraiyen/BEN-Website'
                 target='_blank'
                 rel='noreferrer'
               >

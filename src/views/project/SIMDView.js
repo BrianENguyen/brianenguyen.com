@@ -32,7 +32,7 @@ const SIMDView = () => {
           <div>
             <p>
               <a
-                href='https://github.com/Brian-E-Nguyen/SIMD-Enhanced-MIPS-Instructions/blob/master/SMID-Enhanced-MIPS-Instructions.pdf'
+                href='https://github.com/Buraiyen/SIMD-Enhanced-MIPS-Instructions/blob/master/SMID-Enhanced-MIPS-Instructions.pdf'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -41,7 +41,7 @@ const SIMDView = () => {
             </p>
             <p>
               <a
-                href='https://github.com/Brian-E-Nguyen/SIMD-Enhanced-MIPS-Instructions'
+                href='https://github.com/Buraiyen/SIMD-Enhanced-MIPS-Instructions'
                 target='_blank'
                 rel='noreferrer'
               >

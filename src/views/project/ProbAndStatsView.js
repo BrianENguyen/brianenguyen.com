@@ -43,7 +43,7 @@ const ProbAndStatsView = () => {
           <div>
             <p>
               <a
-                href='https://github.com/Brian-E-Nguyen/EE-381'
+                href='https://github.com/Buraiyen/EE-381'
                 target='_blank'
                 rel='noreferrer'
               >
