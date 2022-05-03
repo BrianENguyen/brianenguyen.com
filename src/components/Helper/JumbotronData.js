@@ -82,6 +82,10 @@ const YelpCampData = {
   title: 'YelpCamp',
 };
 
+const AllEliteNetworkData = {
+  title: 'All Elite Network',
+};
+
 export {
   HomeData,
   ResumeData,
@@ -99,4 +103,5 @@ export {
   SIMDData,
   ThuData,
   YelpCampData,
+  AllEliteNetworkData,
 };

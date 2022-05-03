@@ -32,6 +32,8 @@ const ThuPageTitle = `Thu Nguyen ${suffix}`;
 
 const YelpCampPageTitle = `YelpCamp ${suffix}`;
 
+const AllEliteNetworkPageTitle = `All Elite Network | ${suffix}`;
+
 const BlogPageTitle = `Blog ${suffix}`;
 
 const WhyBlogPageTitle = `Why I'm Blogging ${suffix}`;
@@ -58,6 +60,7 @@ export {
   SIMDPageTitle,
   ThuPageTitle,
   YelpCampPageTitle,
+  AllEliteNetworkPageTitle,
   WhyBlogPageTitle,
   MyProgrammingHistoryPageTitle,
   VolunteeringTCPageTitle,
