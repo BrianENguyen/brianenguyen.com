@@ -49,16 +49,23 @@ const AllEliteNetworkView = () => {
               <li>GraphQL (future plan)</li>
             </ul>
           </div>
-          <div>
+          <div style={{ marginBottom: 15 + 'px' }}>
             <p>
               <a
-                href='https://github.com/Brian-E-Nguyen/BEN-Website'
+                href='https://github.com/Buraiyen/All-Elite-Network'
                 target='_blank'
                 rel='noreferrer'
               >
                 <Button className='btn-standard'>View Repository</Button>
               </a>
             </p>
+            <a
+              href='https://all-elite-network.pages.dev/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <Button className='btn-standard'>View Website</Button>
+            </a>
           </div>
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network1.png'
