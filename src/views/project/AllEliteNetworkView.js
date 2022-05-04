@@ -80,7 +80,15 @@ const AllEliteNetworkView = () => {
         <Container>
           <div className='project-view__personal-notes'>
             <h2>Personal Notes</h2>
-            <p></p>
+            <p>
+              Watching professional wrestling is one of my biggest passions. I
+              have been an active fan of AEW since its start in 2019, and it has
+              made me proud to be a wrestling fan. One of the most requested
+              things that AEW fans have requested is a streaming platform. I
+              wanted to make this app as a design mockup for what the streaming
+              platform might look like. I am still hoping there will be an
+              official app in the future.
+            </p>
           </div>
         </Container>
       </div>
