@@ -1,5 +1,14 @@
 const ProjectData = [
   {
+    title: 'All Elite Network',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1651693922/BEN_Website/projects/aew-stage-fireworks.webp',
+    link: '/all-elite-network',
+    photoCredit: {
+      name: 'All Elite Wrestling',
+      link: 'https://www.allelitewrestling.com/',
+    },
+  },
+  {
     title: 'Frontend Mentor Challenges',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,e_brightness:85,w_1025/v1642187660/BEN_Website/projects/BEN_frontend.jpg',
     link: '/frontend-mentor-challenges',
