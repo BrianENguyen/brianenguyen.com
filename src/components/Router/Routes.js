@@ -15,6 +15,7 @@ import ProbAndStatsView from '../../views/project/ProbAndStatsView';
 import SIMDView from '../../views/project/SIMDView';
 import ThuView from '../../views/project/ThuView';
 import YelpCamp from '../../views/project/YelpCamp';
+import AllEliteNetworkView from '../../views/project/AllEliteNetworkView';
 
 import WhyBlogView from '../../views/blog/WhyBlogView';
 import MyProgrammingHistoryView from '../../views/blog/MyProgrammingHistoryView';
@@ -47,6 +48,11 @@ const ROUTES = [
   },
   { path: '/new-site', key: 'New Website', component: NewSiteView },
   { path: '/thu-nguyen', key: 'Thu Nguyen', component: ThuView },
+  {
+    path: '/all-elite-network',
+    key: 'All Elite Network',
+    component: AllEliteNetworkView,
+  },
   { path: '/csulb-tzu-ching', key: 'CSULB Tzu Ching', component: LBTCView },
   { path: '/yelpcamp', key: 'YelpCamp', component: YelpCamp },
   { path: '/first-personal-site', key: 'First Site', component: FirstSiteView },
