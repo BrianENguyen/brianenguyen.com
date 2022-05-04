@@ -37,7 +37,8 @@ const AllEliteNetworkView = () => {
               The All Elite Network
             </span>{' '}
             is the ultimate unofficial streaming service for fans of All Elite
-            Wrestling to access the AEW library of amazing content
+            Wrestling to access the AEW library of amazing content. This project
+            is currently a work in progress.
           </p>
           <div className='project-view__tech-stack'>
             <h2>Tech Stack</h2>
@@ -45,6 +46,7 @@ const AllEliteNetworkView = () => {
               <li>React.js</li>
               <li>SCSS</li>
               <li>React Router</li>
+              <li>GraphQL (future plan)</li>
             </ul>
           </div>
           <div>
@@ -58,7 +60,21 @@ const AllEliteNetworkView = () => {
               </a>
             </p>
           </div>
-          <img src='' className='project-view__image' alt='' />
+          <img
+            src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network1.png'
+            className='project-view__image'
+            alt=''
+          />
+          <img
+            src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network2.png'
+            className='project-view__image'
+            alt=''
+          />
+          <img
+            src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network3.png'
+            className='project-view__image'
+            alt=''
+          />
         </Container>
 
         <Container>
