@@ -46,7 +46,12 @@ const AllEliteNetworkView = () => {
               <li>React.js</li>
               <li>SCSS</li>
               <li>React Router</li>
-              <li>GraphQL (future plan)</li>
+              <li>Future Plans</li>
+              <ul>
+                <li>MongoDB</li>
+                <li>Express</li>
+                <li>Node.js</li>
+              </ul>
             </ul>
           </div>
           <div style={{ marginBottom: 15 + 'px' }}>
