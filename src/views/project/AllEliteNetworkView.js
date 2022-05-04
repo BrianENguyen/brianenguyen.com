@@ -17,7 +17,7 @@ const AllEliteNetworkView = () => {
       <div className='old-site'>
         <Jumbotron title={jumboTitle} />
         <Container maxWidth='md'>
-          <p className='project-view__description'>
+          <div className='project-view__description'>
             <p>
               All Elite Wrestling (AEW) is an American wrestling company based
               in Jacksonville, Florida. Since its inception in 2019, AEW has
@@ -39,7 +39,7 @@ const AllEliteNetworkView = () => {
             is the ultimate unofficial streaming service for fans of All Elite
             Wrestling to access the AEW library of amazing content. This project
             is currently a work in progress.
-          </p>
+          </div>
           <div className='project-view__tech-stack'>
             <h2>Tech Stack</h2>
             <ul>

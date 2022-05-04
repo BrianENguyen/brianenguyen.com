@@ -1,12 +1,8 @@
 .project-view__description,
-.project-view__tech-stack {
-  font-size: 1.75rem;
-  font-weight: 300;
-}
-
+.project-view__tech-stack,
 .project-view__personal-notes {
+  font-size: 1.4rem;
   font-weight: 300;
-  font-size: 1.5rem;
 }
 
 .project-view__description__title {
