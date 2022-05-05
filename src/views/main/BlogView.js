@@ -1,5 +1,5 @@
 import AnimatedPage from '../../components/Animations/AnimatedPage';
-import BlogList from '../../components/Blog/BlogList';
+import BlogList from '../../components/blog/BlogList';
 import { BlogData } from '../../helper/JumbotronData';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import { useEffect } from 'react';
