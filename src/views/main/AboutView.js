@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
-import Backstory from '../../components/About/Backstory';
-import Facts from '../../components/About/Facts';
-import ImageGallery from '../../components/About/ImageGallery';
-import Quote from '../../components/About/Quote';
+import Backstory from '../../components/about/Backstory';
+import Facts from '../../components/about/Facts';
+import ImageGallery from '../../components/about/ImageGallery';
+import Quote from '../../components/about/Quote';
 import { AboutData } from '../../helper/JumbotronData';
 import { AboutPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
