@@ -1,5 +1,5 @@
 import { Grid } from '@mui/material';
-import OtherProjectData from '../../Helper/OtherProjectData';
+import OtherProjectData from '../../../helper/OtherProjectData';
 import OtherProject from './OtherProject';
 import AnimatedHeader from '../../Animations/AnimatedHeader';
 

@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
-import { LBTCData } from '../../components/Helper/JumbotronData';
-import { LBTCPageTitle } from '../../components/Helper/PageTitleData';
+import { LBTCData } from '../../helper/JumbotronData';
+import { LBTCPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import './ProjectView.css';

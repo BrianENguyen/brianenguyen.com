@@ -2,7 +2,7 @@ import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
-import { MyProgrammingHistoryPageTitle } from '../../components/Helper/PageTitleData';
+import { MyProgrammingHistoryPageTitle } from '../../helper/PageTitleData';
 import Highlight from 'react-highlight';
 
 const MyProgrammingHistoryView = () => {

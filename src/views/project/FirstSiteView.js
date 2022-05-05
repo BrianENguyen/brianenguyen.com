@@ -1,8 +1,8 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
-import { FirstSiteData } from '../../components/Helper/JumbotronData';
-import { FirstSitePageTitle } from '../../components/Helper/PageTitleData';
+import { FirstSiteData } from '../../helper/JumbotronData';
+import { FirstSitePageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 

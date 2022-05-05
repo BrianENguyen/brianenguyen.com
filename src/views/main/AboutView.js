@@ -3,8 +3,8 @@ import Backstory from '../../components/About/Backstory';
 import Facts from '../../components/About/Facts';
 import ImageGallery from '../../components/About/ImageGallery';
 import Quote from '../../components/About/Quote';
-import { AboutData } from '../../components/Helper/JumbotronData';
-import { AboutPageTitle } from '../../components/Helper/PageTitleData';
+import { AboutData } from '../../helper/JumbotronData';
+import { AboutPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 const AboutView = () => {

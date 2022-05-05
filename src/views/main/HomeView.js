@@ -1,8 +1,8 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
-import { HomeData } from '../../components/Helper/JumbotronData';
-import { HomePageTitle } from '../../components/Helper/PageTitleData';
+import { HomeData } from '../../helper/JumbotronData';
+import { HomePageTitle } from '../../helper/PageTitleData';
 import Passion from '../../components/Home/Passion';
 import WebCardList from '../../components/Home/WebCardList';
 import RecentProjectList from '../../components/Projects/Main/RecentProjectList';

@@ -1,5 +1,5 @@
 import BlogCard from './BlogCard';
-import BlogData from '../Helper/BlogData';
+import BlogData from '../../helper/BlogData';
 import { Grid } from '@mui/material';
 import { Container } from '@mui/material';
 

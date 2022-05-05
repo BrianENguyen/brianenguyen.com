@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
-import { PrivacyPageTitle } from '../../components/Helper/PageTitleData';
+import { PrivacyPageTitle } from '../../helper/PageTitleData';
 import PrivacyCCPA from '../../components/Privacy/Policy/PrivacyCCPA';
 import PrivacyChildRights from '../../components/Privacy/Policy/PrivacyChildRights';
 import PrivacyCookies from '../../components/Privacy/Policy/PrivacyCookies';

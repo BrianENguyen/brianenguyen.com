@@ -2,8 +2,8 @@ import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 import ContactForm from '../../components/Contact/ContactForm';
-import { ContactData } from '../../components/Helper/JumbotronData';
-import { ContactPageTitle } from '../../components/Helper/PageTitleData';
+import { ContactData } from '../../helper/JumbotronData';
+import { ContactPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
 const ContactView = () => {

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { ErrorData } from '../../components/Helper/JumbotronData';
-import { ErrorPageTitle } from '../../components/Helper/PageTitleData';
+import { ErrorData } from '../../helper/JumbotronData';
+import { ErrorPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 const ErrorView = () => {

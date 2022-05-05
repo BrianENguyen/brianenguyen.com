@@ -1,8 +1,8 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
-import { KrakenBracketData } from '../../components/Helper/JumbotronData';
-import { KrakenBracketPageTitle } from '../../components/Helper/PageTitleData';
+import { KrakenBracketData } from '../../helper/JumbotronData';
+import { KrakenBracketPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import './ProjectView.css';

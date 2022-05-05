@@ -1,6 +1,6 @@
 import { Grid } from '@mui/material';
 
-import WebCardData from '../Helper/WebCardData';
+import WebCardData from '../../helper/WebCardData';
 import WebCard from './WebCard';
 const WebCardList = () => {
   return (

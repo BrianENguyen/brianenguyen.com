@@ -2,7 +2,7 @@ import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 import { Container, ImageList, ImageListItem } from '@mui/material';
 import { useEffect } from 'react';
-import { VolunteeringTCPageTitle } from '../../components/Helper/PageTitleData';
+import { VolunteeringTCPageTitle } from '../../helper/PageTitleData';
 
 const VolunteeringTC = () => {
   useEffect(() => {

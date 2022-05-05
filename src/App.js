@@ -1,5 +1,5 @@
 import './App.css';
-import ScrollToTop from './components/Helper/ScrollToTop';
+import ScrollToTop from './helper/ScrollToTop';
 import PrivacyDialog from './components/Privacy/Dialog/PrivacyDialog';
 import RenderRoutes from './components/Router/RenderRoutes';
 import Footer from './components/UI/Footer/Footer';

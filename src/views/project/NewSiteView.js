@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
-import { NewSiteData } from '../../components/Helper/JumbotronData';
-import { NewSitePageTitle } from '../../components/Helper/PageTitleData';
+import { NewSiteData } from '../../helper/JumbotronData';
+import { NewSitePageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import './ProjectView.css';

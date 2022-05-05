@@ -1,5 +1,5 @@
 import { Container, ImageList, ImageListItem } from '@mui/material';
-import { ImageGalleryData } from '../Helper/ImageGalleryData';
+import { ImageGalleryData } from '../../helper/ImageGalleryData';
 import AnimatedHeader from '../Animations/AnimatedHeader';
 const ImageGallery = () => {
   return (

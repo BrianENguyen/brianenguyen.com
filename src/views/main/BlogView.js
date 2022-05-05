@@ -1,9 +1,9 @@
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 import BlogList from '../../components/Blog/BlogList';
-import { BlogData } from '../../components/Helper/JumbotronData';
+import { BlogData } from '../../helper/JumbotronData';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import { useEffect } from 'react';
-import { BlogPageTitle } from '../../components/Helper/PageTitleData';
+import { BlogPageTitle } from '../../helper/PageTitleData';
 
 const BlogView = () => {
   const jumboTitle = BlogData.title;

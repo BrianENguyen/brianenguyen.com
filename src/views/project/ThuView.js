@@ -1,8 +1,8 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
-import { ThuData } from '../../components/Helper/JumbotronData';
-import { ThuPageTitle } from '../../components/Helper/PageTitleData';
+import { ThuData } from '../../helper/JumbotronData';
+import { ThuPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import './ProjectView.css';

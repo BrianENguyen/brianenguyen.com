@@ -1,8 +1,8 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
-import { AllEliteNetworkData } from '../../components/Helper/JumbotronData';
-import { AllEliteNetworkPageTitle } from '../../components/Helper/PageTitleData';
+import { AllEliteNetworkData } from '../../helper/JumbotronData';
+import { AllEliteNetworkPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/UI/Button/Button';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 import './ProjectView.css';
