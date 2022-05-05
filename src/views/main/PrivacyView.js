@@ -1,15 +1,15 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import { PrivacyPageTitle } from '../../helper/PageTitleData';
-import PrivacyCCPA from '../../components/Privacy/Policy/PrivacyCCPA';
-import PrivacyChildRights from '../../components/Privacy/Policy/PrivacyChildRights';
-import PrivacyCookies from '../../components/Privacy/Policy/PrivacyCookies';
-import PrivacyGDPR from '../../components/Privacy/Policy/PrivacyGDPR';
-import PrivacyInformation from '../../components/Privacy/Policy/PrivacyInformation';
-import PrivacyIntro from '../../components/Privacy/Policy/PrivacyIntro';
-import PrivacyLog from '../../components/Privacy/Policy/PrivacyLog';
-import '../../components/Privacy/Policy/PrivacyPolicy.css';
-import PrivacyThirdParty from '../../components/Privacy/Policy/PrivacyThirdParty';
+import PrivacyCCPA from '../../components/privacy/policy/PrivacyCCPA';
+import PrivacyChildRights from '../../components/privacy/policy/PrivacyChildRights';
+import PrivacyCookies from '../../components/privacy/policy/PrivacyCookies';
+import PrivacyGDPR from '../../components/privacy/policy/PrivacyGDPR';
+import PrivacyInformation from '../../components/privacy/policy/PrivacyInformation';
+import PrivacyIntro from '../../components/privacy/policy/PrivacyIntro';
+import PrivacyLog from '../../components/privacy/policy/PrivacyLog';
+import '../../components/privacy/policy/PrivacyPolicy.css';
+import PrivacyThirdParty from '../../components/privacy/policy/PrivacyThirdParty';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 
 const PrivacyView = () => {

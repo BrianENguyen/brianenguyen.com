@@ -1,6 +1,6 @@
 import './App.css';
 import ScrollToTop from './helper/ScrollToTop';
-import PrivacyDialog from './components/Privacy/Dialog/PrivacyDialog';
+import PrivacyDialog from './components/privacy/dialog/PrivacyDialog';
 import RenderRoutes from './components/Router/RenderRoutes';
 import Footer from './components/UI/Footer/Footer';
 import Navbar from './components/UI/Navbar/Navbar';
