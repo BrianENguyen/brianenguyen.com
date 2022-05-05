@@ -2,7 +2,7 @@ import { Grid } from '@mui/material';
 import ProjectData from '../../../helper/ProjectData';
 import Project from './Project';
 import './Projects.css';
-import AnimatedHeader from '../../Animations/AnimatedHeader';
+import AnimatedHeader from '../../animations/AnimatedHeader';
 const Projects = () => {
   return (
     <div className='projects'>

@@ -1,4 +1,4 @@
-import AnimatedPage from '../../components/Animations/AnimatedPage';
+import AnimatedPage from '../../components/animations/AnimatedPage';
 import BlogList from '../../components/blog/BlogList';
 import { BlogData } from '../../helper/JumbotronData';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';

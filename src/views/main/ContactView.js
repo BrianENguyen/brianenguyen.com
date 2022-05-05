@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
-import AnimatedPage from '../../components/Animations/AnimatedPage';
+import AnimatedPage from '../../components/animations/AnimatedPage';
 import ContactForm from '../../components/contact/ContactForm';
 import { ContactData } from '../../helper/JumbotronData';
 import { ContactPageTitle } from '../../helper/PageTitleData';

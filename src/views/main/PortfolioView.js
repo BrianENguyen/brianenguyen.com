@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
-import AnimatedPage from '../../components/Animations/AnimatedPage';
+import AnimatedPage from '../../components/animations/AnimatedPage';
 import { PortfolioData } from '../../helper/JumbotronData';
 import { PortfolioPageTitle } from '../../helper/PageTitleData';
 import ProjectsList from '../../components/projects/main/ProjectsList';

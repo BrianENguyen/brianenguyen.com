@@ -5,7 +5,7 @@ import { NewSitePageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
-import AnimatedPage from '../../components/Animations/AnimatedPage';
+import AnimatedPage from '../../components/animations/AnimatedPage';
 
 const NewSiteView = () => {
   const jumboTitle = NewSiteData.title;

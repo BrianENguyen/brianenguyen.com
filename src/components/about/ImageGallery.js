@@ -1,6 +1,6 @@
 import { Container, ImageList, ImageListItem } from '@mui/material';
 import { ImageGalleryData } from '../../helper/ImageGalleryData';
-import AnimatedHeader from '../Animations/AnimatedHeader';
+import AnimatedHeader from '../animations/AnimatedHeader';
 const ImageGallery = () => {
   return (
     <div>

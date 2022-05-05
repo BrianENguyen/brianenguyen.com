@@ -1,7 +1,7 @@
 import { Grid } from '@mui/material';
 import OtherProjectData from '../../../helper/OtherProjectData';
 import OtherProject from './OtherProject';
-import AnimatedHeader from '../../Animations/AnimatedHeader';
+import AnimatedHeader from '../../animations/AnimatedHeader';
 
 const OtherProjectsList = () => {
   return (

@@ -3,7 +3,7 @@ import { Grid } from '@mui/material';
 import Project from './Project';
 import ProjectData from '../../../helper/ProjectData';
 
-import AnimatedHeader from '../../Animations/AnimatedHeader';
+import AnimatedHeader from '../../animations/AnimatedHeader';
 import './Projects.css';
 const RecentProjects = () => {
   return (

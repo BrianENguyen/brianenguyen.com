@@ -10,7 +10,7 @@ import PrivacyIntro from '../../components/privacy/policy/PrivacyIntro';
 import PrivacyLog from '../../components/privacy/policy/PrivacyLog';
 import '../../components/privacy/policy/PrivacyPolicy.css';
 import PrivacyThirdParty from '../../components/privacy/policy/PrivacyThirdParty';
-import AnimatedPage from '../../components/Animations/AnimatedPage';
+import AnimatedPage from '../../components/animations/AnimatedPage';
 
 const PrivacyView = () => {
   useEffect(() => {

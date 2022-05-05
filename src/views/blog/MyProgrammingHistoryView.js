@@ -1,5 +1,5 @@
 import classes from './BlogView.module.css';
-import AnimatedPage from '../../components/Animations/AnimatedPage';
+import AnimatedPage from '../../components/animations/AnimatedPage';
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import { MyProgrammingHistoryPageTitle } from '../../helper/PageTitleData';

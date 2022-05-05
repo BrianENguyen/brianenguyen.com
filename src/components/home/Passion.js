@@ -2,7 +2,7 @@ import { Grid, Container } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Button from '../ui/button/Button';
 import './Passion.css';
-import AnimatedHeader from '../Animations/AnimatedHeader';
+import AnimatedHeader from '../animations/AnimatedHeader';
 const Passion = () => {
   return (
     <div className='passion'>
