@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
-import ContactForm from '../../components/Contact/ContactForm';
+import ContactForm from '../../components/contact/ContactForm';
 import { ContactData } from '../../helper/JumbotronData';
 import { ContactPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
