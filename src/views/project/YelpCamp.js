@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 import { YelpCampData } from '../../helper/JumbotronData';
 import { YelpCampPageTitle } from '../../helper/PageTitleData';
-import Button from '../../components/UI/Button/Button';
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import Button from '../../components/ui/button/Button';
+import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const YelpCamp = () => {

@@ -2,8 +2,8 @@ import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import { LBTCData } from '../../helper/JumbotronData';
 import { LBTCPageTitle } from '../../helper/PageTitleData';
-import Button from '../../components/UI/Button/Button';
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import Button from '../../components/ui/button/Button';
+import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 

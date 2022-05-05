@@ -1,7 +1,7 @@
 import { Grid, TextField } from '@mui/material';
 
 import { useState, useReducer } from 'react';
-import Button from '../UI/Button/Button';
+import Button from '../ui/button/Button';
 import './ContactForm.css';
 import { submitForm } from './ContactFormSubmit';
 import EmailRegex from './EmailRegex';

@@ -5,7 +5,7 @@ import ImageGallery from '../../components/about/ImageGallery';
 import Quote from '../../components/about/Quote';
 import { AboutData } from '../../helper/JumbotronData';
 import { AboutPageTitle } from '../../helper/PageTitleData';
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 const AboutView = () => {
   const jumboTitle = 'About Me';

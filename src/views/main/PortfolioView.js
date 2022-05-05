@@ -5,7 +5,7 @@ import { PortfolioData } from '../../helper/JumbotronData';
 import { PortfolioPageTitle } from '../../helper/PageTitleData';
 import ProjectsList from '../../components/projects/main/ProjectsList';
 import OtherProjectsList from '../../components/projects/other/OtherProjectsList';
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 
 const PortfolioView = () => {
   const jumboTitle = PortfolioData.title;

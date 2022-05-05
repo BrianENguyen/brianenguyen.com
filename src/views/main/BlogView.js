@@ -1,7 +1,7 @@
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 import BlogList from '../../components/blog/BlogList';
 import { BlogData } from '../../helper/JumbotronData';
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import { useEffect } from 'react';
 import { BlogPageTitle } from '../../helper/PageTitleData';
 

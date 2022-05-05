@@ -4,7 +4,7 @@ import AnimatedPage from '../../components/Animations/AnimatedPage';
 import ContactForm from '../../components/contact/ContactForm';
 import { ContactData } from '../../helper/JumbotronData';
 import { ContactPageTitle } from '../../helper/PageTitleData';
-import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
+import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 
 const ContactView = () => {
   const jumboTitle = ContactData.title;
