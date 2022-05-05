@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import AnimatedPage from '../../components/Animations/AnimatedPage';
 import { HomeData } from '../../helper/JumbotronData';
 import { HomePageTitle } from '../../helper/PageTitleData';
-import Passion from '../../components/Home/Passion';
-import WebCardList from '../../components/Home/WebCardList';
+import Passion from '../../components/home/Passion';
+import WebCardList from '../../components/home/WebCardList';
 import RecentProjectList from '../../components/Projects/Main/RecentProjectList';
 import Jumbotron from '../../components/UI/Jumbotron/Jumbotron';
 
