@@ -4,39 +4,38 @@ import AnimatedHeader from '../animations/AnimatedHeader';
 
 const Backstory = () => {
   return (
-    <div className='backstory'>
-      <Container maxWidth='xl'>
+    <div className="backstory">
+      <Container maxWidth="xl">
         <Grid container spacing={2}>
           <Grid item xs={12} md={4}>
-            <h1 className='backstory__header'>
+            <h1 className="backstory__header">
               <AnimatedHeader>My Story</AnimatedHeader>
             </h1>{' '}
           </Grid>
           <Grid item xs={12} md={8}>
             <p>
-              I am a 2020 computer science graduate currently seeking a
+              I am a 2020 computer science graduate, who is currently seeking a
               full-time or part-time position in front-end development. I've
               been passionate about computers ever since I played video games
               when I was young, so I knew that a career related to computers
-              would be a perfect option for me
+              would be a perfect option for me.
             </p>
             <p>
-              I have obtained a Bachelor's in Computer Science from California
-              State University, Long Beach in 2020. From the moment I have
-              written my first Python script in my introductory CS course, I
-              knew that coding is something that I want to do in my life. It has
-              allowed me to challenge myself and to improve on my skills, not
-              just in programming, but also on creativity and team-working.
-              Furthermore, I am grateful to have learned a myriad of
-              technologies and concepts, as well as connected with many people
-              who have similar goals as I do.
+              I obtained a Bachelor's in Computer Science from California State
+              University, Long Beach in 2020. From the moment I wrote my first
+              Python script in my introductory CS course, I knew that coding is
+              something I wanted to do in my life. It has allowed me to
+              challenge myself and improve my skills, not just in programming,
+              but also in creativity and team-working. Furthermore, I am
+              grateful to have learned a myriad of technologies and concepts,
+              and have connected with many people who have similar goals.
             </p>
             <p>
-              After I have graduated from CSULB, I was a bit lost on what I
-              wanted to do with my degree, since there are various routes that I
-              could've taken. I ultimately decided to pursue a front-end web
-              developer role, which allows my to express my creativity in the
-              websites I make.
+              After I graduated from CSULB, I was a bit lost on what I wanted to
+              do with my degree, since there were various routes that I could've
+              taken. I ultimately decided to pursue a front-end web developer
+              role, which allows me to express my creativity in the websites I
+              make.
             </p>
             <p>
               I am currently working at Code Ninjas, Cerritos and Fullterton, as
@@ -50,9 +49,9 @@ const Backstory = () => {
             </p>
             <p>
               Apart from my programming passions, I formerly served as the
-              president for the Tzu Chi Collegiate Association at CSULB. This
+              president of the Tzu Chi Collegiate Association at CSULB. This
               volunteering organization focuses on humanitarian aid, medicine,
-              education, and more. I have devoted over 300 hours of my time
+              education, and more. I have devoted over 300 hours of my time to
               serving this organization and it has been a life-changing
               experience for me.
             </p>
