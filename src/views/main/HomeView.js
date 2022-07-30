@@ -13,7 +13,7 @@ const HomeView = () => {
     document.title = HomePageTitle;
   }, []);
 
-  const jumboImage = HomeData.image;
+  const jumboImage = HomeData.src;
   const jumboTitle = HomeData.title;
   const jumboDescription = HomeData.description;
 
@@ -21,7 +21,7 @@ const HomeView = () => {
     <AnimatedPage>
       <div className='home'>
         <Jumbotron
-          image={jumboImage}
+          src={jumboImage}
           title={jumboTitle}
           description={jumboDescription}
         />

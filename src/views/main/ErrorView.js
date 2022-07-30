@@ -4,7 +4,7 @@ import { ErrorPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 const ErrorView = () => {
-  const jumboImage = ErrorData.image;
+  const jumboImage = ErrorData.src;
   const jumboTitle = ErrorData.title;
   const jumboDescription = ErrorData.description;
 

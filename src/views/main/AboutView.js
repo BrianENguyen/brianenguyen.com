@@ -9,7 +9,7 @@ import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 const AboutView = () => {
   const jumboTitle = 'About Me';
-  const jumboImage = AboutData.image;
+  const jumboImage = AboutData.src;
 
   useEffect(() => {
     document.title = AboutPageTitle;
@@ -18,7 +18,7 @@ const AboutView = () => {
   return (
     <AnimatedPage>
       <div className='about'>
-        <Jumbotron image={jumboImage} title={jumboTitle} />
+        <Jumbotron src={jumboImage} title={jumboTitle} />
         <Quote />
         <Facts />
         <Backstory />

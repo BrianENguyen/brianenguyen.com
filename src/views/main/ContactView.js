@@ -8,7 +8,7 @@ import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 
 const ContactView = () => {
   const jumboTitle = ContactData.title;
-  const jumboImage = ContactData.image;
+  const jumboImage = ContactData.src;
 
   useEffect(() => {
     document.title = ContactPageTitle;
@@ -23,7 +23,7 @@ const ContactView = () => {
           color: 'black',
         }}
       >
-        <Jumbotron image={jumboImage} title={jumboTitle} />
+        <Jumbotron src={jumboImage} title={jumboTitle} />
         <Container maxWidth='lg'>
           <p>
             You can contact me directly at{' '}

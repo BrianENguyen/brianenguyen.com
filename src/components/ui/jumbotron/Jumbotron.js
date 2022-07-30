@@ -5,7 +5,7 @@ const Jumbotron = (props) => {
     <div
       className='jumbotron'
       style={{
-        backgroundImage: `url(${props.image})`,
+        backgroundImage: `url(${props.src})`,
       }}
     >
       <div className='jumbotron__content'>

@@ -9,7 +9,7 @@ import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 
 const PortfolioView = () => {
   const jumboTitle = PortfolioData.title;
-  const jumboImage = PortfolioData.image;
+  const jumboImage = PortfolioData.src;
 
   useEffect(() => {
     document.title = PortfolioPageTitle;
@@ -18,7 +18,7 @@ const PortfolioView = () => {
   return (
     <AnimatedPage>
       <div className='portfolio'>
-        <Jumbotron image={jumboImage} title={jumboTitle} />
+        <Jumbotron src={jumboImage} title={jumboTitle} />
         <Container maxWidth='xl'>
           <ProjectsList />
           <OtherProjectsList />

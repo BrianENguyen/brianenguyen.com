@@ -7,7 +7,7 @@ import { BlogPageTitle } from '../../helper/PageTitleData';
 
 const BlogView = () => {
   const jumboTitle = BlogData.title;
-  const jumboImage = BlogData.image;
+  const jumboImage = BlogData.src;
   const jumboDescription = BlogData.description;
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const BlogView = () => {
     <AnimatedPage>
       <div className='blog'>
         <Jumbotron
-          image={jumboImage}
+          src={jumboImage}
           title={jumboTitle}
           description={jumboDescription}
         />
