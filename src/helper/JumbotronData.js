@@ -1,100 +1,100 @@
-const HomeData = {
+const HomeJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v162020501/BEN_Website/jumbotron/BEN_coding.jpg',
   title: 'Brian E. Nguyen',
   description:
     '2020 Computer Science Graduate and Aspiring Front-end Developer',
 };
 
-const ResumeData = {
+const ResumeJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v162020501/BEN_Website/jumbotron/BEN_laptop.jpg',
   title: 'Resume',
 };
 
-const PortfolioData = {
+const PortfolioJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v162020501/BEN_Website/jumbotron/BEN_code_hijtco.jpg',
   title: 'Portfolio',
 };
 
-const AboutData = {
+const AboutJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_legoart.jpg',
   title: 'About',
 };
 
-const BlogData = {
+const BlogJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v1620240499/BEN_Website/jumbotron/BEN_vegasstrip_vk4nx7.jpg',
   title: 'My Blog',
   description: `Get insights into what I have been doing recently, whether it is for my career
     or my personal life`,
 };
 
-const ContactData = {
+const ContactJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg',
   title: 'Contact',
 };
 
-const ErrorData = {
+const ErrorJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/b_black,o_70/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg',
   title: '404 Error',
   description: `The page that you are trying to reach does not or no longer exists. 
     If this is an issue, then feel free to contact me`,
 };
 
-const FirstSiteData = {
+const FirstSiteJumboData = {
   title: 'My First Personal Website',
 };
 
-const FrontendMentorData = {
+const FrontendMentorJumboData = {
   title: 'Frontend Mentor Challenges',
 };
 
-const KrakenBracketData = {
+const KrakenBracketJumboData = {
   title: 'Senior Project: Kraken Bracket',
 };
 
-const LBTCData = {
+const LBTCJumboData = {
   title: 'CSULB Tzu Ching',
 };
 
-const NewSiteData = {
+const NewSiteJumboData = {
   title: 'My New Website',
 };
 
-const ProbAndStatsData = {
+const ProbAndStatsJumboData = {
   title: 'EE 381 - Probability and Stats Computing',
 };
 
-const SIMDData = {
+const SIMDJumboData = {
   title: 'SIMD Enhanced MIPS Instructions',
 };
 
-const ThuData = {
+const ThuJumboData = {
   title: "Thu Nguyen's Website",
 };
 
-const YelpCampData = {
+const YelpCampJumboData = {
   title: 'YelpCamp',
 };
 
-const AllEliteNetworkData = {
+const AllEliteNetworkJumboData = {
   title: 'All Elite Network',
 };
 
 export {
-  HomeData,
-  ResumeData,
-  PortfolioData,
-  AboutData,
-  ContactData,
-  ErrorData,
-  FirstSiteData,
-  BlogData,
-  FrontendMentorData,
-  KrakenBracketData,
-  LBTCData,
-  NewSiteData,
-  ProbAndStatsData,
-  SIMDData,
-  ThuData,
-  YelpCampData,
-  AllEliteNetworkData,
+  HomeJumboData,
+  ResumeJumboData,
+  PortfolioJumboData,
+  AboutJumboData,
+  ContactJumboData,
+  ErrorJumboData,
+  FirstSiteJumboData,
+  BlogJumboData,
+  FrontendMentorJumboData,
+  KrakenBracketJumboData,
+  LBTCJumboData,
+  NewSiteJumboData,
+  ProbAndStatsJumboData,
+  SIMDJumboData,
+  ThuJumboData,
+  YelpCampJumboData,
+  AllEliteNetworkJumboData,
 };
