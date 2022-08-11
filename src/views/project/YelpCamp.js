@@ -8,7 +8,7 @@ import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const YelpCamp = () => {
-  const jumboTitle = YelpCampData.title;
+  const jumboTitle = YelpCampJumboJumboData.title;
   useEffect(() => {
     document.title = YelpCampPageTitle;
   }, []);

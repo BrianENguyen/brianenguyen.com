@@ -8,7 +8,7 @@ import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const AllEliteNetworkView = () => {
-  const jumboTitle = AllEliteNetworkData.title;
+  const jumboTitle = AllEliteNetworkJumboData.title;
   useEffect(() => {
     document.title = AllEliteNetworkPageTitle;
   }, []);

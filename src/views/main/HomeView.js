@@ -13,9 +13,9 @@ const HomeView = () => {
     document.title = HomePageTitle;
   }, []);
 
-  const jumboImage = HomeData.src;
-  const jumboTitle = HomeData.title;
-  const jumboDescription = HomeData.description;
+  const jumboImage = HomeJumboData.src;
+  const jumboTitle = HomeJumboData.title;
+  const jumboDescription = HomeJumboData.description;
 
   return (
     <AnimatedPage>

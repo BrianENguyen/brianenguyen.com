@@ -7,8 +7,8 @@ import { ContactPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 
 const ContactView = () => {
-  const jumboTitle = ContactData.title;
-  const jumboImage = ContactData.src;
+  const jumboTitle = ContactJumboData.title;
+  const jumboImage = ContactJumboData.src;
 
   useEffect(() => {
     document.title = ContactPageTitle;
