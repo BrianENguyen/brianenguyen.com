@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 import NavbarBrand from './NavbarBrand';
+import NavbarLinks from './NavbarLinks'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -63,71 +64,7 @@ const Navbar = () => {
         </NavLink>
       </div>
       {mobileButton && mobileButtonContent}
-      <div className={mobileMenu ? 'navbar__links' : 'navbar__links active'}>
-        <ul>
-          <li>
-            <NavLink
-              exact
-              className='navbar__link'
-              activeClassName='navbar__link active'
-              to='/'
-              onClick={hideMobileMenu}
-            >
-              Home
-            </NavLink>
-          </li>
-          {/* <li>
-            <NavLink
-              className='navbar__link'
-              activeClassName='navbar__link active'
-              to='/resume'
-              onClick={hideMobileMenu}
-            >
-              Resume
-            </NavLink>
-          </li> */}
-          <li>
-            <NavLink
-              className='navbar__link'
-              activeClassName='navbar__link active'
-              to='/portfolio'
-              onClick={hideMobileMenu}
-            >
-              Portfolio
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className='navbar__link'
-              activeClassName='navbar__link active'
-              to='/about'
-              onClick={hideMobileMenu}
-            >
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className='navbar__link'
-              activeClassName='navbar__link active'
-              to='/blog'
-              onClick={hideMobileMenu}
-            >
-              Blog
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className='navbar__link'
-              activeClassName='navbar__link active'
-              to='/contact'
-              onClick={hideMobileMenu}
-            >
-              Contact
-            </NavLink>
-          </li>
-        </ul>
-      </div>
+      <NavbarLinks onMobileChangeHandler={hideMobileMenu} mobileMenu={mobileMenu}/>
     </nav>
   );
 };
