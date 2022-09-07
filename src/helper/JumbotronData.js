@@ -1,5 +1,5 @@
 const HomeJumboData = {
-  src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1000,b_black,o_70/v1659204062/BEN_Website/jumbotron/BEN_developing.webp',
+  src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1659204062/BEN_Website/jumbotron/BEN_developing.webp',
   srcMobile: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1659204062/BEN_Website/jumbotron/BEN_developing.webp',
   title: 'Brian E. Nguyen',
   description:
@@ -12,19 +12,19 @@ const ResumeJumboData = {
 };
 
 const PortfolioJumboData = {
-  src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1000,b_black,o_70/v1659204060/BEN_Website/jumbotron/BEN_webdev_code.webp',
+  src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1659204060/BEN_Website/jumbotron/BEN_webdev_code.webp',
   srcMobile: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1659204060/BEN_Website/jumbotron/BEN_webdev_code.webp',
   title: 'Portfolio',
 };
 
 const AboutJumboData = {
-  src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1000,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_lego.webp',
+  src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_lego.webp',
   srcMobile: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_lego.webp',
   title: 'About',
 };
 
 const BlogJumboData = {
-  src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1000,b_black,o_70/v1620240499/BEN_Website/jumbotron/BEN_vegas_strip.webp',
+  src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1620240499/BEN_Website/jumbotron/BEN_vegas_strip.webp',
   srcMobile: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1620240499/BEN_Website/jumbotron/BEN_vegas_strip.webp',
   title: 'My Blog',
   description: `Get insights into what I have been doing recently, whether it is for my career
@@ -32,7 +32,7 @@ const BlogJumboData = {
 };
 
 const ContactJumboData = {
-  src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1915,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg',
+  src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg',
   title: 'Contact',
 };
 
