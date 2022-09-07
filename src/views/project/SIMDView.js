@@ -1,14 +1,14 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { SIMDData } from '../../helper/JumbotronData';
+import { SIMDJumboData } from '../../helper/JumbotronData';
 import { SIMDPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const SIMDView = () => {
-  const jumboTitle = SIMDData.title;
+  const jumboTitle = SIMDJumboData.title;
   useEffect(() => {
     document.title = SIMDPageTitle;
   }, []);

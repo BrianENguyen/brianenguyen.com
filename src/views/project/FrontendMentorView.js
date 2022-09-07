@@ -1,13 +1,13 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { FrontendMentorData } from '../../helper/JumbotronData';
+import { FrontendMentorJumboData } from '../../helper/JumbotronData';
 import { FrontendMentorPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 
 const FrontendMentorView = () => {
-  const jumboTitle = FrontendMentorData.title;
+  const jumboTitle = FrontendMentorJumboData.title;
 
   useEffect(() => {
     document.title = FrontendMentorPageTitle;

@@ -1,14 +1,14 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { ThuData } from '../../helper/JumbotronData';
+import { ThuJumboData } from '../../helper/JumbotronData';
 import { ThuPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const ThuView = () => {
-  const jumboTitle = ThuData.title;
+  const jumboTitle = ThuJumboData.title;
   useEffect(() => {
     document.title = ThuPageTitle;
   }, []);

@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { AllEliteNetworkData } from '../../helper/JumbotronData';
+import { AllEliteNetworkJumboData } from '../../helper/JumbotronData';
 import { AllEliteNetworkPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';

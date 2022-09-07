@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { FirstSiteData } from '../../helper/JumbotronData';
+import { FirstSiteJumboData } from '../../helper/JumbotronData';
 import { FirstSitePageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
@@ -11,7 +11,7 @@ const FirstSiteView = () => {
     document.title = FirstSitePageTitle;
   }, []);
 
-  const jumboTitle = FirstSiteData.title;
+  const jumboTitle = FirstSiteJumboData.title;
 
   return (
     <AnimatedPage>
