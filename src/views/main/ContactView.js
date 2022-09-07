@@ -2,13 +2,13 @@ import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import ContactForm from '../../components/contact/ContactForm';
-import { ContactData } from '../../helper/JumbotronData';
+import { ContactJumboData } from '../../helper/JumbotronData';
 import { ContactPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 
 const ContactView = () => {
-  const jumboTitle = ContactData.title;
-  const jumboImage = ContactData.image;
+  const jumboTitle = ContactJumboData.title;
+  const jumboImage = ContactJumboData.src;
 
   useEffect(() => {
     document.title = ContactPageTitle;
@@ -23,7 +23,7 @@ const ContactView = () => {
           color: 'black',
         }}
       >
-        <Jumbotron image={jumboImage} title={jumboTitle} />
+        <Jumbotron src={jumboImage} title={jumboTitle} />
         <Container maxWidth='lg'>
           <p>
             You can contact me directly at{' '}

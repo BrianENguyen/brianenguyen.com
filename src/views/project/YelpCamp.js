@@ -1,14 +1,14 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { YelpCampData } from '../../helper/JumbotronData';
+import { YelpCampJumboData } from '../../helper/JumbotronData';
 import { YelpCampPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const YelpCamp = () => {
-  const jumboTitle = YelpCampData.title;
+  const jumboTitle = YelpCampJumboData.title;
   useEffect(() => {
     document.title = YelpCampPageTitle;
   }, []);

@@ -1,14 +1,14 @@
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import BlogList from '../../components/blog/BlogList';
-import { BlogData } from '../../helper/JumbotronData';
+import { BlogJumboData } from '../../helper/JumbotronData';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import { useEffect } from 'react';
 import { BlogPageTitle } from '../../helper/PageTitleData';
 
 const BlogView = () => {
-  const jumboTitle = BlogData.title;
-  const jumboImage = BlogData.image;
-  const jumboDescription = BlogData.description;
+  const jumboTitle = BlogJumboData.title;
+  const jumboImage = BlogJumboData.src;
+  const jumboDescription = BlogJumboData.description;
 
   useEffect(() => {
     document.title = BlogPageTitle;
@@ -18,7 +18,7 @@ const BlogView = () => {
     <AnimatedPage>
       <div className='blog'>
         <Jumbotron
-          image={jumboImage}
+          src={jumboImage}
           title={jumboTitle}
           description={jumboDescription}
         />

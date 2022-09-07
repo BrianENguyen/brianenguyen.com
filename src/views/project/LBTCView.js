@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
-import { LBTCData } from '../../helper/JumbotronData';
+import { LBTCJumboData } from '../../helper/JumbotronData';
 import { LBTCPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
@@ -8,7 +8,7 @@ import './ProjectView.css';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 
 const LBTCView = () => {
-  const jumboTitle = LBTCData.title;
+  const jumboTitle = LBTCJumboData.title;
   useEffect(() => {
     document.title = LBTCPageTitle;
   }, []);

@@ -1,14 +1,14 @@
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { KrakenBracketData } from '../../helper/JumbotronData';
+import { KrakenBracketJumboData } from '../../helper/JumbotronData';
 import { KrakenBracketPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
 const KrakenBracketView = () => {
-  const jumboTitle = KrakenBracketData.title;
+  const jumboTitle = KrakenBracketJumboData.title;
   useEffect(() => {
     document.title = KrakenBracketPageTitle;
   }, []);
