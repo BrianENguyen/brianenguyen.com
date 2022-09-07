@@ -1,7 +1,8 @@
-.jumbotron_ {
+.jumbotron {
   position: relative;
   text-align: center;
   background-color: black;
+  border: none;
 }
 .jumbotron__container {
   position: absolute;
@@ -29,7 +30,7 @@
     font-size: 1.2rem;
   }
 
-  .jumbotron_,
+  .jumbotron,
   .jumbotron__image {
     height: 35vh;
   }
@@ -48,7 +49,7 @@
     font-size: 1.2rem;
   }
 
-  .jumbotron_,
+  .jumbotron,
   .jumbotron__image {
     height: 50vh;
   }
@@ -58,7 +59,7 @@
   .jumbotron__title {
     font-size: 5rem;
   }
-  .jumbotron_,
+  .jumbotron,
   .jumbotron__image {
     height: 70vh;
   }
@@ -68,7 +69,7 @@
 }
 
 @media (min-width: 1200px) {
-  .jumbotron_,
+  .jumbotron,
   .jumbotron__image {
     height: 100vh;
   }

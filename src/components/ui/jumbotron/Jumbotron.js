@@ -2,7 +2,7 @@ import './Jumbotron.css';
 
 const Jumbotron = (props) => {
   return (
-     <div className="jumbotron_">
+     <div className="jumbotron">
         <picture>
           <source src="jumboData.src" media="(min-width: 600px)" />
           <img
