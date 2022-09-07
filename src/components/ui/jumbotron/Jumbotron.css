@@ -1,39 +1,75 @@
-.jumbotron {
-  width: 100%;
-  background-color: rgb(37, 37, 37);
-  background: no-repeat center;
-  background-size: cover;
-  color: white;
-  height: 100vh;
-  text-align: center !important;
-}
-
-.jumbotron__content {
-  padding-top: 40vh;
-}
-
-.jumbotron__title {
-  padding: 0;
-  margin: 0;
-}
-
-.jumbotron__description {
+.jumbotron_ {
+  position: relative;
   text-align: center;
-  font-size: 1.5rem;
+  background-color: black;
 }
+.jumbotron__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.jumbotron__title,
+.jumbotron__description {
+  color: white;
+}
+
+.jumbotron__image {
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
 @media (min-width: 0px) {
   .jumbotron__title {
-    font-size: 15vw;
+    font-size: 7vw;
+  }
+
+  .jumbotron__description {
+    font-size: 1.2rem;
+  }
+
+  .jumbotron_,
+  .jumbotron__image {
+    height: 35vh;
+  }
+
+  .jumbotron__container {
+    transform: translate(-50%, -50%);
+    width: 90%;
   }
 }
 @media (min-width: 576px) {
   .jumbotron__title {
-    font-size: 10vw;
+    font-size: 5vw;
+  }
+
+  .jumbotron__description {
+    font-size: 1.2rem;
+  }
+
+  .jumbotron_,
+  .jumbotron__image {
+    height: 50vh;
   }
 }
 
 @media (min-width: 992px) {
   .jumbotron__title {
-    font-size: 6rem;
+    font-size: 5rem;
+  }
+  .jumbotron_,
+  .jumbotron__image {
+    height: 70vh;
+  }
+  .jumbotron__description {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron_,
+  .jumbotron__image {
+    height: 90vh;
   }
 }
