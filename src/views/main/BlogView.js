@@ -6,20 +6,23 @@ import { useEffect } from 'react';
 import { BlogPageTitle } from '../../helper/PageTitleData';
 
 const BlogView = () => {
-  const jumboTitle = BlogJumboData.title;
-  const jumboImage = BlogJumboData.src;
-  const jumboDescription = BlogJumboData.description;
 
   useEffect(() => {
     document.title = BlogPageTitle;
   }, []);
 
+  const jumboTitle = BlogJumboData.title;
+  const jumboImage = BlogJumboData.src;
+  const jumboImageMobile = BlogJumboData.srcMobile;
+  const jumboDescription = BlogJumboData.description;
+
   return (
     <AnimatedPage>
       <div className='blog'>
         <Jumbotron
-          src={jumboImage}
           title={jumboTitle}
+          src={jumboImage}
+          srcMobile={jumboImageMobile}
           description={jumboDescription}
         />
         <BlogList />
