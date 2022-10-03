@@ -4,19 +4,18 @@ import { ErrorPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 const ErrorView = () => {
-  const jumboImage = ErrorJumboData.src;
-  const jumboTitle = ErrorJumboData.title;
-  const jumboDescription = ErrorJumboData.description;
-
   useEffect(() => {
     document.title = ErrorPageTitle;
   }, []);
-
+  const jumboImage = ErrorJumboData.src;
+  const jumboTitle = ErrorJumboData.title;
+  const jumboDescription = ErrorJumboData.description;
+  console.log(jumboImage)
   return (
     <AnimatedPage>
       <div className='error'>
         <Jumbotron
-          image={jumboImage}
+          src={jumboImage}
           title={jumboTitle}
           description={jumboDescription}
         />

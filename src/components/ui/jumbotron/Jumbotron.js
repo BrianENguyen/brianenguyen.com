@@ -4,7 +4,7 @@ const Jumbotron = (props) => {
   return (
      <div className="jumbotron">
         <picture>
-          <source src="jumboData.src" media="(min-width: 600px)" />
+          <source src={props.src} media="(min-width: 600px)" />
           <img
             src={props.src}
             alt=""
