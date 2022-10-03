@@ -4,9 +4,10 @@ const Jumbotron = (props) => {
   return (
      <div className="jumbotron">
         <picture>
-          <source src="jumboData.src" media="(min-width: 600px)" />
+          <source srcSet={props.src} media="(min-width: 600px)" />
           <img
-            src={props.src}
+            src={props.srcMobile}
+            lazy-src={props.srcMobile}
             alt=""
             className="jumbotron__image"
             decoding="async"

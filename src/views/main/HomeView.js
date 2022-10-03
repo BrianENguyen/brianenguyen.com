@@ -14,6 +14,7 @@ const HomeView = () => {
   }, []);
 
   const jumboImage = HomeJumboData.src;
+  const jumboImageMobile = HomeJumboData.srcMobile;
   const jumboTitle = HomeJumboData.title;
   const jumboDescription = HomeJumboData.description;
 
@@ -22,6 +23,7 @@ const HomeView = () => {
       <div className='home'>
         <Jumbotron
           src={jumboImage}
+          srcMobile={jumboImageMobile}
           title={jumboTitle}
           description={jumboDescription}
         />

@@ -8,17 +8,23 @@ import { AboutPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 const AboutView = () => {
-  const jumboTitle = 'About Me';
-  const jumboImage = AboutJumboData.src;
 
   useEffect(() => {
     document.title = AboutPageTitle;
   }, []);
 
+  const jumboTitle = 'About Me';
+  const jumboImage = AboutJumboData.src;
+  const jumboImageMobile = AboutJumboData.srcMobile;
+
   return (
     <AnimatedPage>
       <div className='about'>
-        <Jumbotron src={jumboImage} title={jumboTitle} />
+        <Jumbotron
+          title={jumboTitle}
+          src={jumboImage}
+          srcMobile={jumboImageMobile}
+        />
         <Quote />
         <Facts />
         <Backstory />
