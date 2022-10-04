@@ -22,6 +22,9 @@
 }
 
 @media (min-width: 0px) {
+  .jumbotron {
+    margin-top: 75px;
+  }
   .jumbotron__title {
     font-size: 7vw;
   }
@@ -30,7 +33,6 @@
     font-size: 1.2rem;
   }
 
-  .jumbotron,
   .jumbotron__image {
     height: 35vh;
   }
@@ -41,6 +43,10 @@
   }
 }
 @media (min-width: 576px) {
+ .jumbotron {
+    margin-top: 85px;
+  }
+
   .jumbotron__title {
     font-size: 5vw;
   }
@@ -56,6 +62,9 @@
 }
 
 @media (min-width: 992px) {
+ .jumbotron {
+   margin-top: 0px;
+  }
   .jumbotron__title {
     font-size: 5rem;
   }
