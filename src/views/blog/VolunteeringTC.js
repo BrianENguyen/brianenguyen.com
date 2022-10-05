@@ -96,7 +96,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg'
                 loading='lazy'
-                alt=''
+                alt='Presenting in front of the attendees. Information about me listed in the background'
               />
             </ImageListItem>
 
@@ -105,7 +105,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg'
                 loading='lazy'
-                alt=''
+                alt='Wide range view of attendees at social day'
               />
             </ImageListItem>
             <ImageListItem>
@@ -113,7 +113,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday__3.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday__3.jpg'
                 loading='lazy'
-                alt=''
+                alt='CSULB Tzu Ching group at social day'
               />
             </ImageListItem>
             <ImageListItem>
@@ -121,7 +121,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg'
                 loading='lazy'
-                alt=''
+                alt='Tzu Ching group collaborating on an acitivity'
               />
             </ImageListItem>
           </ImageList>
@@ -158,7 +158,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_seniorcenter.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_seniorcenter.jpg'
                 loading='lazy'
-                alt=''
+                alt='Balloon passing activity with the seniors'
               />
             </ImageListItem>
             <ImageListItem>
@@ -166,7 +166,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring1.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring1.jpg'
                 loading='lazy'
-                alt=''
+                alt='Group of Tzu Ching volunteers and kids grades 3-5'
               />
             </ImageListItem>
             <ImageListItem>
@@ -174,7 +174,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring2.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring2.jpg'
                 loading='lazy'
-                alt=''
+                alt='Tzu Ching member and kids smiling at the camera'
               />
             </ImageListItem>
           </ImageList>
@@ -235,7 +235,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg'
                 loading='lazy'
-                alt=''
+                alt='Me presenting at the first GM'
               />
             </ImageListItem>
             <ImageListItem>
@@ -243,7 +243,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075364/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg'
                 loading='lazy'
-                alt=''
+                alt='Checking into the meeting'
               />
             </ImageListItem>
             <ImageListItem>
@@ -251,7 +251,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg'
                 loading='lazy'
-                alt=''
+                alt='CSULB Tzu Ching advisors smiling for the camera'
               />
             </ImageListItem>
             <ImageListItem>
@@ -259,7 +259,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/v1645075443/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645076614/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg'
                 loading='lazy'
-                alt=''
+                alt='Attendees at the general meeting'
               />
             </ImageListItem>
           </ImageList>
@@ -292,7 +292,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialdaygroup.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialdaygroup.jpg'
                 loading='lazy'
-                alt=''
+                alt='All members at the social posing in front of the Walter Pyramid'
               />
             </ImageListItem>
             <ImageListItem>
@@ -300,7 +300,7 @@ const VolunteeringTC = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_keychain.jpg'
                 srcSet='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_keychain.jpg'
                 loading='lazy'
-                alt=''
+                alt='"I Heart TC" keychain'
               />
             </ImageListItem>
           </ImageList>
