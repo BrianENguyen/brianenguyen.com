@@ -32,7 +32,7 @@ const NavbarLinks = (props) => {
     <div className={props.mobileMenu ? 'navbar__links' : 'navbar__links active'}>
       <ul>
         {navbarData.map((page, i) => (
-         <li>
+          <li key={page.name}>
           <NavLink
             exact
             className='navbar__link'

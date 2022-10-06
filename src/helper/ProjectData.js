@@ -10,7 +10,7 @@ const ProjectData = [
   },
   {
     title: 'Frontend Mentor Challenges',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1642187660/BEN_Website/projects/BEN_frontend.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1642187660/BEN_Website/projects/BEN_frontendc.webp',
     link: '/frontend-mentor-challenges',
   },
   {

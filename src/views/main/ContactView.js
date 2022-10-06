@@ -7,12 +7,14 @@ import { ContactPageTitle } from '../../helper/PageTitleData';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 
 const ContactView = () => {
-  const jumboTitle = ContactJumboData.title;
-  const jumboImage = ContactJumboData.src;
 
   useEffect(() => {
     document.title = ContactPageTitle;
   }, []);
+
+  const jumboTitle = ContactJumboData.title;
+  const jumboImage = ContactJumboData.src;
+  const jumboImageMobile = ContactJumboData.srcMobile;
 
   return (
     <AnimatedPage>
@@ -23,7 +25,11 @@ const ContactView = () => {
           color: 'black',
         }}
       >
-        <Jumbotron src={jumboImage} title={jumboTitle} />
+        <Jumbotron
+          title={jumboTitle}
+          src={jumboImage}
+          srcMobile={jumboImageMobile}
+        />
         <Container maxWidth='lg'>
           <p>
             You can contact me directly at{' '}
