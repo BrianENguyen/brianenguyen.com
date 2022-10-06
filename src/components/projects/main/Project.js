@@ -25,7 +25,12 @@ const Project = (props) => {
       <div className='project__main'>
         <Link to={props.link}>
           <div>
-            <img src={props.src} className='project__image' alt='' />
+            <img src={props.src}
+                className='project__image'
+                alt=''
+                width='600px'
+                height='350px'
+            />
             <h3 className='project__title'>{props.title}</h3>
           </div>
         </Link>
