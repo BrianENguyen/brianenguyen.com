@@ -10,9 +10,7 @@ const Passion = () => {
         <Grid container spacing={2}>
           <Grid item sm={12} md={5}>
             <img
-              src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_500/v1620240502/BEN_Website/BEN_profile_pic_ynbw2f.webp'
-              width='500px'
-              height='500px'
+              src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1/v1620240502/BEN_Website/BEN_profile_pic_ynbw2f.webp'
               loading='lazy'
               className='passion__image'
               alt=''
