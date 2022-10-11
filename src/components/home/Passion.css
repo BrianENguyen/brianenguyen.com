@@ -19,4 +19,5 @@
   height: auto;
   max-height: 450px;
   max-width: 450px;
+  min-width: 200px;
 }
