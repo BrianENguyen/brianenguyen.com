@@ -10,17 +10,14 @@ const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [mobileButton, setMobileButton] = useState(false);
   const [background, setBackground] = useState(false);
-  const [brandSize, setBrandSize] = useState('150px');
 
   // Functions
   const showMobileView = () => {
     if (window.innerWidth <= 850) {
       setMobileButton(true);
       showBackground();
-      setBrandSize('100px');
     } else {
       setMobileButton(false);
-      setBrandSize('150px')
     }
   };
 
@@ -60,7 +57,7 @@ const Navbar = () => {
     <nav className={background ? 'navbar navbar--scroll' : 'navbar'}>
       <div>
         <NavLink className='navbar__brand' to='/'>
-          <NavbarBrand width={brandSize} />
+          <NavbarBrand />
         </NavLink>
       </div>
       {mobileButton && mobileButtonContent}
