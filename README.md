@@ -11,6 +11,8 @@ My personal website / portfolio that showcases information about me, my programm
 2. About
 3. Portfolio
 
+- All Elite Network
+- Frontend Mentor Challenges
 - New Personal Website
 - Thu Nguyen's Website
 - CSULB Tzu Ching
@@ -20,7 +22,7 @@ My personal website / portfolio that showcases information about me, my programm
 - SIMD Instructions
 - Probability and Stats computing
 
-4. Resume
+4. Blog
 5. Contact
 
 ## Technologies Used
