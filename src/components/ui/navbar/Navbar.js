@@ -77,11 +77,9 @@ const Navbar = () => {
 
   return (
     <nav className={background ? 'navbar navbar--scroll' : 'navbar'}>
-      <div>
-        <NavLink className='navbar__brand' to='/'>
-          <NavbarBrand />
-        </NavLink>
-      </div>
+      <NavLink className='navbar__brand' to='/'>
+        <NavbarBrand />
+      </NavLink>
       {mobileButton && mobileButtonContent}
       <NavbarLinks onMobileChangeHandler={hideMobileMenu} mobileMenu={mobileMenu}/>
     </nav>
