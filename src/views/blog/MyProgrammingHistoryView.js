@@ -12,6 +12,10 @@ const MyProgrammingHistoryView = () => {
 
   return (
     <AnimatedPage>
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"
+     />
       <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
         <h1 className={classes['blog__title']}>My Programming History</h1>
         <div className={classes['blog__text']}>
