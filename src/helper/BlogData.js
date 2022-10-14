@@ -1,5 +1,14 @@
 const BlogData = [
   {
+    title: "Optmizing Your Website's Images",
+    description: `Images on your website is one of the biggest culprits to slowing down your website.
+       In this blog, I discuss how I optimize my website's images to improve load speed.`,
+    image:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1665774712/BEN_Website/blog/OptimizingImages/BEN_photo-files.webp',
+    date: 'WIP',
+    link: '/optmizing-images',
+  },
+  {
     title: 'Volunteering with the Tzu Chi Foundation',
     description: `I've been volunteering with Tzu Chi for at least five years. Learn about my
       experiences with this organization since 2016, how this organization helped me develop my passion for photography, 
