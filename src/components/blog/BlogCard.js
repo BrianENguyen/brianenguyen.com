@@ -1,6 +1,16 @@
 import classes from './BlogCard.module.css';
 import { Link } from 'react-router-dom';
 
+/**
+ * The blog card can be active or disabled depending on if it's
+ * being worked on. Active allows the user to click on blog section
+ * to view its content, whereas disabled prevents the user from
+ * doing so
+ *
+ * If the card is disabled, then the photo won't dim when hovered
+ * over, the title will have the text 'Coming Soon', and the
+ * 'Read More' link won't appear
+ * */
 const BlogCard = (props) => {
   return (
     <div className={classes['blog-card']}>
@@ -8,7 +18,10 @@ const BlogCard = (props) => {
         <Link to={props.date === 'WIP' ? '#' : props.link}>
           <img
             src={props.image}
+            lazy-src={props.image}
             className={classes['blog-card__image']}
+            decoding="async"
+            rel="preload"
             alt=''
           />
           <h2 className={classes['blog-card__title']}>
