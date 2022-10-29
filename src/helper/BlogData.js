@@ -1,8 +1,8 @@
 const BlogData = [
   {
-    title: "Optmizing Your Website's Images",
-    description: `Images on your website is one of the biggest culprits to slowing down your website.
-       In this blog, I discuss how I optimize my website's images to improve load speed.`,
+    title: "Optimizing Your Website's Images",
+    description: `Images on your website are one of the biggest culprits to slowing down your website.
+       In this blog, I will discuss how I optimize my website's images to improve load speed.`,
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1665774712/BEN_Website/blog/OptimizingImages/BEN_photo-files.webp',
     date: 'WIP',
