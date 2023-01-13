@@ -29,6 +29,13 @@ const WhyBlogView = () => {
             When you visit any page that has images, you, the client, send a
             request to the server to retrieve information about the site's page.
             This includes files such as HTML, CSS, JavaScript, images, etc.
+            Think of this like you are downloading a video game or a movie
+            online. The larger the content, the more time it takes to download
+            it. This applies to websites too.
+          </p>
+          <p>
+            Images are generally large files, and if they aren't optimized, they
+            could take time to download, and thus slow down sites
           </p>
         </section>
       </Container>
