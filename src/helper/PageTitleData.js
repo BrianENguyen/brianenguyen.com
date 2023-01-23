@@ -42,6 +42,8 @@ const MyProgrammingHistoryPageTitle = `My Programming History ${suffix}`;
 
 const VolunteeringTCPageTitle = `Volunteering with Tzu Chi ${suffix}`;
 
+const OptimizingPageTitle = `Optimizing Website Images ${suffix}`;
+
 export {
   HomePageTitle,
   ResumePageTitle,
@@ -64,4 +66,5 @@ export {
   WhyBlogPageTitle,
   MyProgrammingHistoryPageTitle,
   VolunteeringTCPageTitle,
+  OptimizingPageTitle,
 };

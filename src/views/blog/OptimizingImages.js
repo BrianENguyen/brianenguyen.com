@@ -4,11 +4,11 @@ import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
-import { WhyBlogPageTitle } from '../../helper/PageTitleData';
+import { OptimizingPageTitle } from '../../helper/PageTitleData';
 
 const WhyBlogView = () => {
   useEffect(() => {
-    document.title = WhyBlogPageTitle;
+    document.title = OptimizingPageTitle;
   }, []);
 
   return (
@@ -58,9 +58,11 @@ const WhyBlogView = () => {
             in case you need any other uses for it.
           </p>
           <p>
-            After I compressed the file, I then convert the image to WebP. The{' '}
-            <em>WebP</em> format is 26% smaller in size compared to PNG images
-            while maintaining the same quality.
+            After I compressed the file, I then convert the image to WebP with
+            an online file converter like
+            <a href='https://convertio.co/'>convertio.co</a>. The <em>WebP</em>{' '}
+            format is 26% smaller in size compared to PNG images while
+            maintaining the same quality.
           </p>
         </section>
 
@@ -99,6 +101,10 @@ const WhyBlogView = () => {
               {'<img src="example.webp" loading="lazy"/>'}
             </Highlight>
           </div>
+        </section>
+
+        <section className={classes['blog__text']}>
+          <h2 className={classes['blog__header']}></h2>
         </section>
       </Container>
     </AnimatedPage>
