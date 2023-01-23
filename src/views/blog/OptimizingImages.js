@@ -22,7 +22,7 @@ const OptmizeImagesView = () => {
           Optmizing Images for Your Website
         </h1>
         <section className={classes['blog__text']}>
-          <p className={classes['blog__date']}>2023</p>
+          <p className={classes['blog__date']}>2023-01-23</p>
           <p>
             Website images are one of the biggest culprits in slowing down web
             pages. For this blog, I discuss why images can slow down websites
