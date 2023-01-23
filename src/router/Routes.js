@@ -1,32 +1,36 @@
-import AboutView from '../../views/main/AboutView';
-import ContactView from '../../views/main/ContactView';
-import ErrorView from '../../views/main/ErrorView';
-import HomeView from '../../views/main/HomeView';
-import PortfolioView from '../../views/main/PortfolioView';
-import PrivacyView from '../../views/main/PrivacyView';
-import BlogView from '../../views/main/BlogView';
+import AboutView from '../views/main/AboutView';
+import ContactView from '../views/main/ContactView';
+import ErrorView from '../views/main/ErrorView';
+import HomeView from '../views/main/HomeView';
+import PortfolioView from '../views/main/PortfolioView';
+import PrivacyView from '../views/main/PrivacyView';
+import BlogView from '../views/main/BlogView';
 
-import FirstSiteView from '../../views/project/FirstSiteView';
-import FrontendMentorView from '../../views/project/FrontendMentorView';
-import KrakenBracketView from '../../views/project/KrakenBracketView';
-import LBTCView from '../../views/project/LBTCView';
-import NewSiteView from '../../views/project/NewSiteView';
-import ProbAndStatsView from '../../views/project/ProbAndStatsView';
-import SIMDView from '../../views/project/SIMDView';
-import ThuView from '../../views/project/ThuView';
-import YelpCamp from '../../views/project/YelpCamp';
-import AllEliteNetworkView from '../../views/project/AllEliteNetworkView';
+import FirstSiteView from '../views/project/FirstSiteView';
+import FrontendMentorView from '../views/project/FrontendMentorView';
+import KrakenBracketView from '../views/project/KrakenBracketView';
+import LBTCView from '../views/project/LBTCView';
+import NewSiteView from '../views/project/NewSiteView';
+import ProbAndStatsView from '../views/project/ProbAndStatsView';
+import SIMDView from '../views/project/SIMDView';
+import ThuView from '../views/project/ThuView';
+import YelpCamp from '../views/project/YelpCamp';
+import AllEliteNetworkView from '../views/project/AllEliteNetworkView';
 
-import OptimizingImages from '../../views/blog/OptimizingImages';
-import WhyBlogView from '../../views/blog/WhyBlogView';
-import MyProgrammingHistoryView from '../../views/blog/MyProgrammingHistoryView';
-import VolunteeringTC from '../../views/blog/VolunteeringTC';
+import OptimizingImages from '../views/blog/OptimizingImages';
+import WhyBlogView from '../views/blog/WhyBlogView';
+import MyProgrammingHistoryView from '../views/blog/MyProgrammingHistoryView';
+import VolunteeringTC from '../views/blog/VolunteeringTC';
 
 const ROUTES = [
   { path: '/', exact: true, key: 'Home', component: HomeView },
   { path: '/portfolio', key: 'Portfolio', component: PortfolioView },
   { path: '/blog', key: 'Blog', component: BlogView },
-  { path: '/optimizing-images', key: 'Optimizing Images', component: OptimizingImages },
+  {
+    path: '/optimizing-images',
+    key: 'Optimizing Images',
+    component: OptimizingImages,
+  },
   { path: '/why-i-blog', key: 'Why I Blog', component: WhyBlogView },
   {
     path: '/volunteering-with-tzu-chi',
