@@ -24,9 +24,10 @@ const WhyBlogView = () => {
         <section className={classes['blog__text']}>
           <p className={classes['blog__date']}>2023</p>
           <p>
-            Website images are one of the biggest culprits to slowing down your
-            web pages. In this blog, I discuss why images can slow down websites
-            and my ways to optimize my sites' images to improve load speeds
+            Website images are one of the biggest culprits in slowing down web
+            pages. For this blog, I discuss why images can slow down websites
+            and my ways to optimize my sites' images to improve load speed
+            times.
           </p>
         </section>
         <section className={classes['blog__text']}>
@@ -34,14 +35,16 @@ const WhyBlogView = () => {
           <p>
             When you visit any page that has images, you, the client, send a
             request to the server to retrieve information about the site's page.
-            This includes files such as HTML, CSS, JavaScript, images, etc.
-            Think of this like you are downloading a video game or a movie
-            online. The larger the content, the more time it takes to download
-            it. This applies to websites too.
+            The server then responds with the necessary files to display the
+            page, such as HTML, CSS, JavaScript, images, etc. Think of this like
+            downloading a video game or a movie online. The larger the file
+            size, the longer it takes to download it. This process applies to
+            websites too.
           </p>
           <p>
-            Images are generally large files, and if they aren't optimized, they
-            could take time to download, and thus slow down sites
+            Images are generally large files by default, and if they aren't
+            optimized, they could take longer to download, and thus slow down
+            sites.
           </p>
         </section>
         <section className={classes['blog__text']}>
@@ -49,20 +52,22 @@ const WhyBlogView = () => {
             Compressing Images and WebP Format
           </h2>
           <p>
-            To optimize images, the first step that I do is compress using
-            online file compressors. A website that I recommend is{' '}
+            The first step to optimize images is compressing the image files
+            using online file compressors. A website that I recommend for this
+            process is{' '}
             <a href='https://compressor.io' target='_blank' rel='noreferrer'>
               compressor.io
             </a>
             . It's a good idea to have a copy of the original, uncompressed file
-            in case you need any other uses for it.
+            in case for other uses.
           </p>
           <p>
-            After I compressed the file, I then convert the image to WebP with
-            an online file converter like
+            After compressing the file(s), the next step is to convert them to
+            WebP format with an online file converter like{' '}
             <a href='https://convertio.co/'>convertio.co</a>. The <em>WebP</em>{' '}
             format is 26% smaller in size compared to PNG images while
-            maintaining the same quality.
+            maintaining the same quality. Using WebP format is essentially
+            necessary when developing websites.
           </p>
         </section>
 
@@ -70,20 +75,20 @@ const WhyBlogView = () => {
           <h2 className={classes['blog__header']}>Lazy Loading Images</h2>
           <p>
             When you visit a page, any images that should appear on the page
-            will be downloaded from the server by default. This action is not a
-            big deal on pages that don't much content, but this is an issue on
-            pages that require scrolling, like this one.
+            will download from the server by default. This action is not a big
+            deal on pages that don't have much content, but this is an issue on
+            large pages that require scrolling, like this one.
           </p>
           <p>
-            Why is this an issue? Say you load up into a large page with many
+            Why is this an issue? Say you load into a large page with many
             contents. What if the moment you visit the page, you instead wanted
             visit another one?
             <em>
               Every single image that should appear on the page is already
               loaded, even if you didn't see it.{' '}
             </em>
-            This is a waste of loading time from your end and a waste of server
-            resources
+            Why load images if you've never navigated to it? This is a waste of
+            loading time from your end and a waste of server resources.
           </p>
           <p>
             To prevent this issue, we want to only load images once our screen
@@ -145,8 +150,10 @@ const WhyBlogView = () => {
           <p>
             The code above (which is specific to React but can be implemented
             using basic HTML) gets the current screen width. If the screen width
-            is at least 600 pixels, then the regular image will be displayed.
-            Else, the image will automatically be scaled down to 600 pixels
+            is at least 600 pixels, then the full-sized image will be displayed.
+            Else, the image will automatically be scaled down to 600 pixels for
+            mobile users. This 600 pixel image can be scaled down to ~40 KB,
+            which means downloading it will be a lot faster
           </p>
           <p>
             You can look at this code in action on my website. Go to any main
@@ -155,8 +162,7 @@ const WhyBlogView = () => {
             screen. You can see that if you are on a large screen size and you
             shrink the width down to less than 600 pixels, then a scaled-down
             version of that image gets downloaded from the server and rendered
-            on the page. Same process works if you initially start on mobile
-            view
+            on the page. The same works if you initially start on mobile view
           </p>
         </section>
 
@@ -171,7 +177,7 @@ const WhyBlogView = () => {
             this service improves my site's load speed and makes file management
             easier, but it comes with many different tools for manipulating
             images. The tools that I mainly use for my images are scaling and
-            adjusting the brightness
+            adjusting the brightness.
           </p>
         </section>
 
