@@ -98,14 +98,69 @@ const WhyBlogView = () => {
           </p>
           <div style={{ fontSize: '1.2rem' }}>
             <Highlight language='html'>
-              {'<img src="example.webp" loading="lazy"/>'}
+              {`<img src="example.webp" loading="lazy"/>`}
             </Highlight>
           </div>
         </section>
 
         <section className={classes['blog__text']}>
-          <h2 className={classes['blog__header']}></h2>
+          <h2 className={classes['blog__header']}>
+            Improving Load Times for Mobile Users
+          </h2>
+          <p>
+            Everything that we've discussed so far can already be implemented to
+            dratstically improve your load times, but there's still more we can
+            do.
+          </p>
+          <p>
+            Every image has a certain file size. Take for example an image that
+            is 1000x600 with a file size of 60 KB. These properties will not
+            change no matter what device the user has. This works fine for
+            desktop users, but this might result in a slightly longer load time
+            for mobile users. It's not really necessary to load a full sized
+            image on mobile when we can scale it down while retaining the same
+            quality.
+          </p>
+          <p>
+            This is where dynamically rendering images come in. On this website,
+            I have two versions of the same image:
+          </p>
+          <div style={{ fontSize: '1.2rem' }}>
+            <Highlight language='html'>
+              {`
+<picture>
+  <source srcSet={props.src} media="(min-width: 600px)" />
+  <img
+    src={props.srcMobile}
+    lazy-src={props.srcMobile}
+    alt=""
+    className="jumbotron__image"
+    decoding="async"
+    rel="preload"
+  />
+</picture>
+              `}
+            </Highlight>
+          </div>
+          <p>
+            The code above (which is specific to React but can be implemented
+            using basic HTML) gets the current screen width. If the screen width
+            is at least 600 pixels, then the regular image will be displayed.
+            Else, the image will automatically be scaled down to 600 pixels
+          </p>
+          <p>
+            You can look at this code in action on my website. Go to any main
+            page on my website that has a jumbotron (aka the large image
+            headers), view the <em>Network</em> tab, and change the size of the
+            screen. You can see that if you are on a large screen size and you
+            shrink the width down to less than 600 pixels, then a scaled-down
+            version of that image gets downloaded from the server and rendered
+            on the page. Same process works if you initially start on mobile
+            view
+          </p>
         </section>
+
+        {/* TODO: Cloudinary */}
       </Container>
     </AnimatedPage>
   );
