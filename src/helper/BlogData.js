@@ -5,8 +5,8 @@ const BlogData = [
        In this blog, I will discuss how I optimize my website's images to improve load speed.`,
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1665774712/BEN_Website/blog/OptimizingImages/BEN_photo-files.webp',
-    date: 'WIP',
-    link: '/optmizing-images',
+    date: '2023-01-23',
+    link: '/optimizing-images',
   },
   {
     title: 'Volunteering with the Tzu Chi Foundation',

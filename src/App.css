@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+code {
+  background-color: #363636;
+  color: #79c2d0;
+}
+
 .App,
 html {
   min-height: 100vh;
