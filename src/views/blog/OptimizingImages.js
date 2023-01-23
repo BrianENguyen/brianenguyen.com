@@ -160,7 +160,43 @@ const WhyBlogView = () => {
           </p>
         </section>
 
-        {/* TODO: Cloudinary */}
+        <section className={classes['blog__text']}>
+          <h2 className={classes['blog__header']}>
+            Cloud-Based Image Management Services
+          </h2>
+          <p>
+            Lastly, using cloud-based image management services offer benefits
+            for improving image loads. The one that I specifically use is{' '}
+            <a href='https://cloudinary.com/'>cloudinary.com</a>. Not only does
+            this service improves my site's load speed and makes file management
+            easier, but it comes with many different tools for manipulating
+            images. The tools that I mainly use for my images are scaling and
+            adjusting the brightness
+          </p>
+        </section>
+
+        <section className={classes['blog__text']}>
+          <h2 className={classes['blog__header']}>Conclusion</h2>
+          <p>
+            To recap, you would need to follow these steps to help optimize your
+            images:
+            <ol>
+              <li>Compress your images</li>
+              <li>Convert your images WebP format (if not already)</li>
+              <li>
+                Have a full-sized and mobile-sized version of an image if the
+                full-sized version has a large content paint. Render them
+                dynamically
+              </li>
+              <li>
+                Use a cloud-based image service like Cloudinary to render your
+                images
+              </li>
+            </ol>
+            I hope you've learned something new in this, and use these tricks to
+            optimize and manage your images better
+          </p>
+        </section>
       </Container>
     </AnimatedPage>
   );
