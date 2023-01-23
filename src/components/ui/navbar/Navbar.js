@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 import NavbarBrand from './NavbarBrand';
-import NavbarLinks from './NavbarLinks'
+import NavbarLinks from './NavbarLinks';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -48,7 +48,8 @@ const Navbar = () => {
   };
 
   /**
-   * Shows the navbar background when
+   * Shows the navbar background on mobile screen or
+   * if the user has scrolled down a bit
    * */
   const showBackground = () => {
     if (window.scrollY >= 100 || window.innerWidth <= 850) {
@@ -81,7 +82,10 @@ const Navbar = () => {
         <NavbarBrand />
       </NavLink>
       {mobileButton && mobileButtonContent}
-      <NavbarLinks onMobileChangeHandler={hideMobileMenu} mobileMenu={mobileMenu}/>
+      <NavbarLinks
+        onMobileChangeHandler={hideMobileMenu}
+        mobileMenu={mobileMenu}
+      />
     </nav>
   );
 };
