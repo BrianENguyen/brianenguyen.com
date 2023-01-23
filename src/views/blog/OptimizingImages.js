@@ -38,6 +38,25 @@ const WhyBlogView = () => {
             could take time to download, and thus slow down sites
           </p>
         </section>
+        <section className={classes['blog__text']}>
+          <h2 className={classes['blog__header']}>
+            Compressing Images and WebP Format
+          </h2>
+          <p>
+            To optimize images, the first step that I do is compress using
+            online file compressors. A website that I recommend is{' '}
+            <a href='https://compressor.io' target='_blank' rel='noreferrer'>
+              compressor.io
+            </a>{' '}
+            It's a good idea to have a copy of the original, uncompressed file
+            in case you need any other uses for it.
+          </p>
+          <p>
+            After I compressed the file, I then convert the image to WebP. The{' '}
+            <em>WebP</em> format is 26% smaller in size compared to PNG images
+            while maintaining the same quality.
+          </p>
+        </section>
       </Container>
     </AnimatedPage>
   );
