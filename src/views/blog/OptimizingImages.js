@@ -6,7 +6,7 @@ import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import { OptimizingPageTitle } from '../../helper/PageTitleData';
 
-const WhyBlogView = () => {
+const OptmizeImagesView = () => {
   useEffect(() => {
     document.title = OptimizingPageTitle;
   }, []);
@@ -208,4 +208,4 @@ const WhyBlogView = () => {
   );
 };
 
-export default WhyBlogView;
+export default OptmizeImagesView;
