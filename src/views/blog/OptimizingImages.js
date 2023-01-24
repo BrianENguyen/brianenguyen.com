@@ -14,12 +14,12 @@ const OptmizeImagesView = () => {
   return (
     <AnimatedPage>
       <link
-        rel='stylesheet'
-        href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css'
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"
       />
-      <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
+      <Container style={{ marginTop: 200 + 'px' }} maxWidth="md">
         <h1 className={classes['blog__title']}>
-          Optmizing Images for Your Website
+          Optimizing Images for Your Website
         </h1>
         <section className={classes['blog__text']}>
           <p className={classes['blog__date']}>2023-01-23</p>
@@ -55,7 +55,7 @@ const OptmizeImagesView = () => {
             The first step to optimize images is compressing the image files
             using online file compressors. A website that I recommend for this
             process is{' '}
-            <a href='https://compressor.io' target='_blank' rel='noreferrer'>
+            <a href="https://compressor.io" target="_blank" rel="noreferrer">
               compressor.io
             </a>
             . It's a good idea to have a copy of the original, uncompressed file
@@ -64,7 +64,7 @@ const OptmizeImagesView = () => {
           <p>
             After compressing the file(s), the next step is to convert them to
             WebP format with an online file converter like{' '}
-            <a href='https://convertio.co/'>convertio.co</a>. The <em>WebP</em>{' '}
+            <a href="https://convertio.co/">convertio.co</a>. The <em>WebP</em>{' '}
             format is 26% smaller in size compared to PNG images while
             maintaining the same quality. Using WebP format is essentially
             necessary when developing websites.
@@ -102,7 +102,7 @@ const OptmizeImagesView = () => {
             <code>lazy</code>
           </p>
           <div style={{ fontSize: '1.2rem' }}>
-            <Highlight language='html'>
+            <Highlight language="html">
               {`<img src="example.webp" loading="lazy"/>`}
             </Highlight>
           </div>
@@ -131,7 +131,7 @@ const OptmizeImagesView = () => {
             I have two versions of the same image:
           </p>
           <div style={{ fontSize: '1.2rem' }}>
-            <Highlight language='html'>
+            <Highlight language="html">
               {`
 <picture>
   <source srcSet={props.src} media="(min-width: 600px)" />
@@ -173,7 +173,7 @@ const OptmizeImagesView = () => {
           <p>
             Lastly, using cloud-based image management services offer benefits
             for improving image loads. The one that I specifically use is{' '}
-            <a href='https://cloudinary.com/'>cloudinary.com</a>. Not only does
+            <a href="https://cloudinary.com/">cloudinary.com</a>. Not only does
             this service improves my site's load speed and makes file management
             easier, but it comes with many different tools for manipulating
             images. The tools that I mainly use for my images are scaling and
