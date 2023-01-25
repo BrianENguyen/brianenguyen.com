@@ -52,6 +52,7 @@ Feel free to inspect my code and reuse what is appropriate. Any image files that
 have the `BEN_` or `BEN-` prefix are my original content. If you wish to use
 these images, please inform me on which images to use and why you're
 using them. All other directories and files are MIT Licensed (where applicable).
+See the [LICENSE](./LICENSE) for more information
 
 ## Images
 
