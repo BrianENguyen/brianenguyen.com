@@ -33,8 +33,18 @@ const Footer = () => {
       </Container>
       <hr className="footer__line-divider" />
       <Container maxWidth="xs">
-        <p className="footer__copyright">
+        <p className="footer__text">
           {new Date().getFullYear()} &mdash; Brian Nguyen
+        </p>
+        <p className="footer__text">
+          See an issue?{' '}
+          <a
+            href="https://github.com/Buraiyen/BEN-Website-React"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Submit a pull request!
+          </a>
         </p>
         <Link to="/privacy-policy" className="footer__privacy-policy-link">
           Privacy Policy
