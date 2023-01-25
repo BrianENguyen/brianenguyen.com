@@ -8,11 +8,11 @@
 }
 
 .other-project-card {
-  background-color: black !important;
+  background-color: #131313 !important;
   border: 1px solid #282c34;
   border-left: 4px solid #282c34;
   max-height: 350px;
-  color: white !important;
+  color: #cdd9e5 !important;
   transition: 0.5s !important;
   margin: 1rem;
 }
