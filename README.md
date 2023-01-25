@@ -54,6 +54,14 @@ these images, please inform me on which images to use and why you're
 using them. All other directories and files are MIT Licensed (where applicable).
 See the [LICENSE](./LICENSE) for more information
 
+## Support
+
+If you have any issues or questions, please feel free to open an issue in this
+repository or reach out to me at `brian.edison.nguyen@gmail.com`
+
+If you also wish to improve this project, please [submit a pull request](https://github.com/Buraiyen/BEN-Website-React/pulls).
+All pull requests will be appreciated, no matter how big or small they are!
+
 ## Images
 
 ![img1](./readme-img/img1.png)
