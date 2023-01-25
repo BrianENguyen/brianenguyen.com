@@ -31,7 +31,7 @@
   font-size: 2.25rem;
   transition: 0.15;
 }
-.footer__copyright,
+.footer__text,
 .footer__privacy-policy-link {
   color: rgb(155, 155, 155);
 }
