@@ -23,8 +23,8 @@
   },
   "scripts": {
     "dev": "vite --open",
+    "build": "vite build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "test:e2e": "node_modules/.bin/cypress open",
     "eject": "react-scripts eject"
