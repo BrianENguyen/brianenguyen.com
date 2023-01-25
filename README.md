@@ -3,7 +3,8 @@
 
 Link to website: <a href="https://brianenguyen.com/" target="_blank">brianenguyen.com</a>
 
-My personal website / portfolio that showcases information about me, my programming work, and my resume
+My personal website / portfolio that showcases information about me and my
+programming work
 
 ## Pages
 
@@ -25,12 +26,25 @@ My personal website / portfolio that showcases information about me, my programm
 4. Blog
 5. Contact
 
+## Download and Installation
+
+The instructions below assumes you are using a terminal and you have Node installed
+
+```sh
+$ git clone https://github.com/Buraiyen/BEN-Website-React.git
+...
+$ cd BEN-Website-React/
+$ npm i
+$ npm run dev
+```
+
 ## Technologies Used
 
 - React.js
 - React Router
 - Material UI
 - EmailJS
+- Vite
 
 ## Licensing
 
