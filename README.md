@@ -40,11 +40,11 @@ $ npm run dev
 
 ## Technologies Used
 
-- React.js
-- React Router
-- Material UI
-- EmailJS
-- Vite
+- [React.js](https://reactjs.org/)
+- [React Router](https://reactrouter.com/en/main)
+- [Material UI](https://mui.com/)
+- [EmailJS](https://www.emailjs.com/)
+- [Vite](https://vitejs.dev/)
 
 ## Licensing
 
