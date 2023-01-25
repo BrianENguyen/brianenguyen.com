@@ -15,7 +15,7 @@ code {
 .App,
 html {
   min-height: 100vh;
-  background-color: black;
+  background-color: #1d1d1d;
   color: white;
   margin: 0;
 }
