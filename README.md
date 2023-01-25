@@ -48,8 +48,10 @@ $ npm run dev
 
 ## Licensing
 
-Feel free to inspect my code and reuse what is appropriate. You may not use any photos/icons that have the `BEN_` or `BEN-` prefix
-without my permission, as they are owned by me. All other directories and files are MIT Licensed (where applicable).
+Feel free to inspect my code and reuse what is appropriate. Any image files that
+have the `BEN_` or `BEN-` prefix are my original content. If you wish to use
+these images, please inform me on which images to use and why you're
+using them. All other directories and files are MIT Licensed (where applicable).
 
 ## Images
 
