@@ -25,10 +25,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "react-scripts start",
-    "test": "react-scripts test",
-    "test:e2e": "node_modules/.bin/cypress open",
-    "eject": "react-scripts eject"
+    "serve": "vite preview",
+    "test:e2e": "node_modules/.bin/cypress open"
   },
   "eslintConfig": {
     "extends": [
