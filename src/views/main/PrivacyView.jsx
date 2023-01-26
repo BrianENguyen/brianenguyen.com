@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import { PrivacyPageTitle } from '../../helper/PageTitleData';

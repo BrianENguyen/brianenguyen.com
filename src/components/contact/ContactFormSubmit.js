@@ -1,5 +1,3 @@
-import React from 'react';
-
 import emailjs from 'emailjs-com';
 
 export const submitForm = (event) => {

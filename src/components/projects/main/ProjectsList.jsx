@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Grid } from '@mui/material';
 import ProjectData from '../../../helper/ProjectData';
 import Project from './Project';

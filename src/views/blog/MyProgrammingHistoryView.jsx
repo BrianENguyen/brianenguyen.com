@@ -1,4 +1,3 @@
-import React from 'react';
 import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { Container } from '@mui/material';

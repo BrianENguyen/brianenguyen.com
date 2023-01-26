@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { CgClose } from 'react-icons/cg';
 import { useState, useEffect } from 'react';

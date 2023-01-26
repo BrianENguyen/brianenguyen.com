@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { IconButton } from '@mui/material';
 import { SiGithub } from 'react-icons/si';
 import { GrLinkedinOption } from 'react-icons/gr';

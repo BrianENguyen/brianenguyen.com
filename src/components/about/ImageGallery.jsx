@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, ImageList, ImageListItem } from '@mui/material';
 import { ImageGalleryData } from '../../helper/ImageGalleryData';
 import AnimatedHeader from '../animations/AnimatedHeader';

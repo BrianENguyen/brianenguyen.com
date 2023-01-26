@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Highlight from 'react-highlight';
 
 import classes from './BlogView.module.css';

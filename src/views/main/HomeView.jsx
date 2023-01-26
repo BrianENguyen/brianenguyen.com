@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';

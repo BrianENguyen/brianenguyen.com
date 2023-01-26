@@ -1,4 +1,3 @@
-import React from 'react';
 import { useEffect } from 'react';
 import { ErrorJumboData } from '../../helper/JumbotronData';
 import { ErrorPageTitle } from '../../helper/PageTitleData';

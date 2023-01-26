@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import ScrollToTop from './helper/ScrollToTop';
 import PrivacyDialog from './components/privacy/dialog/PrivacyDialog';

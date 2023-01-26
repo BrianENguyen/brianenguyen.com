@@ -1,4 +1,3 @@
-import React from 'react';
 import { Grid, Container } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Button from '../ui/button/Button';

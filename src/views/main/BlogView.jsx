@@ -1,5 +1,3 @@
-import React from 'react';
-
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import BlogList from '../../components/blog/BlogList';
 import { BlogJumboData } from '../../helper/JumbotronData';

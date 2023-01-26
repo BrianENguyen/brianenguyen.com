@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
 import './Footer.css';
