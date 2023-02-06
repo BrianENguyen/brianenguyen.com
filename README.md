@@ -40,16 +40,27 @@ $ npm run dev
 
 ## Technologies Used
 
-- React.js
-- React Router
-- Material UI
-- EmailJS
-- Vite
+- [React.js](https://reactjs.org/)
+- [React Router](https://reactrouter.com/en/main)
+- [Material UI](https://mui.com/)
+- [EmailJS](https://www.emailjs.com/)
+- [Vite](https://vitejs.dev/)
 
 ## Licensing
 
-Feel free to inspect my code and reuse what is appropriate. You may not use any photos/icons that have the `BEN_` or `BEN-` prefix
-without my permission, as they are owned by me. All other directories and files are MIT Licensed (where applicable).
+Feel free to inspect my code and reuse what is appropriate. Any image files that
+have the `BEN_` or `BEN-` prefix are my original content. If you wish to use
+these images, please inform me on which images to use and why you're
+using them. All other directories and files are MIT Licensed (where applicable).
+See the [LICENSE](./LICENSE) for more information
+
+## Support
+
+If you have any issues or questions, please feel free to open an issue in this
+repository or reach out to me at `brian.edison.nguyen@gmail.com`
+
+If you also wish to improve this project, please [submit a pull request](https://github.com/Buraiyen/BEN-Website-React/pulls).
+All pull requests will be appreciated, no matter how big or small they are!
 
 ## Images
 

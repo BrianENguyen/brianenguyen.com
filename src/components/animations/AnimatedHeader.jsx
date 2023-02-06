@@ -1,6 +1,5 @@
 // import { motion } from 'framer-motion/dist/framer-motion';
 
-import React from 'react';
 import { motion } from 'framer-motion';
 
 const AnimatedHeader = ({ children }) => {

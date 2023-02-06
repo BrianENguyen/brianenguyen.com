@@ -1,6 +1,7 @@
 const HomeJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1659204062/BEN_Website/jumbotron/BEN_developing.webp',
-  srcMobile: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1659204062/BEN_Website/jumbotron/BEN_developing.webp',
+  srcMobile:
+    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1659204062/BEN_Website/jumbotron/BEN_developing.webp',
   title: 'Brian E. Nguyen',
   description: 'Frontend Web Developer and Coding Instructor',
 };
@@ -12,19 +13,22 @@ const ResumeJumboData = {
 
 const PortfolioJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1659204060/BEN_Website/jumbotron/BEN_webdev_code.webp',
-  srcMobile: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1659204060/BEN_Website/jumbotron/BEN_webdev_code.webp',
+  srcMobile:
+    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1659204060/BEN_Website/jumbotron/BEN_webdev_code.webp',
   title: 'Portfolio',
 };
 
 const AboutJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_lego.webp',
-  srcMobile: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_lego.webp',
+  srcMobile:
+    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_lego.webp',
   title: 'About',
 };
 
 const BlogJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1620240499/BEN_Website/jumbotron/BEN_vegas_strip.webp',
-  srcMobile: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1620240499/BEN_Website/jumbotron/BEN_vegas_strip.webp',
+  srcMobile:
+    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1620240499/BEN_Website/jumbotron/BEN_vegas_strip.webp',
   title: 'My Blog',
   description: `Get insights into what I have been doing recently, whether it is for my career
     or my personal life`,
@@ -32,12 +36,15 @@ const BlogJumboData = {
 
 const ContactJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg',
+  srcMobile:
+    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1639358227/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg',
   title: 'Contact',
 };
 
 const ErrorJumboData = {
   src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg',
-  srcMobile: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg',
+  srcMobile:
+    'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg',
   title: '404 Error',
   description: `The page that you are trying to reach does not or no longer exists. 
     If this is an issue, then feel free to contact me`,
