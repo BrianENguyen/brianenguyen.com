@@ -7,7 +7,7 @@ import './Footer.css';
 
 const FooterButtons = () => {
   const github = 'https://github.com/Buraiyen/';
-  const linkedin = 'https://www.linkedin.com/in/brian-edison-nguyen/';
+  const linkedin = 'https://www.linkedin.com/in/brian-e-nguyen/';
 
   return (
     <div className='footer_buttons'>
