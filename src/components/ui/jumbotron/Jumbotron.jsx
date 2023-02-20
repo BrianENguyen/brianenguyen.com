@@ -4,12 +4,12 @@ const Jumbotron = (props) => {
   return (
     <div className='jumbotron'>
       <picture>
-        <source srcSet={props.src} media='(min-width: 600px)' />
+        <source srcSet={props.src || ''} media='(min-width: 600px)' />
         <img
-          src={props.srcMobile}
-          lazy-src={props.srcMobile}
+          src={props.srcMobile || ''}
+          lazy-src={props.srcMobile || ''}
           alt=''
-          className='jumbotron__image'
+          className={props.srcMobile && 'jumbotron__image'}
           decoding='async'
           rel='preload'
         />

@@ -13,4 +13,5 @@
   object-fit: cover;
   width: 100%;
   max-width: 1000px;
+  border-radius: 10px;
 }

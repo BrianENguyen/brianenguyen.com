@@ -10,6 +10,7 @@ div.facts__section {
 .facts__image {
   width: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 @media (min-width: 0px) {
   div.facts__section {
