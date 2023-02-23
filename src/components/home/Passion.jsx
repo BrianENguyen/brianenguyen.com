@@ -11,7 +11,7 @@ const Passion = () => {
         <Grid container spacing={2}>
           <Grid item sm={12} md={5}>
             <img
-              src='https://res.cloudinary.com/buraiyen/image/upload/v1675707556/BEN_Website/BEN_profile3.webp'
+              src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_450/v1675707556/BEN_Website/BEN_profile3.webp'
               width='450px'
               height='450px'
               loading='lazy'
