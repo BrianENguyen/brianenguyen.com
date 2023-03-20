@@ -8,7 +8,7 @@ import BlogView from '../views/main/BlogView';
 
 import FirstSiteView from '../views/project/FirstSiteView';
 import FrontendMentorView from '../views/project/FrontendMentorView';
-import KrakenBracketView from '../views/project/KrakenBracketView';
+import KrakenBracketVie from '../views/project/KrakenBracketView';
 import LBTCView from '../views/project/LBTCView';
 import NewSiteView from '../views/project/NewSiteView';
 import ProbAndStatsView from '../views/project/ProbAndStatsView';
