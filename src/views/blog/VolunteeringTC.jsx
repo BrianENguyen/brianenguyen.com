@@ -28,26 +28,25 @@ const VolunteeringTC = () => {
           </p>
           <h2 className={classes['blog__header']}>Starting My Journey</h2>
           <p>
-            I started my Tzu Chi journey back in my freshman year of university
-            in 2016, where I attended the Tzu Chi collegiate chapter of CSULB
-            (also known as CSULB Tzu Ching). I heard about this organization
-            from a friend in my class who attends their events. I heard that the
-            organization holds volunteering events, so I decided to check it
-            out. When I attended one of their meetings, I was surprised that
-            they do a lot more than just volunteering; their volunteering
-            efforts focus on a wide range of aspects, such as environmental
-            protection, education, medicine, and disaster relief. In addition,
-            they also focus on humanitarian culture and vegetarianism. I was
-            intrigued and wanted to do more with this organization, so I
-            participated in their volunteering events.
+            I began my Tzu Chi journey during my freshman year of university in
+            2016, when I joined the Tzu Chi collegiate chapter at CSULB (also
+            known as CSULB Tzu Ching). I learned about this organization from a
+            friend in my class who attends their events. Upon hearing that the
+            organization holds volunteering events, I decided to attend one to
+            see what it was all about. To my surprise, I discovered that they do
+            much more than just volunteer work. Their volunteering efforts focus
+            on a wide range of areas, including environmental protection,
+            education, medicine, and disaster relief, as well as humanitarian
+            culture and vegetarianism. Intrigued by their mission, I became more
+            involved in their events and activities.
           </p>
           <p>
-            My first volunteering event with them was at a medical outreach at a
-            Tzu Chi medical clinic, where Tzu Chi volunteers provided free
-            medical services, like vision, acupuncture, and flu shots, for those
-            in need. For my volunteering role, I helped with Spanish
-            translations and medical form fill outs. It was a fun experience for
-            me to help others in need.
+            My first volunteering event with them was at a medical outreach
+            event held at a Tzu Chi medical clinic, where Tzu Chi volunteers
+            provided free medical services such as vision care, acupuncture, and
+            flu shots to those in need. During the event, I helped with Spanish
+            translations and medical form fill-outs as part of my volunteering
+            role. It was a fulfilling experience to assist those in need.
           </p>
           <ImageList variant='masonry' cols={1} gap={10}>
             <ImageListItem>
@@ -64,17 +63,16 @@ const VolunteeringTC = () => {
             Becoming an Officer / Starting My Passion in Photography
           </h2>
           <p>
-            During my first year with CSULB Tzu Ching, one of the officers
-            couldn't fulfill her historian position. This position involves
-            taking photos for the organization at events for documentation
-            purposes. I was interested in this role because I had a DSLR camera
-            that I didn't use much and thought this opportunity would help me
-            develop my photography skills, so I applied to the role. The officer
-            board decided that I was a good fit for it. The president told me
-            that their decision wasn't based on my photography skills, but
-            rather my experience and dedication to the organization. I was
-            elated for the opportunity to work with the officers, develop my
-            photography skills, and help contribute to CSULB Tzu Ching.
+            During my first year with CSULB Tzu Ching, an officer was unable to
+            fulfill her role as historian, which involved taking photos at
+            events for documentation purposes. As someone who owned a DSLR
+            camera but didn't use it much, I was interested in the position and
+            applied for it. The officer board found me to be a good fit and was
+            offered the position. The president of the organization told me that
+            my photography skills were not the primary factor in their decision,
+            but rather my dedication to the organization. I was thrilled for the
+            chance to work with the officers, improve my photography abilities,
+            and contribute to CSULB Tzu Ching through this role.
           </p>
           <h2 className={classes['blog__header']}>Tzu Ching Social Day</h2>
           <p>
