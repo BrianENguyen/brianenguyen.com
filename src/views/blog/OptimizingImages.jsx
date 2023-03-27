@@ -75,32 +75,27 @@ const OptmizeImagesView = () => {
         <section className={classes['blog__text']}>
           <h2 className={classes['blog__header']}>Lazy Loading Images</h2>
           <p>
-            When you visit a page, any images that should appear on the page
-            will download from the server by default. This action is not a big
-            deal on pages that don't have much content, but this is an issue on
-            large pages that require scrolling, like this one.
+            By default, when you visit a web page, all the images on that page
+            will download from the server. This isn't a big deal on pages with
+            only a few images, but it can be a problem on pages with lots of
+            content that require scrolling, like this one.
           </p>
           <p>
-            Why is this an issue? Say you load into a large page with many
-            contents. What if the moment you visit the page, you instead wanted
-            visit another one?
+            Why is it a problem? Let's say you load into a large page with many
+            images, but then you decide to visit another page without scrolling
+            all the way down. In that case,{' '}
             <em>
-              Every single image that should appear on the page is already
-              loaded, even if you didn't see it.{' '}
-            </em>
-            Why load images if you've never navigated to it? This is a waste of
-            loading time from your end and a waste of server resources.
+              all the images on the page have already been loaded, even if you
+              didn't see them.
+            </em>{' '}
+            This wastes your time and server resources.
           </p>
           <p>
-            To prevent this issue, we want to only load images once our screen
-            is in view of where the image should be. This is where the concept
-            of <em>lazy loading</em> is used. Lazy loading using objects or
-            components only when they are needed.
-          </p>
-          <p>
-            To lazy load using the <code>{'<img />'}</code> HTML tag, you would
-            use an attribute called <code>loading</code> and set its value to{' '}
-            <code>lazy</code>
+            To solve this problem, we can use lazy loading, which means we only
+            load images when they're in view. Lazy loading helps us reduce
+            loading time and saves server resources. To implement lazy loading
+            with the <code>{'<img />'}</code> HTML tag, you can use the loading
+            attribute and set its value to <code>lazy</code>.
           </p>
           <div style={{ fontSize: '1.2rem' }}>
             <Highlight language='html'>
