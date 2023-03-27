@@ -252,23 +252,22 @@ const VolunteeringTC = () => {
             Revitalizing CSULB Tzu Ching / Current Times
           </h2>
           <p>
-            From there point on, CSULB Tzu Ching saw success in its events. We
-            had many members attend our event, and we've gained more interest in
-            our organization, not just our events, but also our values. I was
-            grateful that the advisors and I inspired a new generation of
-            officers for the next school year. When the school year ended, CSULB
-            Tzu Ching was functioning for the following years and is still
-            functioning as I'm writing this. I'm glad my officer journey ended
-            on a high note. As an alumni, I continue to support this
-            organization, whether maintaining the CSULB Tzu Ching website,
-            providing photography at events, or advising current officers.
+            From that point on, CSULB Tzu Ching experienced success in its
+            events, with many members attending and gaining more interest in our
+            organization's values. I was grateful that the advisors and I
+            inspired a new generation of officers for the next school year. When
+            the school year ended, CSULB Tzu Ching continued functioning for the
+            following years, and as I write this, it still functions. I'm glad
+            that my officer journey ended on a high note. As an alumnus, I
+            continue to support this organization, whether by maintaining the
+            CSULB Tzu Ching website, providing photography at events, or
+            advising current officers.
           </p>
           <p>
             If there is anything that I've learned during my journey, it's this:{' '}
             <em>
-              you should not give up to prevent things from getting worse, but
-              rather, you should not give up to prevent things from getting
-              better.
+              Don't give up to avoid things getting worse, but instead, don't
+              give up so that you allow things to get better.
             </em>
           </p>
           <ImageList variant='masonry' cols={1} gap={10}>
