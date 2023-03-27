@@ -76,18 +76,19 @@ const VolunteeringTC = () => {
           </p>
           <h2 className={classes['blog__header']}>Tzu Ching Social Day</h2>
           <p>
-            The biggest event CSULB Tzu Ching has ever held was Tzu Ching Social
-            Day on February 25, 2017. This event is where Tzu Ching members from
-            various southern California colleges gather at one college to hang
-            out and know each other. CSULB Tzu Ching was the host of that year's
-            Social Day event, and the theme for that event was environmental
-            protection. Various Tzu Chings from other colleges, like UC Irvine,
-            UC San Diego, and UC Southern California, attended this event. The
-            CSULB Tzu Ching officer board taught the attendees how Tzu Chi
-            promotes environmental protection by using recycled plastic to make
-            clothes and promoting vegetarianism. This event was also the first
-            event where I fulfilled my new historian role, and it was one of the
-            most memorable events that we've hosted.
+            The largest event ever held by CSULB Tzu Ching was the Tzu Ching
+            Social Day on February 25, 2017. This yearly event brought together
+            Tzu Ching members from various southern California colleges for a
+            day of socializing and getting to know one another. CSULB Tzu Ching
+            hosted the event, with a focus on environmental protection as the
+            theme. Attendees included Tzu Ching members from other colleges such
+            as UC Irvine, UC San Diego, and UC Southern California. During the
+            event, the CSULB Tzu Ching officer board gave a presentation on how
+            Tzu Chi promotes environmental protection through initiatives such
+            as using recycled plastic to make clothes and promoting
+            vegetarianism. This event was also significant for me, as I
+            fulfilled my new role as historian, and it remains one of the most
+            memorable events we've hosted.
           </p>
           <ImageList variant='masonry' cols={2} gap={10}>
             <ImageListItem>
@@ -128,28 +129,29 @@ const VolunteeringTC = () => {
             Bridging the Gap for CSULB / UCI Collaborations
           </h2>
           <p>
-            One day during the summer of 2017, I saw a senior-center
-            volunteering event posted on UCI Tzu Ching's FaceBook. I was bored,
-            so I contacted them to volunteer with them. At that event, UCI Tzu
-            Ching and I socialized with the seniors and performed to help
-            brighten their day. In addition, I was able to meet all of UCI Tzu
-            Ching's officers and advisors.
+            During the summer of 2017, I stumbled upon a senior-center
+            volunteering event posted on UCI Tzu Ching's Facebook page. Seeking
+            an opportunity to do something meaningful, I contacted them and was
+            soon volunteering alongside UCI Tzu Ching members. We spent the day
+            socializing with seniors and performing to help brighten their day.
+            It was during this event that I met all of UCI Tzu Ching's officers
+            and advisors.
           </p>
           <p>
-            UCI Tzu Ching held another volunteering event during the summer,
-            which is a tutoring event. In this, we would tutor kids grades
-            three, four, and five on reading, writing, math, and arts & crafts.
-            I used to tutor children when I was in elementary school, so
-            attending this tutoring event brought back memories; it was also a
-            pleasure tutoring the children with UCI Tzu Ching.
+            As the summer progressed, UCI Tzu Ching held another volunteering
+            event, a tutoring session for kids in grades three, four, and five.
+            As someone who had tutored children in the past, this event was
+            particularly meaningful to me, and I was thrilled to be able to
+            participate alongside UCI Tzu Ching.
           </p>
           <p>
-            That day helped me form connections with the UCI Tzu Ching officers.
-            We hung out after the tutoring event at a restaurant, and we got to
-            know each other more. In the months / years that followed, I would
-            continue volunteering with UCI Tzu Ching, which eventually led to
-            them collaborating with CSULB Tzu Ching. This collaboration
-            continued today, all because I was bored on a summer day.
+            After the tutoring event, we hung out at a restaurant and got to
+            know each other better. This experience helped me form connections
+            with the UCI Tzu Ching officers, and in the months and years that
+            followed, I continued to volunteer with them. This eventually led to
+            a collaboration with CSULB Tzu Ching, which continues to this day.
+            It all started with me being bored on a summer day and seeking a way
+            to make a difference.
           </p>
           <ImageList variant='masonry' cols={2} gap={10}>
             <ImageListItem>
