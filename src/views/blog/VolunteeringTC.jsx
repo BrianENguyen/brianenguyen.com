@@ -184,51 +184,35 @@ const VolunteeringTC = () => {
             It When No One Else Would
           </h2>
           <p>
-            It started around 2018 when CSULB Tzu Ching started to experience
-            rough years. The number of members who attended our events
-            eventually dropped; not many were interested in our organization. At
-            that time, I couldn't figure out why. Not only did this hurt our
-            events, but it also hurt our chances of getting new officers to help
-            us for the following school years. In 2018, we only had two officers
-            who led CSULB Tzu Ching: Jessica, then president, and me, the
-            vice-president. Our events did not get many members, which caused me
-            to be frustrated and depressed that our efforts would have been for
-            nothing.
+            Around 2018, CSULB Tzu Ching experienced a decline in membership,
+            which hurt our events and the chances of recruiting new officers for
+            the following school years. As vice-president, I couldn't understand
+            why this was happening and felt frustrated and depressed about the
+            situation. At the end of the 2018-2019 school year, we were unable
+            to fill officer positions, and I was ready to give up. However, my
+            advisors convinced me to continue with their support, and I went
+            into the 2019-2020 school year as the only officer.
+          </p>
+
+          <p>
+            During the club fair event, which my advisors, a few past members,
+            and I volunteered for, we were able to get around 100 people to sign
+            up for our mailing list in just two days. Although this number was
+            high, I had low expectations due to our low turnout rates in the
+            past. I wasn't expecting many people to attend our first meeting
+            that year.
           </p>
           <p>
-            When the 2018-2019 school year ended, we were unable to gain any
-            interest in officer positions. Jessica wasn't able to be president
-            the next school year because she was graduating the following
-            semester. And me? I wanted to give up. I didn't want to put any
-            effort into this organization if it would be for nothing. My
-            advisors at the time persuaded me to continue for one more year with
-            their support, so I did. I went into the 2019-2020 school year as
-            the only officer for CSULB Tzu Ching.
-          </p>
-          <p>
-            When the 2019-2020 school year started, advisors, a few past
-            members, and I volunteered at the club fair event. We got around 100
-            people to sign up for our mailing list across two days. Even though
-            that number is high, my expectations were low. In the past, we've
-            achieved that same number, but we received low turnout rates for our
-            first general meetings; I wasn't expecting many people to attend our
-            first meeting this year either.
-          </p>
-          <p>
-            The first meeting was on September 9, 2019. I arrived at the meeting
-            room at least an hour early to set things up. While I was there, all
-            I thought to myself was that only around five people would show up.
-            I would just get through this meeting and get it over with. Twenty
-            minutes before the meeting happened, one person showed up. I thought
-            that was strange because we never had someone show up to a meeting
-            that early. Then, a few minutes later, another person showed up.
-            Then, another person showed up. And another person showed up. And
-            another person showed up! Outside of the room, there was a line of
-            people waiting to get in, and I was like "OH MY GOSH! WHAT IS
-            HAPPENING?!?! WHY ARE THERE SO MANY PEOPLE?" Not only that, past
-            officers and members of CSULB Tzu Ching showed up, my friend from
-            high school showed up, even my dad showed up. From that point, I
-            felt like I was going to cry.
+            On September 9, 2019, the first meeting was scheduled to be held. I
+            arrived at the meeting room an hour early to prepare. However, I was
+            not expecting a big turnout, and thought only five people would show
+            up. Twenty minutes before the meeting, one person arrived, which was
+            unusual because we never had someone show up that early. But then, a
+            few minutes later, more people started showing up one by one.
+            Outside the room, there was even a line of people waiting to get in.
+            To my surprise, past officers and members of CSULB Tzu Ching, my
+            friend from high school, and even my dad showed up. I couldn't
+            believe my eyes and felt overwhelmed with emotion.
           </p>
           <ImageList variant='masonry' cols={2} gap={10}>
             <ImageListItem>
