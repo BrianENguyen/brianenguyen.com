@@ -16,37 +16,38 @@ const OptmizeImagesView = () => {
   return (
     <AnimatedPage>
       <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"
+        rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css'
       />
-      <Container style={{ marginTop: 200 + 'px' }} maxWidth="md">
+      <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
         <h1 className={classes['blog__title']}>
           Optimizing Images for Your Website
         </h1>
         <section className={classes['blog__text']}>
           <p className={classes['blog__date']}>2023-01-23</p>
           <p>
-            Website images are one of the biggest culprits in slowing down web
-            pages. For this blog, I discuss why images can slow down websites
-            and my ways to optimize my sites' images to improve load speed
-            times.
+            The use of website images is one of the major factors that
+            contribute to slow loading of web pages. In this blog, I discuss the
+            reasons behind how images can affect website speed and describe the
+            methods I use to optimize images on my sites, thus improving their
+            load speed times.
           </p>
         </section>
         <section className={classes['blog__text']}>
           <h2 className={classes['blog__header']}>Image Downloads</h2>
           <p>
-            When you visit any page that has images, you, the client, send a
-            request to the server to retrieve information about the site's page.
-            The server then responds with the necessary files to display the
-            page, such as HTML, CSS, JavaScript, images, etc. Think of this like
-            downloading a video game or a movie online. The larger the file
-            size, the longer it takes to download it. This process applies to
-            websites too.
+            When you visit a web page that contains images, your device sends a
+            request to the server for information about the page. The server
+            responds with the necessary files to display the page, including
+            HTML, CSS, JavaScript, images, and other components. This process is
+            similar to downloading a video game or a movie online. The larger
+            the file size, the longer it takes to download. This concept also
+            applies to websites.
           </p>
           <p>
-            Images are generally large files by default, and if they aren't
-            optimized, they could take longer to download, and thus slow down
-            sites.
+            Images are typically large files by default, and if they are not
+            optimized, they can take longer to download, resulting in slower
+            website performance.
           </p>
         </section>
         <section className={classes['blog__text']}>
@@ -54,22 +55,20 @@ const OptmizeImagesView = () => {
             Compressing Images and WebP Format
           </h2>
           <p>
-            The first step to optimize images is compressing the image files
-            using online file compressors. A website that I recommend for this
-            process is{' '}
-            <a href="https://compressor.io" target="_blank" rel="noreferrer">
+            To optimize images, the first step is to compress the image files
+            using online file compressors. I recommend
+            <a href='https://compressor.io' target='_blank' rel='noreferrer'>
               compressor.io
             </a>
             . It's a good idea to have a copy of the original, uncompressed file
             in case for other uses.
           </p>
           <p>
-            After compressing the file(s), the next step is to convert them to
-            WebP format with an online file converter like{' '}
-            <a href="https://convertio.co/">convertio.co</a>. The <em>WebP</em>{' '}
-            format is 26% smaller in size compared to PNG images while
-            maintaining the same quality. Using WebP format is essentially
-            necessary when developing websites.
+            Once the files are compressed, the next step is to convert them to
+            WebP format using an online file converter such as{' '}
+            <a href='https://convertio.co/'>convertio.co</a>. The <em>WebP</em>{' '}
+            format is 26% smaller than PNG images while maintaining the same
+            quality, making it essential for website development.
           </p>
         </section>
 
@@ -104,7 +103,7 @@ const OptmizeImagesView = () => {
             <code>lazy</code>
           </p>
           <div style={{ fontSize: '1.2rem' }}>
-            <Highlight language="html">
+            <Highlight language='html'>
               {`<img src="example.webp" loading="lazy"/>`}
             </Highlight>
           </div>
@@ -133,7 +132,7 @@ const OptmizeImagesView = () => {
             I have two versions of the same image:
           </p>
           <div style={{ fontSize: '1.2rem' }}>
-            <Highlight language="html">
+            <Highlight language='html'>
               {`
 <picture>
   <source srcSet={props.src} media="(min-width: 600px)" />
@@ -175,7 +174,7 @@ const OptmizeImagesView = () => {
           <p>
             Lastly, using cloud-based image management services offer benefits
             for improving image loads. The one that I specifically use is{' '}
-            <a href="https://cloudinary.com/">cloudinary.com</a>. Not only does
+            <a href='https://cloudinary.com/'>cloudinary.com</a>. Not only does
             this service improves my site's load speed and makes file management
             easier, but it comes with many different tools for manipulating
             images. The tools that I mainly use for my images are scaling and
