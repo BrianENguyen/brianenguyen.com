@@ -109,22 +109,20 @@ const OptmizeImagesView = () => {
             Improving Load Times for Mobile Users
           </h2>
           <p>
-            Everything that we've discussed so far can already be implemented to
-            dratstically improve your load times, but there's still more we can
-            do.
+            By now, you already know how to optimize images to improve load
+            times, but there's more you can do. Images have fixed properties,
+            such as size, that don't change regardless of the user's device.
+            This may cause longer load times on mobile devices, where a smaller
+            image would suffice without losing quality.
           </p>
           <p>
-            Every image has a certain file size. Take for example an image that
-            is 1000x600 with a file size of 60 KB. These properties will not
-            change no matter what device the user has. This works fine for
-            desktop users, but this might result in a slightly longer load time
-            for mobile users. It's not really necessary to load a full sized
-            image on mobile when we can scale it down while retaining the same
-            quality.
-          </p>
-          <p>
-            This is where dynamically rendering images come in. On this website,
-            I have two versions of the same image:
+            To address this, you can use dynamically rendered images. On my
+            website, I have two versions of the same image, one full-sized and
+            one scaled down to 600 pixels for mobile users. The code I use,
+            specific to React but adaptable to basic HTML, determines the screen
+            width and displays the appropriate version of the image accordingly.
+            This reduces the file size to about 40 KB and speeds up the download
+            time.
           </p>
           <div style={{ fontSize: '1.2rem' }}>
             <Highlight language='html'>
@@ -144,21 +142,11 @@ const OptmizeImagesView = () => {
             </Highlight>
           </div>
           <p>
-            The code above (which is specific to React but can be implemented
-            using basic HTML) gets the current screen width. If the screen width
-            is at least 600 pixels, then the full-sized image will be displayed.
-            Else, the image will automatically be scaled down to 600 pixels for
-            mobile users. This 600 pixel image can be scaled down to ~40 KB,
-            which means downloading it will be a lot faster
-          </p>
-          <p>
-            You can look at this code in action on my website. Go to any main
-            page on my website that has a jumbotron (aka the large image
-            headers), view the <em>Network</em> tab, and change the size of the
-            screen. You can see that if you are on a large screen size and you
-            shrink the width down to less than 600 pixels, then a scaled-down
-            version of that image gets downloaded from the server and rendered
-            on the page. The same works if you initially start on mobile view
+            To see this in action, go to any page on my website that has a
+            jumbotron (large image header), view the <em>Network tab</em> in the
+            developer tools, and change the screen size. You'll notice that the
+            image switches to the smaller version for mobile devices, improving
+            the loading time.
           </p>
         </section>
 
