@@ -155,13 +155,15 @@ const OptmizeImagesView = () => {
             Cloud-Based Image Management Services
           </h2>
           <p>
-            Lastly, using cloud-based image management services offer benefits
-            for improving image loads. The one that I specifically use is{' '}
-            <a href='https://cloudinary.com/'>cloudinary.com</a>. Not only does
-            this service improves my site's load speed and makes file management
-            easier, but it comes with many different tools for manipulating
-            images. The tools that I mainly use for my images are scaling and
-            adjusting the brightness.
+            Finally, utilizing cloud-based image management services can offer
+            benefits for improving image load times. Storing image files within
+            the project itself can require more download time, making
+            cloud-based servers a more reliable option. A specific service that
+            I use is <a href='https://cloudinary.com/'>cloudinary.com</a>. This
+            service not only improves my site's load speed and makes file
+            management easier, but also comes with various tools for
+            manipulating images. I mainly use the scaling and brightness
+            adjustment tools for my images.
           </p>
         </section>
 
@@ -183,8 +185,8 @@ const OptmizeImagesView = () => {
                 images
               </li>
             </ol>
-            I hope you've learned something new in this, and use these tricks to
-            optimize and manage your images better
+            I hope you have learned something new from this and can use these
+            tips to optimize and manage your images more effectively!
           </p>
         </section>
       </Container>
