@@ -22,34 +22,29 @@ const MyProgrammingHistoryView = () => {
         <div className={classes['blog__text']}>
           <p className={classes['blog__date']}>2022-02-12</p>
           <p>
-            Computer science is one of the most interesting fields in this
-            world. With the exponential growth of technology, code is
-            everywhere, like gaming consoles, TVs, even the web browser you're
-            using to view this blog. As someone who was fascinated with
-            technology since my childhood, choosing a career path related to
-            technology was the right choice for me
+            Computer science is a fascinating field, with technology growing
+            exponentially and code being used in various devices such as gaming
+            consoles, TVs, and web browsers. Being fascinated by technology
+            since childhood, pursuing a career in technology was the perfect
+            choice for me.
           </p>
           <p>
-            My first step in my career was taking my Intro to Programming class
-            in high school. I heard that there was game development there, which
-            interested me since I played video games since I was a child. I
-            decided to take it, but I realize it was a mistake. The school
-            council made my teacher instruct this class, but she didn't know
-            anything about programming. She would make us read the book and
-            practice programming there. To make matters worse, the language
-            taught in the book was C, which was challenging to learn as a
-            beginner. This class made me hate programming because I felt this
-            difficulty applied to all programming.
+            My journey in programming started in high school when I took my
+            Intro to Programming class. Initially, I was excited to learn game
+            development, but unfortunately, the teacher was not well-versed in
+            programming, and the book used was in C, which made it difficult for
+            a beginner like me. As a result, I developed a dislike for
+            programming, assuming that all programming would be as challenging.
           </p>
           <p>
-            After graduating high school, I decided to try programming again at
-            California State University, Long Beach. In my introductory computer
-            science course, we've learned about Python, which was <em>way</em>{' '}
-            easier than C. The first program that I was proud of calculated the
-            area, circumference, surface area, and volume of a circle / sphere
-            using the radius from user input. That script made me realize that
-            programming is what I wanted to do for my future. Below are snippets
-            of my program:
+            However, I gave programming another chance after graduating high
+            school and enrolling in California State University, Long Beach.
+            Here, I was introduced to Python, which was much easier than C. The
+            first program I created was able to calculate the area,
+            circumference, surface area, and volume of a circle/sphere based on
+            user input. This program gave me a sense of accomplishment and made
+            me realize that programming was my passion. Below are snippets of my
+            program:
           </p>
           <Highlight language='python'>
             {`
@@ -152,11 +147,11 @@ main()
             didn't interest me because they were too technical.
           </p>
           <p>
-            It took me two years to finally decide what I wanted to:{' '}
-            <strong>frontend development</strong>. This field allows me to
-            express creativity in the applications I make. My sense of
-            creativity and beauty comes from my passion for photography, and I
-            hope to reflect them in my programming career.
+            It took me two years to finally decide what I wanted to: frontend
+            development. This field allows me to express creativity in the
+            applications I make. My sense of creativity and beauty comes from my
+            passion for photography, and I hope to reflect them in my
+            programming career.
           </p>
         </div>
       </Container>

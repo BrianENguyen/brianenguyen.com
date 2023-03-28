@@ -28,26 +28,25 @@ const VolunteeringTC = () => {
           </p>
           <h2 className={classes['blog__header']}>Starting My Journey</h2>
           <p>
-            I started my Tzu Chi journey back in my freshman year of university
-            in 2016, where I attended the Tzu Chi collegiate chapter of CSULB
-            (also known as CSULB Tzu Ching). I heard about this organization
-            from a friend in my class who attends their events. I heard that the
-            organization holds volunteering events, so I decided to check it
-            out. When I attended one of their meetings, I was surprised that
-            they do a lot more than just volunteering; their volunteering
-            efforts focus on a wide range of aspects, such as environmental
-            protection, education, medicine, and disaster relief. In addition,
-            they also focus on humanitarian culture and vegetarianism. I was
-            intrigued and wanted to do more with this organization, so I
-            participated in their volunteering events.
+            I began my Tzu Chi journey during my freshman year of university in
+            2016, when I joined the Tzu Chi collegiate chapter at CSULB (also
+            known as CSULB Tzu Ching). I learned about this organization from a
+            friend in my class who attends their events. Upon hearing that the
+            organization holds volunteering events, I decided to attend one to
+            see what it was all about. To my surprise, I discovered that they do
+            much more than just volunteer work. Their volunteering efforts focus
+            on a wide range of areas, including environmental protection,
+            education, medicine, and disaster relief, as well as humanitarian
+            culture and vegetarianism. Intrigued by their mission, I became more
+            involved in their events and activities.
           </p>
           <p>
-            My first volunteering event with them was at a medical outreach at a
-            Tzu Chi medical clinic, where Tzu Chi volunteers provided free
-            medical services, like vision, acupuncture, and flu shots, for those
-            in need. For my volunteering role, I helped with Spanish
-            translations and medical form fill outs. It was a fun experience for
-            me to help others in need.
+            My first volunteering event with them was at a medical outreach
+            event held at a Tzu Chi medical clinic, where Tzu Chi volunteers
+            provided free medical services such as vision care, acupuncture, and
+            flu shots to those in need. During the event, I helped with Spanish
+            translations and medical form fill-outs as part of my volunteering
+            role. It was a fulfilling experience to assist those in need.
           </p>
           <ImageList variant='masonry' cols={1} gap={10}>
             <ImageListItem>
@@ -64,32 +63,32 @@ const VolunteeringTC = () => {
             Becoming an Officer / Starting My Passion in Photography
           </h2>
           <p>
-            During my first year with CSULB Tzu Ching, one of the officers
-            couldn't fulfill her historian position. This position involves
-            taking photos for the organization at events for documentation
-            purposes. I was interested in this role because I had a DSLR camera
-            that I didn't use much and thought this opportunity would help me
-            develop my photography skills, so I applied to the role. The officer
-            board decided that I was a good fit for it. The president told me
-            that their decision wasn't based on my photography skills, but
-            rather my experience and dedication to the organization. I was
-            elated for the opportunity to work with the officers, develop my
-            photography skills, and help contribute to CSULB Tzu Ching.
+            During my first year with CSULB Tzu Ching, an officer was unable to
+            fulfill her role as historian, which involved taking photos at
+            events for documentation purposes. As someone who owned a DSLR
+            camera but didn't use it much, I was interested in the position and
+            applied for it. The officer board found me to be a good fit and was
+            offered the position. The president of the organization told me that
+            my photography skills were not the primary factor in their decision,
+            but rather my dedication to the organization. I was thrilled for the
+            chance to work with the officers, improve my photography abilities,
+            and contribute to CSULB Tzu Ching through this role.
           </p>
           <h2 className={classes['blog__header']}>Tzu Ching Social Day</h2>
           <p>
-            The biggest event CSULB Tzu Ching has ever held was Tzu Ching Social
-            Day on February 25, 2017. This event is where Tzu Ching members from
-            various southern California colleges gather at one college to hang
-            out and know each other. CSULB Tzu Ching was the host of that year's
-            Social Day event, and the theme for that event was environmental
-            protection. Various Tzu Chings from other colleges, like UC Irvine,
-            UC San Diego, and UC Southern California, attended this event. The
-            CSULB Tzu Ching officer board taught the attendees how Tzu Chi
-            promotes environmental protection by using recycled plastic to make
-            clothes and promoting vegetarianism. This event was also the first
-            event where I fulfilled my new historian role, and it was one of the
-            most memorable events that we've hosted.
+            The largest event ever held by CSULB Tzu Ching was the Tzu Ching
+            Social Day on February 25, 2017. This yearly event brought together
+            Tzu Ching members from various southern California colleges for a
+            day of socializing and getting to know one another. CSULB Tzu Ching
+            hosted the event, with a focus on environmental protection as the
+            theme. Attendees included Tzu Ching members from other colleges such
+            as UC Irvine, UC San Diego, and UC Southern California. During the
+            event, the CSULB Tzu Ching officer board gave a presentation on how
+            Tzu Chi promotes environmental protection through initiatives such
+            as using recycled plastic to make clothes and promoting
+            vegetarianism. This event was also significant for me, as I
+            fulfilled my new role as historian, and it remains one of the most
+            memorable events we've hosted.
           </p>
           <ImageList variant='masonry' cols={2} gap={10}>
             <ImageListItem>
@@ -130,28 +129,29 @@ const VolunteeringTC = () => {
             Bridging the Gap for CSULB / UCI Collaborations
           </h2>
           <p>
-            One day during the summer of 2017, I saw a senior-center
-            volunteering event posted on UCI Tzu Ching's FaceBook. I was bored,
-            so I contacted them to volunteer with them. At that event, UCI Tzu
-            Ching and I socialized with the seniors and performed to help
-            brighten their day. In addition, I was able to meet all of UCI Tzu
-            Ching's officers and advisors.
+            During the summer of 2017, I stumbled upon a senior-center
+            volunteering event posted on UCI Tzu Ching's Facebook page. Seeking
+            an opportunity to do something meaningful, I contacted them and was
+            soon volunteering alongside UCI Tzu Ching members. We spent the day
+            socializing with seniors and performing to help brighten their day.
+            It was during this event that I met all of UCI Tzu Ching's officers
+            and advisors.
           </p>
           <p>
-            UCI Tzu Ching held another volunteering event during the summer,
-            which is a tutoring event. In this, we would tutor kids grades
-            three, four, and five on reading, writing, math, and arts & crafts.
-            I used to tutor children when I was in elementary school, so
-            attending this tutoring event brought back memories; it was also a
-            pleasure tutoring the children with UCI Tzu Ching.
+            As the summer progressed, UCI Tzu Ching held another volunteering
+            event, a tutoring session for kids in grades three, four, and five.
+            As someone who had tutored children in the past, this event was
+            particularly meaningful to me, and I was thrilled to be able to
+            participate alongside UCI Tzu Ching.
           </p>
           <p>
-            That day helped me form connections with the UCI Tzu Ching officers.
-            We hung out after the tutoring event at a restaurant, and we got to
-            know each other more. In the months / years that followed, I would
-            continue volunteering with UCI Tzu Ching, which eventually led to
-            them collaborating with CSULB Tzu Ching. This collaboration
-            continued today, all because I was bored on a summer day.
+            After the tutoring event, we hung out at a restaurant and got to
+            know each other better. This experience helped me form connections
+            with the UCI Tzu Ching officers, and in the months and years that
+            followed, I continued to volunteer with them. This eventually led to
+            a collaboration with CSULB Tzu Ching, which continues to this day.
+            It all started with me being bored on a summer day and seeking a way
+            to make a difference.
           </p>
           <ImageList variant='masonry' cols={2} gap={10}>
             <ImageListItem>
@@ -184,51 +184,35 @@ const VolunteeringTC = () => {
             It When No One Else Would
           </h2>
           <p>
-            It started around 2018 when CSULB Tzu Ching started to experience
-            rough years. The number of members who attended our events
-            eventually dropped; not many were interested in our organization. At
-            that time, I couldn't figure out why. Not only did this hurt our
-            events, but it also hurt our chances of getting new officers to help
-            us for the following school years. In 2018, we only had two officers
-            who led CSULB Tzu Ching: Jessica, then president, and me, the
-            vice-president. Our events did not get many members, which caused me
-            to be frustrated and depressed that our efforts would have been for
-            nothing.
+            Around 2018, CSULB Tzu Ching experienced a decline in membership,
+            which hurt our events and the chances of recruiting new officers for
+            the following school years. As vice-president, I couldn't understand
+            why this was happening and felt frustrated and depressed about the
+            situation. At the end of the 2018-2019 school year, we were unable
+            to fill officer positions, and I was ready to give up. However, my
+            advisors convinced me to continue with their support, and I went
+            into the 2019-2020 school year as the only officer.
+          </p>
+
+          <p>
+            During the club fair event, which my advisors, a few past members,
+            and I volunteered for, we were able to get around 100 people to sign
+            up for our mailing list in just two days. Although this number was
+            high, I had low expectations due to our low turnout rates in the
+            past. I wasn't expecting many people to attend our first meeting
+            that year.
           </p>
           <p>
-            When the 2018-2019 school year ended, we were unable to gain any
-            interest in officer positions. Jessica wasn't able to be president
-            the next school year because she was graduating the following
-            semester. And me? I wanted to give up. I didn't want to put any
-            effort into this organization if it would be for nothing. My
-            advisors at the time persuaded me to continue for one more year with
-            their support, so I did. I went into the 2019-2020 school year as
-            the only officer for CSULB Tzu Ching.
-          </p>
-          <p>
-            When the 2019-2020 school year started, advisors, a few past
-            members, and I volunteered at the club fair event. We got around 100
-            people to sign up for our mailing list across two days. Even though
-            that number is high, my expectations were low. In the past, we've
-            achieved that same number, but we received low turnout rates for our
-            first general meetings; I wasn't expecting many people to attend our
-            first meeting this year either.
-          </p>
-          <p>
-            The first meeting was on September 9, 2019. I arrived at the meeting
-            room at least an hour early to set things up. While I was there, all
-            I thought to myself was that only around five people would show up.
-            I would just get through this meeting and get it over with. Twenty
-            minutes before the meeting happened, one person showed up. I thought
-            that was strange because we never had someone show up to a meeting
-            that early. Then, a few minutes later, another person showed up.
-            Then, another person showed up. And another person showed up. And
-            another person showed up! Outside of the room, there was a line of
-            people waiting to get in, and I was like "OH MY GOSH! WHAT IS
-            HAPPENING?!?! WHY ARE THERE SO MANY PEOPLE?" Not only that, past
-            officers and members of CSULB Tzu Ching showed up, my friend from
-            high school showed up, even my dad showed up. From that point, I
-            felt like I was going to cry.
+            On September 9, 2019, the first meeting was scheduled to be held. I
+            arrived at the meeting room an hour early to prepare. However, I was
+            not expecting a big turnout, and thought only five people would show
+            up. Twenty minutes before the meeting, one person arrived, which was
+            unusual because we never had someone show up that early. But then, a
+            few minutes later, more people started showing up one by one.
+            Outside the room, there was even a line of people waiting to get in.
+            To my surprise, past officers and members of CSULB Tzu Ching, my
+            friend from high school, and even my dad showed up. I couldn't
+            believe my eyes and felt overwhelmed with emotion.
           </p>
           <ImageList variant='masonry' cols={2} gap={10}>
             <ImageListItem>
@@ -268,23 +252,22 @@ const VolunteeringTC = () => {
             Revitalizing CSULB Tzu Ching / Current Times
           </h2>
           <p>
-            From there point on, CSULB Tzu Ching saw success in its events. We
-            had many members attend our event, and we've gained more interest in
-            our organization, not just our events, but also our values. I was
-            grateful that the advisors and I inspired a new generation of
-            officers for the next school year. When the school year ended, CSULB
-            Tzu Ching was functioning for the following years and is still
-            functioning as I'm writing this. I'm glad my officer journey ended
-            on a high note. As an alumni, I continue to support this
-            organization, whether maintaining the CSULB Tzu Ching website,
-            providing photography at events, or advising current officers.
+            From that point on, CSULB Tzu Ching experienced success in its
+            events, with many members attending and gaining more interest in our
+            organization's values. I was grateful that the advisors and I
+            inspired a new generation of officers for the next school year. When
+            the school year ended, CSULB Tzu Ching continued functioning for the
+            following years, and as I write this, it still functions. I'm glad
+            that my officer journey ended on a high note. As an alumnus, I
+            continue to support this organization, whether by maintaining the
+            CSULB Tzu Ching website, providing photography at events, or
+            advising current officers.
           </p>
           <p>
             If there is anything that I've learned during my journey, it's this:{' '}
             <em>
-              you should not give up to prevent things from getting worse, but
-              rather, you should not give up to prevent things from getting
-              better.
+              Don't give up to avoid things getting worse, but instead, don't
+              give up so that you allow things to get better.
             </em>
           </p>
           <ImageList variant='masonry' cols={1} gap={10}>
