@@ -7,6 +7,7 @@
   - [[#technologies-used][Technologies Used]]
   - [[#licensing][Licensing]]
   - [[#support][Support]]
+  - [[#images][Images]]
 
 ** About
 Link to website: [[https://brianenguyen.com][brianenguyen.com]]
@@ -66,3 +67,9 @@ repository or reach out to me at =brian.edison.nguyen@gmail.com=
 
 If you also wish to improve this project, please [[https://github.com/Buraiyen/BEN-Website-React/pulls][submit a pull request.]] All pull
 requests will be appreciated, no matter how big or small they are!
+
+** Images
+[[./readme-img/img1.png]]
+[[./readme-img/img2.png]]
+[[./readme-img/img3.png]]
+[[./readme-img/img4.png]]
