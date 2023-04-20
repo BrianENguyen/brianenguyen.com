@@ -13,7 +13,7 @@ const RenderRoutes = () => {
           <Route
             path={route.path}
             key={route.key}
-            exact={route.exact}
+            exact={true}
             component={route.component}
           />
         ))}
