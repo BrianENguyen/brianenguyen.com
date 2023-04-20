@@ -22,48 +22,60 @@ import MyProgrammingHistoryView from '../views/blog/MyProgrammingHistoryView';
 import VolunteeringTC from '../views/blog/VolunteeringTC';
 
 const ROUTES = [
-  { path: '/', exact: true, key: 'Home', component: HomeView },
+  { path: '/', key: 'Home', component: HomeView },
   { path: '/portfolio', key: 'Portfolio', component: PortfolioView },
   { path: '/blog', key: 'Blog', component: BlogView },
   {
-    path: '/optimizing-images',
+    path: '/blog/optimizing-images',
     key: 'Optimizing Images',
     component: OptimizingImages,
   },
-  { path: '/why-i-blog', key: 'Why I Blog', component: WhyBlogView },
   {
-    path: '/volunteering-with-tzu-chi',
+    path: '/blog/why-i-blog',
+    key: 'Why I Blog',
+    component: WhyBlogView,
+  },
+  {
+    path: '/blog/volunteering-with-tzu-chi',
     key: 'Volunteering with Tzu Chi',
     component: VolunteeringTC,
   },
 
   {
-    path: '/programming-history',
+    path: '/blog/programming-history',
     key: 'Programming History',
     component: MyProgrammingHistoryView,
   },
 
-  { path: '/about', key: 'About', component: AboutView },
-  { path: '/contact', key: 'Contact', component: ContactView },
+  { path: '/portfolio/about', key: 'About', component: AboutView },
+  { path: '/porfolio/contact', key: 'Contact', component: ContactView },
   { path: '/privacy-policy', key: 'Privacy Policy', component: PrivacyView },
-  { path: '/new-site', key: 'New Website', component: NewSiteView },
-  { path: '/thu-nguyen', key: 'Thu Nguyen', component: ThuView },
+  { path: '/portfolio/new-site', key: 'New Website', component: NewSiteView },
+  { path: '/portfolio/thu-nguyen', key: 'Thu Nguyen', component: ThuView },
   {
-    path: '/all-elite-network',
+    path: '/portfolio/all-elite-network',
     key: 'All Elite Network',
     component: AllEliteNetworkView,
   },
-  { path: '/csulb-tzu-ching', key: 'CSULB Tzu Ching', component: LBTCView },
-  { path: '/yelpcamp', key: 'YelpCamp', component: YelpCamp },
-  { path: '/first-personal-site', key: 'First Site', component: FirstSiteView },
   {
-    path: '/kraken-bracket',
+    path: '/portfolio/csulb-tzu-ching',
+    key: 'CSULB Tzu Ching',
+    component: LBTCView,
+  },
+  { path: '/portfolio/yelpcamp', key: 'YelpCamp', component: YelpCamp },
+  {
+    path: '/portfolio/first-personal-site',
+    key: 'First Site',
+    component: FirstSiteView,
+  },
+  {
+    path: '/portfolio/kraken-bracket',
     key: 'Kraken Bracket',
     component: KrakenBracketView,
   },
-  { path: '/simd', key: 'SIMD', component: SIMDView },
+  { path: '/portfolio/simd', key: 'SIMD', component: SIMDView },
   {
-    path: '/probability-stats',
+    path: '/portfolio/probability-stats',
     key: 'Probability and Stats',
     component: ProbAndStatsView,
   },
