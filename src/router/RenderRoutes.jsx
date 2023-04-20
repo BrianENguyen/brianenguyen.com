@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import ROUTES from './Routes';
-// import { AnimatePresence } from 'framer-motion/dist/framer-motion';
 import { AnimatePresence } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
 

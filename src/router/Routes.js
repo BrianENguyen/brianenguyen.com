@@ -7,7 +7,6 @@ import PrivacyView from '../views/main/PrivacyView';
 import BlogView from '../views/main/BlogView';
 
 import FirstSiteView from '../views/project/FirstSiteView';
-import FrontendMentorView from '../views/project/FrontendMentorView';
 import KrakenBracketView from '../views/project/KrakenBracketView';
 import LBTCView from '../views/project/LBTCView';
 import NewSiteView from '../views/project/NewSiteView';
@@ -47,11 +46,6 @@ const ROUTES = [
   { path: '/about', key: 'About', component: AboutView },
   { path: '/contact', key: 'Contact', component: ContactView },
   { path: '/privacy-policy', key: 'Privacy Policy', component: PrivacyView },
-  {
-    path: '/frontend-mentor-challenges',
-    key: 'Frontend Mentor Challenges',
-    component: FrontendMentorView,
-  },
   { path: '/new-site', key: 'New Website', component: NewSiteView },
   { path: '/thu-nguyen', key: 'Thu Nguyen', component: ThuView },
   {
