@@ -54,10 +54,6 @@ const FirstSiteJumboData = {
   title: 'My First Personal Website',
 };
 
-const FrontendMentorJumboData = {
-  title: 'Frontend Mentor Challenges',
-};
-
 const KrakenBracketJumboData = {
   title: 'Senior Project: Kraken Bracket',
 };
@@ -99,7 +95,6 @@ export {
   ErrorJumboData,
   FirstSiteJumboData,
   BlogJumboData,
-  FrontendMentorJumboData,
   KrakenBracketJumboData,
   LBTCJumboData,
   NewSiteJumboData,

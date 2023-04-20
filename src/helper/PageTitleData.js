@@ -16,8 +16,6 @@ const PrivacyPageTitle = `Privacy Policy ${suffix}`;
 
 const FirstSitePageTitle = `My First Website ${suffix}`;
 
-const FrontendMentorPageTitle = `Frontend Mentor Challenges ${suffix}`;
-
 const KrakenBracketPageTitle = `Kraken Bracket ${suffix}`;
 
 const LBTCPageTitle = `CSULB Tzu Ching ${suffix}`;
@@ -54,7 +52,6 @@ export {
   ErrorPageTitle,
   PrivacyPageTitle,
   FirstSitePageTitle,
-  FrontendMentorPageTitle,
   KrakenBracketPageTitle,
   LBTCPageTitle,
   NewSitePageTitle,
