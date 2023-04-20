@@ -23,7 +23,6 @@ and SEO-friendly optimizations
 3. Portfolio
 
 - All Elite Network
-- Frontend Mentor Challenges
 - New Personal Website
 - Thu Nguyen's Website
 - CSULB Tzu Ching
