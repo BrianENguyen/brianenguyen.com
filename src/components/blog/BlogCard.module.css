@@ -15,6 +15,7 @@
   max-width: 100%;
   transition: filter 0.3s;
   height: 400px;
+  border-radius: 5px;
 }
 
 .blog-card__date {
