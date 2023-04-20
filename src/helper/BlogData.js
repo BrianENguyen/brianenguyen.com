@@ -6,7 +6,7 @@ const BlogData = [
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1665774712/BEN_Website/blog/OptimizingImages/BEN_photo-files.webp',
     date: '2023-01-23',
-    link: '/optimizing-images',
+    link: '/blog/optimizing-images',
   },
   {
     title: 'Volunteering with the Tzu Chi Foundation',
@@ -17,7 +17,7 @@ const BlogData = [
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1644820389/BEN_Website/blog/BEN_orientation.jpg ',
     date: '2022-02-16',
-    link: '/volunteering-with-tzu-chi',
+    link: '/blog/volunteering-with-tzu-chi',
   },
   {
     title: 'My Programming History',
@@ -26,7 +26,7 @@ const BlogData = [
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1644628220/BEN_Website/blog/BEN_4121_1_jw8m5b.jpg',
     date: '2022-02-12',
-    link: '/programming-history',
+    link: '/blog/programming-history',
   },
   {
     title: "Why I'm Blogging",
@@ -34,7 +34,7 @@ const BlogData = [
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1642186176/BEN_Website/blog/BEN_redondobeach.jpg',
     date: '2022-02-11',
-    link: '/why-i-blog',
+    link: '/blog/why-i-blog',
   },
 ];
 
