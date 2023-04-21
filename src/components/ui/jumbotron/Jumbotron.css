@@ -33,6 +33,7 @@
     font-size: 1.2rem;
   }
 
+  .jumbotron,
   .jumbotron__image {
     height: 35vh;
   }
