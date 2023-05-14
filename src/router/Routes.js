@@ -47,8 +47,8 @@ const ROUTES = [
     component: MyProgrammingHistoryView,
   },
 
-  { path: '/portfolio/about', key: 'About', component: AboutView },
-  { path: '/porfolio/contact', key: 'Contact', component: ContactView },
+  { path: '/about', key: 'About', component: AboutView },
+  { path: '/contact', key: 'Contact', component: ContactView },
   { path: '/privacy-policy', key: 'Privacy Policy', component: PrivacyView },
   { path: '/portfolio/new-site', key: 'New Website', component: NewSiteView },
   { path: '/portfolio/thu-nguyen', key: 'Thu Nguyen', component: ThuView },
