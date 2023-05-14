@@ -1,7 +1,7 @@
 .jumbotron {
   position: relative;
   text-align: center;
-  background-color: black;
+  background-color: #1d1d1d;
   border: none;
 }
 .jumbotron__container {
@@ -33,6 +33,7 @@
     font-size: 1.2rem;
   }
 
+  .jumbotron,
   .jumbotron__image {
     height: 35vh;
   }
@@ -43,7 +44,7 @@
   }
 }
 @media (min-width: 576px) {
- .jumbotron {
+  .jumbotron {
     margin-top: 85px;
   }
 
@@ -62,8 +63,8 @@
 }
 
 @media (min-width: 992px) {
- .jumbotron {
-   margin-top: 0px;
+  .jumbotron {
+    margin-top: 0px;
   }
   .jumbotron__title {
     font-size: 5rem;

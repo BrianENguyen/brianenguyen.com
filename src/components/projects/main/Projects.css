@@ -21,12 +21,13 @@
 }
 
 .project__title {
-  color: white;
+  color: #cdd9e5;
   font-size: 2rem;
 }
 
 .project__image {
   max-width: 800px;
+  border-radius: 10px;
 }
 
 @media (min-width: 0px) {
