@@ -32,7 +32,6 @@ const Footer = () => {
           </Grid>
         </div>
       </Container>
-<<<<<<< HEAD:src/components/ui/footer/Footer.js
       <hr className="footer__line-divider" />
       <Container maxWidth="xs">
         <p className="footer__text">
@@ -44,28 +43,11 @@ const Footer = () => {
             href="https://github.com/Buraiyen/BEN-Website-React"
             target="_blank"
             rel="noreferrer"
-=======
-      <hr className='footer__line-divider' />
-      <Container maxWidth='xs'>
-        <p className='footer__text'>
-          {new Date().getFullYear()} &mdash; Brian Nguyen
-        </p>
-        <p className='footer__text'>
-          See an issue?{' '}
-          <a
-            href='https://github.com/Buraiyen/BEN-Website-React'
-            target='_blank'
-            rel='noreferrer'
->>>>>>> master:src/components/ui/footer/Footer.jsx
           >
             Submit a pull request!
           </a>
         </p>
-<<<<<<< HEAD:src/components/ui/footer/Footer.js
         <Link to="/privacy-policy" className="footer__privacy-policy-link">
-=======
-        <Link to='/privacy-policy' className='footer__privacy-policy-link'>
->>>>>>> master:src/components/ui/footer/Footer.jsx
           Privacy Policy
         </Link>
       </Container>
