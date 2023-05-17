@@ -15,13 +15,6 @@ const Backstory = () => {
           </Grid>
           <Grid item xs={12} md={8}>
             <p>
-              I am a 2020 computer science graduate, who is currently seeking a
-              full-time or part-time position in front-end development. I've
-              been passionate about computers ever since I played video games
-              when I was young, so I knew that a career related to computers
-              would be a perfect option for me.
-            </p>
-            <p>
               I obtained a Bachelor's in Computer Science from California State
               University, Long Beach in 2020. From the moment I wrote my first
               Python script in my introductory CS course, I knew that coding is
