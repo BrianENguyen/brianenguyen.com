@@ -20,7 +20,7 @@ const Facts = () => {
             <div className='facts__section'>
               <h2 className='header'>Things that define me</h2>
               <h3 className='subheader'>
-                I am a front-end developer, photographer, drummer, gamer,
+                I am a software developer, photographer, drummer, gamer,
                 pro-wrestling enjoyer, and Linkin Park listener
               </h3>
             </div>
