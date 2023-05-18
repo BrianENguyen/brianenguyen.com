@@ -3,7 +3,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import Backstory from '../../../components/about/Backstory';
 import Facts from '../../../components/about/Facts';
-import ImageGallery from '../../../components/about/ImageGallery';
+import ImageGallery from '../../../components/about/image-gallery/ImageGallery';
 import Quote from '../../../components/about/quote/Quote';
 import { AboutJumboData } from '../../../helper/JumbotronData';
 import { AboutPageTitle } from '../../../helper/PageTitleData';
