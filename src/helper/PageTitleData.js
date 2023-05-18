@@ -1,6 +1,6 @@
 const suffix = '| BEN';
 
-const HomePageTitle = 'Brian E. Nguyen | Frontend Developer';
+const HomePageTitle = 'Brian E. Nguyen | Software Developer';
 
 const ResumePageTitle = `Resume ${suffix}`;
 

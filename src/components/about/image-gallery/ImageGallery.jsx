@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, ImageList, ImageListItem } from '@mui/material';
-import { ImageGalleryData } from '../../helper/ImageGalleryData';
-import AnimatedHeader from '../animations/AnimatedHeader';
+import { ImageGalleryData } from '../../../helper/ImageGalleryData';
+import AnimatedHeader from '../../animations/AnimatedHeader';
 const ImageGallery = () => {
   return (
-    <div>
+    <div data-testid='image-gallery'>
       <Container maxWidth='xl'>
         <h1 className='header'>Capturing Art Through the Lens</h1>
         <h2 className='subheader'>

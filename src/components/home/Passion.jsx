@@ -23,13 +23,14 @@ const Passion = () => {
             <div className='passion__text'>
               <h1>
                 <AnimatedHeader>
-                  My passion is front-end web development
+                  My passion is software development
                 </AnimatedHeader>
               </h1>
               <p>
-                I love making beautiful websites. I have at least 3 years of
-                experience being a web developer with many different
-                technologies, such as HTML/CSS/JS, Vue, React, and more.
+                I am a software developer with a focus on frontend / fullstack
+                development with over 7 years of experience. I don't just write
+                code, I create solutions and transform them into digital
+                realities
               </p>
               <center>
                 <Link to='/portfolio'>

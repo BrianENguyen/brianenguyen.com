@@ -1,11 +1,11 @@
 import React from 'react';
 
-import AnimatedPage from '../../components/animations/AnimatedPage';
-import BlogList from '../../components/blog/BlogList';
-import { BlogJumboData } from '../../helper/JumbotronData';
-import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
+import AnimatedPage from '../../../components/animations/AnimatedPage';
+import BlogList from '../../../components/blog/BlogList';
+import { BlogJumboData } from '../../../helper/JumbotronData';
+import Jumbotron from '../../../components/ui/jumbotron/Jumbotron';
 import { useEffect } from 'react';
-import { BlogPageTitle } from '../../helper/PageTitleData';
+import { BlogPageTitle } from '../../../helper/PageTitleData';
 
 const BlogView = () => {
   useEffect(() => {

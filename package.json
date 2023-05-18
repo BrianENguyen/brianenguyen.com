@@ -26,6 +26,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
+    "test": "jest",
     "test:e2e": "node_modules/.bin/cypress open"
   },
   "eslintConfig": {
@@ -47,7 +48,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "babel-jest": "^29.5.0",
     "cypress": "^9.4.1",
+    "identity-obj-proxy": "^3.0.0",
     "vite": "^4.0.4"
   }
 }

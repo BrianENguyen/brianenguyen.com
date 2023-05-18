@@ -1,10 +1,10 @@
-import AboutView from '../views/main/AboutView';
-import ContactView from '../views/main/ContactView';
-import ErrorView from '../views/main/ErrorView';
-import HomeView from '../views/main/HomeView';
-import PortfolioView from '../views/main/PortfolioView';
-import PrivacyView from '../views/main/PrivacyView';
-import BlogView from '../views/main/BlogView';
+import AboutView from '../views/main/about/AboutView';
+import ContactView from '../views/main/contact/ContactView';
+import ErrorView from '../views/main/error/ErrorView';
+import HomeView from '../views/main/home/HomeView';
+import PortfolioView from '../views/main/portfolio/PortfolioView';
+import PrivacyView from '../views/main/privacy/PrivacyView';
+import BlogView from '../views/main/blog/BlogView';
 
 import FirstSiteView from '../views/project/FirstSiteView';
 import KrakenBracketView from '../views/project/KrakenBracketView';

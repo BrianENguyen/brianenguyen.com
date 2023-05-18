@@ -10,7 +10,7 @@ const Facts = () => {
           <Grid item sm={12} md={4}>
             <center>
               <img
-                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1642186572/BEN_Website/BEN_profilenight.jpg'
+                src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1642186572/BEN_Website/BEN_profile_night.webp'
                 alt='Me smiling at the camera'
                 className='facts__image'
               />
@@ -20,7 +20,7 @@ const Facts = () => {
             <div className='facts__section'>
               <h2 className='header'>Things that define me</h2>
               <h3 className='subheader'>
-                I am a front-end developer, photographer, drummer, gamer,
+                I am a software developer, photographer, drummer, gamer,
                 pro-wrestling enjoyer, and Linkin Park listener
               </h3>
             </div>
