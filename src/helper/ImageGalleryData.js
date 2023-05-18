@@ -21,15 +21,15 @@ export const ImageGalleryData = [
     title: 'Las Vegas Strip',
   },
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240506/BEN_Website/photo-gallery/BEN_lbnightporait_p2sscc.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240506/BEN_Website/photo-gallery/BEN_lbnightportrait.webp',
     title: 'Long Beach Night',
   },
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240508/BEN_Website/photo-gallery/BEN_dogportait_y1asv3.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1684379712/BEN_Website/photo-gallery/BEN_dog_portrait.webp',
     title: 'Waffle',
   },
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240502/BEN_Website/photo-gallery/BEN_fireworks_ng5nch.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240502/BEN_Website/photo-gallery/BEN_fireworks.webp',
     title: 'Fireworks',
   },
   {
@@ -37,15 +37,15 @@ export const ImageGalleryData = [
     title: 'Redondo Beach Sunset',
   },
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1641158351/BEN_Website/photo-gallery/BEN_fairylights.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1641158351/BEN_Website/photo-gallery/BEN_fairy_lights.webp',
     title: 'Fairy Lights',
   },
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1641158788/BEN_Website/photo-gallery/BEN_heart.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1641158788/BEN_Website/photo-gallery/BEN_heart_sun.webp',
     title: 'Sunset Heart',
   },
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1641158881/BEN_Website/photo-gallery/BEN_redondobeach2.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1641158881/BEN_Website/photo-gallery/BEN_redondobeach_afternoon.webp',
     title: 'Redondo Beach 2',
   },
 ];
