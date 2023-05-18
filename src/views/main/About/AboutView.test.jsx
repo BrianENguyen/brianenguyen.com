@@ -15,4 +15,9 @@ describe('AboutView', () => {
     const { asFragment } = render(<AboutView />);
     expect(asFragment()).toMatchSnapshot();
   });
+
+  test('renders multiple images with correct attributes', () => {
+    render(<AboutView />);
+    const imageElements = screen.getAllByRole('img');
+  });
 });

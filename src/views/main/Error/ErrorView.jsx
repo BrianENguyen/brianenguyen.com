@@ -1,9 +1,9 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { ErrorJumboData } from '../../helper/JumbotronData';
-import { ErrorPageTitle } from '../../helper/PageTitleData';
-import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
-import AnimatedPage from '../../components/animations/AnimatedPage';
+import { ErrorJumboData } from '../../../helper/JumbotronData';
+import { ErrorPageTitle } from '../../../helper/PageTitleData';
+import Jumbotron from '../../../components/ui/jumbotron/Jumbotron';
+import AnimatedPage from '../../../components/animations/AnimatedPage';
 const ErrorView = () => {
   useEffect(() => {
     document.title = ErrorPageTitle;
