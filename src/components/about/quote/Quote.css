@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); */
+
+.quote {
+  /* padding: 0 10rem; */
+  margin: 4rem 0;
+}
+
+.quote__content {
+  /* font-family: 'Meow Script', cursive; */
+}
+
+.quote__author {
+  text-align: center;
+  font-style: italic;
+}
+
+@media (min-width: 0px) {
+  .quote {
+    padding: 0 5rem;
+  }
+  .quote__content {
+    font-size: 2rem;
+  }
+  .quote__author {
+    font-size: 2rem;
+  }
+  .quote__image {
+    width: 50vw;
+  }
+}
+@media (min-width: 576px) {
+  .quote {
+    padding: 0 10rem;
+  }
+  .quote__content {
+    font-size: 4vw;
+  }
+  .quote__author {
+    font-size: 4vw;
+  }
+  .quote__image {
+    width: 25vw;
+  }
+}
+@media (min-width: 992px) {
+  .quote__content {
+    font-size: 3vw;
+  }
+  .quote__image {
+    width: 30vw;
+  }
+  .quote__author {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 1200px) {
+  .quote__content {
+    font-size: 2.5vw;
+  }
+  .quote__image {
+    width: 25vw;
+  }
+}
