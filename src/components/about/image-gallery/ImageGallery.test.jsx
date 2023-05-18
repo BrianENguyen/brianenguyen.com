@@ -11,11 +11,12 @@ describe('ImageGallery', () => {
     expect(gallery).toBeInTheDocument();
   });
 
-  test('renders multiple images with correct attributes', () => {
+  test('meets accessibility requirements', () => {
     render(<ImageGallery />);
     const imageElements = screen.getAllByRole('img');
     imageElements.forEach((imageElement) => {
       expect(imageElement).toHaveAttribute('alt');
+      expect(imageElement).toHaveAccessibleName();
       expect(imageElement.src).toContain('.webp');
     });
   });
