@@ -1,23 +1,23 @@
 export const ImageGalleryData = [
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240503/BEN_Website/photo-gallery/BEN_hbsunportait_p6myx7.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240503/BEN_Website/photo-gallery/BEN_hbsunportait.webp',
     title: 'Huntington Beach Sunset',
   },
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240506/BEN_Website/photo-gallery/BEN_longexposure_csjx44.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240506/BEN_Website/photo-gallery/BEN_longexposure.webp',
     title: 'Long Exposure',
   },
 
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/photo-gallery/BEN_magicmountain_sphz44.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/photo-gallery/BEN_magicmountain.webp',
     title: 'Magic Mountain, Nevada',
   },
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240509/BEN_Website/photo-gallery/BEN_vegassign_lmdojq.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240509/BEN_Website/photo-gallery/BEN_vegassign.webp',
     title: 'Las Vegas Sign',
   },
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240511/BEN_Website/photo-gallery/BEN_vegasstrip_bpmxcq.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240511/BEN_Website/photo-gallery/BEN_vegasstrip.webp',
     title: 'Las Vegas Strip',
   },
   {
@@ -33,7 +33,7 @@ export const ImageGalleryData = [
     title: 'Fireworks',
   },
   {
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1641158198/BEN_Website/photo-gallery/BEN_redondobeach.jpg',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1641158198/BEN_Website/photo-gallery/BEN_redondobeach_sunset.webp',
     title: 'Redondo Beach Sunset',
   },
   {
