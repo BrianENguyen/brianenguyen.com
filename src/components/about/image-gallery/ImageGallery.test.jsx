@@ -27,9 +27,12 @@ describe('ImageGallery', () => {
   test('meets accessibility requirements', () => {
     render(<ImageGallery />);
     const imageElements = screen.getAllByRole('img');
-    imageElements.forEach((imageElement) => {
-      expect(imageElement).toHaveAttribute('alt');
-      expect(imageElement).toHaveAttribute('aria-describedby');
+    imageElements.forEach((imageElement, i) => {
+      expect(imageElement).toHaveAttribute('alt', ImageGalleryData[i].alt);
+      expect(imageElement).toHaveAttribute(
+        'aria-describedby',
+        ImageGalleryData[i].alt
+      );
       expect(imageElement).toHaveAccessibleName();
       expect(imageElement.src).toContain('.webp');
     });
