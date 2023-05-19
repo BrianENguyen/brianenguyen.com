@@ -23,6 +23,7 @@ describe('ImageGallery', () => {
     const imageElements = screen.getAllByRole('img');
     imageElements.forEach((imageElement) => {
       expect(imageElement).toHaveAttribute('alt');
+      expect(imageElement).toHaveAttribute('aria-describedby');
       expect(imageElement).toHaveAccessibleName();
       expect(imageElement.src).toContain('.webp');
     });
