@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Grid } from '@mui/material';
 import './Backstory.css';
-import AnimatedHeader from '../animations/AnimatedHeader';
+import AnimatedHeader from '../../animations/AnimatedHeader';
 
 const Backstory = () => {
   return (
