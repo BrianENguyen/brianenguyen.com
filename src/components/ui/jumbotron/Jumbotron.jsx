@@ -16,9 +16,7 @@ const Jumbotron = (props) => {
       </picture>
       <div className='jumbotron__container'>
         <h1 className='jumbotron__title'>{props.title}</h1>
-        <p v-if='jumboData.description' className='jumbotron__description'>
-          {props.description}
-        </p>
+        <p className='jumbotron__description'>{props.description}</p>
       </div>
     </div>
   );
