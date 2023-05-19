@@ -5,6 +5,10 @@ import Backstory from './Backstory';
 global.console.warn = jest.fn();
 
 describe('Backstory', () => {
+  test('renders Backstory component without errors', () => {
+    render(<Backstory />);
+  });
+
   test('renders Grid items with correct responsive layout', () => {
     const { container } = render(<Backstory />);
     const gridItems = container.querySelectorAll('.MuiGrid-item');
