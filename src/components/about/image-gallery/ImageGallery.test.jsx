@@ -6,6 +6,12 @@ import '@testing-library/jest-dom';
 global.console.warn = jest.fn();
 
 describe('ImageGallery', () => {
+  test('renders header correctly', () => {
+    const { getByText } = render(<ImageGallery />);
+    const headerElement = getByText(/capturing art through the lens/i);
+    expect(headerElement).toBeInTheDocument();
+  });
+
   test('renders the image gallery component without errors', () => {
     render(<ImageGallery />);
     const gallery = screen.getByTestId('image-gallery');
