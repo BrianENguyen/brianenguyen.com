@@ -20,6 +20,7 @@ describe('Jumbotron', () => {
     const descriptionElement = screen.getByText(props.description);
     const imageElement = screen.getByAltText('');
 
+    // Check for attributes and elements
     expect(titleElement).toBeInTheDocument();
     expect(descriptionElement).toBeInTheDocument();
     expect(imageElement).toBeInTheDocument();

@@ -5,8 +5,9 @@ import FooterBrand from '../FooterBrand';
 describe('FooterBrand test suite', () => {
   test('renders FooterBrand component without errors', () => {
     const { getByAltText } = render(<FooterBrand />);
-
     const imgElement = getByAltText('BEN Logo');
+
+    // Check for element's attributes and values
     expect(imgElement).toBeInTheDocument();
     expect(imgElement).toHaveAttribute(
       'src',
