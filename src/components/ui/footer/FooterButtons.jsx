@@ -11,12 +11,22 @@ const FooterButtons = () => {
 
   return (
     <div className='footer_buttons'>
-      <a href={github} target='_blank' rel='noreferrer'>
+      <a
+        href={github}
+        target='_blank'
+        rel='noreferrer'
+        data-testid='github-button'
+      >
         <IconButton component='span' className='footer__button'>
           <SiGithub className='footer__button__image' />
         </IconButton>
       </a>
-      <a href={linkedin} target='_blank' rel='noreferrer'>
+      <a
+        href={linkedin}
+        target='_blank'
+        rel='noreferrer'
+        data-testid='linkedin-button'
+      >
         <IconButton component='span' className='footer__button'>
           <GrLinkedinOption className='footer__button__image' />
         </IconButton>
