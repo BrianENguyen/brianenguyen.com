@@ -4,7 +4,7 @@ import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Footer from '../Footer';
 
-describe('Footer', () => {
+describe('Footer test suite', () => {
   it('renders the Footer component with the correct elements and content', () => {
     render(
       <BrowserRouter>
