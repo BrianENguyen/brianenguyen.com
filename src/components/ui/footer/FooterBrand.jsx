@@ -7,7 +7,7 @@ const FooterBrand = () => {
       width='150px'
       height='120px'
       className='footer__brand'
-      alt=''
+      alt='BEN Logo'
     />
   );
 };
