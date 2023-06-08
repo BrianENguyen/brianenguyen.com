@@ -1,3 +1,4 @@
+// Data used for ImageGallery component to display images
 export const ImageGalleryData = [
   {
     src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240503/BEN_Website/photo-gallery/BEN_hbsunportait.webp',

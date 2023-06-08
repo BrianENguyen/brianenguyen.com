@@ -1,3 +1,7 @@
+/**
+ * Data used in WebCardList component for displaying all of the main
+ * views on this site and with a short description for each one
+ */
 const WebCardData = [
   {
     title: 'Portfolio',
