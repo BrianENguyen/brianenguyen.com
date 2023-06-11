@@ -77,16 +77,19 @@ const AllEliteNetworkView = () => {
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network1.png'
             className='project-view__image'
+            loading='lazy'
             alt=''
           />
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network2.png'
             className='project-view__image'
+            loading='lazy'
             alt=''
           />
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network3.png'
             className='project-view__image'
+            loading='lazy'
             alt=''
           />
         </Container>

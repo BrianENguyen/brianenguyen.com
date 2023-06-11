@@ -13,6 +13,7 @@ const Facts = () => {
                 src='https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1642186572/BEN_Website/BEN_profile_night.webp'
                 alt='Me smiling at the camera'
                 className='facts__image'
+                loading='lazy'
               />
             </center>
           </Grid>

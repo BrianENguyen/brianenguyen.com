@@ -5,6 +5,7 @@ const NavbarBrand = () => {
       width={window.innerWidth <= 850 ? '100px' : '150px'}
       height={window.innerWidth <= 850 ? '70px' : '100px'}
       alt='BEN Logo'
+      loading='lazy'
     ></img>
   );
 };

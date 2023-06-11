@@ -73,6 +73,7 @@ const KrakenBracketView = () => {
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/v1620240516/BEN_Website/projects/krakenbracket_wvd57j.jpg'
             className='project-view__image'
+            loading='lazy'
             alt=''
           />
         </Container>

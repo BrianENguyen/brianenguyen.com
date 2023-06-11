@@ -11,6 +11,7 @@ const Jumbotron = (props) => {
           alt=''
           className={props.srcMobile && 'jumbotron__image'}
           decoding='async'
+          loading='lazy'
           rel='preload'
         />
       </picture>

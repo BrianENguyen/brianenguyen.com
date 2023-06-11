@@ -60,11 +60,13 @@ const ThuView = () => {
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/v1639545745/BEN_Website/projects/thuhnguyen_cov4jp.png'
             className='project-view__image'
+            loading='lazy'
             alt=''
           />
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/v1639545839/BEN_Website/projects/thuhnguyenresume_xmwppk.png'
             className='project-view__image'
+            loading='lazy'
             alt=''
           />
         </Container>

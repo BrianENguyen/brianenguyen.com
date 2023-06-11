@@ -53,6 +53,7 @@ const SIMDView = () => {
             <img
               src='https://res.cloudinary.com/buraiyen/image/upload/v1620240514/BEN_Website/projects/simd_ndwgst.jpg'
               className='project-view__image'
+              loading='lazy'
               alt=''
             />
           </div>

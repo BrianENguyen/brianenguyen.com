@@ -24,6 +24,7 @@ const BlogCard = (props) => {
             className={classes['blog-card__image']}
             decoding='async'
             rel='preload'
+            loading='lazy'
             alt=''
           />
           <h2 className={classes['blog-card__title']}>
