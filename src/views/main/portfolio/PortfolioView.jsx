@@ -26,7 +26,7 @@ const PortfolioView = () => {
           src={jumboImage}
           srcMobile={jumboImageMobile}
         />
-        <PageContainer maxWidth='xl'>
+        <PageContainer maxWidth='xl' href='/'>
           <ProjectsList />
           <OtherProjectsList />
         </PageContainer>
