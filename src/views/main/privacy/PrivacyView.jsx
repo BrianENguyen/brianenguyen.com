@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from '@mui/material';
+import PageContainer from '../../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import { PrivacyPageTitle } from '../../../helper/PageTitleData';
 import PrivacyCCPA from '../../../components/privacy/policy/PrivacyCCPA';
@@ -22,7 +22,7 @@ const PrivacyView = () => {
   return (
     <AnimatedPage>
       <div className='privacy'>
-        <Container>
+        <PageContainer maxWidth='lg' href='/'>
           <PrivacyIntro />
           <PrivacyInformation />
           <PrivacyLog />
@@ -31,7 +31,7 @@ const PrivacyView = () => {
           <PrivacyCCPA />
           <PrivacyGDPR />
           <PrivacyChildRights />
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );
