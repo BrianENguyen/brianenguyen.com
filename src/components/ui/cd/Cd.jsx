@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './Cd.css';
 
 /**
@@ -8,8 +8,10 @@ import './Cd.css';
  * working directories
  */
 const Cd = ({ href }) => {
+  const location = useLocation();
+
   return (
-    <div className='cd'>
+    <div className={location.pathname === '/contact' ? 'cd-dark' : 'cd'}>
       <span>&gt;</span> <Link to={href}>cd ..</Link>
     </div>
   );
