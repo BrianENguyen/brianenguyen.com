@@ -1,0 +1,17 @@
+.cd {
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.cd a {
+  color: rgb(158, 157, 157);
+  text-decoration-color: rgb(65, 65, 65);
+  transition: 0.3s color, 0.3s text-decoration-color;
+}
+
+.cd a:hover {
+  color: #cdd9e5;
+  text-decoration-color: #cdd9e5;
+}

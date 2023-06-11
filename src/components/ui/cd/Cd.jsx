@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './Cd.css';
 
 /**
  * The cd component allows the user to navigate to their
@@ -8,7 +9,7 @@ import { Link } from 'react-router-dom';
  */
 const Cd = ({ href }) => {
   return (
-    <div>
+    <div className='cd'>
       <span>&gt;</span> <Link to={href}>cd ..</Link>
     </div>
   );
