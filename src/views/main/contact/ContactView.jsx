@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from '@mui/material';
+import PageContainer from '../../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import AnimatedPage from '../../../components/animations/AnimatedPage';
 import ContactForm from '../../../components/contact/ContactForm';
@@ -31,7 +31,7 @@ const ContactView = () => {
           src={jumboImage}
           srcMobile={jumboImageMobile}
         />
-        <Container maxWidth='lg'>
+        <PageContainer maxWidth='lg' href='/'>
           <p>
             You can contact me directly at{' '}
             <a href='mailto:brian.edison.nguyen@gmail.com'>
@@ -42,7 +42,7 @@ const ContactView = () => {
             you as soon as I can!
           </p>
           <ContactForm />
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );
