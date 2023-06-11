@@ -1,5 +1,6 @@
 import React from 'react';
 
+import PageContainer from '../../../components/ui/page-container/PageContainer';
 import AnimatedPage from '../../../components/animations/AnimatedPage';
 import BlogList from '../../../components/blog/blog-list/BlogList';
 import { BlogJumboData } from '../../../helper/JumbotronData';
@@ -26,7 +27,9 @@ const BlogView = () => {
           srcMobile={jumboImageMobile}
           description={jumboDescription}
         />
-        <BlogList />
+        <PageContainer maxWidth='lg' href='/'>
+          <BlogList />
+        </PageContainer>
       </div>
     </AnimatedPage>
   );
