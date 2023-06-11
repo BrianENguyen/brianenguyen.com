@@ -1,5 +1,3 @@
-// import { motion } from 'framer-motion/dist/framer-motion';
-
 import { motion } from 'framer-motion';
 
 const animations = {
@@ -8,6 +6,8 @@ const animations = {
   exit: { opacity: 0, x: 0 },
 };
 
+// AnimatedPage provides a smooth fade-out / fade-in
+// transition when navigating through different views
 const AnimatedPage = ({ children }) => {
   return (
     <motion.div

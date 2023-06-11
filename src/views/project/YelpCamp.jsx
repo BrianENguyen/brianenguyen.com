@@ -60,6 +60,7 @@ const YelpCamp = () => {
           <img
             src='https://res.cloudinary.com/buraiyen/image/upload/v1620240514/BEN_Website/projects/yelpcamp_collage_tarzq8.jpg'
             className='project-view__image'
+            loading='lazy'
             alt=''
           />
         </Container>

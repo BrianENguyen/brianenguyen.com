@@ -55,6 +55,7 @@ const ProbAndStatsView = () => {
             <img
               src='https://res.cloudinary.com/buraiyen/image/upload/v1620240510/BEN_Website/projects/ee381_lkxiej.jpg'
               className='project-view__image'
+              loading='lazy'
               alt=''
             />
           </div>

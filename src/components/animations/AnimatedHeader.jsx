@@ -1,5 +1,3 @@
-// import { motion } from 'framer-motion/dist/framer-motion';
-
 import { motion } from 'framer-motion';
 
 const AnimatedHeader = ({ children }) => {
@@ -18,6 +16,10 @@ const AnimatedHeader = ({ children }) => {
 
   const splitLetters = [...children];
 
+  /* 
+  Render each letter as a motion.span with animation properties
+  Opacity animates from 0 to 1 with a delay based on its index
+  */
   return (
     <>
       {splitLetters.map((char, i) => {

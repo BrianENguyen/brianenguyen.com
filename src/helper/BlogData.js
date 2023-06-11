@@ -1,3 +1,4 @@
+// Data used for BlogList component to render blogs
 const BlogData = [
   {
     title: "Optimizing Your Website's Images",

@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
  * */
 const BlogCard = (props) => {
   return (
-    <div className={classes['blog-card']}>
+    <div className={classes['blog-card']} data-testid='blog-card'>
       <div className={classes['blog-card__main-link']}>
         <Link to={props.date === 'WIP' ? '#' : props.link}>
           <img
@@ -24,6 +24,7 @@ const BlogCard = (props) => {
             className={classes['blog-card__image']}
             decoding='async'
             rel='preload'
+            loading='lazy'
             alt=''
           />
           <h2 className={classes['blog-card__title']}>

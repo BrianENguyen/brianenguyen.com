@@ -1,3 +1,4 @@
+// Main views
 import AboutView from '../views/main/about/AboutView';
 import ContactView from '../views/main/contact/ContactView';
 import ErrorView from '../views/main/error/ErrorView';
@@ -6,6 +7,7 @@ import PortfolioView from '../views/main/portfolio/PortfolioView';
 import PrivacyView from '../views/main/privacy/PrivacyView';
 import BlogView from '../views/main/blog/BlogView';
 
+// Project views
 import FirstSiteView from '../views/project/FirstSiteView';
 import KrakenBracketView from '../views/project/KrakenBracketView';
 import LBTCView from '../views/project/LBTCView';
@@ -16,15 +18,28 @@ import ThuView from '../views/project/ThuView';
 import YelpCamp from '../views/project/YelpCamp';
 import AllEliteNetworkView from '../views/project/AllEliteNetworkView';
 
+// Blog views
 import OptimizingImages from '../views/blog/OptimizingImages';
 import WhyBlogView from '../views/blog/WhyBlogView';
 import MyProgrammingHistoryView from '../views/blog/MyProgrammingHistoryView';
 import VolunteeringTC from '../views/blog/VolunteeringTC';
 
 const ROUTES = [
-  { path: '/', key: 'Home', component: HomeView },
-  { path: '/portfolio', key: 'Portfolio', component: PortfolioView },
-  { path: '/blog', key: 'Blog', component: BlogView },
+  {
+    path: '/',
+    key: 'Home',
+    component: HomeView,
+  },
+  {
+    path: '/portfolio',
+    key: 'Portfolio',
+    component: PortfolioView,
+  },
+  {
+    path: '/blog',
+    key: 'Blog',
+    component: BlogView,
+  },
   {
     path: '/blog/optimizing-images',
     key: 'Optimizing Images',
@@ -40,18 +55,36 @@ const ROUTES = [
     key: 'Volunteering with Tzu Chi',
     component: VolunteeringTC,
   },
-
   {
     path: '/blog/programming-history',
     key: 'Programming History',
     component: MyProgrammingHistoryView,
   },
-
-  { path: '/about', key: 'About', component: AboutView },
-  { path: '/contact', key: 'Contact', component: ContactView },
-  { path: '/privacy-policy', key: 'Privacy Policy', component: PrivacyView },
-  { path: '/portfolio/new-site', key: 'New Website', component: NewSiteView },
-  { path: '/portfolio/thu-nguyen', key: 'Thu Nguyen', component: ThuView },
+  {
+    path: '/about',
+    key: 'About',
+    component: AboutView,
+  },
+  {
+    path: '/contact',
+    key: 'Contact',
+    component: ContactView,
+  },
+  {
+    path: '/privacy-policy',
+    key: 'Privacy Policy',
+    component: PrivacyView,
+  },
+  {
+    path: '/portfolio/new-site',
+    key: 'New Website',
+    component: NewSiteView,
+  },
+  {
+    path: '/portfolio/thu-nguyen',
+    key: 'Thu Nguyen',
+    component: ThuView,
+  },
   {
     path: '/portfolio/all-elite-network',
     key: 'All Elite Network',
@@ -62,7 +95,11 @@ const ROUTES = [
     key: 'CSULB Tzu Ching',
     component: LBTCView,
   },
-  { path: '/portfolio/yelpcamp', key: 'YelpCamp', component: YelpCamp },
+  {
+    path: '/portfolio/yelpcamp',
+    key: 'YelpCamp',
+    component: YelpCamp,
+  },
   {
     path: '/portfolio/first-personal-site',
     key: 'First Site',
@@ -73,13 +110,21 @@ const ROUTES = [
     key: 'Kraken Bracket',
     component: KrakenBracketView,
   },
-  { path: '/portfolio/simd', key: 'SIMD', component: SIMDView },
+  {
+    path: '/portfolio/simd',
+    key: 'SIMD',
+    component: SIMDView,
+  },
   {
     path: '/portfolio/probability-stats',
     key: 'Probability and Stats',
     component: ProbAndStatsView,
   },
-  { path: '*', key: 'Error', component: ErrorView },
+  {
+    path: '*',
+    key: 'Error',
+    component: ErrorView,
+  },
 ];
 
 export default ROUTES;

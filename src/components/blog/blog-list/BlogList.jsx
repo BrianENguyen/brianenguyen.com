@@ -1,6 +1,6 @@
 import React from 'react';
-import BlogCard from './BlogCard';
-import BlogData from '../../helper/BlogData';
+import BlogCard from '../blog-card/BlogCard';
+import BlogData from '../../../helper/BlogData';
 import { Grid } from '@mui/material';
 import { Container } from '@mui/material';
 

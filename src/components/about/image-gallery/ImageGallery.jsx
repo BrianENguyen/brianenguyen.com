@@ -19,7 +19,8 @@ const ImageGallery = () => {
               <img
                 src={`${image.src}?w=248&fit=crop&auto=format`}
                 srcSet={`${image.src}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                alt={image.title}
+                alt={image.alt}
+                aria-describedby={image.alt}
                 loading='lazy'
                 style={{ borderRadius: '10px' }}
               />

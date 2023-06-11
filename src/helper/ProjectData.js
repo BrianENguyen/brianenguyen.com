@@ -1,3 +1,4 @@
+// Data used in ProjectsList component for displaying projects
 const ProjectData = [
   {
     title: 'All Elite Network',

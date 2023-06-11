@@ -21,17 +21,6 @@ and SEO-friendly optimizations
 1. Home
 2. About
 3. Portfolio
-
-- All Elite Network
-- New Personal Website
-- Thu Nguyen's Website
-- CSULB Tzu Ching
-- YelpCamp
-- First Personal Website
-- Kraken Bracket
-- SIMD Instructions
-- Probability and Stats computing
-
 4. Blog
 5. Contact
 
@@ -54,15 +43,12 @@ $ npm run dev
 - [[https://vitejs.dev/][Vite]]
 
 ** Licensing
-Feel free to inspect my code and reuse what is appropriate. Any image files that
-have the =BEN_= or =BEN-= prefix are my original content. If you wish to use
-these images, please inform me on which images to use and why you're
-using them. All other directories and files are MIT Licensed (where applicable).
-See the [[./LICENSE][LICENSE]] for more information
+Feel free to inspect my code and reuse what is appropriate. All words and original images (files with =BEN_= or =BEN-= prefix)  are licensed under
+[[https://creativecommons.org/licenses/by-nc-sa/4.0/][CC BY-NC-SA 4.0]]. All other directories and files are MIT Licensed (where applicable). See the [[./LICENSE][LICENSE]] for more information
 
 ** Support
-If you have any issues or questions, please feel free to open an issue in this
-repository or reach out to me at =brian.edison.nguyen@gmail.com=
+If you notice any issues or have questions, please feel free to open an issue in
+this repository or reach out to me at =brian.edison.nguyen@gmail.com=
 
 If you also wish to improve this project, please [[https://github.com/Buraiyen/BEN-Website-React/pulls][submit a pull request.]] All pull
 requests will be appreciated, no matter how big or small they are!

@@ -30,6 +30,7 @@ const Project = (props) => {
               src={props.src}
               className='project__image'
               alt=''
+              loading='lazy'
               width='600px'
             />
             <h3 className='project__title'>{props.title}</h3>

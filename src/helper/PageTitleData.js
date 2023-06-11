@@ -1,3 +1,4 @@
+// Data used for rendering <title> values for each view
 const suffix = '| BEN';
 
 const HomePageTitle = 'Brian E. Nguyen | Software Developer';
