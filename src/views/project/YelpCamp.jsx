@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container } from '@mui/material';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { YelpCampJumboData } from '../../helper/JumbotronData';
@@ -19,7 +20,7 @@ const YelpCamp = () => {
     <AnimatedPage>
       <div className='yelpcamp'>
         <Jumbotron title={jumboTitle} />
-        <Container maxWidth='md'>
+        <PageContainer maxWidth='md' href='/portfolio'>
           <p className='project-view__description'>
             <span className='project-view__description__title'>YelpCamp</span>,
             inspired by <em>Yelp</em>, is a user-friendly web-application that
@@ -63,7 +64,7 @@ const YelpCamp = () => {
             loading='lazy'
             alt=''
           />
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );

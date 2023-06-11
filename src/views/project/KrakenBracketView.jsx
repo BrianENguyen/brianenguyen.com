@@ -4,6 +4,7 @@ import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { KrakenBracketJumboData } from '../../helper/JumbotronData';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { KrakenBracketPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
@@ -19,7 +20,7 @@ const KrakenBracketView = () => {
     <AnimatedPage>
       <div>
         <Jumbotron title={jumboTitle} />
-        <Container maxWidth='md'>
+        <PageContainer maxWidth='md' href='/portfolio'>
           <p className='project-view__description'>
             <span className='project-view__description__title'>
               Kraken Bracket
@@ -76,8 +77,6 @@ const KrakenBracketView = () => {
             loading='lazy'
             alt=''
           />
-        </Container>
-        <Container>
           <div className='project-view__personal-notes'>
             <h2>Personal Notes:</h2>
             <p>
@@ -117,7 +116,7 @@ const KrakenBracketView = () => {
               class to heart and will apply my knowldege in my future positions.
             </p>
           </div>
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );

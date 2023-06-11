@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from '@mui/material';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { AllEliteNetworkJumboData } from '../../helper/JumbotronData';
@@ -14,11 +14,12 @@ const AllEliteNetworkView = () => {
   useEffect(() => {
     document.title = AllEliteNetworkPageTitle;
   }, []);
+
   return (
     <AnimatedPage>
       <div className='old-site'>
         <Jumbotron title={jumboTitle} />
-        <Container maxWidth='md'>
+        <PageContainer maxWidth='md' href='/portfolio'>
           <div className='project-view__description'>
             <p>
               All Elite Wrestling (AEW) is an American wrestling company based
@@ -92,9 +93,7 @@ const AllEliteNetworkView = () => {
             loading='lazy'
             alt=''
           />
-        </Container>
 
-        <Container>
           <div className='project-view__personal-notes'>
             <h2>Personal Notes</h2>
             <p>
@@ -107,7 +106,7 @@ const AllEliteNetworkView = () => {
               official app in the future.
             </p>
           </div>
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );

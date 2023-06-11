@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container } from '@mui/material';
+
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import { NewSiteJumboData } from '../../helper/JumbotronData';
 import { NewSitePageTitle } from '../../helper/PageTitleData';
@@ -18,7 +19,8 @@ const NewSiteView = () => {
     <AnimatedPage>
       <div className='old-site'>
         <Jumbotron title={jumboTitle} />
-        <Container maxWidth='md'>
+
+        <PageContainer maxWidth='md' href='/portfolio'>
           <p className='project-view__description'>
             <span className='project-view__description__title'>
               My new website
@@ -47,7 +49,7 @@ const NewSiteView = () => {
               </a>
             </p>
           </div>
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );

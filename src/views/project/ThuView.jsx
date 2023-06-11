@@ -1,6 +1,6 @@
 import React from 'react';
-
 import { Container } from '@mui/material';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { ThuJumboData } from '../../helper/JumbotronData';
@@ -19,7 +19,7 @@ const ThuView = () => {
     <AnimatedPage>
       <div>
         <Jumbotron title={jumboTitle} />
-        <Container maxWidth='md' className='thu-website'>
+        <PageContainer maxWidth='md' href='/portfolio'>
           <p className='project-view__description'>
             <span className='project-view__description__title'>Thu Nguyen</span>{' '}
             is currently a college student studying at Cypress College. She
@@ -69,8 +69,6 @@ const ThuView = () => {
             loading='lazy'
             alt=''
           />
-        </Container>
-        <Container>
           <div className='project-view__personal-notes'>
             <h2>Personal Notes</h2>
             <p>
@@ -83,7 +81,7 @@ const ThuView = () => {
             </p>
             <p>Overall, it was fun introduction to React</p>
           </div>
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );

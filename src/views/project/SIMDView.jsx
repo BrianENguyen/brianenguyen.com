@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from '@mui/material';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { SIMDJumboData } from '../../helper/JumbotronData';
@@ -19,7 +19,7 @@ const SIMDView = () => {
     <AnimatedPage>
       <div>
         <Jumbotron title={jumboTitle} />
-        <Container maxWidth='md'>
+        <PageContainer maxWidth='md' href='/portfolio'>
           <p className='project-view__description'>
             <span className='project-view__description__title'>
               SIMD Enhanced MIPS Instructions
@@ -57,7 +57,7 @@ const SIMDView = () => {
               alt=''
             />
           </div>
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );

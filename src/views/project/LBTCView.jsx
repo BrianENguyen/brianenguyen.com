@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Container } from '@mui/material';
 import { useEffect } from 'react';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { LBTCJumboData } from '../../helper/JumbotronData';
 import { LBTCPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
@@ -19,7 +20,8 @@ const LBTCView = () => {
     <AnimatedPage>
       <div>
         <Jumbotron title={jumboTitle} />
-        <Container maxWidth='md'>
+
+        <PageContainer maxWidth='md' href='/portfolio'>
           <p className='project-view__description'>
             <span className='project-view__description__title'>
               CSULB Tzu Ching
@@ -86,8 +88,6 @@ const LBTCView = () => {
             loading='lazy'
             alt=''
           />
-        </Container>
-        <Container>
           <div className='project-view__personal-notes'>
             <h2>Personal Notes</h2>
             <p>
@@ -108,7 +108,7 @@ const LBTCView = () => {
               the use of components and other libraries
             </p>
           </div>
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );

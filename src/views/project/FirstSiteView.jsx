@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Container } from '@mui/material';
 import { useEffect } from 'react';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { FirstSiteJumboData } from '../../helper/JumbotronData';
 import { FirstSitePageTitle } from '../../helper/PageTitleData';
@@ -19,7 +19,7 @@ const FirstSiteView = () => {
     <AnimatedPage>
       <div className='old-site'>
         <Jumbotron title={jumboTitle} />
-        <Container maxWidth='md'>
+        <PageContainer maxWidth='md' href='/portfolio'>
           <p className='project-view__description'>
             <span className='project-view__description__title'>
               My first personal website
@@ -65,9 +65,6 @@ const FirstSiteView = () => {
             loading='lazy'
             alt=''
           />
-        </Container>
-
-        <Container>
           <div className='project-view__personal-notes'>
             <h2>Personal Notes</h2>
             <p>
@@ -105,7 +102,7 @@ const FirstSiteView = () => {
               section
             </p>
           </div>
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );

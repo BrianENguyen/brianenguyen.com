@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container } from '@mui/material';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { ProbAndStatsJumboData } from '../../helper/JumbotronData';
@@ -19,7 +20,7 @@ const ProbAndStatsView = () => {
     <AnimatedPage>
       <div>
         <Jumbotron title={jumboTitle} />
-        <Container maxWidth='md'>
+        <PageContainer maxWidth='md' href='/portfolio'>
           <p className='project-view__description'>
             The{' '}
             <span className='project-view__description__title'>
@@ -59,7 +60,7 @@ const ProbAndStatsView = () => {
               alt=''
             />
           </div>
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );
