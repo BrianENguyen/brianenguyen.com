@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from '@mui/material';
+import PageContainer from '../../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import AnimatedPage from '../../../components/animations/AnimatedPage';
 import { PortfolioJumboData } from '../../../helper/JumbotronData';
@@ -26,10 +26,10 @@ const PortfolioView = () => {
           src={jumboImage}
           srcMobile={jumboImageMobile}
         />
-        <Container maxWidth='xl'>
+        <PageContainer maxWidth='xl'>
           <ProjectsList />
           <OtherProjectsList />
-        </Container>
+        </PageContainer>
       </div>
     </AnimatedPage>
   );
