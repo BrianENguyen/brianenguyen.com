@@ -8,7 +8,7 @@ const animations = {
 
 // AnimatedPage provides a smooth fade-out / fade-in
 // transition when navigating through different views
-const AnimatedPage = ({ children }) => {
+const AnimatedPage = ({ children, href }) => {
   return (
     <motion.div
       variants={animations}
