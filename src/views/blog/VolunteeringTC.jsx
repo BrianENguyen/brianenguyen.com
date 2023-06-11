@@ -1,8 +1,9 @@
 import React from 'react';
 import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { Container, ImageList, ImageListItem } from '@mui/material';
+import { ImageList, ImageListItem } from '@mui/material';
 import { useEffect } from 'react';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { VolunteeringTCPageTitle } from '../../helper/PageTitleData';
 
 const VolunteeringTC = () => {
@@ -12,7 +13,11 @@ const VolunteeringTC = () => {
 
   return (
     <AnimatedPage>
-      <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
+      <PageContainer
+        style={{ marginTop: 200 + 'px' }}
+        maxWidth='md'
+        href='/blog'
+      >
         <h1 className={classes['blog__title']}>
           Volunteering with the Tzu Chi Foundation
         </h1>
@@ -330,7 +335,7 @@ const VolunteeringTC = () => {
             </li>
           </ul>
         </div>
-      </Container>
+      </PageContainer>
     </AnimatedPage>
   );
 };

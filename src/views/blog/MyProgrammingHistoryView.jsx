@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './BlogView.module.css';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import { MyProgrammingHistoryPageTitle } from '../../helper/PageTitleData';
 import Highlight from 'react-highlight';
@@ -17,7 +17,11 @@ const MyProgrammingHistoryView = () => {
         rel='stylesheet'
         href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css'
       />
-      <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
+      <PageContainer
+        style={{ marginTop: 200 + 'px' }}
+        maxWidth='md'
+        href='/blog'
+      >
         <h1 className={classes['blog__title']}>My Programming History</h1>
         <div className={classes['blog__text']}>
           <p className={classes['blog__date']}>2022-02-12</p>
@@ -154,7 +158,7 @@ main()
             programming career.
           </p>
         </div>
-      </Container>
+      </PageContainer>
     </AnimatedPage>
   );
 };

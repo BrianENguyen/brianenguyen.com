@@ -4,8 +4,8 @@ import Highlight from 'react-highlight';
 
 import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { Container } from '@mui/material';
 import { useEffect } from 'react';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { OptimizingPageTitle } from '../../helper/PageTitleData';
 
 const OptmizeImagesView = () => {
@@ -19,7 +19,11 @@ const OptmizeImagesView = () => {
         rel='stylesheet'
         href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css'
       />
-      <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
+      <PageContainer
+        style={{ marginTop: 200 + 'px' }}
+        maxWidth='md'
+        href='/blog'
+      >
         <h1 className={classes['blog__title']}>
           Optimizing Images for Your Website
         </h1>
@@ -189,7 +193,7 @@ const OptmizeImagesView = () => {
             tips to optimize and manage your images more effectively!
           </p>
         </section>
-      </Container>
+      </PageContainer>
     </AnimatedPage>
   );
 };

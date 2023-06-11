@@ -1,8 +1,8 @@
 import React from 'react';
 import classes from './BlogView.module.css';
 import AnimatedPage from '../../components/animations/AnimatedPage';
-import { Container } from '@mui/material';
 import { useEffect } from 'react';
+import PageContainer from '../../components/ui/page-container/PageContainer';
 import { WhyBlogPageTitle } from '../../helper/PageTitleData';
 
 const WhyBlogView = () => {
@@ -12,7 +12,11 @@ const WhyBlogView = () => {
 
   return (
     <AnimatedPage>
-      <Container style={{ marginTop: 200 + 'px' }} maxWidth='md'>
+      <PageContainer
+        style={{ marginTop: 200 + 'px' }}
+        maxWidth='md'
+        href='/blog'
+      >
         <h1 className={classes['blog__title']}>Why I'm Blogging</h1>
         <div className={classes['blog__text']}>
           <p className={classes['blog__date']}>2022-02-11</p>
@@ -42,7 +46,7 @@ const WhyBlogView = () => {
             </li>
           </ul>
         </div>
-      </Container>
+      </PageContainer>
     </AnimatedPage>
   );
 };
