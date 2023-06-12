@@ -3,8 +3,9 @@ import './BlogView.css';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import PageContainer from '../../components/ui/page-container/PageContainer';
 
-const BlogView = ({ markdownFile }) => {
+const BlogPostView = ({ markdownFile }) => {
   const [content, setContent] = useState(null);
+  console.log(markdownFile);
   useEffect(() => {
     import(`../../../pages/blog/${markdownFile}`)
       .then((res) => {
@@ -24,4 +25,4 @@ const BlogView = ({ markdownFile }) => {
   );
 };
 
-export default BlogView;
+export default BlogPostView;
