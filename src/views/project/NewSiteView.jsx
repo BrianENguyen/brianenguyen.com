@@ -3,16 +3,15 @@ import React from 'react';
 import PageContainer from '../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import { NewSiteJumboData } from '../../helper/JumbotronData';
-import { NewSitePageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 
-const NewSiteView = () => {
+const NewSiteView = ({ title }) => {
   const jumboTitle = NewSiteJumboData.title;
   useEffect(() => {
-    document.title = NewSitePageTitle;
+    document.title = title;
   }, []);
 
   return (

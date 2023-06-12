@@ -7,13 +7,12 @@ import Facts from '../../../components/about/facts/Facts';
 import ImageGallery from '../../../components/about/image-gallery/ImageGallery';
 import Quote from '../../../components/about/quote/Quote';
 import { AboutJumboData } from '../../../helper/JumbotronData';
-import { AboutPageTitle } from '../../../helper/PageTitleData';
 import Jumbotron from '../../../components/ui/jumbotron/Jumbotron';
 import AnimatedPage from '../../../components/animations/AnimatedPage';
 
-const AboutView = () => {
+const AboutView = ({ title }) => {
   useEffect(() => {
-    document.title = AboutPageTitle;
+    document.title = title;
   }, []);
 
   const jumboTitle = 'About Me';

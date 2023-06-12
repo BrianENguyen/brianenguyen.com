@@ -1,18 +1,16 @@
 import React from 'react';
-import { Container } from '@mui/material';
 import PageContainer from '../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { ThuJumboData } from '../../helper/JumbotronData';
-import { ThuPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
-const ThuView = () => {
+const ThuView = ({ title }) => {
   const jumboTitle = ThuJumboData.title;
   useEffect(() => {
-    document.title = ThuPageTitle;
+    document.title = title;
   }, []);
 
   return (

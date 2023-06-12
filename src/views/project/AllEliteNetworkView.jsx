@@ -4,15 +4,14 @@ import PageContainer from '../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { AllEliteNetworkJumboData } from '../../helper/JumbotronData';
-import { AllEliteNetworkPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
-const AllEliteNetworkView = () => {
+const AllEliteNetworkView = ({ titlee }) => {
   const jumboTitle = AllEliteNetworkJumboData.title;
   useEffect(() => {
-    document.title = AllEliteNetworkPageTitle;
+    document.title = title;
   }, []);
 
   return (

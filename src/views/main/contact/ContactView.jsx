@@ -5,12 +5,11 @@ import { useEffect } from 'react';
 import AnimatedPage from '../../../components/animations/AnimatedPage';
 import ContactForm from '../../../components/contact/ContactForm';
 import { ContactJumboData } from '../../../helper/JumbotronData';
-import { ContactPageTitle } from '../../../helper/PageTitleData';
 import Jumbotron from '../../../components/ui/jumbotron/Jumbotron';
 
-const ContactView = () => {
+const ContactView = ({ title }) => {
   useEffect(() => {
-    document.title = ContactPageTitle;
+    document.title = title;
   }, []);
 
   const jumboTitle = ContactJumboData.title;

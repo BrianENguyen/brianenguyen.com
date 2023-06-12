@@ -6,11 +6,10 @@ import BlogList from '../../../components/blog/blog-list/BlogList';
 import { BlogJumboData } from '../../../helper/JumbotronData';
 import Jumbotron from '../../../components/ui/jumbotron/Jumbotron';
 import { useEffect } from 'react';
-import { BlogPageTitle } from '../../../helper/PageTitleData';
 
-const BlogView = () => {
+const BlogView = ({ title }) => {
   useEffect(() => {
-    document.title = BlogPageTitle;
+    document.title = title;
   }, []);
 
   const jumboTitle = BlogJumboData.title;

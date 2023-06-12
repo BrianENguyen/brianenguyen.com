@@ -1,19 +1,17 @@
 import React from 'react';
 
-import { Container } from '@mui/material';
 import PageContainer from '../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { ProbAndStatsJumboData } from '../../helper/JumbotronData';
-import { ProbAndStatsPageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
-const ProbAndStatsView = () => {
+const ProbAndStatsView = ({ title }) => {
   const jumboTitle = ProbAndStatsJumboData.title;
   useEffect(() => {
-    document.title = ProbAndStatsPageTitle;
+    document.title = title;
   }, []);
 
   return (

@@ -2,7 +2,6 @@ import React from 'react';
 
 import PageContainer from '../../../components/ui/page-container/PageContainer';
 import { useEffect } from 'react';
-import { PrivacyPageTitle } from '../../../helper/PageTitleData';
 import PrivacyCCPA from '../../../components/privacy/policy/PrivacyCCPA';
 import PrivacyChildRights from '../../../components/privacy/policy/PrivacyChildRights';
 import PrivacyCookies from '../../../components/privacy/policy/PrivacyCookies';
@@ -14,9 +13,9 @@ import '../../../components/privacy/policy/PrivacyPolicy.css';
 import PrivacyThirdParty from '../../../components/privacy/policy/PrivacyThirdParty';
 import AnimatedPage from '../../../components/animations/AnimatedPage';
 
-const PrivacyView = () => {
+const PrivacyView = ({ title }) => {
   useEffect(() => {
-    document.title = PrivacyPageTitle;
+    document.title = title;
   }, []);
 
   return (

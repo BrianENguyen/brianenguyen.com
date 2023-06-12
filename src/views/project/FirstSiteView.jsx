@@ -4,13 +4,12 @@ import { useEffect } from 'react';
 import PageContainer from '../../components/ui/page-container/PageContainer';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { FirstSiteJumboData } from '../../helper/JumbotronData';
-import { FirstSitePageTitle } from '../../helper/PageTitleData';
 import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 
-const FirstSiteView = () => {
+const FirstSiteView = ({ title }) => {
   useEffect(() => {
-    document.title = FirstSitePageTitle;
+    document.title = title;
   }, []);
 
   const jumboTitle = FirstSiteJumboData.title;
