@@ -74,3 +74,38 @@ seeking a way to make a difference.
 
 ![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring2.jpg "Group of Tzu Ching volunteers and kids grades 3-5")
 
+
+## Becoming the *Only* Officer for CSULB Tzu Ching and Leading It When No One Else Would
+
+Around 2018, CSULB Tzu Ching experienced a decline in membership, which hurt our
+events and the chances of recruiting new officers for the following school
+years. As vice-president, I couldn&rsquo;t understand why this was happening and felt
+frustrated and depressed about the situation. At the end of the 2018-2019 school
+year, we were unable to fill officer positions, and I was ready to give up.
+However, my advisors convinced me to continue with their support, and I went
+into the 2019-2020 school year as the only officer.
+
+During the club fair event, which my advisors, a few past members, and I
+volunteered for, we were able to get around 100 people to sign up for our
+mailing list in just two days. Although this number was high, I had low
+expectations due to our low turnout rates in the past. I wasn&rsquo;t expecting many
+people to attend our first meeting that year.
+
+On September 9, 2019, the first meeting was scheduled to be held. I arrived at
+the meeting room an hour early to prepare. However, I was not expecting a big
+turnout, and thought only five people would show up. Twenty minutes before the
+meeting, one person arrived, which was unusual because we never had someone show
+up that early. But then, a few minutes later, more people started showing up one
+by one. Outside the room, there was even a line of people waiting to get in. To
+my surprise, past officers and members of CSULB Tzu Ching, my friend from high
+school, and even my dad showed up. I couldn&rsquo;t believe my eyes and felt
+overwhelmed with emotion.
+
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg "Me presenting at the first GM")
+
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg "CSULB Tzu Ching advisors smiling for the camera")
+
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg "Checking in")
+
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg "Checking in")
+
