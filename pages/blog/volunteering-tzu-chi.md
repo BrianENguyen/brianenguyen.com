@@ -46,3 +46,31 @@ one of the most memorable events we&rsquo;ve hosted.
 
 ![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg "Tzu Ching group collaborating on an activity")
 
+
+## Bridging the Gap for CSULB / UCI Collaborations
+
+During the summer of 2017, I stumbled upon a senior-center volunteering event
+posted on UCI Tzu Ching&rsquo;s Facebook page. Seeking an opportunity to do something
+meaningful, I contacted them and was soon volunteering alongside UCI Tzu Ching
+members. We spent the day socializing with seniors and performing to help
+brighten their day. It was during this event that I met all of UCI Tzu Ching&rsquo;s
+officers and advisors.
+
+As the summer progressed, UCI Tzu Ching held another volunteering event, a
+tutoring session for kids in grades three, four, and five. As someone who had
+tutored children in the past, this event was particularly meaningful to me, and
+I was thrilled to be able to participate alongside UCI Tzu Ching.
+
+After the tutoring event, we hung out at a restaurant and got to know each other
+better. This experience helped me form connections with the UCI Tzu Ching
+officers, and in the months and years that followed, I continued to volunteer
+with them. This eventually led to a collaboration with CSULB Tzu Ching, which
+continues to this day. It all started with me being bored on a summer day and
+seeking a way to make a difference.
+
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_seniorcenter.jpg "Balloon passing with the seniors")
+
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring1.jpg "Tzu Ching volunteer and children smiling at the camera")
+
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring2.jpg "Group of Tzu Ching volunteers and kids grades 3-5")
+
