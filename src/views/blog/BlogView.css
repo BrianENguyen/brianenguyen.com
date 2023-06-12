@@ -9,6 +9,13 @@
   text-transform: capitalize;
 }
 
+.vite-plugin-react-markdown pre {
+  background-color: #363636;
+}
+.vite-plugin-react-markdown pre code {
+  font-size: 1rem;
+}
+
 .blog__date {
   font-style: italic;
   text-decoration: underline;
