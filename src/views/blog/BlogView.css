@@ -14,8 +14,8 @@
   text-decoration: underline;
 }
 
-.blog__text p,
-.blog__text li {
+.vite-plugin-react-markdown p,
+.vite-plugin-react-markdown li {
   font-size: 1.2rem;
   line-height: 2.4;
 }
