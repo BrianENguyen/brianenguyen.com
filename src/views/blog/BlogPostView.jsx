@@ -5,9 +5,9 @@ import PageContainer from '../../components/ui/page-container/PageContainer';
 
 const BlogPostView = ({ markdownFile }) => {
   const [content, setContent] = useState(null);
-  console.log(markdownFile);
+
   useEffect(() => {
-    import(`../../../pages/blog/${markdownFile}`)
+    import(`../../../pages/blog/${markdownFile}.md`)
       .then((res) => {
         setContent(res.default);
       })
@@ -19,7 +19,7 @@ const BlogPostView = ({ markdownFile }) => {
   return (
     <AnimatedPage>
       <PageContainer maxWidth='md' href='/blog'>
-        {content && <content />}
+        {content && <>{content}</>}
       </PageContainer>
     </AnimatedPage>
   );
