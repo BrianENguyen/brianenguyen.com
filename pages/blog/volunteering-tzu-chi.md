@@ -10,7 +10,7 @@ is a global relief organization that focuses on charity, medicine, education,
 and humanistic culture. This blog documents my experiences with this
 organization starting from 2016 up until now.
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_wilmington.jpg "CSULB Tzu Ching group at the medical outreach volunteer event")
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_wilmington.jpg)
 
 
 ## Becoming an Officer / Starting My Passion in Photography
@@ -40,13 +40,13 @@ recycled plastic to make clothes and promoting vegetarianism. This event was
 also significant for me, as I fulfilled my new role as historian, and it remains
 one of the most memorable events we&rsquo;ve hosted.
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg "Me presenting in front of attendees. Information about me listed in the background")
+![Me presenting in front of attendees. Information about me listed](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday1.jpg)
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg "CSULB Tzu Ching group")
+![CSULB Tzu Ching group](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday2.jpg)
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday3.jpg "Group eating lunch")
+![Group eating lunch](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday3.jpg)
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg "Tzu Ching group collaborating on an activity")
+![Tzu Ching group collaborating on an activity](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialday4.jpg)
 
 
 ## Bridging the Gap for CSULB / UCI Collaborations
@@ -70,11 +70,11 @@ with them. This eventually led to a collaboration with CSULB Tzu Ching, which
 continues to this day. It all started with me being bored on a summer day and
 seeking a way to make a difference.
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_seniorcenter.jpg "Balloon passing with the seniors")
+![Balloon passing with the seniors](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_seniorcenter.jpg)
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring1.jpg "Tzu Ching volunteer and children smiling at the camera")
+![Tzu Ching volunteer smiling with a group of kids](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring1.jpg)
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring2.jpg "Group of Tzu Ching volunteers and kids grades 3-5")
+![Group of Tzu Ching volunteers and kids](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_tutoring2.jpg)
 
 
 ## Becoming the *Only* Officer for CSULB Tzu Ching and Leading It When No One Else Would
@@ -103,13 +103,13 @@ my surprise, past officers and members of CSULB Tzu Ching, my friend from high
 school, and even my dad showed up. I couldn&rsquo;t believe my eyes and felt
 overwhelmed with emotion.
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg "Me presenting at the first GM")
+![Me presenting at the first GM](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation1.jpg)
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg "CSULB Tzu Ching advisors smiling for the camera")
+![CSULB Tzu Ching advisors smiling for the camera](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation2.jpg)
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg "Checking in")
+![Members checking in](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg)
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg "Attendees at the meeting")
+![Group of attendees at the meeting](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg)
 
 
 ## Revitalizing CSULB Tzu Ching / Current Times
@@ -125,9 +125,9 @@ website, providing photography at events, or advising current officers.
 
 If there is anything that I&rsquo;ve learned during my journey, it&rsquo;s this: *Giving up to prevent things from getting worse is not the way to go. Rather, you should not give up so that you don&rsquo;t prevent things from getting better.*
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialdaygroup.jpg "All members at the social posing in front of the Walter Pyramid")
+![SoCal Tzu Chi members posing in front of the Walter Pyramid](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialdaygroup.jpg)
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_keychain.jpg "Tzu Chi keychain")
+![Tzu Chi keychain](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_keychain.jpg)
 
 
 ## Special Thanks
