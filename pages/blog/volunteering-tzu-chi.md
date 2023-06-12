@@ -127,3 +127,30 @@ If there is anything that I&rsquo;ve learned during my journey, it&rsquo;s this:
 
 ![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_keychain.jpg "Tzu Chi keychain")
 
+
+## Special Thanks
+
+I dedicate this blog to the following who have been with me through this
+journey:
+
+-   **Lily and Weili** - these two were the founders of CSULB Tzu Ching. They&rsquo;ve made
+    sure that I wouldn&rsquo;t handle the organization all on my own. Without their
+    valuable advice, we wouldn&rsquo;t be able to make the 2019-2020 school year a
+    successful one.
+
+-   **Jessica** - she took the initiative in being the president when we were
+    experiencing down times. She had more experience in leadership and managing
+    the organization than I have, so I looked up to and learned from her so I
+
+-   **UCI Tzu Ching** - I&rsquo;ve developed deep relationships with them, which also opened the door to collaborations that are happening to this day. I&rsquo;ve been to many of their events, and in turn, they&rsquo;ve considered me as an honorary UCI Tzu Ching member.
+
+-   **Shi Gu&rsquo;s and Shi Buo&rsquo;s** - these are Tzu Chi volunteers who continuously
+    provided help with our events, such as bringing food at meetings, helping
+    attract new members, and organizing events for CSULB Tzu Ching to attend.
+
+-   **Samanta, Victoria, Vivienne**  - the president, vice president, and secretary of
+    CSULB Tzu Ching for the 2020-2021 school year, respectively. They took the
+    opportunity to become officers and help the organization grow for another year
+    after I graduated. Not only have I inspired them, but they have also inspired
+    me.
+
