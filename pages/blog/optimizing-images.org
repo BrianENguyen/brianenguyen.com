@@ -2,7 +2,10 @@
 #+OPTIONS: toc:nil
 
 * Optimizing Images for Your Website
-** Overview
+#+BEGIN_QUOTE
+23 Jan, 2022 · 3 min
+#+END_QUOTE
+
 The use of website images is one of the major factors that contribute to slow
 loading of web pages. In this blog, I discuss the reasons behind how images can
 affect website speed and describe the methods I use to optimize images on my

@@ -1,15 +1,14 @@
+
+
 # Optimizing Images for Your Website
 
-<a id="org399f57f"></a>
-
-## Overview
+> 23 Jan, 2022 · 3 min
 
 The use of website images is one of the major factors that contribute to slow
 loading of web pages. In this blog, I discuss the reasons behind how images can
 affect website speed and describe the methods I use to optimize images on my
 sites, thus improving their load speed times.
 
-<a id="orgf7bf7d8"></a>
 
 ## Image Downloads
 
@@ -23,7 +22,6 @@ concept also applies to websites.
 Images are typically large files by default, and if they are not optimized, they
 can take longer to download, resulting in slower website performance.
 
-<a id="org8bd3abf"></a>
 
 ## Compressing Images and WebP Format
 
@@ -36,7 +34,6 @@ using an online file converter such as [convertio.co](https://convertio.co/). Th
 smaller than PNG images while maintaining the same quality, making it essential
 for website development.
 
-<a id="orgfddcddb"></a>
 
 ## Lazy Loading Images
 
@@ -44,8 +41,8 @@ By default, when you visit a web page, all the images on that page will download
 
 Why is it a problem? Let&rsquo;s say you load into a large page with many images, but
 then you decide to visit another page without scrolling all the way down. In
-that case, _all the images on the page have already been loaded, even if you
-didn&rsquo;t see them_. This wastes your time and server resources.
+that case, *all the images on the page have already been loaded, even if you
+didn&rsquo;t see them*. This wastes your time and server resources.
 
 To solve this problem, we can use lazy loading, which means we only load images
 when they&rsquo;re in view. Lazy loading helps us reduce loading time and saves server
@@ -54,7 +51,6 @@ loading attribute and set its value to `lazy`.
 
     <img src="example.webp" loading="lazy"/>
 
-<a id="org11b7827"></a>
 
 ## Improving Load Times for Mobile Users
 
@@ -83,11 +79,10 @@ download time.
     </picture>
 
 To see this in action, go to any page on my website that has a jumbotron (large
-image header), view the _Network_ tab in the developer tools, and change the
+image header), view the *Network* tab in the developer tools, and change the
 screen size. You&rsquo;ll notice that the image switches to the smaller version for
 mobile devices, improving the loading time.
 
-<a id="orga5b3511"></a>
 
 ## Cloud-Based Image Management Services
 
@@ -99,7 +94,6 @@ site&rsquo;s load speed and makes file management easier, but also comes with va
 tools for manipulating images. I mainly use the scaling and brightness
 adjustment tools for my images.
 
-<a id="org35d8b24"></a>
 
 ## Conclusion
 
@@ -111,3 +105,4 @@ To recap, you would need to follow these steps to help optimize your images:
 4.  Use a cloud-based image service like Cloudinary to render your images
 
 I hope you have learned something new from this and can use these tips to optimize and manage your images more effectively!
+

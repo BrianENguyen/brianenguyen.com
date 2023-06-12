@@ -2,6 +2,8 @@
 
 # Volunteering with the Tzu Chi Foundation
 
+> 16 Feb, 2022 · 5 min
+
 In Chinese, &ldquo;tzu&rdquo; means &ldquo;compassion,&rdquo; and &ldquo;chi&rdquo; means &ldquo;relief.&rdquo; &ldquo;With open arms
 and helping hands, our volunteers are here to serve you.&rdquo; The Tzu Chi Foundation
 is a global relief organization that focuses on charity, medicine, education,

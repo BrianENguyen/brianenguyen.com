@@ -2,6 +2,8 @@
 
 # Why I&rsquo;m Blogging
 
+> 11 Feb, 2022 · 1 min
+
 
 ## The Purpose
 

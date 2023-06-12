@@ -2,6 +2,10 @@
 #+OPTIONS: toc:nil
 
 * Why I'm Blogging
+#+BEGIN_QUOTE
+11 Feb, 2022 · 1 min
+#+END_QUOTE
+
 ** The Purpose
 Recently, I've observed that many online programming tutorials and tech
 discussions are presented through blogs. As a result, I have decided to start

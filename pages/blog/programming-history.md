@@ -2,6 +2,8 @@
 
 # My Programming History
 
+> 12 Feb, 2022 · 3 min
+
 Computer science is a fascinating field, with technology growing exponentially
 and code being used in various devices such as gaming consoles, TVs, and web
 browsers. Being fascinated by technology since childhood, pursuing a career in
