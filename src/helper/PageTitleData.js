@@ -35,14 +35,6 @@ const AllEliteNetworkPageTitle = `All Elite Network | ${suffix}`;
 
 const BlogPageTitle = `Blog ${suffix}`;
 
-const WhyBlogPageTitle = `Why I'm Blogging ${suffix}`;
-
-const MyProgrammingHistoryPageTitle = `My Programming History ${suffix}`;
-
-const VolunteeringTCPageTitle = `Volunteering with Tzu Chi ${suffix}`;
-
-const OptimizingPageTitle = `Optimizing Website Images ${suffix}`;
-
 export {
   HomePageTitle,
   ResumePageTitle,
@@ -61,8 +53,4 @@ export {
   ThuPageTitle,
   YelpCampPageTitle,
   AllEliteNetworkPageTitle,
-  WhyBlogPageTitle,
-  MyProgrammingHistoryPageTitle,
-  VolunteeringTCPageTitle,
-  OptimizingPageTitle,
 };

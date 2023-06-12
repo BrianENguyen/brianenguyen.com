@@ -14,7 +14,6 @@ const RenderRoutes = () => {
             path={route.path}
             key={route.key}
             exact={true}
-            // component={route.component}
             render={(props) => <route.component {...props} {...route.props} />}
           />
         ))}
