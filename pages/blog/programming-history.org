@@ -94,7 +94,7 @@ def main():
     print()
 
     while True:
-        choice = input('Enter the number of the option you would wish to use, or anything else to end the program: ')
+        choice = input('Enter the number of the option you would wish to use: ')
 
 
         #Area

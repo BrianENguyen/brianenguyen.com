@@ -2,11 +2,24 @@
 
 # My Programming History
 
-Computer science is a fascinating field, with technology growing exponentially and code being used in various devices such as gaming consoles, TVs, and web browsers. Being fascinated by technology since childhood, pursuing a career in technology was the perfect choice for me.
+Computer science is a fascinating field, with technology growing exponentially
+and code being used in various devices such as gaming consoles, TVs, and web
+browsers. Being fascinated by technology since childhood, pursuing a career in
+technology was the perfect choice for me.
 
-My journey in programming started in high school when I took my Intro to Programming class. Initially, I was excited to learn game development, but unfortunately, the teacher was not well-versed in programming, and the book used was in C, which made it difficult for a beginner like me. As a result, I developed a dislike for programming, assuming that all programming would be as challenging.
+My journey in programming started in high school when I took my Intro to
+Programming class. Initially, I was excited to learn game development, but
+unfortunately, the teacher was not well-versed in programming, and the book used
+was in C, which made it difficult for a beginner like me. As a result, I
+developed a dislike for programming, assuming that all programming would be as
+challenging.
 
-However, I gave programming another chance after graduating high school and enrolling in California State University, Long Beach. Here, I was introduced to Python, which was much easier than C. The first program I created was able to calculate the area, circumference, surface area, and volume of a circle/sphere based on user input. This program gave me a sense of accomplishment and made me realize that programming was my passion. Below are snippets of my program:
+However, I gave programming another chance after graduating high school and
+enrolling in California State University, Long Beach. Here, I was introduced to
+Python, which was much easier than C. The first program I created was able to
+calculate the area, circumference, surface area, and volume of a circle/sphere
+based on user input. This program gave me a sense of accomplishment and made me
+realize that programming was my passion. Below are snippets of my program:
 
     
     """
@@ -80,7 +93,7 @@ However, I gave programming another chance after graduating high school and enro
         print()
     
         while True:
-            choice = input('Enter the number of the option you would wish to use, or anything else to end the program: ')
+            choice = input('Enter the number of the option you would wish to use: ')
     
     
             #Area
@@ -97,7 +110,15 @@ However, I gave programming another chance after graduating high school and enro
     
     main()
 
-When I graduated from my university in 2020, I was lost in what I wanted to do with my degree. I first decided to do full-stack development, because my senior project class exposed it to me. I also decided to do information technology / system administration, because I recently started learning about Linux and making it my primary operating system. Eventually, I decided that those fields didn&rsquo;t interest me because they were too technical.
+When I graduated from my university in 2020, I was lost in what I wanted to do
+with my degree. I first decided to do full-stack development, because my senior
+project class exposed it to me. I also decided to do information technology /
+system administration, because I recently started learning about Linux and
+making it my primary operating system. Eventually, I decided that those fields
+didn&rsquo;t interest me because they were too technical.
 
-It took me two years to finally decide what I wanted to: frontend development. This field allows me to express creativity in the applications I make. My sense of creativity and beauty comes from my passion for photography, and I hope to reflect them in my programming career.
+It took me two years to finally decide what I wanted to: frontend development.
+This field allows me to express creativity in the applications I make. My sense
+of creativity and beauty comes from my passion for photography, and I hope to
+reflect them in my programming career.
 
