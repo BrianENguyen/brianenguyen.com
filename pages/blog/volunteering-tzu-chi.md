@@ -107,5 +107,23 @@ overwhelmed with emotion.
 
 ![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation3.jpg "Checking in")
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg "Checking in")
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_orientation4.jpg "Attendees at the meeting")
+
+
+## Revitalizing CSULB Tzu Ching / Current Times
+
+From that point on, CSULB Tzu Ching experienced success in its events, with many
+members attending and gaining more interest in our organization&rsquo;s values. I was
+grateful that the advisors and I inspired a new generation of officers for the
+next school year. When the school year ended, CSULB Tzu Ching continued
+functioning for the following years, and as I write this, it still functions.
+I&rsquo;m glad that my officer journey ended on a high note. As an alumnus, I continue
+to support this organization, whether by maintaining the CSULB Tzu Ching
+website, providing photography at events, or advising current officers.
+
+If there is anything that I&rsquo;ve learned during my journey, it&rsquo;s this: *Giving up to prevent things from getting worse is not the way to go. Rather, you should not give up so that you don&rsquo;t prevent things from getting better.*
+
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_socialdaygroup.jpg "All members at the social posing in front of the Walter Pyramid")
+
+![img](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_keychain.jpg "Tzu Chi keychain")
 
