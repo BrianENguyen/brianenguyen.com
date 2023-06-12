@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './BlogView.css';
+import './BlogPostView.css';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import PageContainer from '../../components/ui/page-container/PageContainer';
 

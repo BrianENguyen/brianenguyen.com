@@ -19,7 +19,7 @@ import YelpCamp from '../views/project/YelpCamp';
 import AllEliteNetworkView from '../views/project/AllEliteNetworkView';
 
 // Blog views
-import BlogPostView from '../views/blog/BlogPostView';
+import BlogPostView from '../views/blog-post/BlogPostView';
 
 const suffix = '| BEN';
 
