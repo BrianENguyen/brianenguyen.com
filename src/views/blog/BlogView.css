@@ -1,8 +1,9 @@
-.blog__title {
+.vite-plugin-react-markdown h1 {
   text-align: center;
+  margin-top: 200px;
 }
 
-.blog__header {
+.vite-plugin-react-markdown h2 {
   margin-top: 4rem;
   font-size: 2.4rem;
   text-transform: capitalize;
@@ -20,18 +21,18 @@
 }
 
 @media (min-width: 0px) {
-  .blog__title {
+  .vite-plugin-react-markdown h1 {
     font-size: 15vw;
   }
 }
 @media (min-width: 576px) {
-  .blog__title {
+  .vite-plugin-react-markdown h1 {
     font-size: 10vw;
   }
 }
 
 @media (min-width: 992px) {
-  .blog__title {
-    font-size: 6rem;
+  .vite-plugin-react-markdown h1 {
+    font-size: 6vw;
   }
 }
