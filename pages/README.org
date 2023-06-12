@@ -1,0 +1,5 @@
+This directory is intended for storing my blog and project posts in org-mode and
+Markdown formats.
+
+I only really edit the org-mode files since that's my preferred markup language.
+I then export these files to Markdown for seamless rendering
