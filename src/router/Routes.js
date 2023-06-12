@@ -19,10 +19,7 @@ import YelpCamp from '../views/project/YelpCamp';
 import AllEliteNetworkView from '../views/project/AllEliteNetworkView';
 
 // Blog views
-import OptimizingImages from '../views/blog/OptimizingImages';
-import WhyBlogView from '../views/blog/WhyBlogView';
-import MyProgrammingHistoryView from '../views/blog/MyProgrammingHistoryView';
-import VolunteeringTC from '../views/blog/VolunteeringTC';
+import BlogPostView from '../views/blog/BlogPostView';
 
 const ROUTES = [
   {
@@ -43,22 +40,34 @@ const ROUTES = [
   {
     path: '/blog/optimizing-images',
     key: 'Optimizing Images',
-    component: OptimizingImages,
+    component: BlogPostView,
+    props: {
+      markdownFile: 'optimizing-images',
+    },
   },
   {
     path: '/blog/why-i-blog',
     key: 'Why I Blog',
-    component: WhyBlogView,
+    component: BlogPostView,
+    props: {
+      markdownFile: 'why-i-blog',
+    },
   },
   {
     path: '/blog/volunteering-with-tzu-chi',
     key: 'Volunteering with Tzu Chi',
-    component: VolunteeringTC,
+    component: BlogPostView,
+    props: {
+      markdownFile: 'volunteering-tzu-chi',
+    },
   },
   {
     path: '/blog/programming-history',
     key: 'Programming History',
-    component: MyProgrammingHistoryView,
+    component: BlogPostView,
+    props: {
+      markdownFile: 'programming-history',
+    },
   },
   {
     path: '/about',
