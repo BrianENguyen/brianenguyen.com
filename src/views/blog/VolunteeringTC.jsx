@@ -1,10 +1,11 @@
 import React from 'react';
-import classes from './BlogView.module.css';
+import './BlogView.css';
 import AnimatedPage from '../../components/animations/AnimatedPage';
 import { ImageList, ImageListItem } from '@mui/material';
 import { useEffect } from 'react';
 import PageContainer from '../../components/ui/page-container/PageContainer';
 import { VolunteeringTCPageTitle } from '../../helper/PageTitleData';
+import Content from '../../../pages/blog/volunteering-tzu-chi.md';
 
 const VolunteeringTC = () => {
   useEffect(() => {
@@ -13,12 +14,9 @@ const VolunteeringTC = () => {
 
   return (
     <AnimatedPage>
-      <PageContainer
-        style={{ marginTop: 200 + 'px' }}
-        maxWidth='md'
-        href='/blog'
-      >
-        <h1 className={classes['blog__title']}>
+      <PageContainer maxWidth='md' href='/blog'>
+        <Content />
+        {/* <h1 className={classes['blog__title']}>
           Volunteering with the Tzu Chi Foundation
         </h1>
         <div className={classes['blog__text']}>
@@ -333,8 +331,8 @@ const VolunteeringTC = () => {
               graduated. Not only have I inspired them, but they have also
               inspired me.
             </li>
-          </ul>
-        </div>
+          </ul> 
+            </div> */}
       </PageContainer>
     </AnimatedPage>
   );
