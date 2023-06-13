@@ -51,7 +51,7 @@ the same license
 
 All other directories and files are MIT Licensed (where
 applicable). Feel free to inspect my code and reuse them to your liking. See the
-[[./LICENSE-MIT][LICENSE-MIT]] for more information
+[[./LICENSE][LICENSE]] for more information
 
 ** Support
 My personal website is a huge passion project of mine, as it is where I document
