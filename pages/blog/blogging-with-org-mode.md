@@ -47,8 +47,47 @@ utilize the package and allow the app to include Markdown files
       ],
     });
 
+Inside of my `Routes.js` file, I set it up so that each blog post has a prop
+that has the name of the Markdown file
+
+    // Routes.js
+    ...
+      {
+        path: '/blog/volunteering-with-tzu-chi',
+        key: 'Volunteering with Tzu Chi',
+        component: BlogPostView,
+        props: {
+          title: `Volunteering with the Tzu Chi Foundation ${suffix}`,
+          markdownFile: 'volunteering-tzu-chi',
+        },
+      },
+    ...
+
+When rendering my routes, I ensure that these props are passed into the components
+
+    import ROUTES from './Routes';
+    const RenderRoutes = () => {
+      const location = useLocation();
+    
+      return (
+        <Switch location={location} key={location.pathname}>
+          {ROUTES.map((route) => (
+            <Route
+              path={route.path}
+              key={route.key}
+              exact={true}
+              render={(props) => {
+                <route.component {...props} {...route.props} />}
+              }
+          ))}
+        </Switch>
+      );
+    };
+    
+    export default RenderRoutes;
+
 For my blog posts, I set up a component called `BlogPostView` that retrieves a
-Markdown file and parses it to JSX
+Markdown file and parses it to JSX.
 
     import React, { useEffect, useState } from 'react';
     import './BlogPostView.css';
@@ -131,8 +170,50 @@ apply my styles
     }
 
 
-### The `import` statement
+## Issues I&rsquo;ve Encountered (and Solutions to Them)
 
 
 ### Images
+
+org-mode doesn&rsquo;t have a way to export alt tags on images to Markdown
+
+    // org-mode
+    [[example.png][an example alt]]
+    
+    // exported md file
+    ![img](example.png)
+
+To get around this, I just had to include the exclamation symbol at the beginning of the org image line
+
+    // org-mode
+    ![[example.png][an example alt]]
+    
+    // exported md file
+    ![an example alt](example.png)
+
+
+### The `import` statement
+
+This problem is specific if you&rsquo;re using Vite and `vite-plugin-react-markdown`.
+If you&rsquo;re using a different method to rendering Markdown, ignore this section
+
+When using dynamic imports, they must end with a file extension. From the `rollup`
+docs, in order to avoid unintended imports of files within a folder, it is
+necessary for imports to conclude with a file extension within the static
+portions of the import. This ensures that only the intended files are included
+in the import process.
+
+    // Not allowed
+    import(`./foo/${bar}`);
+    
+    // allowed
+    import(`./foo/${bar}.js`);
+
+I had my import similar to the one below, which caused errors:
+
+    import(`./path/to/markdownFile/${markdownFile}`)
+
+Therefore, I had to change my import to this:
+
+    import(`./path/to/markdownFile/${markdownFile}.md`)
 

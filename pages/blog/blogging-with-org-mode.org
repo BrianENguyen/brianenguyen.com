@@ -47,8 +47,52 @@ export default defineConfig({
 });
 #+end_src
 
+Inside of my =Routes.js= file, I set it up so that each blog post has a prop
+that has the name of the Markdown file
+
+#+begin_src js
+// Routes.js
+...
+  {
+    path: '/blog/volunteering-with-tzu-chi',
+    key: 'Volunteering with Tzu Chi',
+    component: BlogPostView,
+    props: {
+      title: `Volunteering with the Tzu Chi Foundation ${suffix}`,
+      markdownFile: 'volunteering-tzu-chi',
+    },
+  },
+...
+#+end_src
+
+When rendering my routes, I ensure that these props are passed into the components
+
+#+begin_src js
+import ROUTES from './Routes';
+const RenderRoutes = () => {
+  const location = useLocation();
+
+  return (
+    <Switch location={location} key={location.pathname}>
+      {ROUTES.map((route) => (
+        <Route
+          path={route.path}
+          key={route.key}
+          exact={true}
+          render={(props) => {
+            <route.component {...props} {...route.props} />}
+          }
+      ))}
+    </Switch>
+  );
+};
+
+export default RenderRoutes;
+
+#+end_src
+
 For my blog posts, I set up a component called =BlogPostView= that retrieves a
-Markdown file and parses it to JSX
+Markdown file and parses it to JSX.
 
 #+begin_src js
 import React, { useEffect, useState } from 'react';
@@ -134,5 +178,56 @@ apply my styles
 }
 #+end_src
 
-*** The =import= statement
+** Issues I've Encountered (and Solutions to Them)
 *** Images
+org-mode doesn't have a way to export alt tags on images to Markdown
+
+#+begin_src
+// org-mode
+[[example.png][an example alt]]
+
+// exported md file
+![img](example.png)
+#+end_src
+
+To get around this, I just had to include the exclamation symbol at the beginning of the org image line
+
+#+begin_src
+// org-mode
+![[example.png][an example alt]]
+
+// exported md file
+![an example alt](example.png)
+#+end_src
+
+*** The =import= statement
+This problem is specific if you're using Vite and =vite-plugin-react-markdown=.
+If you're using a different method to rendering Markdown, ignore this section
+
+When using dynamic imports, they must end with a file extension. From the =rollup=
+docs, in order to avoid unintended imports of files within a folder, it is
+necessary for imports to conclude with a file extension within the static
+portions of the import. This ensures that only the intended files are included
+in the import process.
+
+#+begin_src js
+// Not allowed
+import(`./foo/${bar}`);
+
+// allowed
+import(`./foo/${bar}.js`);
+#+end_src
+
+I had my import similar to the one below, which caused errors:
+
+#+begin_src js
+import(`./path/to/markdownFile/${markdownFile}`)
+#+end_src
+
+Therefore, I had to change my import to this:
+
+#+begin_src js
+import(`./path/to/markdownFile/${markdownFile}.md`)
+#+end_src
+
+** Conclusion
