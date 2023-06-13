@@ -32,22 +32,28 @@ const Footer = () => {
           </Grid>
         </div>
       </Container>
-      <hr className="footer__line-divider" />
-      <Container maxWidth="xs">
-        <p className="footer__text">
-          {new Date().getFullYear()} &mdash; Brian Nguyen
+      <hr className='footer__line-divider' />
+      <Container maxWidth='xs'>
+        <p className='footer__text'>
+          <a
+            href='https://creativecommons.org/licenses/by-nc-sa/4.0/'
+            target='_blank'
+          >
+            CC BY-NC-SA 4.0
+          </a>{' '}
+          {new Date().getFullYear()}-PRESENT &copy; Brian Nguyen
         </p>
-        <p className="footer__text">
+        <p className='footer__text'>
           See an issue?{' '}
           <a
-            href="https://github.com/Buraiyen/BEN-Website-React"
-            target="_blank"
-            rel="noreferrer"
+            href='https://github.com/Buraiyen/BEN-Website-React'
+            target='_blank'
+            rel='noreferrer'
           >
             Submit a pull request!
           </a>
         </p>
-        <Link to="/privacy-policy" className="footer__privacy-policy-link">
+        <Link to='/privacy-policy' className='footer__privacy-policy-link'>
           Privacy Policy
         </Link>
       </Container>
