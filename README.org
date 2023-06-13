@@ -43,8 +43,15 @@ $ npm run dev
 - [[https://vitejs.dev/][Vite]]
 
 ** Licensing
-Feel free to inspect my code and reuse what is appropriate. All words and original images (files with =BEN_= or =BEN-= prefix)  are licensed under
-[[https://creativecommons.org/licenses/by-nc-sa/4.0/][CC BY-NC-SA 4.0]]. All other directories and files are MIT Licensed (where applicable). See the [[./LICENSE][LICENSE]] for more information
+All words and original images (files with =BEN_= or =BEN-= prefix), and unoriginal
+images (images that aren't owned by me)  are licensed under [[https://creativecommons.org/licenses/by-nc-sa/4.0/][CC BY-NC-SA 4.0]].
+Essentially, you can use any image and words as long as you give proper credit
+to the owner, do not use it for commerical processes, and distribute them under
+the same license
+
+All other directories and files are MIT Licensed (where
+applicable). Feel free to inspect my code and reuse them to your liking. See the
+[[./LICENSE][LICENSE]] for more information
 
 ** Support
 If you notice any issues or have questions, please feel free to open an issue in
