@@ -9,6 +9,11 @@
   text-transform: capitalize;
 }
 
+.vite-plugin-react-markdown h3 {
+  margin-top: 4rem;
+  font-size: 1.8rem;
+}
+
 .vite-plugin-react-markdown pre {
   background-color: #363636;
 }
