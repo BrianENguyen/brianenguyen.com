@@ -39,6 +39,9 @@ $ npm run dev
 - [[https://reactjs.org/][React.js]]
 - [[https://reactrouter.com/en/main][React Router]]
 - [[https://mui.com/][Material UI]]
+- [[https://orgmode.org/][org-mode]]
+- [[https://www.framer.com/motion/][Framer Motion]]
+- [[https://www.markdownguide.org/][Markdown]]
 - [[https://www.emailjs.com/][EmailJS]]
 - [[https://vitejs.dev/][Vite]]
 
