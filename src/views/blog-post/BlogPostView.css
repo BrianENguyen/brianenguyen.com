@@ -14,6 +14,8 @@
 }
 .vite-plugin-react-markdown pre code {
   font-size: 1rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
 }
 
 .vite-plugin-react-markdown blockquote {
@@ -27,8 +29,13 @@
 
 .vite-plugin-react-markdown p,
 .vite-plugin-react-markdown li {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 2.4;
+}
+
+.vite-plugin-react-markdown p img {
+  border-radius: 10px;
+  width: 100%;
 }
 
 @media (min-width: 0px) {
@@ -44,6 +51,6 @@
 
 @media (min-width: 992px) {
   .vite-plugin-react-markdown h1 {
-    font-size: 6vw;
+    font-size: 3vw;
   }
 }
