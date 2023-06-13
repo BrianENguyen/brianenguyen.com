@@ -6,11 +6,12 @@ import AnimatedPage from '../../../components/animations/AnimatedPage';
 import PageContainer from '../../../components/ui/page-container/PageContainer';
 
 const ErrorView = ({ title }) => {
-  const [joke, setJoke] = useState(null);
+  const [joke, setJoke] = useState({ setup: '', delivery: '' });
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     document.title = title;
-    fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
+    fetch('https://v2.jokeapi.dev/joke/Any?safe-mode')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Error: ' + response.status);
@@ -19,9 +20,11 @@ const ErrorView = ({ title }) => {
       })
       .then((jokeData) => {
         setJoke({ setup: jokeData.setup, delivery: jokeData.delivery });
+        setLoading(false);
       })
       .catch((err) => {
         console.log(`Joke fetch error: ${err}`);
+        setLoading(false);
       });
   }, []);
 
@@ -40,13 +43,29 @@ const ErrorView = ({ title }) => {
           description={jumboDescription}
         />
         <PageContainer maxWidth='sm' href='/'>
-          {joke && (
-            <div>
-              <p>While you're here, here's a random joke: </p>
-              <p>{joke.setup}</p>
-              <p>{joke.delivery}</p>
-            </div>
-          )}
+          <div>
+            <p>While you're here, here's a random joke: </p>
+            {loading ? (
+              <p>Loading joke...</p>
+            ) : (
+              /* 
+              Sometimes the joke API doesn't fetch the joke
+              properly so I have to put my own
+              */
+              <>
+                <p>
+                  {!joke.setup
+                    ? 'Why did the developer quit his job?'
+                    : joke.setup}
+                </p>
+                <p>
+                  {!joke.delivery
+                    ? "Because he didn't get a raise"
+                    : joke.delivery}
+                </p>
+              </>
+            )}
+          </div>
         </PageContainer>
       </div>
     </AnimatedPage>
