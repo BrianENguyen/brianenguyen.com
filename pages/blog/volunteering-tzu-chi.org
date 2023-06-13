@@ -12,8 +12,7 @@ is a global relief organization that focuses on charity, medicine, education,
 and humanistic culture. This blog documents my experiences with this
 organization starting from 2016 up until now.
 
-#+ATTR_HTML: :alt "Description of the image"
-[[https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_wilmington.jpg]]
+![[https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1645075275/BEN_Website/blog/VolunteeringTC/BEN_wilmington.jpg][CSULB Tzu Ching group at medical outreach event]]
 
 ** Becoming an Officer / Starting My Passion in Photography
 During my first year with CSULB Tzu Ching, an officer was unable to fulfill her
