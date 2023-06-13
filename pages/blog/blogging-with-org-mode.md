@@ -18,14 +18,16 @@ turn to my favorite markup language to do the work: Org Mode
 ## What is Org Mode?
 
 Org Mode (also *org-mode*) is a type of markup language used in Emacs. I love
-org-mode because its very versatile in what it can do. I use to to take notes,
+org-mode because it&rsquo;s very versatile in what it can do. I use it to take notes,
 write documents, make an agenda, and develop websites. It&rsquo;s my preferred markup
 language over Markdown (which I will explain more in a future blog)
 
 
 ## Setup / Methods
 
-Since there isn&rsquo;t a dedicated package specifically for converting org-mode to JSX, I had to adopt a two-step process. First, I wrote my documents in org-mode and then exported them to Markdown.
+Since there isn&rsquo;t a dedicated package specifically for converting org-mode to
+JSX, I had to adopt a two-step process. First, I wrote my documents in org-mode
+and then exported them to Markdown.
 
 There are several packages that can help parse Markdown into JSX, like
 `react-markdown` and `markdown-to-jsx`. Since I am using the Vite engine to build
@@ -177,6 +179,10 @@ class from the package to apply these styles effectively.
 
 ## Issues I&rsquo;ve Encountered (and Solutions to Them)
 
+Below are some problems that I&rsquo;ve encountered when trying to convert org-mode to
+JSX. This section serves as a reference in case you are using this blog as a guide
+for your set-up
+
 
 ### Images
 
@@ -202,7 +208,8 @@ To get around this, I just had to include the exclamation symbol at the beginnin
 This problem is specific if you&rsquo;re using Vite and `vite-plugin-react-markdown`.
 If you&rsquo;re using a different method to rendering Markdown, ignore this section
 
-When using dynamic imports, they must end with a file extension. From the `rollup` docs, in order to avoid unintended imports of files within a folder, it is
+When using dynamic imports, they must end with a file extension. From the `rollup`
+docs, to avoid unintended imports of files within a folder, it is
 necessary for imports to conclude with a file extension within the static
 portions of the import. This ensures that only the intended files are included
 in the import process.
@@ -228,9 +235,9 @@ In conclusion, by transitioning to org-mode and leveraging Markdown with JSX, I
 was able to overcome the hassles of JSX and streamline their blog writing
 process, leading to a more efficient and enjoyable experience.
 
-I hope your blogging experience to the next level by embracing the power of
-structured and efficient writing. Whichever language resonates with you,
+I hope you take your blogging experience to the next level by embracing the
+power of structured and efficient writing. Whichever language you prefer,
 incorporating org-mode or Markdown into your blogging workflow will enhance your
-productivity and streamline content creation. Say goodbye to distractions and
-messy files, and hello to a seamless and enjoyable writing experience.
+productivity and streamline content creation. Say goodbye to distractions
+and messy files, and hello to a seamless and enjoyable writing experience!
 
