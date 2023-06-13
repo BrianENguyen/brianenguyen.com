@@ -93,6 +93,46 @@ const BlogPostView = ({ markdownFile, title }) => {
 
 ...
 #+end_src
-** Problems and Solutions
+
+** CSS
+When exporting Markdown to HTML, several HTML elements are commonly used to
+represent different Markdown constructs. For example:
+
+1. Headings
+   + Markdown: =# Heading 1=
+   + HTML: =<h1>Heading 1</h1>=
+2. Paragraphs:
+    + Markdown: =This is a paragraph.=
+    + HTML: =<p>This is a paragraph.</p>=
+
+org-mode doesn't have a way to apply CSS classes to be exported to Markdown.
+Instead, I have to use element selectors to apply my styles. Below is a snippet
+of my =BlogPostView.css= file of the kinds of styles I apply. Note: the =vite-plugin-react-markdown= class is used from the package, so I utilize that to
+apply my styles
+
+#+begin_src css
+/* BlogPostView.css */
+.vite-plugin-react-markdown h1 {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.vite-plugin-react-markdown h2 {
+  margin-top: 4rem;
+  font-size: 2.4rem;
+  text-transform: capitalize;
+}
+
+.vite-plugin-react-markdown pre {
+  background-color: #363636;
+}
+
+.vite-plugin-react-markdown pre code {
+  font-size: 1rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+#+end_src
+
 *** The =import= statement
 *** Images
