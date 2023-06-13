@@ -3,7 +3,7 @@
 #+options: toc:nil
 * Writing My Blogs with Org Mode
 #+BEGIN_QUOTE
-16 Feb, 2022 · 5 min
+12 Jun, 2023 · 6 min
 #+END_QUOTE
 
 I used JSX to write my blogs, which helped me get the job done, but it was a
@@ -23,9 +23,10 @@ write documents, make an agenda, and develop websites. It's my preferred markup
 language over Markdown (which I will explain more in a future blog)
 
 ** Setup / Methods
-Since there isn't really a dedicated package that converts org-mode to JSX, I had to resort to writing my documents in org-mode first, then exporting them to Markdown
+Since there isn't a dedicated package specifically for converting org-mode to JSX, I had to adopt a two-step process. First, I wrote my documents in org-mode and then exported them to Markdown.
 
-There are many packages that can help parse org-files into JSX, like =react-markdown= and =markdown-to-jsx=. Since I am using the Vite engine to build
+There are several packages that can help parse Markdown into JSX, like
+=react-markdown= and =markdown-to-jsx=. Since I am using the Vite engine to build
 this React app, I use the [[https://github.com/geekris1/vite-plugin-react-markdown][vite-plugin-react-markdown]] package for this website
 
 Once this package is installed, I had to configure my =vite.config.js= file to
@@ -119,7 +120,10 @@ const BlogPostView = ({ markdownFile, title }) => {
 export default BlogPostView;
 #+end_src
 
-For my method, I set up a state called =content=. Once the component loads, it retrieves the Markdown file from the prop that was passed in. Once it is able to retrieve the data, then the component sets the state of that data to =content=
+In my implementation, I established a state variable called =content=. When the
+component is loaded, it retrieves the Markdown file from the prop that was
+passed in. After successfully fetching the data, the component updates the state
+variable 'content' with that data.
 
 #+begin_src js
 const BlogPostView = ({ markdownFile, title }) => {
@@ -149,10 +153,11 @@ represent different Markdown constructs. For example:
     + Markdown: =This is a paragraph.=
     + HTML: =<p>This is a paragraph.</p>=
 
-org-mode doesn't have a way to apply CSS classes to be exported to Markdown.
-Instead, I have to use element selectors to apply my styles. Below is a snippet
-of my =BlogPostView.css= file of the kinds of styles I apply. Note: the =vite-plugin-react-markdown= class is used from the package, so I utilize that to
-apply my styles
+org-mode lacks a built-in mechanism to apply CSS classes for exporting to
+Markdown. Instead, I utilize element selectors to apply styles in such
+scenarios. Below is a snippet from my =BlogPostView.css= file, showcasing the
+styles I apply. Please note that I leverage the =vite-plugin-react-markdown=
+class from the package to apply these styles effectively.
 
 #+begin_src css
 /* BlogPostView.css */
@@ -204,8 +209,7 @@ To get around this, I just had to include the exclamation symbol at the beginnin
 This problem is specific if you're using Vite and =vite-plugin-react-markdown=.
 If you're using a different method to rendering Markdown, ignore this section
 
-When using dynamic imports, they must end with a file extension. From the =rollup=
-docs, in order to avoid unintended imports of files within a folder, it is
+When using dynamic imports, they must end with a file extension. From the =rollup= docs, in order to avoid unintended imports of files within a folder, it is
 necessary for imports to conclude with a file extension within the static
 portions of the import. This ensures that only the intended files are included
 in the import process.
