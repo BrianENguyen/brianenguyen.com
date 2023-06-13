@@ -76,6 +76,15 @@ const ROUTES = [
     },
   },
   {
+    path: '/blog/blogging-with-org-mode',
+    key: 'Writing Blogs with Org Mode',
+    component: BlogPostView,
+    props: {
+      title: `Writing Blogs with Org Mode ${suffix}`,
+      markdownFile: 'blogging-with-org-mode',
+    },
+  },
+  {
     path: '/blog/programming-history',
     key: 'Programming History',
     component: BlogPostView,
