@@ -11,7 +11,7 @@ const ErrorView = ({ title }) => {
 
   useEffect(() => {
     document.title = title;
-    fetch('https://v2.jokeapi.dev/joke/Any?safe-mode')
+    fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Error: ' + response.status);
@@ -43,7 +43,27 @@ const ErrorView = ({ title }) => {
           description={jumboDescription}
         />
         <PageContainer maxWidth='sm' href='/'>
-          <div>
+          <section>
+            <p>
+              If this is a problem, then feel free to email me at{' '}
+              <a href='mailto:brian.edison.nguyen@gmail.com'>
+                brian.edison.nguyen@gmail.com
+              </a>
+              ,{' '}
+              <a
+                href='https://github.com/Buraiyen/brianenguyen.com/issues'
+                target='_blank'
+              >
+                send an issue
+              </a>
+              ,{' '}
+              <a
+                href='https://github.com/Buraiyen/brianenguyen.com/pulls'
+                target='_blank'
+              >
+                or submit a pull request on GitHub.
+              </a>
+            </p>
             <p>While you're here, here's a random joke: </p>
             {loading ? (
               <p>Loading joke...</p>
@@ -60,12 +80,12 @@ const ErrorView = ({ title }) => {
                 </p>
                 <p>
                   {!joke.delivery
-                    ? "Because he didn't get a raise"
+                    ? "Because he didn't get arrays"
                     : joke.delivery}
                 </p>
               </>
             )}
-          </div>
+          </section>
         </PageContainer>
       </div>
     </AnimatedPage>
