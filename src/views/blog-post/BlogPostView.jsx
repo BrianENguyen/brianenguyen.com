@@ -19,7 +19,7 @@ const BlogPostView = ({ markdownFile, title }) => {
 
   return (
     <AnimatedPage>
-      <PageContainer maxWidth='md' href='/blog'>
+      <PageContainer maxWidth='sm' href='/blog'>
         {content && <>{content}</>}
       </PageContainer>
     </AnimatedPage>
