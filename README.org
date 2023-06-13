@@ -54,11 +54,22 @@ applicable). Feel free to inspect my code and reuse them to your liking. See the
 [[./LICENSE][LICENSE]] for more information
 
 ** Support
+My personal website is a huge passion project of mine, as it is where I document
+my life and regularly provide updates to improve it. As I am the only one (as of
+now) actively supporting it, I occasionally overlook small details or issues in
+my site
+
 If you notice any issues or have questions, please feel free to open an issue in
 this repository or reach out to me at =brian.edison.nguyen@gmail.com=
 
 If you also wish to improve this project, please [[https://github.com/Buraiyen/BEN-Website-React/pulls][submit a pull request.]] All pull
 requests will be appreciated, no matter how big or small they are!
+
+If you want to financially support me in contributing to open-source software,
+please consider [[https://github.com/sponsors/Buraiyen][sponsoring me on GitHub!]]
+
+No matter what kind of support you give, I will be grateful for taking your time
+and consideration to help me out!
 
 ** Images
 [[./readme-img/img1.png]]
