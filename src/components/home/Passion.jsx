@@ -3,7 +3,6 @@ import { Grid, Container } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Button from '../ui/button/Button';
 import './Passion.css';
-import AnimatedHeader from '../animations/AnimatedHeader';
 const Passion = () => {
   return (
     <div className='passion'>
@@ -21,11 +20,7 @@ const Passion = () => {
           </Grid>
           <Grid item sm={12} md={7}>
             <div className='passion__text'>
-              <h1>
-                <AnimatedHeader>
-                  My passion is software development
-                </AnimatedHeader>
-              </h1>
+              <h1>My passion is software development</h1>
               <p>
                 I am a software developer with a focus on frontend / fullstack
                 development with over 7 years of experience. I don't just write

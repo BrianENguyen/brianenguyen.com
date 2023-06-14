@@ -1,16 +1,13 @@
 import React from 'react';
 import { Grid } from '@mui/material';
 import './Backstory.css';
-import AnimatedHeader from '../../animations/AnimatedHeader';
 
 const Backstory = () => {
   return (
     <div className='backstory'>
       <Grid container spacing={2}>
         <Grid item xs={12} md={4}>
-          <h1 className='backstory__header'>
-            <AnimatedHeader>My Story</AnimatedHeader>
-          </h1>{' '}
+          <h1 className='backstory__header'>My Story</h1>
         </Grid>
         <Grid item xs={12} md={8}>
           <p>

@@ -4,17 +4,14 @@ import { Grid } from '@mui/material';
 import ProjectData from '../../../helper/ProjectData';
 import Project from './Project';
 import './Projects.css';
-import AnimatedHeader from '../../animations/AnimatedHeader';
 const Projects = () => {
   return (
     <div className='projects'>
       <div className='projects__intro'>
         <h1 className='header'>My Work</h1>
         <h2 className='subheader'>
-          <AnimatedHeader>
-            A collection of various websites that I have designed and developed,
-            and other programming projects that I'm proud of
-          </AnimatedHeader>
+          A collection of various websites that I have designed and developed,
+          and other programming projects that I'm proud of
         </h2>
       </div>
       <Grid container spacing={2}>
