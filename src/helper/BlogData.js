@@ -1,6 +1,14 @@
 // Data used for BlogList component to render blogs
 const BlogData = [
   {
+    title: 'Hello Nebraska!',
+    description: ``,
+    image:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1665774712/BEN_Website/blog/BEN_org.webp',
+    date: 'WIP',
+    link: '/blog/hello-nebraska',
+  },
+  {
     title: 'Writing My Blogs with Org Mode',
     description: `I switched from using JSX to Org Mode for writing my blogs. Discover the reasons behind this transition,
      aiming for a smoother and more enjoyable blogging experience.`,
