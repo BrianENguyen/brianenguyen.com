@@ -31,19 +31,10 @@
   font-size: 2.25rem;
   transition: 0.15;
 }
-.footer__text,
-.footer__privacy-policy-link {
+.footer__text {
   color: rgb(155, 155, 155);
 }
 
-.footer__privacy-policy-link {
-  text-decoration-style: dotted;
-  transition: 0.3s;
-  padding-bottom: 2rem;
-}
-.footer__privacy-policy-link:hover {
-  color: white;
-}
 .footer__brand {
   width: 175px;
 }

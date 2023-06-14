@@ -53,9 +53,6 @@ const Footer = () => {
             Submit a pull request!
           </a>
         </p>
-        <Link to='/privacy-policy' className='footer__privacy-policy-link'>
-          Privacy Policy
-        </Link>
       </Container>
     </footer>
   );
