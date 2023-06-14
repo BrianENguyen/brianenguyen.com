@@ -49,6 +49,15 @@ const ROUTES = [
     },
   },
   {
+    path: '/blog/hello-nebraska',
+    key: 'Hello Nebraska',
+    component: BlogPostView,
+    props: {
+      title: `Hello Nebraska! ${suffix}`,
+      markdownFile: 'hello-nebraska',
+    },
+  },
+  {
     path: '/blog/optimizing-images',
     key: 'Optimizing Images',
     component: BlogPostView,
