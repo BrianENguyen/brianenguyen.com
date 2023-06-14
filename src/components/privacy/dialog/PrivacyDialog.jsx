@@ -39,8 +39,8 @@ const PrivacyDialog = () => {
         <CgClose onClick={visibilityHandler} />
       </button>
       <p>
-        I use cookies and other technologies to help me understand how you use
-        this website. <Link to='/privacy-policy'>Privacy Policy</Link>
+        I value your privacy. As of 14 Jun 2023, I no longer use cookies and
+        other technologies technologies to understand how you use this website.
       </p>
     </div>
   );
