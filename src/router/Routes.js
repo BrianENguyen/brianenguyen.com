@@ -4,7 +4,6 @@ import ContactView from '../views/main/contact/ContactView';
 import ErrorView from '../views/main/error/ErrorView';
 import HomeView from '../views/main/home/HomeView';
 import PortfolioView from '../views/main/portfolio/PortfolioView';
-import PrivacyView from '../views/main/privacy/PrivacyView';
 import BlogView from '../views/main/blog/BlogView';
 
 // Project views
@@ -107,14 +106,6 @@ const ROUTES = [
     component: ContactView,
     props: {
       title: `Contact ${suffix}`,
-    },
-  },
-  {
-    path: '/privacy-policy',
-    key: 'Privacy Policy',
-    component: PrivacyView,
-    props: {
-      title: `Privacy Policy ${suffix}`,
     },
   },
   {
