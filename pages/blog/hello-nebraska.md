@@ -2,3 +2,17 @@
 
 # Hello Nebraska!
 
+> TBA date and min
+
+I am excited to share that I have **moved to Nebraska!**
+
+Why am I doing so? Early this year, I found a web developer job posting from a
+company called **IdeaBank Marketing**. I was intrigued by the services they offer
+and the company culture, so I decided to reach out to one of the owners. I had a
+couple of interviews with them, and I made it to the final stage of the
+interview process. Eventually, they reached out to me if I would like to visit
+Nebraska. I traveled there at the end of May to visit their company and meet
+their coworkers
+
+A few days later, I received an offer from IdeaBank and I accepted it!
+
