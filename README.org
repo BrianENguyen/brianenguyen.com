@@ -10,6 +10,8 @@
   - [[#images][Images]]
 
 ** About
+[[https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com]]
+
 Link to website: [[https://brianenguyen.com][brianenguyen.com]]
 
 My personal website / portfolio that showcases information about me and my
