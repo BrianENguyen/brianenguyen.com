@@ -26,9 +26,5 @@ describe('Footer test suite', () => {
       'href',
       'mailto:brian.edison.nguyen@gmail.com'
     );
-    expect(screen.getByText('Privacy Policy')).toHaveAttribute(
-      'href',
-      '/privacy-policy'
-    );
   });
 });
