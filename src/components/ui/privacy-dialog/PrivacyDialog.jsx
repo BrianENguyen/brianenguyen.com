@@ -41,6 +41,10 @@ const PrivacyDialog = () => {
         I value your privacy. As of 14 Jun 2023, I no longer use cookies and
         other technologies technologies to understand how you use this website.
       </p>
+      <p>
+        If you still see tracker, it might take a while for this site to update.
+        Please consider using an ad-blocker in the meantime
+      </p>
     </div>
   );
   return (
