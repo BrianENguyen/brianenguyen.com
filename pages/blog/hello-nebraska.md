@@ -79,3 +79,24 @@ Afterwards, Sherma showed me around Hastings, such as activities, landmarks,
 restaurants, and houses. We then had lunch with Anthony at a restaurant called
 *Odyssey Downtown*. I ordered a blue cheese burger and macaroni & cheese, and it was one of the best burgers I had (I don&rsquo;t have a picture of it unfortunately).
 
+
+### Day 3
+
+Jack from IdeaBank invited me to Grand Island to tour around the place and
+attend an event called &ldquo;IdeaStorm&rdquo;, which is like Shark Tank but for
+tech-related projects. I got to know more about Jack, the history of Grand
+Island and its community. As we walked around the town, a lot of people
+recognized Jack and said hi to him. I never lived in an area where everyone
+knows each other, so it was a nice experience being in a community with that
+regard.
+
+The IdeaStorm event was interesting too. Contestants picthed their ideas to an
+audience, and we would vote with fake money who had the best one. I remember my
+favorite one as using AI to streamline resume creation and job applications.
+That kind of technology is something I would invest in greatly
+
+After the event, I ate lunch at a local Vietnamese restaurant called Phở Saigon.
+I got
+
+Museum
+
