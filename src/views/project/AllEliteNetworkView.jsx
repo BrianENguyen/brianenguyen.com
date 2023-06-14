@@ -8,7 +8,7 @@ import Button from '../../components/ui/button/Button';
 import Jumbotron from '../../components/ui/jumbotron/Jumbotron';
 import './ProjectView.css';
 
-const AllEliteNetworkView = ({ titlee }) => {
+const AllEliteNetworkView = ({ title }) => {
   const jumboTitle = AllEliteNetworkJumboData.title;
   useEffect(() => {
     document.title = title;
