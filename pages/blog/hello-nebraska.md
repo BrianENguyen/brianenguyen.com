@@ -64,3 +64,18 @@ proper meal for the entire day
 
 ![Sushi plate](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_sushi.webp)
 
+
+### Day 2
+
+This is the day when I got to meet the owners of IdeaBank and tour around the
+company. I had an interview with them, and it was a pleasureable experience.
+It was more about getting to know me rather than anything technical. I also met
+the others working there. Many of them are gamers and collect Funko Pops, which
+I know that I can easily fit in with this company.
+
+![Front side of the IdeaBank Marketing office](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_ideabank.webp)
+
+Afterwards, Sherma showed me around Hastings, such as activities, landmarks,
+restaurants, and houses. We then had lunch with Anthony at a restaurant called
+*Odyssey Downtown*. I ordered a blue cheese burger and macaroni & cheese, and it was one of the best burgers I had (I don&rsquo;t have a picture of it unfortunately).
+
