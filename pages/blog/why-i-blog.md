@@ -19,9 +19,24 @@ and gain a deeper understanding of myself.
 
 I plan on providing my blogs with the following:
 
--   **programming tutorials**  - these will be centered around web development, but I
-    will focus on other programming fields too
--   **my life**  - I enjoy documenting it to preserve my memories and share my
+-   **programming** - these will be cover a wide range of topics, not just limited to
+    my field in web development
+-   **my life**  - I enjoy documenting my life to preserve my memories and share my
     experiences with others. This will give you a better understanding of me
-    beyond my passion for web development.
+    beyond my passion for programming.
+
+
+## What makes my blogs different?
+
+What I don&rsquo;t like about many online blogs is that they waste your time. For
+example, the author presents a blog about a certain topic. Then, they would give
+a brief history of that topic and other information that the reader doesn&rsquo;t care
+about
+
+**I value your time.** In these blogs, I focus on providing you with quality
+knowledge and insights while respecting your time.
+
+Additionally, I aim to focus on unique topics. These blogs won&rsquo;t be your typical
+*React vs. Vue* or *What is useState in React?*. Instead, I will delve into
+lesser-explored topics that go beyond the mainstream.
 
