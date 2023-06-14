@@ -10,7 +10,7 @@
   - [[#images][Images]]
 
 ** About
-[[https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com]]
+[[https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com][https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com]]
 
 Link to website: [[https://brianenguyen.com][brianenguyen.com]]
 
