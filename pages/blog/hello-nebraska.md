@@ -12,7 +12,21 @@ and the company culture, so I decided to reach out to one of the owners. I had a
 couple of interviews with them, and I made it to the final stage of the
 interview process. Eventually, they reached out to me if I would like to visit
 Nebraska. I traveled there at the end of May to visit their company and meet
-their coworkers
+their coworkers.
 
-A few days later, I received an offer from IdeaBank and I accepted it!
+A few days later, I received an offer from IdeaBank and I accepted it! I will
+begin my position starting on the first week of July.
+
+
+## Why move to Nebraska?
+
+I&rsquo;m honestly stressed living in California, where the life here is more hectic.
+Factors include high cost of living, congested traffic, and job competition.
+I&rsquo;ve always wanted to live in an area where life is less stressful. When I
+visited Nebraska, I felt like I was at peace. Moving away from the big city life
+was a culture shock to me, but I quickly got used to it.
+
+In addition, I want to experience living on my own. I&rsquo;ve always been dependent of
+others for my living situation, but I need an opportunity to know what it&rsquo;s like
+to be independent
 
