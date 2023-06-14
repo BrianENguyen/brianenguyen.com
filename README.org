@@ -1,5 +1,7 @@
 #+title: My Personal Website
 
+[[https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com][https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com.svg]]
+
 * Table of Contents :toc:
   - [[#about][About]]
   - [[#pages][Pages]]
@@ -10,7 +12,6 @@
   - [[#images][Images]]
 
 ** About
-[[https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com][https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com.svg]]
 
 Link to website: [[https://brianenguyen.com][brianenguyen.com]]
 
