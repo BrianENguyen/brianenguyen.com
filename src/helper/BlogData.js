@@ -4,7 +4,7 @@ const BlogData = [
     title: 'Hello Nebraska!',
     description: ``,
     image:
-      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1665774712/BEN_Website/blog/BEN_org.webp',
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1665774712/BEN_Website/blog/BEN_road.webp',
     date: 'WIP',
     link: '/blog/hello-nebraska',
   },
