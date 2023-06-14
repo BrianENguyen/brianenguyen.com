@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import ScrollToTop from './helper/ScrollToTop';
-import PrivacyDialog from './components/privacy/dialog/PrivacyDialog';
+import PrivacyDialog from './components/ui/privacy-dialog/PrivacyDialog';
 import RenderRoutes from './router/RenderRoutes';
 import Footer from './components/ui/footer/Footer';
 import Navbar from './components/ui/navbar/Navbar';
