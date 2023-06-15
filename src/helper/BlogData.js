@@ -2,10 +2,11 @@
 const BlogData = [
   {
     title: 'Hello Nebraska!',
-    description: ``,
+    description: `I visited Nebraska for a business trip, now I'm moving there in July! I discuss the events that led
+    up to my relocation, how moving there will benefit me, and my experiences in Nebraska`,
     image:
       'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1665774712/BEN_Website/blog/BEN_road.webp',
-    date: 'WIP',
+    date: '2023-06-15',
     link: '/blog/hello-nebraska',
   },
   {
