@@ -10,7 +10,6 @@
 }
 
 .vite-plugin-react-markdown h3 {
-  margin-top: 4rem;
   font-size: 1.8rem;
 }
 
@@ -38,7 +37,17 @@
   line-height: 2.4;
 }
 
-.vite-plugin-react-markdown p img {
+.vite-plugin-react-markdown figure {
+  margin: 0;
+  width: 100%;
+}
+
+.vite-plugin-react-markdown figure figcaption {
+  color: #6b7280;
+  font-size: 0.875em;
+}
+
+.vite-plugin-react-markdown img {
   border-radius: 10px;
   width: 100%;
 }
