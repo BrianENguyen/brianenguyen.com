@@ -62,7 +62,13 @@ I was tired when I arrived at my hotel at around 6 PM, so I didn&rsquo;t feel li
 exploring the area. I went to a local sushi place for dinner after not having a
 proper meal for the entire day
 
-![Sushi plate](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_sushi.webp)
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_sushi.webp" alt="Sushi plate" />
+
+<figcaption>Sushi rolls at Ninja Steak and Sushi House</figcaption>
+
+</figure>
 
 
 ### Day 2
@@ -73,11 +79,18 @@ It was more about getting to know me rather than anything technical. I also met
 the others working there. Many of them are gamers and collect Funko Pops, which
 I know that I can easily fit in with this company.
 
-![Front side of the IdeaBank Marketing office](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_ideabank.webp)
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_ideabank.webp" alt="Front side of the IdeaBank" />
+
+<figcaption>Front side of the IdeaBank Marketing office</figcaption>
+
+</figure>
 
 Afterwards, Sherma showed me around Hastings, such as activities, landmarks,
 restaurants, and houses. We then had lunch with Anthony at a restaurant called
-*Odyssey Downtown*. I ordered a blue cheese burger and macaroni & cheese, and it was one of the best burgers I had (I don&rsquo;t have a picture of it unfortunately).
+*Odyssey Downtown*. I ordered a blue cheese burger and macaroni & cheese, and it
+was one of the best burgers I had (I don&rsquo;t have a picture of it unfortunately).
 
 
 ### Day 3
@@ -96,7 +109,50 @@ favorite one as using AI to streamline resume creation and job applications.
 That kind of technology is something I would invest in greatly
 
 After the event, I ate lunch at a local Vietnamese restaurant called Phở Saigon.
-I got
+I met with one of the workers there and we chatted for a bit. I told him that I
+was from California visiting Nebraska for a business trip, and I asked about the
+Vietnamese community. Although he said that the community is very small in
+Nebraska, I do aim to make many Vietnamese connections there since I am
+passionate about my Vietnamese background
 
-Museum
+To end my day, I visited the Stuhr Museum. This museum showcased daily life in
+Nebraska and Native American tribes. The workers there were very warm and
+welcoming; one of the best customer services I&rsquo;ve received. I saw one of the
+earliest Kodak cameras, innovative technologies in the 1900s, and exhibits that
+showcased life in Nebraska during the Great Depression
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_stuhr.webp" alt="Front side of the Stuhr Museum" />
+
+<figcaption>Front side of the Stuhr Museum</figcaption>
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_kodak.webp" alt="Early Kodak camera prototype" />
+
+<figcaption>Early Kodak camera prototype</figcaption>
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_newspapers.webp" alt="Newspapers during the Great Deperession" />
+
+<figcaption>Newspapers during the Great Depression</figcaption>
+
+</figure>
+
+
+## Photography
+
+
+## Conclusion
+
+I am filled with excitement on this my new chapter in my life in Nebraska. I
+look forward to growing as a person, meeting new people, and exploring all of
+the opportunities that come my way. I eagerly await to share my experiences with
+you!
 

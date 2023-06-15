@@ -56,7 +56,10 @@ I was tired when I arrived at my hotel at around 6 PM, so I didn't feel like
 exploring the area. I went to a local sushi place for dinner after not having a
 proper meal for the entire day
 
-![[https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_sushi.webp][Sushi plate]]
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_sushi.webp" alt="Sushi plate" />
+#+HTML: <figcaption>Sushi rolls at Ninja Steak and Sushi House</figcaption>
+#+HTML: </figure>
 
 *** Day 2
 This is the day when I got to meet the owners of IdeaBank and tour around the
@@ -65,11 +68,15 @@ It was more about getting to know me rather than anything technical. I also met
 the others working there. Many of them are gamers and collect Funko Pops, which
 I know that I can easily fit in with this company.
 
-![[https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_ideabank.webp][Front side of the IdeaBank Marketing office]]
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_ideabank.webp" alt="Front side of the IdeaBank" />
+#+HTML: <figcaption>Front side of the IdeaBank Marketing office</figcaption>
+#+HTML: </figure>
 
 Afterwards, Sherma showed me around Hastings, such as activities, landmarks,
 restaurants, and houses. We then had lunch with Anthony at a restaurant called
-/Odyssey Downtown/. I ordered a blue cheese burger and macaroni & cheese, and it was one of the best burgers I had (I don't have a picture of it unfortunately).
+/Odyssey Downtown/. I ordered a blue cheese burger and macaroni & cheese, and it
+was one of the best burgers I had (I don't have a picture of it unfortunately).
 
 *** Day 3
 Jack from IdeaBank invited me to Grand Island to tour around the place and
@@ -95,5 +102,30 @@ passionate about my Vietnamese background
 To end my day, I visited the Stuhr Museum. This museum showcased daily life in
 Nebraska and Native American tribes. The workers there were very warm and
 welcoming; one of the best customer services I've received. I saw one of the
-earliest Nikon cameras, innovative technologies in the 1900s, and exhibits that
+earliest Kodak cameras, innovative technologies in the 1900s, and exhibits that
 showcased life in Nebraska during the Great Depression
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_stuhr.webp" alt="Front side of the Stuhr Museum" />
+#+HTML: <figcaption>Front side of the Stuhr Museum</figcaption>
+#+HTML: </figure>
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/HelloNebraska/BEN_kodak.webp" alt="Early Kodak camera prototype" />
+#+HTML: <figcaption>Early Kodak camera prototype</figcaption>
+#+HTML: </figure>
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_newspapers.webp" alt="Newspapers during the Great Deperession" />
+#+HTML: <figcaption>Newspapers during the Great Depression</figcaption>
+#+HTML: </figure>
+
+
+** Photography
+
+
+** Conclusion
+I am filled with excitement on this my new chapter in my life in Nebraska. I
+look forward to growing as a person, meeting new people, and exploring all of
+the opportunities that come my way. I eagerly await to share my experiences with
+you!
