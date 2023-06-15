@@ -2,7 +2,7 @@
 
 # Hello Nebraska!
 
-> TBA date and min
+> 15 Jun, 2023 · 6 min
 
 I am excited to share that I will be **moving to Nebraska!**
 
@@ -147,6 +147,58 @@ showcased life in Nebraska during the Great Depression
 
 
 ## Photography
+
+Additional photos I took during my travels in Nebraska
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_clouds.webp" alt="Clouds during my flight" />
+
+<figcaption>Clouds during my flight</figcaption>
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_building.webp" alt="Building in downtown Hastings" />
+
+<figcaption>Building in downtown Hastings</figcaption>
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_road.webp" alt="Road in Hastings" />
+
+<figcaption>Road in Hastings</figcaption>
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_gazebo.webp" alt="Garden gazebo" />
+
+<figcaption>Garden Gazebo</figcaption>
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_statue.webp" alt="Statue of a child holding a balloon" />
+
+<figcaption>Statue of a child holding a balloon</figcaption>
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_train.webp" alt="Train in Hastings" />
+
+<figcaption>Train going through Hastings</figcaption>
+
+</figure>
+
+(I realized that the photos I took don&rsquo;t have people in them. I assure you that everywhere I went was packed with people during the day! It&rsquo;s just that in the evening, there&rsquo;s not many.)
 
 
 ## Conclusion

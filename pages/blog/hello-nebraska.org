@@ -3,7 +3,7 @@
 
 * Hello Nebraska!
 #+begin_quote
-TBA date and min
+15 Jun, 2023 · 6 min
 #+end_quote
 
 I am excited to share that I will be *moving to Nebraska!*
@@ -122,7 +122,38 @@ showcased life in Nebraska during the Great Depression
 
 
 ** Photography
+Additional photos I took during my travels in Nebraska
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_clouds.webp" alt="Clouds during my flight" />
+#+HTML: <figcaption>Clouds during my flight</figcaption>
+#+HTML: </figure>
 
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_building.webp" alt="Building in downtown Hastings" />
+#+HTML: <figcaption>Building in downtown Hastings</figcaption>
+#+HTML: </figure>
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_road.webp" alt="Road in Hastings" />
+#+HTML: <figcaption>Road in Hastings</figcaption>
+#+HTML: </figure>
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_gazebo.webp" alt="Garden gazebo" />
+#+HTML: <figcaption>Garden Gazebo</figcaption>
+#+HTML: </figure>
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_statue.webp" alt="Statue of a child holding a balloon" />
+#+HTML: <figcaption>Statue of a child holding a balloon</figcaption>
+#+HTML: </figure>
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1686808905/BEN_Website/blog/HelloNebraska/BEN_train.webp" alt="Train in Hastings" />
+#+HTML: <figcaption>Train going through Hastings</figcaption>
+#+HTML: </figure>
+
+(I realized that the photos I took don't have people in them. I assure you that everywhere I went was packed with people during the day! It's just that in the evening, there's not many.)
 
 ** Conclusion
 I am filled with excitement on this my new chapter in my life in Nebraska. I
