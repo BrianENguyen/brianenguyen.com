@@ -6,8 +6,8 @@ const Quote = () => {
     <div
       className='quote'
       data-aos='fade-up'
-      data-aos-offset='350'
       data-aos-once='true'
+      data-aos-duration='3000'
     >
       <h1 className='quote__content'>
         A fulfilling life is not preoccupied with material objects, prestige, or
