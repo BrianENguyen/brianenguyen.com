@@ -5,7 +5,12 @@ const ImageGallery = () => {
   return (
     <div data-testid='image-gallery'>
       <h1 className='header'>Capturing Art Through the Lens</h1>
-      <h2 className='subheader'>
+      <h2
+        className='subheader'
+        data-aos='fade-up'
+        data-aos-duration='1000'
+        data-aos-once='true'
+      >
         I am an avid photographer. Below are some photos from my recent
         adventures
       </h2>
@@ -19,6 +24,9 @@ const ImageGallery = () => {
               aria-describedby={image.alt}
               loading='lazy'
               style={{ borderRadius: '10px' }}
+              data-aos='fade-up'
+              data-aos-duration='1000'
+              data-aos-once='true'
             />
           </ImageListItem>
         ))}
