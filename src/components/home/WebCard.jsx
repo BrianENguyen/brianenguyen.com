@@ -10,7 +10,7 @@ import './WebCard.css';
 
 const WebCard = (props) => {
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init();
   }, []);
 
   return (

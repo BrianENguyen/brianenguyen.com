@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 const Project = (props) => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init();
   }, []);
 
   const photoCreditSection = (

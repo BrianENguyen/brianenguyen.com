@@ -8,7 +8,7 @@ import '../../animations/animations.css';
 
 const Facts = () => {
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init();
   }, []);
 
   return (
