@@ -35,6 +35,7 @@
 [data-aos='reveal-up'].aos-animate:after {
   transform: translateY(-100%);
 }
+
 [data-aos='reveal-down'].aos-animate:after {
   transform: translateY(100%);
 }
