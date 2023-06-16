@@ -3,7 +3,12 @@ import './Quote.css';
 
 const Quote = () => {
   return (
-    <div className='quote'>
+    <div
+      className='quote'
+      data-aos='fade-up'
+      data-aos-offset='350'
+      data-aos-once='true'
+    >
       <h1 className='quote__content'>
         A fulfilling life is not preoccupied with material objects, prestige, or
         power. It is a life that is filled with true friendships, sharing, and
