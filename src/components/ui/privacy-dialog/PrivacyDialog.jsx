@@ -39,7 +39,7 @@ const PrivacyDialog = () => {
       </button>
       <p>
         I value your privacy. As of 14 Jun 2023, I no longer use cookies and
-        other technologies technologies to understand how you use this website.
+        other technologies to understand how you use this website.
       </p>
     </div>
   );
