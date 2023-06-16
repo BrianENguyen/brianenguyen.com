@@ -7,7 +7,13 @@ import OtherProject from './OtherProject';
 const OtherProjectsList = () => {
   return (
     <div className='other-projects'>
-      <h1 className='other-projects__title'>Some of my other work</h1>
+      <h1
+        className='other-projects__title'
+        data-aos='reveal-up'
+        data-aos-duration='3000'
+      >
+        Some of my other work
+      </h1>
       <Grid container>
         {OtherProjectData.map((otherProject, i) => (
           <Grid item xs={12} md={4} key={i}>

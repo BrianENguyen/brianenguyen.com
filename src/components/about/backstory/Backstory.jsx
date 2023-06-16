@@ -6,11 +6,18 @@ const Backstory = () => {
   return (
     <div className='backstory'>
       <Grid container spacing={2}>
-        <Grid item xs={12} md={4}>
+        <Grid
+          item
+          xs={12}
+          md={4}
+          data-aos='reveal-down'
+          data-aos-once='true'
+          data-aos-duration='5000'
+        >
           <h1 className='backstory__header'>My Story</h1>
         </Grid>
         <Grid item xs={12} md={8}>
-          <p>
+          <p data-aos='fade-up' data-aos-duration='1000' data-aos-once='true'>
             I obtained a Bachelor's in Computer Science from California State
             University, Long Beach in 2020. From the moment I wrote my first
             Python script in my introductory CS course, I knew that coding is
@@ -20,7 +27,7 @@ const Backstory = () => {
             learned a myriad of technologies and concepts, and have connected
             with many people who have similar goals.
           </p>
-          <p>
+          <p data-aos='fade-up' data-aos-duration='1000' data-aos-once='true'>
             I am currently working at Code Ninjas, Cerritos and Fullterton, as a
             coding instructor and an assistant director. Working here combines
             two of my passions: programming and working with students. I have
@@ -28,7 +35,7 @@ const Backstory = () => {
             build high-quality software. I have also taught web development at
             various district schools to over 400 students.
           </p>
-          <p>
+          <p data-aos='fade-up' data-aos-duration='1000' data-aos-once='true'>
             Apart from my programming passions, I formerly served as the
             president of the Tzu Chi Collegiate Association at CSULB. This
             volunteering organization focuses on humanitarian aid, medicine,

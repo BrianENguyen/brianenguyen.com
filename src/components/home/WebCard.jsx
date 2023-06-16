@@ -1,14 +1,20 @@
-import React from 'react';
+import { useEffect } from 'react';
 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import './WebCard.css';
 
 const WebCard = (props) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <Card className='webcard'>
+    <Card className='webcard' data-aos='fade-up' data-aos-once='true'>
       <CardContent>
         <h1>{props.title}</h1>
         <p>{props.description}</p>
