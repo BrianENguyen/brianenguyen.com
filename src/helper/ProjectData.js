@@ -2,7 +2,7 @@
 const ProjectData = [
   {
     title: 'All Elite Network',
-    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1651693922/BEN_Website/projects/aew-stage-fireworks.webp',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1651693922/BEN_Website/projects/thunder_rosa.webp',
     link: '/portfolio/all-elite-network',
     photoCredit: {
       name: 'All Elite Wrestling',
