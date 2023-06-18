@@ -51,15 +51,15 @@ $ npm run dev
 - [[https://vitejs.dev/][Vite]]
 
 ** Licensing
-All words, original images (files with =BEN_= or =BEN-= prefix), and unoriginal
-images (images that aren't owned by me)  are licensed under [[https://creativecommons.org/licenses/by-nc-sa/4.0/][CC BY-NC-SA 4.0]].
-Essentially, you can use any image and words as long as you give proper credit
-to the owner, do not use it for commerical processes, and distribute them under
-the same license
+All words and original images (files with =BEN_= or =BEN-= prefix)  are licensed
+under [[https://creativecommons.org/licenses/by-nc-sa/4.0/][CC BY-NC-SA 4.0]].  Essentially, you can use any of my images and words as
+long as you give proper credit to me, do not use it for commerical processes,
+and distribute them under the same license
 
-All other directories and files are MIT Licensed (where
-applicable). Feel free to inspect my code and reuse them to your liking. See the
-[[./LICENSE-CODE][LICENSE-CODE]] for more information
+Most unoriginal images (images not owned by me) are taken from [[https://unsplash.com][unsplash.com]]. [[https://unsplash.com/license][See Unsplash's license here]]. Only one photo, =thunder_rosa.webp=, is licensed under [[https://creativecommons.org/licenses/by-sa/2.0/][CC BY-SA 2.0]]
+
+All other directories and files are MIT Licensed (where applicable). Feel free
+to inspect my code and reuse them to your liking. See the [[./LICENSE-CODE][LICENSE-CODE]] for more information
 
 ** Support
 My personal website is a huge passion project of mine, as it is where I document
