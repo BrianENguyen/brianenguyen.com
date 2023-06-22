@@ -1,4 +1,5 @@
 #+HTML: <h1 align="center">My Personal Website</h1>
+#+HTML: <h2 align="center">Redesigned and Redeveloped</h2>
 
 [[https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com][https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com.svg]]
 
