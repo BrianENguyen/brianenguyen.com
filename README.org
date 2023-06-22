@@ -1,4 +1,4 @@
-#+title: My Personal Website
+#+HTML: <h1 style="text-align: center">My Personal Website</h1>
 
 [[https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com][https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com.svg]]
 
