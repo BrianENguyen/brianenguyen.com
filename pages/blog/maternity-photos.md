@@ -1,11 +1,36 @@
 
-# Table of Contents
-
-1.  [My First Maternity Photography Session](#org10068ff)
-
-
-
-<a id="org10068ff"></a>
 
 # My First Maternity Photography Session
+
+> 30 Jun, 2022 · 3 min
+
+I had the privilege of documenting my friends who are
+expecting their first baby. This is also my very first maternity photo shoot, and
+it was a memorable and enjoyable experience. All photos are taken with my new
+Sigma 24-70mm with varying settings
+
+
+## Photos
+
+Sunset photography is my specialty. The combination of the sun&rsquo;s warm glow and
+the crashing waves create a perfect setting for this occasion. I ensured that
+the couple is having a delightful experience at the beach, and that their
+companionship underneath the scorching sun is a magical moment. To
+achieve this, I positioned them in various poses and guided them through actions
+
+[insert some photos]
+
+I also wanted to utilize the sun&rsquo;s warm aura for my color grading. I
+aimed for using only warm colors for my style rather than usual style of both
+warm and cool colors. This is a new style that I wanted to try, and it turned
+out well
+
+[insert some more photos]
+
+In addition to capturing beautiful moments of the couple, it was equally
+important to include photos of just the wife in the photos. As the main star of
+the session, her presence and connection with the baby are significant and
+deserved to be highlighted
+
+[insert some more photos]
 
