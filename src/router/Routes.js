@@ -48,6 +48,15 @@ const ROUTES = [
     },
   },
   {
+    path: '/blog/maternity-photos',
+    key: 'My First Maternity Photoshoot',
+    component: BlogPostView,
+    props: {
+      title: `My First Maternity Photoshoot ${suffix}`,
+      markdownFile: 'maternity-photos',
+    },
+  },
+  {
     path: '/blog/hello-nebraska',
     key: 'Hello Nebraska',
     component: BlogPostView,
