@@ -18,19 +18,49 @@ the couple is having a delightful experience at the beach, and that their
 companionship underneath the scorching sun is a magical moment. To
 achieve this, I positioned them in various poses and guided them through actions
 
-[insert some photos]
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity1.webp" alt="Couple standing together and smiling at the camera" />
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity2.webp" alt="Holding hands while walking through the beach" />
+
+</figure>
 
 I also wanted to utilize the sun&rsquo;s warm aura for my color grading. I
 aimed for using only warm colors for my style rather than usual style of both
 warm and cool colors. This is a new style that I wanted to try, and it turned
 out well
 
-[insert some more photos]
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity6.webp" alt="Couple sitting at the beach. Husband looks off into the distance while the wife looks at the camera" />
+
+</figure>
 
 In addition to capturing beautiful moments of the couple, it was equally
 important to include photos of just the wife in the photos. As the main star of
 the session, her presence and connection with the baby are significant and
 deserved to be highlighted
 
-[insert some more photos]
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity8.webp" alt="Couple sitting at the beach. Husband looks off into the distance while the wife looks at the camera" />
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity9.webp" alt="Couple sitting at the beach. Husband looks off into the distance while the wife looks at the camera" />
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity10.webp" alt="Couple sitting at the beach. Husband looks off into the distance while the wife looks at the camera" />
+
+</figure>
 
