@@ -28,7 +28,13 @@ const Backstory = () => {
             with many people who have similar goals.
           </p>
           <p data-aos='fade-up' data-aos-duration='1000' data-aos-once='true'>
-            I am currently working at Code Ninjas, Cerritos and Fullterton, as a
+            I currently work at IdeaBank Marketing as a web developer. This role
+            allows me to work in a team to develop high-quality websites for
+            clients that will not only fulfill but also exceed their
+            expectations
+          </p>
+          <p data-aos='fade-up' data-aos-duration='1000' data-aos-once='true'>
+            I formerly worked at Code Ninjas, Cerritos and Fullterton, as a
             coding instructor and an assistant director. Working here combines
             two of my passions: programming and working with students. I have
             tutored students with JavaScript, Lua, and C# languages to help them
