@@ -2,7 +2,7 @@
 
 # My First Maternity Photography Session
 
-> 30 Jun, 2022 · 3 min
+> 30 Jun, 2022 · 1 min
 
 I had the privilege of documenting my friends who are
 expecting their first baby. This is also my very first maternity photo shoot, and
