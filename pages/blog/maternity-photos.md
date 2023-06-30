@@ -48,19 +48,46 @@ deserved to be highlighted
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity8.webp" alt="Couple sitting at the beach. Husband looks off into the distance while the wife looks at the camera" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity8.webp" alt="Wife looks off into the beach" />
 
 </figure>
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity9.webp" alt="Couple sitting at the beach. Husband looks off into the distance while the wife looks at the camera" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity9.webp" alt="Wife looks at the sunset while holding her stomach" />
 
 </figure>
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity10.webp" alt="Couple sitting at the beach. Husband looks off into the distance while the wife looks at the camera" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity10.webp" alt="Wife sitting while holding her stomach" />
+
+</figure>
+
+
+## Additional Photos
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity3.webp" alt="Couple holding each other" />
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity4.webp" alt="Couple walking alongsiide the beach" />
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity5.webp" alt="Couple holding and kissing each other" />
+
+</figure>
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity7.webp" alt="Couple sitting at the beach and holding each other" />
 
 </figure>
 
