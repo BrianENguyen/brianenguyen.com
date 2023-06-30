@@ -47,6 +47,7 @@ $ npm run dev
 - [[https://mui.com/][Material UI]]
 - [[https://orgmode.org/][org-mode]]
 - [[https://www.framer.com/motion/][Framer Motion]]
+- [[https://michalsnik.github.io/aos/][Animate on Scroll]]
 - [[https://www.markdownguide.org/][Markdown]]
 - [[https://www.emailjs.com/][EmailJS]]
 - [[https://vitejs.dev/][Vite]]
@@ -54,7 +55,7 @@ $ npm run dev
 ** Licensing
 All words and original images (files with =BEN_= or =BEN-= prefix)  are licensed
 under [[https://creativecommons.org/licenses/by-nc-sa/4.0/][CC BY-NC-SA 4.0]].  Essentially, you can use any of my images and words as
-long as you give proper credit to me, do not use it for commerical processes,
+long as you give proper credit to me, do not use it for commercial processes,
 and distribute them under the same license
 
 Most unoriginal images (images not owned by me) are taken from [[https://unsplash.com][unsplash.com]]. [[https://unsplash.com/license][See Unsplash's license here]]. Only one photo, =thunder_rosa.webp=, is licensed under [[https://creativecommons.org/licenses/by-sa/2.0/][CC BY-SA 2.0]]
