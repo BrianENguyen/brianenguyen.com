@@ -5,6 +5,7 @@ I only really edit the org-mode files since that's my preferred markup language.
 I then export these files to Markdown for seamless rendering
 
 ** Blogs
++ My First Maternity Photography Session
 + Hello Nebraska!
 + Writing My Blogs with Org Mode
 + Optimizing Your Website's Images
