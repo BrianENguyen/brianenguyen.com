@@ -1,6 +1,15 @@
 // Data used for BlogList component to render blogs
 const BlogData = [
   {
+    title: 'My First Maternity Photography Session',
+    description: `I've provided my first photography session for a couple who is expecting a baby. This 
+    blog showcases various photos and how I put together this session`,
+    image:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_300/v1665774712/BEN_Website/blog/Maternity/BEN_maternity2.webp',
+    date: '2023-06-30',
+    link: '/blog/maternity-photos',
+  },
+  {
     title: 'Hello Nebraska!',
     description: `I visited Nebraska for a business trip, now I'm moving there in July! I discuss the events that led
     up to my relocation, how moving there will benefit me, and my experiences in Nebraska`,
