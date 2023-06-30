@@ -28,7 +28,7 @@ const ROUTES = [
     key: 'Home',
     component: HomeView,
     props: {
-      title: 'Brian E. Nguyen | Software Developer',
+      title: 'Brian E. Nguyen | Web Developer',
     },
   },
   {

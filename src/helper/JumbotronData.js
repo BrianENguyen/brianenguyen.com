@@ -4,7 +4,7 @@ const HomeJumboData = {
   srcMobile:
     'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1659204062/BEN_Website/jumbotron/BEN_developing.webp',
   title: 'Brian E. Nguyen',
-  description: 'Software Developer and Coding Instructor',
+  description: 'Web Developer and Life-Long Learner',
 };
 
 const ResumeJumboData = {

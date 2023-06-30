@@ -37,8 +37,8 @@ const Facts = () => {
               data-aos-duration='1000'
               data-aos-once='true'
             >
-              I am a software developer, photographer, drummer, gamer,
-              pro-wrestling enjoyer, and Linkin Park listener
+              I am a web developer, photographer, drummer, gamer, pro-wrestling
+              enjoyer, and Linkin Park listener
             </h3>
           </div>
         </Grid>

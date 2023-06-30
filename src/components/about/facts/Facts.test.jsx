@@ -10,7 +10,7 @@ describe('Facts', () => {
   test('renders header and subheader correctly', () => {
     const { getByText } = render(<Facts />);
     const headerElement = getByText(/things that define me/i);
-    const subheaderElement = getByText(/i am a software developer/i);
+    const subheaderElement = getByText(/i am a web developer/i);
 
     expect(headerElement).toBeInTheDocument();
     expect(subheaderElement).toBeInTheDocument();

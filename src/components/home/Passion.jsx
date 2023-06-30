@@ -36,11 +36,11 @@ const Passion = () => {
           <Grid item sm={12} md={7}>
             <section className='passion__text'>
               <div data-aos='reveal-up' data-aos-once='true'>
-                <h1>My passion is software development</h1>
+                <h1>My passion is web development</h1>
               </div>
               <div data-aos='reveal-up' data-aos-once='true'>
                 <p>
-                  I am a software developer with a focus on frontend / fullstack
+                  I am a web developer with a focus on frontend / fullstack
                   development with over 7 years of experience. I don't just
                   write code, I create solutions and transform them into digital
                   realities
