@@ -48,15 +48,6 @@ const ROUTES = [
     },
   },
   {
-    path: '/blog/universal-studios',
-    key: 'Universal Studios',
-    component: BlogPostView,
-    props: {
-      title: `Visiting Universal Studios Hollywood After 10+ Years ${suffix}`,
-      markdownFile: 'universal-studios',
-    },
-  },
-  {
     path: '/blog/maternity-photos',
     key: 'My First Maternity Photoshoot',
     component: BlogPostView,
