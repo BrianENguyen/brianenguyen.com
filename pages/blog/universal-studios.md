@@ -28,7 +28,7 @@ cons.
 -   Everything in Super Nintendo Land
 -   New Simpsons environment
 -   The Wizarding World of Harry Potter
--   Secret Life of Pets - Off the Leash
+-   The Secret Life of Pets - Off the Leash
 -   Pink&rsquo;s Hot Dogs
 -   Every attraction that I&rsquo;ve already experienced and liked
 -   Jurassic World - The Ride
@@ -47,6 +47,7 @@ cons.
 ### Did not experience
 
 -   Flight of the Hippogriff
+-   Every other attraction in The Wizarding World
 
 
 ### Cons
@@ -88,10 +89,10 @@ While the tour didn&rsquo;t change much, this experience wasn&rsquo;t as good as
 was a kid. The tour used to have exciting stops, such as Mini Skull Island, Fast
 & Furious&rsquo; Carnage and Carma, The Mummy, and Jaws. This time, none of those
 attractions weren&rsquo;t present. The only two that were there were King Kong 3D and
-Fast & Furious 3D. The latter was the first time that I&rsquo;ve experienced this, and
-I believe it replace The Mummy studio tour experience.  I thought this
-attraction was ok, but overall, this studio tour didn&rsquo;t provide the same
-excitement I had as a kid.
+Fast & Furious - Supercharged. The latter was the first time that I&rsquo;ve
+experienced this, and I believe it replace The Mummy studio tour experience.  I
+thought this attraction was ok, but overall, this studio tour didn&rsquo;t provide the
+same excitement I had as a kid.
 
 
 ## The Simpsons
@@ -144,7 +145,7 @@ glad that it&rsquo;s still at Universal Studios. Nothing about it changed.
 ## The Wizarding World of Harry Potter
 
 I&rsquo;ve never consumed a single Harry Potter media, so please excuse me on my lack
-of knowledge of Harry Potter
+of knowledge of Harry Potter.
 
 Before the Wizarding World of Harry Potter was here, there used to be Shrek 4D
 and a mini water park for children that was SpongeBob themed. Now that this area
@@ -165,7 +166,11 @@ excessively high.
 The best attraction in this area was definitely *Harry Potter and the Forbidden Journey*. This is one of the most unique rides I&rsquo;ve ever seen. Unlike traditional
 roller coasters, this ride has you suspended in a seat and you glide through many
 obstacles and screens. It&rsquo;s honestly hard to describe how amazing this ride is and
-how it works. Just know that it was a remarkable and unparalleled experience
+how it works. Just know that it was a remarkable and unparalleled experience.
+
+Unfortunately, I did not get to experience everything that the Wizarding World has
+to offer. I know that there is *Flight of the Hippogriff* and other minor attractions
+in this area, but we decided to focus more on the main attractions in other areas.
 
 
 ## Illumination
@@ -175,22 +180,24 @@ Illumination Studios is known for producing popular animated films such as
 not present when I was a kid
 
 
-### Despicable Me Ride
+### Despicable Me - Minion Mayhem
 
-The Despicable Me ride replaced the Terminator ride. As a huge fan of the
-Terminator ride and the movie series, I was sad that this was gone.  The
-Despicable Me ride is a 3D motion simulator that takes you through the story of
-riders are transformed into minions and must go through the minion training and
-obstacle courses to be certified minions.  The ride itself was alright. It was
-fairly intense about it and it was obviously targeted towards families and
+The Despicable Me - Minion Mayhem replaced the Terminator ride. As a huge fan of the
+Terminator ride and the movie series, I was sad that this was gone.
+
+The Despicable Me ride is a 3D motion simulator that takes you through the story
+where riders are transformed into minions and must go through the minion training
+and obstacle courses to be certified minions.  The ride itself was alright. It
+had moderate levels of intensity and it was obviously targeted towards families and
 children.
 
-From a business standpoint, replacing Terminator with Despicable Me was
-the right call. The Illumination area was packed with children and it had way
-more activity than Terminator ever did.
+From a business standpoint, replacing Terminator with Despicable Me was the
+right call. The Illumination area now attracts a large number of children and it
+has way more activity than Terminator ever did, though a huge part of me still
+wishes Terminator was here
 
 
-### Secret Life of Pets Ride
+### The Secret Life of Pets - Off the Leash
 
 The Secret Life of Pets ride offers a unique experience in which you would ride
 in a car shaped like a cardboard box. The ride begins by transforming riders
@@ -200,6 +207,8 @@ can look at their pet counterparts and make different looks or body movements.
 The ride then goes through the wacky adventures that pets go through while their
 owners are away.
 
+This wasn&rsquo;t a simulation ride like most other rides. Rather, this takes you
+through various sets with physical props and backdrops that resemble the movies.
 This was definitely a fun and unique ride for all ages. I didn&rsquo;t expect it to be
 so entertaining.
 
@@ -216,8 +225,9 @@ crawling underneath your feet.
 
 As I experienced the DreamWorks Theater, I noticed a very similar pattern with
 the rides I&rsquo;ve been on. Most of them follow the same format of a 3D simulation
-where the riders follow the characters on a journey through excitement and danger.
-This makes the rides very predictable.
+where the riders follow the characters on a journey through excitement and
+danger.  DreamWorks Theater follows this same format, which makes the attraction
+very predictable and boring
 
 
 ## Lunch
@@ -225,10 +235,10 @@ This makes the rides very predictable.
 We&rsquo;ve got lunch at Pink&rsquo;s Hot Dogs since I wanted to give my girlfriend the
 experience of a renowned, local, and famous hot dog restaurant
 
-The hot dogs were tasty. The chili inside my hot dog unfortunately was either
-too hot or too heavy for the bun, which made the bun break off and spill the
-insides onto the plate. I had to eat the rest of the hot dog with a fork;
-regardless, the hot dogs were delicious.
+The hot dogs were delicious. However, the chili inside my hot dog was
+problematic at it was too hot or too cumbersome for the bun. This made the bun
+break off, spilling the insides onto the plate. I had to eat the rest of the hot
+dog with a fork. Despite the inconvenience, the hot dogs were still enjoyable
 
 [insert photos / gif]
 
