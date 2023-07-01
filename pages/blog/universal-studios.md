@@ -18,7 +18,7 @@ request that you respect my opinions.
 
 Among all of my visits at Universal Studios Hollywood, this recent experience
 stands out as my favorite by far. Despite the large crowds on Father&rsquo;s Day, I
-was fortunate enough to experiences nearly everything that the park has to
+was fortunate enough to experience nearly everything that the park has to
 offer. While I did encounter some negatives, the pros ultimately outweighed the
 cons.
 
@@ -28,25 +28,32 @@ cons.
 -   Everything in Super Nintendo Land
 -   New Simpsons environment
 -   The Wizarding World of Harry Potter
--   Secret Life of Pets ride
+-   Secret Life of Pets - Off the Leash
 -   Pink&rsquo;s Hot Dogs
 -   Every attraction that I&rsquo;ve already experienced and liked
--   Only the *food* at Chick Chick Chicken
+-   Jurassic World - The Ride
 
 
 ### Indifferent
 
+-   Fast & Furious - Supercharged
 -   Giant pink frosted sprinkled donut
 -   Butter beer
--   Despicable Me ride
--   The Mummy ride
+-   Despicable Me - Minion Mayhem
+-   Revenge of the Mummy - The Ride
+-   Only the *food* at Chick Chick Chicken
+
+
+### Did not experience
+
+-   Flight of the Hippogriff
 
 
 ### Cons
 
 -   Breakfast
 -   Studio Tour
--   Dreamworks Theater
+-   DreamWorks Theater
 -   Too many rides sharing the same theme and story concept
 -   Lackluster customer service at Chick Chick Chicken
 
@@ -87,19 +94,25 @@ attraction was ok, but overall, this studio tour didn&rsquo;t provide the same
 excitement I had as a kid.
 
 
-## The Simpsons Ride, Giant Pink Frost Sprinkled Donut
+## The Simpsons
+
+
+### The Simpsons Ride
 
 Next, we went to The Simpsons ride. I&rsquo;m still sad that this replaced the Back to
-the Future ride, which I only to ride it once before its replacement.
+the Future ride, which I only got to ride it once before its replacement.
 Nevertheless, I still greatly enjoy The Simpsons ride, and fortunately, nothing
 changed about it since last time I&rsquo;ve been there.
 
 When The Simpsons ride was initially introduced, the surrounding scenery was
 still undergoing construction. At that time, the only available spot was the
 Kwik-E-Mart, offering Simpsons-themed souvenirs. However, the area has now been
-transformed to include buildings and references from The Simpsons. Some of these
+transformed to include buildings and references from show. Some of these
 structures serve as guest facilities, such as Moe&rsquo;s Tavern (a restaurant and
 bar) and Luigi&rsquo;s Pizza.
+
+
+### Giant Pink Frosted Sprinkled Donut
 
 Arguably the most popular food item that&rsquo;s being sold in The Simpsons area is
 the large Lard Lad Donuts. These donuts are colossal, approximately the size of
@@ -138,8 +151,8 @@ and a mini water park for children that was SpongeBob themed. Now that this area
 has been established, the park feels so much bigger. I&rsquo;m not a fan of Harry
 Potter (nothing against it, I&rsquo;ve just never had a chance to read the books or
 watch the movies), but I must admit that the area was very immersive. I felt
-like that I was inside of a medieval fantasy land. The giant castle that houses
-*Harry Potter and the Forbidden Journey* ride was colossal. It reminded me of the
+like that I was inside of a medieval fantasy land. The giant castle that
+houses *Harry Potter and the Forbidden Journey* ride was colossal. It reminded me of the
 castles found in the game *Dark Souls*.
 
 One of my friends recommended me to try the butter beer, and the butter beer
@@ -191,17 +204,17 @@ This was definitely a fun and unique ride for all ages. I didn&rsquo;t expect it
 so entertaining.
 
 
-## Dreamworks Theater
+## DreamWorks Theater
 
 This attraction replaced Shrek 4D and instead offers different attraction themes
-from different Dreamworks films, such as Shrek, Madagascar, and Kung Fu Panda.
+from different DreamWorks films, such as Shrek, Madagascar, and Kung Fu Panda.
 The theme when I visited was Kung Fu Panda. I was hoping this attraction would
 be the same or better quality compared to Shrek 4D. Unfortunately, this is way
 worse than Shrek 4D. In Shrek 4D, it was presented like an actual movie with
 special effects, like water sprinkling on the audience and the sensation of bugs
 crawling underneath your feet.
 
-As I experienced the Dreamworks Theater, I noticed a very similar pattern with
+As I experienced the DreamWorks Theater, I noticed a very similar pattern with
 the rides I&rsquo;ve been on. Most of them follow the same format of a 3D simulation
 where the riders follow the characters on a journey through excitement and danger.
 This makes the rides very predictable.
