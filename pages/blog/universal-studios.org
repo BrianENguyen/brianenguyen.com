@@ -15,6 +15,11 @@ transformed the past decade.  Please note that this blog contains many of my
 subjective opinions, and while you are welcome to agree or disagree, I kindly
 request that you respect my opinions.
 
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_globe.webp" alt="Universal Studios globe" loading="lazy" />
+#+HTML: <figcaption>Universal Studios globe</figcaption>
+#+HTML: </figure>
+
 ** tl;dr
 Among all of my visits at Universal Studios Hollywood, this recent experience
 stands out as my favorite by far. Despite the large crowds on Father's Day, I
@@ -65,7 +70,10 @@ crepes.  Even though it's called /STRAWBERRY/ crepe, there were barely any
 strawberries in it.  I don't understand why this restaurant at a highly-established
 theme park can offer such low quality food.
 
-[insert picture of crepe]
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_crepe.webp" alt="Plate of strawberry crepe" loading="lazy" />
+#+HTML: <figcaption>Strawberry crepe. Would you really want to eat this?</figcaption>
+#+HTML: </figure>
 
 ** Studio Tour
 As a kid, the first attraction that I always go to when I enter Universal
@@ -108,7 +116,10 @@ The donut tastes good, but it's nothing special. It's just like every other
 donut. Obviously the only selling point for these donuts is their tremendous
 size, but it was still a good experience to try it out.
 
-[insert picture here with mmm... donuts]
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_donut.webp" alt="Holding a giant pink donut with a surprised face" loading="lazy" />
+#+HTML: <figcaption>Mmmmm.... donuts.....</figcaption>
+#+HTML: </figure>
 
 ** Waterworld
 When it comes to intense, fast-paced, action-packed live shows, nothing comes
@@ -141,6 +152,11 @@ beer: cold and frozen. I had the frozen one and it's quite enjoyable. It's sweet
 and a good beverage during a hot weather; however, $10 for one cup is
 excessively high.
 
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_butterbeer.webp" alt="Holding a butter beer cup" loading="lazy" />
+#+HTML: <figcaption>Butter beer. Yum!</figcaption>
+#+HTML: </figure>
+
 The best attraction in this area was definitely /Harry Potter and the Forbidden Journey/. This is one of the most unique rides I've ever seen. Unlike traditional
 roller coasters, this ride has you suspended in a seat and you glide through many
 obstacles and screens. It's honestly hard to describe how amazing this ride is and
@@ -153,7 +169,12 @@ in this area, but we decided to focus more on the main attractions in other area
 ** Illumination
 Illumination Studios is known for producing popular animated films such as
 /Despicable Me/, /The Secret Life of Pets/, and /Minions/. This is a new area that was
-not present when I was a kid
+not present when I was a kid.
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_funland.webp" alt="Entrance to Funland" loading="lazy" />
+#+HTML: <figcaption>Entrance to Illumination attractions</figcaption>
+#+HTML: </figure>
 
 *** Despicable Me - Minion Mayhem
 The Despicable Me - Minion Mayhem replaced the Terminator ride. As a huge fan of the
@@ -208,7 +229,10 @@ problematic at it was too hot or too cumbersome for the bun. This made the bun
 break off, spilling the insides onto the plate. I had to eat the rest of the hot
 dog with a fork. Despite the inconvenience, the hot dogs were still enjoyable
 
-[insert photos / gif]
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_hotdog.webp" alt="Hot dogs at Pink's Hot Dogs" loading="lazy" />
+#+HTML: <figcaption>Hot dogs at Pink's Hot Dogs</figcaption>
+#+HTML: </figure>
 
 ** Super Nintendo Land
 Super Nintendo Land opened in early 2023, and I was fortunate enough to have the
@@ -230,16 +254,28 @@ blocks, goombas, koopas, Yoshi, and much more. The attention to detail was
 astounding, and there were hidden surprises for those observant enough to spot
 them.
 
-Super Nintendo Land opened in early 2023, and I was fortunate enough to have the opportunity to experience it. As we approached the entrance, we had to pass through a green pipe, just like in the Mario video games, to enter the area. Walking through the pipe was an enchanting experience with rainbow LED lights and the familiar sound of descending pipes.
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_greenhills.webp" alt="Green hills found in Mario games" loading="lazy" />
+#+HTML: </figure>
 
-Upon exiting the pipe, we found ourselves inside Princess Peach's castle. The atmosphere and design of the castle were heavily inspired by the iconic castle from Super Mario 64. It truly felt like stepping into the world of Mario.
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mushroom.webp" alt="Girlfriend sitting underneath a giant mushroom" loading="lazy" />
+#+HTML: </figure>
 
-Leaving Peach's castle behind, I was immediately captivated by the immersive environment surrounding me. It was as if I had been transported into a real-life Mario World. Everywhere I looked, I saw familiar elements such as lush grassy hills, green pipes with piranha plants, rotating coins, brick and power-up blocks, goombas, koopas, Yoshi, and much more. The attention to detail was astounding, and there were hidden surprises for those observant enough to spot them.
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_pirahna.webp" alt="Pirahna plant emerging from a green pipe" loading="lazy" />
+#+HTML: </figure>
 
 Super Nintendo Land truly exceeded my expectations with its meticulous design
 and faithful recreation of the Mario universe. It was an unforgettable
 experience that brought the beloved video game series to life in a way that
 delighted both young and old fans alike.
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mario_luigi.webp" alt="Me and my girlfriend standing next to Mario and Luigi" loading="lazy" />
+#+HTML: <figcaption>Let's-a-go!</figcaption>
+#+HTML: </figure>
+
 
 *** Mario Kart: Bowser's Challenge
 This ride is the main attraction of the area. The wait was 90 minutes, the
@@ -250,6 +286,16 @@ racing trophies, a towering statue of Bowser, a Bob-Omb factory, and more. Among
 my favorites were the bookshelves whose book titles are references to the Mario
 Kart games. Such includes "The History of Moo Moo Farm" and one that shows
 shortcuts in several Mario Kart maps.
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowsers_castle.webp" alt="Entrance to Bowser's castle" loading="lazy" />
+#+HTML: <figcaption>Entrance to Bowser's castle</figcaption>
+#+HTML: </figure>
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowser_statue.webp" alt="Girlfriend standing in front of Bowser's statue" loading="lazy" />
+#+HTML: </figure>
+
 
 As for the ride itself, words cannot adequately convey my level of amazement.
 Each car accommodates four riders, and each individual can control the direction
