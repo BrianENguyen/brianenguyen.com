@@ -32,11 +32,11 @@ and SEO-friendly optimizations
 
 ** Download and Installation
 #+begin_src sh
-$ git clone https://github.com/Buraiyen/BEN-Website-React.git
+$ git clone https://github.com/Buraiyen/brianenguyen.com.git
 
 ...
 
-$ cd BEN-Website-React/
+$ cd brianenguyen.com/
 $ npm i
 $ npm run dev
 #+end_src
@@ -72,7 +72,7 @@ my site
 If you notice any issues or have questions, please feel free to open an issue in
 this repository or reach out to me at =brian.edison.nguyen@gmail.com=
 
-If you also wish to improve this project, please [[https://github.com/Buraiyen/BEN-Website-React/pulls][submit a pull request.]] All pull
+If you also wish to improve this project, please [[https://github.com/Buraiyen/brianenguyen.com/pulls][submit a pull request.]] All pull
 requests will be appreciated, no matter how big or small they are!
 
 If you want to financially support me in contributing to open-source software,

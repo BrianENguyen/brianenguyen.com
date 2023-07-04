@@ -20,7 +20,7 @@ describe('Footer test suite', () => {
     // Check for specific links and their attributes
     expect(screen.getByText('Submit a pull request!')).toHaveAttribute(
       'href',
-      'https://github.com/Buraiyen/BEN-Website-React'
+      'https://github.com/Buraiyen/brianenguyen.com'
     );
     expect(screen.getByText('brian.edison.nguyen@gmail.com')).toHaveAttribute(
       'href',
