@@ -300,7 +300,6 @@ shortcuts in several Mario Kart maps.
 #+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowser_statue.webp" alt="Girlfriend standing in front of Bowser's statue" loading="lazy" />
 #+HTML: </figure>
 
-
 As for the ride itself, words cannot adequately convey my level of amazement.
 Each car accommodates four riders, and each individual can control the direction
 of the kart. Equipped with interactive glasses, riders are immersed in the world
@@ -342,7 +341,7 @@ immersive experience for me.
 
 ** Dinner
 We ate at Chick Chick Chicken at the City Walk for dinner. We ordered the
-Asian-Style Chicken sandwich and the Nashville Hot Chicken sandwich. The food
+Asian-Style Chicken Sandwich and the Nashville Hot Chicken Sandwich. The food
 here ranks between "good" and "great." They're tasty, can make you full for
 hours, but they're nothing really special.
 
@@ -350,7 +349,10 @@ However, the customer service here is non-existent. I can tell that the employee
 there don't want to be there and don't care about providing quality service.
 For those reasons, I wouldn't go here again unless they improve their service.
 
-[insert photo here]
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_chicken_sandwiches.webp" alt="From left to right: Nashville Hot Chicken Sandwich and Asian-Style Chicken Sandwich" loading="lazy" />
+#+HTML: <figcaption>From left to right: Nashville Hot Chicken Sandwich and Asian-Style Chicken Sandwich</figcaption>
+#+HTML: </figure>
 
 ** Conclusion
 I had a blast with my experiences at Universal Studios. Super Nintendo Land

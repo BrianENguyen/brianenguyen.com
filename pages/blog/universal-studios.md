@@ -420,7 +420,7 @@ immersive experience for me.
 ## Dinner
 
 We ate at Chick Chick Chicken at the City Walk for dinner. We ordered the
-Asian-Style Chicken sandwich and the Nashville Hot Chicken sandwich. The food
+Asian-Style Chicken Sandwich and the Nashville Hot Chicken Sandwich. The food
 here ranks between &ldquo;good&rdquo; and &ldquo;great.&rdquo; They&rsquo;re tasty, can make you full for
 hours, but they&rsquo;re nothing really special.
 
@@ -428,7 +428,13 @@ However, the customer service here is non-existent. I can tell that the employee
 there don&rsquo;t want to be there and don&rsquo;t care about providing quality service.
 For those reasons, I wouldn&rsquo;t go here again unless they improve their service.
 
-[insert photo here]
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_chicken_sandwiches.webp" alt="From left to right: Nashville Hot Chicken Sandwich and Asian-Style Chicken Sandwich" loading="lazy" />
+
+<figcaption>From left to right: Nashville Hot Chicken Sandwich and Asian-Style Chicken Sandwich</figcaption>
+
+</figure>
 
 
 ## Conclusion
