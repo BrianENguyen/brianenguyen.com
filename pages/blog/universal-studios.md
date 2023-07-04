@@ -2,7 +2,7 @@
 
 # Visiting Universal Studios Hollywood after 10+ Years
 
-> TBA · TBA
+> 4 Jul, 2023 · 10 min
 
 I recently visited Universal Studios Hollywood on the 18th and 21st of June.
 This is the first time I have been there after more than 10 years. While some
@@ -384,7 +384,15 @@ sheer joy of participating in a real-life Mario Kart race left an indelible
 mark. This is an experience that I will never forget.
 
 
-## Lower Lot
+## Other Lower Lot
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_sunset.webp" alt="Girlfriend standing behind lower lot and sunset" loading="lazy" />
+
+<figcaption>Perfect sunset moment in the lower lot</figcaption>
+
+</figure>
 
 
 ### Jurassic World
@@ -443,4 +451,12 @@ I had a blast with my experiences at Universal Studios. Super Nintendo Land
 was once of the best places I&rsquo;ve been in a theme park. Even though there were
 some negatives at my visit, the pros outweighed the cons. Universal Studios
 is a must-visit destination for California residents or tourists
+
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_neon_sign.webp" alt="Me and my girlfriend sitting in front of the Universal Studios neon sign" loading="lazy" />
+
+<figcaption>What an amazing time!</figcaption>
+
+</figure>
 

@@ -3,7 +3,7 @@
 * Visiting Universal Studios Hollywood after 10+ Years
 
 #+begin_quote
-TBA · TBA
+4 Jul, 2023 · 10 min
 #+end_quote
 
 I recently visited Universal Studios Hollywood on the 18th and 21st of June.
@@ -314,7 +314,13 @@ claims the top spot. Its innovative features, interactive gameplay, and the
 sheer joy of participating in a real-life Mario Kart race left an indelible
 mark. This is an experience that I will never forget.
 
-** Lower Lot
+** Other Lower Lot
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_sunset.webp" alt="Girlfriend standing behind lower lot and sunset" loading="lazy" />
+#+HTML: <figcaption>Perfect sunset moment in the lower lot</figcaption>
+#+HTML: </figure>
+
 *** Jurassic World
 Jurassic World is a boat ride that takes riders through dinosaur habitats. The
 travel suddenly takes a dangerous turn where carnivorous dinosaurs are let
@@ -359,3 +365,8 @@ I had a blast with my experiences at Universal Studios. Super Nintendo Land
 was once of the best places I've been in a theme park. Even though there were
 some negatives at my visit, the pros outweighed the cons. Universal Studios
 is a must-visit destination for California residents or tourists
+
+#+HTML: <figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_neon_sign.webp" alt="Me and my girlfriend sitting in front of the Universal Studios neon sign" loading="lazy" />
+#+HTML: <figcaption>What an amazing time!</figcaption>
+#+HTML: </figure>
