@@ -176,6 +176,12 @@ like that I was inside of a medieval fantasy land. The giant castle that
 houses *Harry Potter and the Forbidden Journey* ride was colossal. It reminded me of the
 castles found in the game *Dark Souls*.
 
+<figure>
+
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_castle.webp" alt="Girlfriend standing in front of Harry Potter castle" loading="lazy" />
+
+</figure>
+
 One of my friends recommended me to try the butter beer, and the butter beer
 stand was the first thing I saw as I walked through the towering gates. The
 butter beer is just root beer float. There are two variations of the butter
@@ -383,7 +389,11 @@ mark. This is an experience that I will never forget.
 
 ### Jurassic World
 
-The Jurassic World ride is essentially the same as the Jurassic Park ride, with
+Jurassic World is a boat ride that takes riders through dinosaur habitats. The
+travel suddenly takes a dangerous turn where carnivorous dinosaurs are let
+loose.
+
+The ride is essentially the same as the Jurassic Park ride, with
 the only difference being the updated environments that give it a more modern
 and futuristic feel.
 
