@@ -156,7 +156,7 @@ close to Waterworld. Inspired by the blockbuster film, Waterworld pushes the
 boundaries of visitors&rsquo; expectations, offering a spectacle that is rarely seen
 in theme parks. It features death-defying stunts to exhilarating jet-ski
 battles. Watching this show now still made me feel like the first time I watched
-it
+it.
 
 Waterworld is my all-time favorite live action show at a theme park, and I&rsquo;m
 glad that it&rsquo;s still at Universal Studios. Nothing about it changed.
@@ -173,7 +173,7 @@ has been established, the park feels so much bigger. I&rsquo;m not a fan of Harr
 Potter (nothing against it, I&rsquo;ve just never had a chance to read the books or
 watch the movies), but I must admit that the area was very immersive. I felt
 like that I was inside of a medieval fantasy land. The giant castle that
-houses *Harry Potter and the Forbidden Journey* ride was colossal. It reminded me of the
+houses the *Harry Potter and the Forbidden Journey* ride was colossal. It reminded me of the
 castles found in the game *Dark Souls*.
 
 <figure>
@@ -209,9 +209,9 @@ in this area, but we decided to focus more on the main attractions in other area
 
 ## Illumination
 
-Illumination Studios is known for producing popular animated films such as
-*Despicable Me*, *The Secret Life of Pets*, and *Minions*. This is a new area that was
-not present when I was a kid.
+Illumination Studios is known for producing popular animated films such
+as *Despicable Me*, *The Secret Life of Pets*, and *Minions*. This new area is
+dedicated to those films.
 
 <figure>
 
@@ -236,7 +236,7 @@ children.
 From a business standpoint, replacing Terminator with Despicable Me was the
 right call. The Illumination area now attracts a large number of children and it
 has way more activity than Terminator ever did, though a huge part of me still
-wishes Terminator was here
+wishes Terminator was here.
 
 
 ### The Secret Life of Pets - Off the Leash
@@ -269,18 +269,18 @@ As I experienced the DreamWorks Theater, I noticed a very similar pattern with
 the rides I&rsquo;ve been on. Most of them follow the same format of a 3D simulation
 where the riders follow the characters on a journey through excitement and
 danger.  DreamWorks Theater follows this same format, which makes the attraction
-very predictable and boring
+very predictable and boring.
 
 
 ## Lunch
 
 We&rsquo;ve got lunch at Pink&rsquo;s Hot Dogs since I wanted to give my girlfriend the
-experience of a renowned, local, and famous hot dog restaurant
+experience of a renowned, local, and famous hot dog restaurant.
 
 The hot dogs were delicious. However, the chili inside my hot dog was
 problematic at it was too hot or too cumbersome for the bun. This made the bun
 break off, spilling the insides onto the plate. I had to eat the rest of the hot
-dog with a fork. Despite the inconvenience, the hot dogs were still enjoyable
+dog with a fork. Despite the inconvenience, the hot dogs were still enjoyable.
 
 <figure>
 
@@ -306,8 +306,8 @@ Mario.
 
 Leaving Peach&rsquo;s castle behind, I was immediately captivated by the immersive
 environment surrounding me. It was as if I had been transported into a real-life
-Mario World. Everywhere I looked, I saw familiar elements such as lush grassy
-hills, green pipes with piranha plants, rotating coins, brick and power-up
+Mushroom Kingdom. Everywhere I looked, I saw familiar elements such as lush grassy
+hills, green pipes with pirahna plants, rotating coins, brick and power-up
 blocks, goombas, koopas, Yoshi, and much more. The attention to detail was
 astounding, and there were hidden surprises for those observant enough to spot
 them.
@@ -384,7 +384,7 @@ sheer joy of participating in a real-life Mario Kart race left an indelible
 mark. This is an experience that I will never forget.
 
 
-## Other Lower Lot
+## Other Lower Lot Attractions
 
 <figure>
 
@@ -450,7 +450,7 @@ For those reasons, I wouldn&rsquo;t go here again unless they improve their serv
 I had a blast with my experiences at Universal Studios. Super Nintendo Land
 was once of the best places I&rsquo;ve been in a theme park. Even though there were
 some negatives at my visit, the pros outweighed the cons. Universal Studios
-is a must-visit destination for California residents or tourists
+is a must-visit destination for California residents or tourists.
 
 <figure>
 
