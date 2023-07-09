@@ -17,53 +17,33 @@ the couple is having a delightful experience at the beach, and that their
 companionship underneath the scorching sun is a magical moment. To
 achieve this, I positioned them in various poses and guided them through actions
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity1.webp" alt="Couple standing together and smiling at the camera" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1620240510/BEN_Website/blog/Maternity/BEN_maternity1.webp" alt="Couple standing together and smiling at the camera" />
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity2.webp" alt="Holding hands while walking through the beach" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1620240510/BEN_Website/blog/Maternity/BEN_maternity2.webp" alt="Holding hands while walking through the beach" />
 
 I also wanted to utilize the sun's warm aura for my color grading. I
 aimed for using only warm colors for my style rather than usual style of both
 warm and cool colors. This is a new style that I wanted to try, and it turned
 out well
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity6.webp" alt="Couple sitting at the beach. Husband looks off into the distance while the wife looks at the camera" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1620240510/BEN_Website/blog/Maternity/BEN_maternity6.webp" alt="Couple sitting at the beach. Husband looks off into the distance while the wife looks at the camera" />
 
 In addition to capturing beautiful moments of the couple, it was equally
 important to include photos of just the wife in the photos. As the main star of
 the session, her presence and connection with the baby are significant and
 deserved to be highlighted
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity8.webp" alt="Wife looks off into the beach" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1620240510/BEN_Website/blog/Maternity/BEN_maternity8.webp" alt="Wife looks off into the beach" />
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity9.webp" alt="Wife looks at the sunset while holding her stomach" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1620240510/BEN_Website/blog/Maternity/BEN_maternity9.webp" alt="Wife looks at the sunset while holding her stomach" />
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity10.webp" alt="Wife sitting while holding her stomach" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1620240510/BEN_Website/blog/Maternity/BEN_maternity10.webp" alt="Wife sitting while holding her stomach" />
 
 ** Additional Photos
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity3.webp" alt="Couple holding each other" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1620240510/BEN_Website/blog/Maternity/BEN_maternity3.webp" alt="Couple holding each other" />
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity4.webp" alt="Couple walking alongsiide the beach" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1620240510/BEN_Website/blog/Maternity/BEN_maternity4.webp" alt="Couple walking alongsiide the beach" />
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity5.webp" alt="Couple holding and kissing each other" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1620240510/BEN_Website/blog/Maternity/BEN_maternity5.webp" alt="Couple holding and kissing each other" />
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1620240510/BEN_Website/blog/Maternity/BEN_maternity7.webp" alt="Couple sitting at the beach and holding each other" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1620240510/BEN_Website/blog/Maternity/BEN_maternity7.webp" alt="Couple sitting at the beach and holding each other" />
