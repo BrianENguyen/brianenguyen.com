@@ -3,6 +3,8 @@
 # Visiting Universal Studios Hollywood after 10+ Years
 
 > 4 Jul, 2023 · 10 min
+> 
+> Last updated: 9 Jul, 2023
 
 I recently visited Universal Studios Hollywood on the 18th and 21st of June.
 This is the first time I have been there after more than 10 years. While some
