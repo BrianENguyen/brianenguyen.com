@@ -13,13 +13,7 @@ transformed the past decade.  Please note that this blog contains many of my
 subjective opinions, and while you are welcome to agree or disagree, I kindly
 request that you respect my opinions.
 
-<figure>
-
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_globe.webp" alt="Universal Studios globe" loading="lazy" />
-
-<figcaption>Universal Studios globe</figcaption>
-
-</figure>
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_globe.webp" alt="Universal Studios globe" loading="lazy" />
 
 
 ## tl;dr
@@ -142,7 +136,7 @@ size, but it was still a good experience to try it out.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_donut.webp" alt="Holding a giant pink donut with a surprised face" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_donut.webp" alt="Holding a giant pink donut with a surprised face" loading="lazy" />
 
 <figcaption>Mmmmm.... donuts.....</figcaption>
 
@@ -176,11 +170,7 @@ like that I was inside of a medieval fantasy land. The giant castle that
 houses the *Harry Potter and the Forbidden Journey* ride was colossal. It reminded me of the
 castles found in the game *Dark Souls*.
 
-<figure>
-
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_castle.webp" alt="Girlfriend standing in front of Harry Potter castle" loading="lazy" />
-
-</figure>
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_castle.webp" alt="Girlfriend standing in front of Harry Potter castle" loading="lazy" />
 
 One of my friends recommended me to try the butter beer, and the butter beer
 stand was the first thing I saw as I walked through the towering gates. The
@@ -191,7 +181,7 @@ excessively high.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_butterbeer.webp" alt="Holding a butter beer cup" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_butterbeer.webp" alt="Holding a butter beer cup" loading="lazy" />
 
 <figcaption>Butter beer. Yum!</figcaption>
 
@@ -215,7 +205,7 @@ dedicated to those films.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_funland.webp" alt="Entrance to Funland" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_funland.webp" alt="Entrance to Funland" loading="lazy" />
 
 <figcaption>Entrance to Illumination attractions</figcaption>
 
@@ -284,7 +274,7 @@ dog with a fork. Despite the inconvenience, the hot dogs were still enjoyable.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_hotdog.webp" alt="Hot dogs at Pink's Hot Dogs" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_hotdog.webp" alt="Hot dogs at Pink's Hot Dogs" loading="lazy" />
 
 <figcaption>Hot dogs at Pink's Hot Dogs</figcaption>
 
@@ -314,19 +304,19 @@ them.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_greenhills.webp" alt="Green hills found in Mario games" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_greenhills.webp" alt="Green hills found in Mario games" loading="lazy" />
+
+<figcaption>Green hills found in Mario games</figcaption>
 
 </figure>
 
-<figure>
-
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mushroom.webp" alt="Girlfriend sitting underneath a giant mushroom" loading="lazy" />
-
-</figure>
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mushroom.webp" alt="Girlfriend sitting underneath a giant mushroom" loading="lazy" />
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_pirahna.webp" alt="Pirahna plant emerging from a green pipe" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_pirahna.webp" alt="Pirahna plant emerging from a green pipe" loading="lazy" />
+
+<figcaption>A pirahna plant!</figcaption>
 
 </figure>
 
@@ -337,7 +327,7 @@ delighted both young and old fans alike.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mario_luigi.webp" alt="Me and my girlfriend standing next to Mario and Luigi" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mario_luigi.webp" alt="Me and my girlfriend standing next to Mario and Luigi" loading="lazy" />
 
 <figcaption>Let's-a-go!</figcaption>
 
@@ -357,17 +347,13 @@ shortcuts in several Mario Kart maps.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowsers_castle.webp" alt="Entrance to Bowser's castle" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowsers_castle.webp" alt="Entrance to Bowser's castle" loading="lazy" />
 
 <figcaption>Entrance to Bowser's castle</figcaption>
 
 </figure>
 
-<figure>
-
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowser_statue.webp" alt="Girlfriend standing in front of Bowser's statue" loading="lazy" />
-
-</figure>
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowser_statue.webp" alt="Girlfriend standing in front of Bowser's statue" loading="lazy" />
 
 As for the ride itself, words cannot adequately convey my level of amazement.
 Each car accommodates four riders, and each individual can control the direction
@@ -388,7 +374,7 @@ mark. This is an experience that I will never forget.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_sunset.webp" alt="Girlfriend standing behind lower lot and sunset" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_sunset.webp" alt="Girlfriend standing behind lower lot and sunset" loading="lazy" />
 
 <figcaption>Perfect sunset moment in the lower lot</figcaption>
 
@@ -438,7 +424,7 @@ For those reasons, I wouldn&rsquo;t go here again unless they improve their serv
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_chicken_sandwiches.webp" alt="From left to right: Nashville Hot Chicken Sandwich and Asian-Style Chicken Sandwich" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_chicken_sandwiches.webp" alt="From left to right: Nashville Hot Chicken Sandwich and Asian-Style Chicken Sandwich" loading="lazy" />
 
 <figcaption>From left to right: Nashville Hot Chicken Sandwich and Asian-Style Chicken Sandwich</figcaption>
 

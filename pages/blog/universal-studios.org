@@ -15,10 +15,7 @@ transformed the past decade.  Please note that this blog contains many of my
 subjective opinions, and while you are welcome to agree or disagree, I kindly
 request that you respect my opinions.
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_globe.webp" alt="Universal Studios globe" loading="lazy" />
-#+HTML: <figcaption>Universal Studios globe</figcaption>
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_globe.webp" alt="Universal Studios globe" loading="lazy" />
 
 ** tl;dr
 Among all of my visits at Universal Studios Hollywood, this recent experience
@@ -117,7 +114,7 @@ donut. Obviously the only selling point for these donuts is their tremendous
 size, but it was still a good experience to try it out.
 
 #+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_donut.webp" alt="Holding a giant pink donut with a surprised face" loading="lazy" />
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_donut.webp" alt="Holding a giant pink donut with a surprised face" loading="lazy" />
 #+HTML: <figcaption>Mmmmm.... donuts.....</figcaption>
 #+HTML: </figure>
 
@@ -145,9 +142,7 @@ like that I was inside of a medieval fantasy land. The giant castle that
 houses the /Harry Potter and the Forbidden Journey/ ride was colossal. It reminded me of the
 castles found in the game /Dark Souls/.
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_castle.webp" alt="Girlfriend standing in front of Harry Potter castle" loading="lazy" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_castle.webp" alt="Girlfriend standing in front of Harry Potter castle" loading="lazy" />
 
 One of my friends recommended me to try the butter beer, and the butter beer
 stand was the first thing I saw as I walked through the towering gates. The
@@ -157,7 +152,7 @@ and a good beverage during a hot weather; however, $10 for one cup is
 excessively high.
 
 #+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_butterbeer.webp" alt="Holding a butter beer cup" loading="lazy" />
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_butterbeer.webp" alt="Holding a butter beer cup" loading="lazy" />
 #+HTML: <figcaption>Butter beer. Yum!</figcaption>
 #+HTML: </figure>
 
@@ -176,7 +171,7 @@ as /Despicable Me/, /The Secret Life of Pets/, and /Minions/. This new area is
 dedicated to those films.
 
 #+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_funland.webp" alt="Entrance to Funland" loading="lazy" />
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_funland.webp" alt="Entrance to Funland" loading="lazy" />
 #+HTML: <figcaption>Entrance to Illumination attractions</figcaption>
 #+HTML: </figure>
 
@@ -234,7 +229,7 @@ break off, spilling the insides onto the plate. I had to eat the rest of the hot
 dog with a fork. Despite the inconvenience, the hot dogs were still enjoyable.
 
 #+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_hotdog.webp" alt="Hot dogs at Pink's Hot Dogs" loading="lazy" />
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_hotdog.webp" alt="Hot dogs at Pink's Hot Dogs" loading="lazy" />
 #+HTML: <figcaption>Hot dogs at Pink's Hot Dogs</figcaption>
 #+HTML: </figure>
 
@@ -259,15 +254,15 @@ astounding, and there were hidden surprises for those observant enough to spot
 them.
 
 #+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_greenhills.webp" alt="Green hills found in Mario games" loading="lazy" />
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_greenhills.webp" alt="Green hills found in Mario games" loading="lazy" />
+#+HTML: <figcaption>Green hills found in Mario games</figcaption>
 #+HTML: </figure>
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mushroom.webp" alt="Girlfriend sitting underneath a giant mushroom" loading="lazy" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mushroom.webp" alt="Girlfriend sitting underneath a giant mushroom" loading="lazy" />
 
 #+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_pirahna.webp" alt="Pirahna plant emerging from a green pipe" loading="lazy" />
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_pirahna.webp" alt="Pirahna plant emerging from a green pipe" loading="lazy" />
+#+HTML: <figcaption>A pirahna plant!</figcaption>
 #+HTML: </figure>
 
 Super Nintendo Land truly exceeded my expectations with its meticulous design
@@ -276,7 +271,7 @@ experience that brought the beloved video game series to life in a way that
 delighted both young and old fans alike.
 
 #+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mario_luigi.webp" alt="Me and my girlfriend standing next to Mario and Luigi" loading="lazy" />
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mario_luigi.webp" alt="Me and my girlfriend standing next to Mario and Luigi" loading="lazy" />
 #+HTML: <figcaption>Let's-a-go!</figcaption>
 #+HTML: </figure>
 
@@ -292,13 +287,11 @@ Kart games. Such includes "The History of Moo Moo Farm" and one that shows
 shortcuts in several Mario Kart maps.
 
 #+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowsers_castle.webp" alt="Entrance to Bowser's castle" loading="lazy" />
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowsers_castle.webp" alt="Entrance to Bowser's castle" loading="lazy" />
 #+HTML: <figcaption>Entrance to Bowser's castle</figcaption>
 #+HTML: </figure>
 
-#+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowser_statue.webp" alt="Girlfriend standing in front of Bowser's statue" loading="lazy" />
-#+HTML: </figure>
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowser_statue.webp" alt="Girlfriend standing in front of Bowser's statue" loading="lazy" />
 
 As for the ride itself, words cannot adequately convey my level of amazement.
 Each car accommodates four riders, and each individual can control the direction
@@ -317,7 +310,7 @@ mark. This is an experience that I will never forget.
 ** Other Lower Lot Attractions
 
 #+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_sunset.webp" alt="Girlfriend standing behind lower lot and sunset" loading="lazy" />
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_sunset.webp" alt="Girlfriend standing behind lower lot and sunset" loading="lazy" />
 #+HTML: <figcaption>Perfect sunset moment in the lower lot</figcaption>
 #+HTML: </figure>
 
@@ -356,7 +349,7 @@ there don't want to be there and don't care about providing quality service.
 For those reasons, I wouldn't go here again unless they improve their service.
 
 #+HTML: <figure>
-#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_chicken_sandwiches.webp" alt="From left to right: Nashville Hot Chicken Sandwich and Asian-Style Chicken Sandwich" loading="lazy" />
+#+HTML: <img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_chicken_sandwiches.webp" alt="From left to right: Nashville Hot Chicken Sandwich and Asian-Style Chicken Sandwich" loading="lazy" />
 #+HTML: <figcaption>From left to right: Nashville Hot Chicken Sandwich and Asian-Style Chicken Sandwich</figcaption>
 #+HTML: </figure>
 
