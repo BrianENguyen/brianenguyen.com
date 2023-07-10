@@ -64,15 +64,15 @@ cons.
 ## One of the worst breakfasts I had
 
 To kickstart the day, we went to a France-themed restaurant for some breakfast.
-I got a vegetarian &ldquo;bánh mì&rdquo; and my girlfriend got crepes. As I picked the bánh
-mì from the cold stand, my girlfriend warned me that I shouldn&rsquo;t buy Asian food
+I got a vegetarian &ldquo;bánh mì&rdquo; and Thu, my girlfriend, got crepes. As I picked the bánh
+mì from the cold stand, Thu warned me that I shouldn&rsquo;t buy Asian food
 at non-Asian restaurants because of the authenticity and quality of the food. I
 still wanted to try it out and see if I would like it.
 
 Unfortunately, the bánh mì was terrible. There was no protein in it, not even
 tofu, and only consited of vegetables. Its tastes had no resemblance to the
 authentic flavors of traditional bánh mì, leaving me confused as to why this
-&ldquo;bánh mì&rdquo; bears that name. In addition, my girlfriend had one of the strawberry
+&ldquo;bánh mì&rdquo; bears that name. In addition, Thu had one of the strawberry
 crepes.  Even though it&rsquo;s called *STRAWBERRY* crepe, there were barely any
 strawberries in it.  I don&rsquo;t understand why this restaurant at a highly-established
 theme park can offer such low quality food.
@@ -170,7 +170,7 @@ like that I was inside of a medieval fantasy land. The giant castle that
 houses the *Harry Potter and the Forbidden Journey* ride was colossal. It reminded me of the
 castles found in the game *Dark Souls*.
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_castle.webp" alt="Girlfriend standing in front of Harry Potter castle" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_castle.webp" alt="Thu standing in front of Harry Potter castle" loading="lazy" />
 
 One of my friends recommended me to try the butter beer, and the butter beer
 stand was the first thing I saw as I walked through the towering gates. The
@@ -264,7 +264,7 @@ very predictable and boring.
 
 ## Lunch
 
-We&rsquo;ve got lunch at Pink&rsquo;s Hot Dogs since I wanted to give my girlfriend the
+We&rsquo;ve got lunch at Pink&rsquo;s Hot Dogs since I wanted to give Thu the
 experience of a renowned, local, and famous hot dog restaurant.
 
 The hot dogs were delicious. However, the chili inside my hot dog was
@@ -310,7 +310,7 @@ them.
 
 </figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mushroom.webp" alt="Girlfriend sitting underneath a giant mushroom" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mushroom.webp" alt="Thu sitting underneath a giant mushroom" loading="lazy" />
 
 <figure>
 
@@ -327,7 +327,7 @@ delighted both young and old fans alike.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mario_luigi.webp" alt="Me and my girlfriend standing next to Mario and Luigi" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_mario_luigi.webp" alt="Me and Thu standing next to Mario and Luigi" loading="lazy" />
 
 <figcaption>Let's-a-go!</figcaption>
 
@@ -353,7 +353,7 @@ shortcuts in several Mario Kart maps.
 
 </figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowser_statue.webp" alt="Girlfriend standing in front of Bowser's statue" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_bowser_statue.webp" alt="Thu standing in front of Bowser's statue" loading="lazy" />
 
 As for the ride itself, words cannot adequately convey my level of amazement.
 Each car accommodates four riders, and each individual can control the direction
@@ -374,7 +374,7 @@ mark. This is an experience that I will never forget.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_sunset.webp" alt="Girlfriend standing behind lower lot and sunset" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_sunset.webp" alt="Thu standing behind lower lot and sunset" loading="lazy" />
 
 <figcaption>Perfect sunset moment in the lower lot</figcaption>
 
@@ -440,7 +440,7 @@ is a must-visit destination for California residents or tourists.
 
 <figure>
 
-<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_neon_sign.webp" alt="Me and my girlfriend sitting in front of the Universal Studios neon sign" loading="lazy" />
+<img src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800,f_auto/v1620240510/BEN_Website/blog/Universal/BEN_universal_neon_sign.webp" alt="Me and Thu sitting in front of the Universal Studios neon sign" loading="lazy" />
 
 <figcaption>What an amazing time!</figcaption>
 
