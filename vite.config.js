@@ -1,12 +1,23 @@
 import { defineConfig } from 'vite';
-import Vue from '@vitejs/plugin-vue';
-import Markdown from 'vite-plugin-vue-markdown';
+import UnoCSS from 'unocss';
+import UnocssIcons from '@unocss/preset-icons';
 
 export default defineConfig({
   plugins: [
-    Vue({
-      include: [/\.vue$/, /\.md$/], // <-- add .md
+    UnoCSS({
+      // when `presets` is specified, the default preset will be disabled
+      // so you could only use the pure CSS icons in addition to your
+      // existing app without polluting other CSS
+      presets: [
+        UnocssIcons({
+          // options
+          prefix: 'i-',
+          extraProperties: {
+            display: 'inline-block',
+          },
+        }),
+        // presetUno() - if you want to use other atomic CSS as well
+      ],
     }),
-    Markdown(),
   ],
 });
