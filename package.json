@@ -13,5 +13,8 @@
     "@types/node": "^18.16.19",
     "@unocss/nuxt": "^0.53.5",
     "nuxt": "^3.6.3"
+  },
+  "dependencies": {
+    "vite-plugin-vue-markdown": "^0.23.5"
   }
 }
