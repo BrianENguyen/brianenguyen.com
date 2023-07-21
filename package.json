@@ -12,6 +12,7 @@
     "@iconify-json/mdi-light": "^1.1.6",
     "@nuxt/devtools": "^0.6.7",
     "@types/node": "^18.16.19",
+    "@unocss/eslint-config": "^0.53.5",
     "@unocss/nuxt": "^0.53.5",
     "@unocss/preset-icons": "^0.53.5",
     "nuxt": "^3.6.3",
