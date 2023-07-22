@@ -4,6 +4,7 @@ export default defineConfig({
   rules: [[/^m-([\.\d]+)$/, ([_, num]) => ({ margin: `${num}px` })]],
   theme: {
     breakpoints: {
+      zero: '0px',
       xs: '576px',
       sm: '768px',
       md: '992px',
