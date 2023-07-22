@@ -23,7 +23,7 @@
       class="text-white absolute inset-0 flex justify-center items-center flex-col"
     >
       <h1 class="zero:text-[7vw] xs:text-[5vw]">{{ jumbotronTitle }}</h1>
-      <h1 class="zero:text-[1.2rem]">{{ jumbotronDesc }}</h1>
+      <h1 class="zero:text-[1.2rem] xs:text-[1.2rem]">{{ jumbotronDesc }}</h1>
     </div>
   </div>
 </template>
