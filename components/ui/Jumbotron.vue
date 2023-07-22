@@ -9,7 +9,7 @@
           xs:h-[50vh]
           md:mt-0
           md:h-[70vh]
-          xl:h-[100vh]"
+          lg:h-screen"
   >
     <picture>
       <source :srcset="src || ''" media="(min-width: 600px)" />
@@ -18,7 +18,7 @@
         :lazy-src="srcMobile || ''"
         alt=""
         decoding="async"
-        :class="srcMobile && 'object-cover w-screen relative z-0 zero:h-[35vh] xs:h-[50vh] md:h-[70vh]'"
+        :class="srcMobile && 'object-cover w-screen relative z-0 zero:h-[35vh] xs:h-[50vh] md:h-[70vh] lg:h-screen'"
       />
     </picture>
     <div
