@@ -10,6 +10,10 @@ export default defineConfig({
       md: '992px',
       lg: '1200px',
     },
+    colors: {
+      brianBlue: '#79c2d0',
+      grayLight: '#282c34',
+    },
   },
   presets: [presetIcons({ prefix: 'i-' }), presetUno()],
 });
