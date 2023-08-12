@@ -1,6 +1,7 @@
 <template>
   <div
     class="relative
+          mb-12
         bg-black
           border-none 
           zero:mt-[75px]
