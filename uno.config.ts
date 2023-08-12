@@ -12,6 +12,7 @@ export default defineConfig({
     },
     colors: {
       brianBlue: '#79c2d0',
+      brianBlueLight: '#d4f3f9',
       grayLight: '#282c34',
     },
   },

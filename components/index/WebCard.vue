@@ -13,7 +13,9 @@
       </p>
       <NuxtLink
         :to="page.url"
-        class="text-brian-blue cursor-pointer font-bold italic mt-auto"
+        class="transition-colors text-brian-blue hover:text-brian-blue-light 
+                cursor-pointer 
+                font-bold no-underline mt-auto"
       >
         Learn More
       </NuxtLink>
