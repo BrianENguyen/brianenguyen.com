@@ -12,6 +12,7 @@ export default defineConfig({
     },
     colors: {
       brianBlue: '#79c2d0',
+      grayLight: '#282c34',
     },
   },
   presets: [presetIcons({ prefix: 'i-' }), presetUno()],
