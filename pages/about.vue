@@ -5,6 +5,7 @@
     :srcMobile="'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1659204062/BEN_Website/jumbotron/BEN_lego.webp'"
   />
   <DefaultLayout>
+    <Quote />
     <Backstory />
   </DefaultLayout>
 </template>
@@ -12,12 +13,14 @@
 <script>
 import Jumbotron from '~/components/ui/Jumbotron'
 import DefaultLayout from '~/layouts/default'
+import Quote from '~/components/about/Quote'
 import Backstory from '~/components/about/Backstory'
 
 export default {
   components: {
     Jumbotron,
     DefaultLayout,
+    Quote,
     Backstory
   }
 }
