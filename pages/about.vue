@@ -9,6 +9,7 @@
     <Facts />
     <Backstory />
     <TheGallery />
+    <PhotoGallery />
   </DefaultLayout>
 </template>
 
@@ -19,6 +20,7 @@ import Quote from '~/components/about/Quote'
 import Facts from '~/components/about/Facts'
 import Backstory from '~/components/about/Backstory'
 import TheGallery from '~/components/about/TheGallery'
+import PhotoGallery from '~/components/about/PhotoGallery'
 
 export default {
   components: {
@@ -27,7 +29,8 @@ export default {
     Quote,
     Backstory,
     Facts,
-    TheGallery
+    TheGallery,
+    PhotoGallery
   }
 }
 </script>
