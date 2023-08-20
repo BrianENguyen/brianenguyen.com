@@ -27,23 +27,39 @@ export default {
         },
         {
           src: `${urlPrefix}/BEN_lbnightportrait.webp`,
-          alt: 'Thu sitting in front of the setting sun, smiling'
+          alt: 'Trang posing in front of the Long Beach docks at night'
+        },
+        {
+          src: `${urlPrefix}/BEN_longexposure.webp`,
+          alt: 'Long exposure spiral using blue LED lights'
         },
         {
           src: `${urlPrefix}/BEN_fairylights.webp`,
-          alt: 'Two hands forming a heart in front of a setting sun'
+          alt: 'Thu holding up fairy light'
         },
         {
-          src: `${urlPrefix}/BEN_fairylights.webp`,
-          alt: 'Two hands forming a heart in front of a setting sun'
+          src: `${urlPrefix}/BEN_vegasstrip.webp`,
+          alt: 'Las Vegas strip at night'
         },
         {
-          src: `${urlPrefix}/BEN_fairylights.webp`,
-          alt: 'Two hands forming a heart in front of a setting sun'
+          src: `${urlPrefix}/BEN_redondobeach2.webp`,
+          alt: 'Lily posing at Redondo Beach'
         },
         {
-          src: `${urlPrefix}/BEN_fairylights.webp`,
-          alt: 'Two hands forming a heart in front of a setting sun'
+          src: `${urlPrefix}/BEN_fireworks.webp`,
+          alt: 'Me posing in front of pink fireworks'
+        },
+        {
+          src: `${urlPrefix}/BEN_laptop.webp`,
+          alt: 'My laptop with VSCodium opened'
+        },
+        {
+          src: `${urlPrefix}/BEN_maternity.webp`,
+          alt: 'Lily posiing at Redondo Beach'
+        },
+        {
+          src: `${urlPrefix}/BEN_huntingtonbeach.webp`,
+          alt: 'Sunset at Huntington Beach'
         },
       ]
     }
