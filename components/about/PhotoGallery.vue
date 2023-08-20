@@ -1,8 +1,15 @@
 <template>
-  <section class="grid-grid-cols-5">
-    <div v-for="image in images" :key="image.src">
-      <img :src="image.src" :alt="image.alt" class="w-[100%] rounded" />
-      <p class="text-center text-xl">{{ image.title }}</p>
+  <section class="grid grid-cols-5 gap-2">
+    <div
+      v-for="image in images"
+      :key="image.src"
+      class="max-w-[400px] max-h-[400px]"
+    >
+      <img
+        :src="image.src"
+        :alt="image.alt"
+        class="w-[100%] rounded aspect-square object-cover"
+      />
     </div>
   </section>
 </template>
@@ -16,8 +23,28 @@ export default {
       images: [
         {
           src: `${urlPrefix}/BEN_heart.webp`,
-          alt: ''
-        }
+          alt: 'Two hands forming a heart in front of a setting sun'
+        },
+        {
+          src: `${urlPrefix}/BEN_lbnightportrait.webp`,
+          alt: 'Thu sitting in front of the setting sun, smiling'
+        },
+        {
+          src: `${urlPrefix}/BEN_fairylights.webp`,
+          alt: 'Two hands forming a heart in front of a setting sun'
+        },
+        {
+          src: `${urlPrefix}/BEN_fairylights.webp`,
+          alt: 'Two hands forming a heart in front of a setting sun'
+        },
+        {
+          src: `${urlPrefix}/BEN_fairylights.webp`,
+          alt: 'Two hands forming a heart in front of a setting sun'
+        },
+        {
+          src: `${urlPrefix}/BEN_fairylights.webp`,
+          alt: 'Two hands forming a heart in front of a setting sun'
+        },
       ]
     }
   }
