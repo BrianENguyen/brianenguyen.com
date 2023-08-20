@@ -8,16 +8,20 @@
         loading="lazy"
       />
     </div>
-    <div>
-      <h2
-        class="text-brian-blue uppercase text-sm font-bold font-[Poppins] mb-0"
-      >
-        Things that define me
-      </h2>
-      <p class="text-4xl font-[Playfair_Display] m-0">
-        I am a web developer, photographer, drummer, gamer, pro-wrestling
-        enjoyer, and Linkin Park listener
-      </p>
-    </div>
+    <SectionHeader
+      title="Things that define me"
+      description="I am a web developer, photgrapher, drummer, gamer, 
+                  pro-wrestling enjoyer, and Linkin Park listener"
+    />
   </section>
 </template>
+
+<script>
+import SectionHeader from '~/components/ui/SectionHeader';
+
+export default {
+  components: {
+    SectionHeader
+  }
+}
+</script>

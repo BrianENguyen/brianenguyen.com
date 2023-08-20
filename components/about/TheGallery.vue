@@ -4,18 +4,13 @@
   starts with the word "The" 
   -->
   <section>
-    <div class="text-center">
-      <h2
-        class="text-brian-blue uppercase text-sm font-bold font-[Poppins] mb-0"
-      >
-        Art and memories through the lens
-      </h2>
-      <p class="text-4xl font-[Playfair_Display] mt-0 mb-4">
-        Photography allows me to not just only take pictures, but also to
-        capture art and memories in my life with just a single press of a
-        shutter
-      </p>
-    </div>
+    <SectionHeader
+      title="Art and memories through the lens"
+      description="Photography allows me to not just only take pictures, 
+                  but also to capture art and memories in my life with 
+                  just a single press of a shutter"
+      :center="true"
+    />
     <div
       class="grid zero:grid-cols-2 md:grid-cols-4 gap-8 justify-center align-middle mb-8"
     >
@@ -28,8 +23,14 @@
 </template>
 
 <script>
+import SectionHeader from '~/components/ui/SectionHeader'
+
 const urlPrefix = "https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_900/v1692551660/BEN_Website/about";
+
 export default {
+  components: {
+    SectionHeader
+  },
   data() {
     return {
       images: [
