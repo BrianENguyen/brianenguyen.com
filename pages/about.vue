@@ -6,6 +6,7 @@
   />
   <DefaultLayout>
     <Quote />
+    <Facts />
     <Backstory />
   </DefaultLayout>
 </template>
@@ -14,6 +15,7 @@
 import Jumbotron from '~/components/ui/Jumbotron'
 import DefaultLayout from '~/layouts/default'
 import Quote from '~/components/about/Quote'
+import Facts from '~/components/about/Facts'
 import Backstory from '~/components/about/Backstory'
 
 export default {
@@ -21,7 +23,8 @@ export default {
     Jumbotron,
     DefaultLayout,
     Quote,
-    Backstory
+    Backstory,
+    Facts
   }
 }
 </script>
