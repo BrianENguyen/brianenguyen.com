@@ -1,9 +1,9 @@
 <template>
-  <section class="grid grid-cols-5 gap-2">
+  <section class="grid zero:grid-cols-2 md:grid-cols-5 gap-2">
     <div
       v-for="image in images"
       :key="image.src"
-      class="max-w-[400px] max-h-[400px]"
+      class="zero:max-w-[300px] zero:max-h-[300px] md:max-w-[400px] md:max-h-[400px]"
     >
       <img
         :src="image.src"
