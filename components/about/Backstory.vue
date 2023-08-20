@@ -1,7 +1,7 @@
 <template>
   <section class="grid xs:grid-cols-1 md:grid-cols-2 mb-8">
     <div>
-      <h2 class="text-4xl">My Story</h2>
+      <h2 class="text-6xl mt-0">My Story</h2>
     </div>
     <div>
       <p>
