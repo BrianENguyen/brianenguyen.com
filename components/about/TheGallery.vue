@@ -3,7 +3,9 @@
   This is called "The Gallery" because each photo 
   starts with the word "The" 
   -->
-  <section class="grid grid-cols-4 gap-8">
+  <section
+    class="grid zero:grid-cols-2 md:grid-cols-4 gap-8 justify-center align-middle"
+  >
     <div v-for="image in images" :key="image.src">
       <img :src="image.src" :alt="image.alt" class="w-[100%] rounded" />
       <p class="text-center text-xl">{{ image.title }}</p>
