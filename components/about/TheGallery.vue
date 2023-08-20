@@ -3,12 +3,26 @@
   This is called "The Gallery" because each photo 
   starts with the word "The" 
   -->
-  <section
-    class="grid zero:grid-cols-2 md:grid-cols-4 gap-8 justify-center align-middle"
-  >
-    <div v-for="image in images" :key="image.src">
-      <img :src="image.src" :alt="image.alt" class="w-[100%] rounded" />
-      <p class="text-center text-xl">{{ image.title }}</p>
+  <section>
+    <div class="text-center">
+      <h2
+        class="text-brian-blue uppercase text-sm font-bold font-[Poppins] mb-0"
+      >
+        Art and memories through the lens
+      </h2>
+      <p class="text-4xl font-[Playfair_Display] mt-0 mb-4">
+        Photography allows me to not just only take pictures, but also to
+        capture art and memories in my life with just a single press of a
+        shutter
+      </p>
+    </div>
+    <div
+      class="grid zero:grid-cols-2 md:grid-cols-4 gap-8 justify-center align-middle mb-8"
+    >
+      <div v-for="image in images" :key="image.src">
+        <img :src="image.src" :alt="image.alt" class="w-[100%] rounded" />
+        <p class="text-center text-xl">{{ image.title }}</p>
+      </div>
     </div>
   </section>
 </template>
