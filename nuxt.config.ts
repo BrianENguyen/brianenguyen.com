@@ -3,6 +3,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@unocss/nuxt'],
-  components: [{ path: '~/components', extensions: ['.vue'] }],
+  components: {
+    global: true,
+    dirs: ['~/components', '~/components/about'],
+  },
   css: ['assets/styles/global.css', '@unocss/reset/normalize.css'],
 });
