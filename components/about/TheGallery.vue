@@ -5,6 +5,7 @@
   -->
   <section>
     <SectionHeader
+      class="mb-8"
       title="Art and memories through the lens"
       description="Photography allows me to not just only take pictures, 
                   but also to capture art and memories in my life with 
