@@ -30,6 +30,11 @@ export default {
           url: '/portfolio'
         },
         {
+          title: 'Resume',
+          description: 'View my experiences and skills',
+          url: '/resume'
+        },
+        {
           title: 'About',
           description: 'Dive deep into my life to know more about me and my passions',
           url: '/about'
