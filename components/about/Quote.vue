@@ -1,5 +1,5 @@
 <template>
-  <section class="mb-8">
+  <section class="my-48">
     <p
       class="zero:text-[9vw]
             xs:text-[5vw]

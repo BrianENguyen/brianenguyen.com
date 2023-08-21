@@ -1,9 +1,9 @@
 <template>
-  <section class="grid xs:grid-cols-1 md:grid-cols-2 mb-8">
-    <div>
+  <section class="grid xs:grid-cols-1 md:grid-cols-5 mb-48">
+    <div class="col-span-2">
       <h2 class="text-6xl mt-0">My Story</h2>
     </div>
-    <div>
+    <div class="col-span-3">
       <p>
         I obtained a Bachelor's in Computer Science from California State
         University, Long Beach in 2020. From the moment I wrote my first Python

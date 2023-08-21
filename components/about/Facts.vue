@@ -1,6 +1,6 @@
 <template>
-  <section class="grid zero:grid-cols-1 gap-4 md:grid-cols-2 mb-8">
-    <div>
+  <section class="grid zero:grid-cols-1 gap-8 md:grid-cols-5 mb-48">
+    <div class="col-span-2">
       <img
         src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1642186572/BEN_Website/BEN_profile_night.webp"
         alt="Me smiling at the camera"
@@ -9,6 +9,7 @@
       />
     </div>
     <SectionHeader
+      class="col-span-3"
       title="Things that define me"
       description="I am a web developer, photgrapher, drummer, gamer, 
                   pro-wrestling enjoyer, and Linkin Park listener"
