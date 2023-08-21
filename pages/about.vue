@@ -10,6 +10,7 @@
     <Backstory />
     <TheGallery />
     <PhotoGallery />
+    <MoreToExplore />
   </DefaultLayout>
 </template>
 
@@ -21,6 +22,7 @@ import Facts from '~/components/about/Facts'
 import Backstory from '~/components/about/Backstory'
 import TheGallery from '~/components/about/TheGallery'
 import PhotoGallery from '~/components/about/PhotoGallery'
+import MoreToExplore from '~/components/about/MoreToExplore'
 
 export default {
   components: {
@@ -30,7 +32,8 @@ export default {
     Backstory,
     Facts,
     TheGallery,
-    PhotoGallery
+    PhotoGallery,
+    MoreToExplore
   }
 }
 </script>

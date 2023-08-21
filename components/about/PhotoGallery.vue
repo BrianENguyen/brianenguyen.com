@@ -1,5 +1,5 @@
 <template>
-  <section class="grid zero:grid-cols-2 md:grid-cols-5 gap-2">
+  <section class="grid zero:grid-cols-2 md:grid-cols-5 gap-2 mb-48">
     <div
       v-for="image in images"
       :key="image.src"
