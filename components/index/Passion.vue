@@ -1,5 +1,5 @@
 <template>
-  <section class="grid zero:grid-cols-1 md:grid-cols-2 gap-4">
+  <section class="grid zero:grid-cols-1 md:grid-cols-2 gap-4 mb-32">
     <div>
       <img
         src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_450/v1675707556/BEN_Website/BEN_profile3.webp"

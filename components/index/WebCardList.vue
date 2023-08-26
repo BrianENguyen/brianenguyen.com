@@ -7,8 +7,6 @@
       md:grid-cols-2
       lg:grid-cols-3
       gap-4
-      py-6
-      px-10
   "
   >
     <WebCard v-for="data in webCardData" :page="data" :key="data" />
