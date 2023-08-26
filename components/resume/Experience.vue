@@ -17,7 +17,7 @@
         their expectations, but to also exceeded them. Developed projects with
         varying sizes. Worked with the UI/UX designer to bring website designs
         to life. Primary technologies included HTML, CSS3, JavaScript, jQuery,
-        PHP, and MODX.
+        PHP, Wordpress, and MODX.
       </p>
     </div>
   </section>
