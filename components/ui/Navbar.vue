@@ -7,11 +7,13 @@
     >
       <div class="flex items-center">
         <span>
-          <img
-            src="https://res.cloudinary.com/buraiyen/image/upload/v1662578965/BEN_Website/BEN-logo-navbar.webp"
-            alt=""
-            width="120px"
-          />
+          <NuxtLink to="/">
+            <img
+              src="https://res.cloudinary.com/buraiyen/image/upload/v1662578965/BEN_Website/BEN-logo-navbar.webp"
+              alt=""
+              width="120px"
+            />
+          </NuxtLink>
         </span>
       </div>
       <button
