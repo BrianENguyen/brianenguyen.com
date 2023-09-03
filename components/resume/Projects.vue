@@ -5,8 +5,8 @@
       <h2 class="text-4xl mt-0 col-span-2">Projects</h2>
     </div>
     <div class="col-span-3">
-      <p>Click below to view my latest web development projects</p>
-      <NuxtLink to="/projects">Projects</NuxtLink>
+      <p>Click below to view my web development portfolio page</p>
+      <NuxtLink to="/portfolio">Portfolio</NuxtLink>
     </div>
   </section>
 </template>
