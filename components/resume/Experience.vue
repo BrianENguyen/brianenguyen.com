@@ -1,4 +1,5 @@
 <template>
+  <hr />
   <section class="grid zero:grid-cols-1 md:grid-cols-5">
     <div class="col-span-2">
       <h2 class="text-4xl mt-0">Experience</h2>
@@ -12,8 +13,9 @@
         </h3>
         <p class="text-2xl font-[Playfair_Display]">
           <a href="https://ideabankmarketing.com" target="_blank">
-            IdeaBank Marketing </a
-          >. Hastings, NE, July 2023 - Present
+            IdeaBank Marketing.
+          </a>
+          Hastings, NE, July 2023 - Present
         </p>
         <p>
           Worked closely with clients to develop websites, which not only met
@@ -31,8 +33,8 @@
         </h3>
         <p class="text-2xl font-[Playfair_Display]">
           <a href="https://www.codeninjas.com/ca-cerritos" target="_blank">
-            Code Ninjas </a
-          >. Cerritos and Fullerton, CA, August 2020 - June 2023
+            Code Ninjas. </a
+          >Cerritos and Fullerton, CA, August 2020 - June 2023
         </p>
         <p>
           Administered web development courses to 150+ middle and high school
