@@ -1,3 +1,24 @@
+<script setup>
+const joke = useState('joke', () => '');
+const loading = useState('loading', () => true);
+
+fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error('Error: ' + response.status);
+    }
+    loading.value = false;
+    return response.json();
+  })
+  .then((jokeData) => {
+    joke.value = { setup: jokeData.setup, delivery: jokeData.delivery };
+    loading.value = false;
+  })
+  .catch((err) => {
+    loading.value = false;
+  });
+</script>
+
 <template>
   <UiNavbar />
   <UiJumbotron
@@ -19,6 +40,17 @@
       </a>
     </p>
     <p>While you're here, here's a random joke:</p>
+
+    <!-- 
+      For some reason the API doesn't always return the joke,
+      so I just hardcoded one just in case
+    -->
+    <div v-if="!loading">
+      <p v-if="joke.setup">{{ joke.setup }}</p>
+      <p v-else>Why did the programmer quit his job?</p>
+      <p v-if="joke.delivery">{{ joke.delivery }}</p>
+      <p v-else>Because he didn't get arrays.</p>
+    </div>
     <NuxtLink to="/">Go back home</NuxtLink>
   </NuxtLayout>
 </template>
