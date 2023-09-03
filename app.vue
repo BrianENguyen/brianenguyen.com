@@ -1,4 +1,5 @@
 <template>
+  <UiNavbar />
   <div>
     <NuxtPage />
   </div>

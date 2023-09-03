@@ -3,7 +3,7 @@
     class="bg-[#282c34e5] border-gray-200 fixed w-[100%] h-100px z-[1] shadow-xl top-0"
   >
     <div
-      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 filter-none"
     >
       <div class="flex items-center">
         <span>
@@ -17,7 +17,7 @@
       <button
         data-collapse-toggle="navbar-default"
         type="button"
-        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-brian-blue bg-gray-light rounded-lg md:hidden"
         aria-controls="navbar-default"
         aria-expanded="false"
         @click="toggleMobileMenu"
@@ -41,13 +41,13 @@
       </button>
       <div class="w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="list-none rounded font-medium md:flex flex-col p-4 md:p-0 border md:flex-row md:space-x-8 md:border-0"
-          :class='isMobileMenuOpen ? "flex" : "hidden"'
+          class="list-none font-medium md:flex flex-col p-4 md:p-0 border md:flex-row md:space-x-8 md:border-0"
+          :class='isMobileMenuOpen ? "flex bg-[#282c34e5] m-0 h-screen w-screen relative left-[-20px] top-[-4px]" : "hidden"'
         >
           <li v-for="link in links" :key="link">
             <NuxtLink
               :to="link.path"
-              class="block py-2 pl-3 pr-4 font-bold hover:text-white transition-color duration-300 decoration-none"
+              class="block py-2 pl-3 pr-4 font-bold !text-white hover:!text-brian-blue transition-color duration-300 decoration-none"
               >{{ link.name.toUpperCase() }}</NuxtLink
             >
           </li>
@@ -93,6 +93,12 @@ export default {
   methods: {
     toggleMobileMenu() {
       this.isMobileMenuOpen = !this.isMobileMenuOpen;
+      if (this.isMobileMenuOpen) {
+        document.body.style.overflow = 'hidden';
+      }
+      else {
+        document.body.style.overflow = 'auto';
+      }
     }
   }
 }
