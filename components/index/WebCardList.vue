@@ -39,14 +39,14 @@ export default {
         },
 
         {
-          title: 'Lessons',
+          title: 'Blog',
           description: 'View some insights on my career and my life',
-          url: '/lessons'
+          url: '/blog'
         },
         {
           title: 'Contact',
           description: 'Get in touch with me for any reason (services, inquiries, chatting, etc.)',
-          url: '/gallery'
+          url: '/contact'
         },
       ]
     }
