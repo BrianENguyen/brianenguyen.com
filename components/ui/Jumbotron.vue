@@ -28,9 +28,9 @@
       <h1 class="zero:text-[7vw] xs:text-[5vw] md:text-[5rem]">
         {{ jumbotronTitle }}
       </h1>
-      <h2 class="zero:text-[1.2rem] xs:text-[1.2rem] md:text-[1.6rem]">
+      <p class="zero:text-[1.2rem] xs:text-[1.2rem] md:text-[1.6rem]">
         {{ jumbotronDesc }}
-      </h2>
+      </p>
     </div>
   </div>
 </template>
