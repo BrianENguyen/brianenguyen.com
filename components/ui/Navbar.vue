@@ -6,15 +6,13 @@
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 filter-none"
     >
       <div class="flex items-center">
-        <span>
-          <NuxtLink to="/">
-            <img
-              src="https://res.cloudinary.com/buraiyen/image/upload/v1662578965/BEN_Website/BEN-logo-navbar.webp"
-              alt=""
-              width="120px"
-            />
-          </NuxtLink>
-        </span>
+        <NuxtLink to="/">
+          <img
+            class="w-100px"
+            src="https://res.cloudinary.com/buraiyen/image/upload/v1662578965/BEN_Website/BEN-logo-navbar.webp"
+            alt="BEN logo"
+          />
+        </NuxtLink>
       </div>
       <button
         data-collapse-toggle="navbar-default"
