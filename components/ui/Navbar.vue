@@ -65,9 +65,16 @@ onMounted(() => {
           <li v-for="link in links" :key="link">
             <NuxtLink
               :to="link.path"
-              class="block py-2 pl-3 pr-4 font-bold !text-white hover:!text-brian-blue transition-color duration-300 decoration-none"
+              class="block py-2 pl-3 font-bold !text-white hover:!text-brian-blue transition-color duration-300 decoration-none"
               >{{ link.name.toUpperCase() }}</NuxtLink
             >
+          </li>
+          <li class="align-middle">
+            <NuxtLink to="/donate" title="Donate">
+              <div
+                class="i-solar-user-heart-rounded-linear text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
+              />
+            </NuxtLink>
           </li>
         </ul>
       </div>
