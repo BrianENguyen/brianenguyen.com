@@ -1,0 +1,28 @@
+.nuxt-content h1 {
+  text-align: center;
+}
+
+/* Zero */
+@media (min-width: 0px) {
+  .nuxt-content h1 {
+    font-size: 7vw;
+  }
+}
+
+/* x-small */
+@media (min-width: 576px) {
+  .nuxt-content h1 {
+    font-size: 5vw;
+  }
+}
+
+/* small */
+@media (min-width: 768px) {
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .nuxt-content h1 {
+    font-size: 5rem;
+  }
+}

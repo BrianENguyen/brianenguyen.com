@@ -7,5 +7,9 @@ export default defineNuxtConfig({
     global: true,
     dirs: ['~/components', '~/components/about'],
   },
-  css: ['assets/styles/global.css', '@unocss/reset/normalize.css'],
+  css: [
+    'assets/styles/global.css',
+    'assets/styles/nuxt-content.css',
+    '@unocss/reset/normalize.css',
+  ],
 });
