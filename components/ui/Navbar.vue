@@ -1,6 +1,24 @@
+<script setup>
+const backgroundEnabled = useState('background-enabled', () => false);
+function showBackground()  {
+  if (window.scrollY >= 100 || window.innerWidth <= 992) {
+    backgroundEnabled.value = true;
+  }
+  else {
+    backgroundEnabled.value = false;
+  }
+};
+
+onMounted(() => {
+  window.addEventListener('resize', showBackground);
+  window.addEventListener('scroll', showBackground);
+})
+</script>
+
 <template>
   <nav
-    class="bg-[#282c34e5] border-gray-200 fixed w-[100%] h-100px z-[1] shadow-xl top-0"
+    class="fixed w-[100%] h-100px z-[1] top-0 transition duration-300"
+    :class="backgroundEnabled ? 'bg-[#282c34e5] shadow-xl' : 'bg-transparent'"
   >
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 filter-none"
