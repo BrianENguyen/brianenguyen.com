@@ -12,6 +12,7 @@
     "@iconify-json/bxl": "^1.1.7",
     "@iconify-json/iconoir": "^1.1.32",
     "@iconify-json/solar": "^1.1.2",
+    "@nuxt/content": "^2.8.2",
     "@nuxt/devtools": "^0.6.7",
     "@types/node": "^18.16.19",
     "@unocss/eslint-config": "^0.53.5",
