@@ -72,9 +72,20 @@ onMounted(() => {
           <li class="align-middle">
             <NuxtLink to="/donate" title="Donate">
               <div
-                class="i-solar-user-heart-rounded-linear text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
+                class="i-solar-user-heart-rounded-linear my-2 zero:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
               />
             </NuxtLink>
+          </li>
+          <li class="align-middle">
+            <a
+              href="https://github.com/buraiyen"
+              title="GitHub"
+              target="_blank"
+            >
+              <div
+                class="i-iconoir-github my-2 zero:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
+              />
+            </a>
           </li>
         </ul>
       </div>
