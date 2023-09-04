@@ -54,5 +54,6 @@ fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
       </div>
       <NuxtLink to="/">Go back home</NuxtLink>
     </NuxtLayout>
+    <UiFooter />
   </div>
 </template>
