@@ -2,7 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt'],
+  modules: ['@unocss/nuxt', '@nuxt/content'],
   components: {
     global: true,
     dirs: ['~/components', '~/components/about'],
