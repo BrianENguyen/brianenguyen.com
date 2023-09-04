@@ -3,7 +3,7 @@
     class="bg-[#171717] text-center border-t-gray-light border-t-solid border-t-1 mt-8"
   >
     <div class="mx-auto px-4 py-5">
-      <div class="grid grid-cols-3 gap-4 items-center align-center">
+      <div class="grid zero:grid-cols-1 md:grid-cols-3 gap-4 items-center">
         <!-- Email -->
         <div>
           <a href="mailto:brian.edison.nguyen@gmail.com"
@@ -22,7 +22,7 @@
           />
         </div>
         <!-- Icons -->
-        <div class="flex">
+        <div class="flex items-center flex-row justify-center mb-4">
           <a href="https://www.linkedin.com/in/brian-e-nguyen/" target="_blank">
             <div class="i-bxl-linkedin-square text-5xl mx-2" />
           </a>
