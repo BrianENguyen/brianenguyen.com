@@ -27,6 +27,11 @@ hr {
 a,
 a:visited {
   color: #79c2d0;
+  transition: 0.3s color;
+}
+
+a:hover {
+  color: white;
 }
 
 p {
