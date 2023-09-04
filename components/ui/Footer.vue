@@ -34,6 +34,22 @@
           </a>
         </div>
       </div>
+      <div class="border-t-gray-light border-t-solid border-t-1 text-gray">
+        <p>
+          <a
+            href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            target="_blank"
+            >CC BY-NC-SA 4.0</a
+          >
+          2023-PRESENT &copy; Brian Nguyen
+        </p>
+        <p>
+          See an issue?
+          <a href="https://github.com/Buraiyen/brianenguyen.com/pulls"
+            >Submit a pull request!</a
+          >
+        </p>
+      </div>
     </div>
   </footer>
 </template>
