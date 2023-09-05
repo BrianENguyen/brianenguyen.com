@@ -2,17 +2,30 @@
   text-align: center;
 }
 
+.nuxt-content h2 {
+  font-size: 2rem;
+}
+
+.nuxt-content ul li {
+  margin-bottom: 10px;
+}
+
+.nuxt-content img {
+  border-radius: 10px;
+  width: 100%;
+}
+
 /* Zero */
 @media (min-width: 0px) {
   .nuxt-content h1 {
-    font-size: 7vw;
+    font-size: 13vw;
   }
 }
 
 /* x-small */
 @media (min-width: 576px) {
   .nuxt-content h1 {
-    font-size: 5vw;
+    font-size: 7vw;
   }
 }
 
@@ -23,6 +36,6 @@
 /* Medium */
 @media (min-width: 992px) {
   .nuxt-content h1 {
-    font-size: 5rem;
+    font-size: 3.8rem;
   }
 }
