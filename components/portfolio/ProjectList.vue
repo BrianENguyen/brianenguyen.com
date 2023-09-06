@@ -22,10 +22,10 @@ export default {
           },
         },
         {
-          title: 'New Personal Website',
+          title: 'My Site v2 - React',
           src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1639358227/BEN_Website/projects/BEN_3098_islkyr.jpg',
           alt: "Me standing in front of the sunset at Redondo Beach",
-          link: '/portfolio/new-site',
+          link: '/portfolio/my-site-v2',
         },
         {
           title: "Thu Nguyen's Website",
