@@ -21,7 +21,7 @@ fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
 
 <template>
   <div>
-    <UiNavbar />
+    <!-- <UiNavbar /> -->
     <UiJumbotron
       jumbotronTitle="404 Error"
       jumbotronDesc="The page that you are trying to reach does not exist or is no longer available."
@@ -54,6 +54,11 @@ fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
       </div>
       <NuxtLink to="/">Go back home</NuxtLink>
     </NuxtLayout>
-    <UiFooter />
   </div>
 </template>
+
+<script>
+export default {
+  layout: 'default'
+}
+</script>
