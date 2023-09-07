@@ -28,12 +28,6 @@ export default {
           link: '/portfolio/my-site-v2',
         },
         {
-          title: "Thu Nguyen's Website",
-          src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1639518576/BEN_Website/recent_projects/thu.jpg',
-          alt: "Thu at a park, smiling at the camera",
-          link: '/portfolio/thu-nguyen',
-        },
-        {
           title: 'CSULB Tzu Ching',
           src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1639515139/BEN_Website/recent_projects/lbtc_group.jpg',
           alt: "CSULB Tzu Ching group photo",
