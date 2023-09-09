@@ -12,6 +12,12 @@ export default {
     return {
       projects: [
         {
+          title: 'My Site v3 - Nuxt3',
+          src: 'https://res.cloudinary.com/buraiyen/image/upload/v1694281377/BEN_Website/projects/BEN_languna_profile.webp',
+          alt: "Me posing in front of Laguna Beach",
+          link: '/portfolio/my-site-v3',
+        },
+        {
           title: 'All Elite Network',
           src: 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600/v1651693922/BEN_Website/projects/thunder_rosa.webp',
           alt: "AEW wrestler Thunder Rosa holding the AEW Women's World Championship",
