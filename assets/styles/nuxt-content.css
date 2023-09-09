@@ -31,6 +31,16 @@
   margin-bottom: 50px;
 }
 
+.nuxt-content pre {
+  padding: 10px;
+}
+
+.nuxt-content pre code {
+  overflow-x: scroll;
+  display: block;
+  width: 100%;
+}
+
 /* Zero */
 @media (min-width: 0px) {
   .nuxt-content h1 {
