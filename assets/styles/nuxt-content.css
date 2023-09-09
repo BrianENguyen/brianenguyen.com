@@ -16,6 +16,15 @@
   margin: 10px 0;
 }
 
+.nuxt-content blockquote {
+  margin: 0;
+  border-left: 3px solid #7d7d7d4d;
+}
+
+.nuxt-content blockquote p {
+  margin-left: 20px;
+}
+
 .nuxt-content figure {
   width: 100%;
   margin: 0;
