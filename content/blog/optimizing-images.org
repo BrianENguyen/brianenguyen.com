@@ -1,5 +1,9 @@
 #+TITLE: Optimizing Images for Your Website
-#+OPTIONS: toc:nil
+#+LANGUAGE: en
+#+options: toc:nil
+#+OPTIONS: ':nil
+#+OPTIONS: ^:nil
+#+OPTIONS: -:nil
 
 * Optimizing Images for Your Website
 #+BEGIN_QUOTE
