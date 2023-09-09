@@ -23,7 +23,7 @@
       />
     </picture>
     <div
-      class="text-white absolute inset-0 flex justify-center items-center flex-col"
+      class="text-white absolute inset-0 flex justify-center items-center flex-col px-4"
     >
       <h1 class="zero:text-[7vw] xs:text-[5vw] md:text-[5rem]">
         {{ jumbotronTitle }}
