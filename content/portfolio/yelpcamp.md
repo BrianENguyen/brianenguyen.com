@@ -19,5 +19,8 @@ it was free
 
 [View Repository](https://github.com/Buraiyen/YelpCamp)
 
+
+## Images
+
 ![YelpCamp screenshots](https://res.cloudinary.com/buraiyen/image/upload/v1620240514/BEN_Website/projects/yelpcamp_collage_tarzq8.jpg)
 

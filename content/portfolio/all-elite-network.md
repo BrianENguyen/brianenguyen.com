@@ -37,13 +37,13 @@ a streaming platform. I wanted to make this app as a design mockup for what the
 streaming platform might look like. I am still hoping there will be an official
 app in the future.
 
+[View Website](https://all-elite-network.pages.dev)
+[View Repository](https://github.com/buraiyen/all-elite-network)
+
 
 ## Images
 
 ![Jumbotron view](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network1.png)
 ![List view](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network2.png)
 ![Dashboard view](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network3.png)
-
-[View Website](https://all-elite-network.pages.dev)
-[View Repository](https://github.com/buraiyen/all-elite-network)
 

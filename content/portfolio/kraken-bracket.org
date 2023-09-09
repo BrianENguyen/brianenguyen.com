@@ -59,4 +59,5 @@ had. Although we experienced a lot of stress and hardships, I have learned what
 it's like to be a software developer. I will take everything that I have learned
 in this class to heart and will apply my knowldege in my future positions.
 
+** Images
 [[https://res.cloudinary.com/buraiyen/image/upload/v1620240516/BEN_Website/projects/krakenbracket_wvd57j.jpg]]
