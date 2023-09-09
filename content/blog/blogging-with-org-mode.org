@@ -1,6 +1,10 @@
 #+title: Blogging With Org Mode
-
+#+LANGUAGE: en
 #+options: toc:nil
+#+OPTIONS: ':nil
+#+OPTIONS: ^:nil
+#+OPTIONS: -:nil
+
 * Writing My Blogs with Org Mode
 #+BEGIN_QUOTE
 12 Jun, 2023 · 6 min
@@ -34,7 +38,8 @@ this React app, I use the [[https://github.com/geekris1/vite-plugin-react-markdo
 Once this package is installed, I had to configure my =vite.config.js= file to
 utilize the package and allow the app to include Markdown files
 
-#+begin_src js
+
+#+begin_src javascript
 // vite.config.js
 import { defineConfig } from 'vite';
 import Markdown from 'vite-plugin-react-markdown';
@@ -44,18 +49,19 @@ export default defineConfig({
   plugins: [
     Markdown(),
     react({
-      include: [/\.tsx$/, /\.md$/], // <-- add .md
+      include: [/\.tsx$/, /\.md$/],
     }),
   ],
 });
+
 #+end_src
 
 Inside of my =Routes.js= file, I set it up so that each blog post has a prop
 that has the name of the Markdown file
 
-#+begin_src js
+
+#+begin_src javascript
 // Routes.js
-...
   {
     path: '/blog/volunteering-with-tzu-chi',
     key: 'Volunteering with Tzu Chi',
@@ -65,12 +71,12 @@ that has the name of the Markdown file
       markdownFile: 'volunteering-tzu-chi',
     },
   },
-...
 #+end_src
 
-When rendering my routes, I ensure that these props are passed into the components
+When rendering my routes, I ensure that these props are passed into the
+components
 
-#+begin_src js
+#+begin_src javascript
 import ROUTES from './Routes';
 const RenderRoutes = () => {
   const location = useLocation();
@@ -97,7 +103,7 @@ export default RenderRoutes;
 For my blog posts, I set up a component called =BlogPostView= that retrieves a
 Markdown file and parses it to JSX.
 
-#+begin_src js
+#+begin_src javascript
 import React, { useEffect, useState } from 'react';
 import './BlogPostView.css';
 
@@ -127,7 +133,7 @@ component is loaded, it retrieves the Markdown file from the prop that was
 passed in. After successfully fetching the data, the component updates the state
 variable 'content' with that data.
 
-#+begin_src js
+#+begin_src javascript
 const BlogPostView = ({ markdownFile, title }) => {
   const [content, setContent] = useState(null);
 
@@ -193,7 +199,7 @@ for your set-up
 *** Images
 org-mode doesn't have a way to export alt tags on images to Markdown
 
-#+begin_src
+#+begin_src markdown
 // org-mode
 [[example.png][an example alt]]
 
@@ -203,7 +209,7 @@ org-mode doesn't have a way to export alt tags on images to Markdown
 
 To get around this, I just had to include the exclamation symbol at the beginning of the org image line
 
-#+begin_src
+#+begin_src markdown
 // org-mode
 ![[example.png][an example alt]]
 
@@ -221,7 +227,7 @@ necessary for imports to conclude with a file extension within the static
 portions of the import. This ensures that only the intended files are included
 in the import process.
 
-#+begin_src js
+#+begin_src javascript
 // Not allowed
 import(`./foo/${bar}`);
 
@@ -231,13 +237,13 @@ import(`./foo/${bar}.js`);
 
 I had my import similar to the one below, which caused errors:
 
-#+begin_src js
+#+begin_src javascript
 import(`./path/to/markdownFile/${markdownFile}`)
 #+end_src
 
 Therefore, I had to change my import to this:
 
-#+begin_src js
+#+begin_src javascript
 import(`./path/to/markdownFile/${markdownFile}.md`)
 #+end_src
 
