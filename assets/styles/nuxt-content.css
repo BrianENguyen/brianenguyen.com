@@ -13,6 +13,32 @@
 .nuxt-content img {
   border-radius: 10px;
   width: 100%;
+  margin: 10px 0;
+}
+
+.nuxt-content blockquote {
+  margin: 0;
+  border-left: 3px solid #7d7d7d4d;
+}
+
+.nuxt-content blockquote p {
+  margin-left: 20px;
+}
+
+.nuxt-content figure {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.nuxt-content pre {
+  padding: 10px;
+}
+
+.nuxt-content pre code {
+  overflow-x: scroll;
+  display: block;
+  width: 100%;
 }
 
 /* Zero */

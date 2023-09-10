@@ -3,6 +3,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@unocss/nuxt', '@nuxt/content'],
+  content: {
+    highlight: {
+      theme: 'one-dark-pro',
+    },
+  },
   components: {
     global: true,
     dirs: ['~/components', '~/components/about'],
