@@ -15,6 +15,7 @@ export default {
           transformed the past decade.`,
           image:
             'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1665774712/BEN_Website/blog/Universal/BEN_universal_neon_sign.webp',
+          alt: 'Thu and I sitting in front of the Universal Studios Hollywood neon sign',
           date: '2023-07-04',
           link: '/blog/universal-studios',
         },
@@ -24,6 +25,7 @@ export default {
           blog showcases various photos and how I put together this session`,
           image:
             'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1665774712/BEN_Website/blog/Maternity/BEN_maternity2.webp',
+          alt: 'Trang and Minh walking alongside Huntington Beach, holding hands',
           date: '2023-06-30',
           link: '/blog/maternity-photos',
         },
@@ -33,6 +35,7 @@ export default {
           up to my relocation, how moving there will benefit me, and my experiences in Nebraska`,
           image:
             'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1665774712/BEN_Website/blog/BEN_road.webp',
+          alt: 'Nebraska highway road',
           date: '2023-06-15',
           link: '/blog/hello-nebraska',
         },
@@ -42,6 +45,7 @@ export default {
            aiming for a smoother and more enjoyable blogging experience.`,
           image:
             'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1665774712/BEN_Website/blog/BEN_org.webp',
+          alt: 'Desktop workflow with VSCodium and Doom Emacs open',
           date: '2023-06-12',
           link: '/blog/blogging-with-org-mode',
         },
@@ -51,6 +55,7 @@ export default {
              In this blog, I will discuss how I optimize my website's images to improve load speed.`,
           image:
             'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1665774712/BEN_Website/blog/OptimizingImages/BEN_photo-files.webp',
+          alt: "File manager with my website's images",
           date: '2023-01-23',
           link: '/blog/optimizing-images',
         },
@@ -62,6 +67,7 @@ export default {
             the organization by myself.`,
           image:
             'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1644820389/BEN_Website/blog/BEN_orientation.jpg ',
+          alt: "Me hosting CSULB Tzu Ching's 2019 orientation",
           date: '2022-02-16',
           link: '/blog/volunteering-with-tzu-chi',
         },
@@ -71,6 +77,7 @@ export default {
             'Learn about my programming history, from when I started in high school, up until now.',
           image:
             'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1644628220/BEN_Website/blog/BEN_4121_1_jw8m5b.jpg',
+          alt: "Me working on my Thinkpad at a coffee shop",
           date: '2022-02-12',
           link: '/blog/programming-history',
         },
@@ -79,6 +86,7 @@ export default {
           description: "Recently, I decided that I will start blogging. Here's why.",
           image:
             'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1642186176/BEN_Website/blog/BEN_redondobeach.jpg',
+          alt: 'Me standing in front of a Redondo Beach sunset',
           date: '2022-02-11',
           link: '/blog/why-i-blog',
         },

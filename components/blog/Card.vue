@@ -3,6 +3,7 @@
     <NuxtLink :to="blog.link" class="!text-white decoration-none">
       <img
         :src="blog.image"
+        :alt="blog.alt"
         class="w-[100%] max-w-350px h-auto max-h-450px rounded"
       />
       <h2>{{ blog.title }}</h2>
