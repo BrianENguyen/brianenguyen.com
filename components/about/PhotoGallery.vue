@@ -55,7 +55,7 @@ export default {
         },
         {
           src: `${urlPrefix}/BEN_maternity.webp`,
-          alt: 'Lily posiing at Redondo Beach'
+          alt: 'Lily posing at Redondo Beach'
         },
         {
           src: `${urlPrefix}/BEN_huntingtonbeach.webp`,
