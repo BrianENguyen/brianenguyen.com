@@ -17,4 +17,7 @@ export default defineConfig({
     },
   },
   presets: [presetIcons({ prefix: 'i-' }), presetUno()],
+  shortcuts: {
+    btn: 'py-4 px-8 bg-transparent rounded text-white border-brian-blue border-opacity-100 transition duration-300 hover:bg-brian-blue font-700',
+  },
 });
