@@ -142,7 +142,7 @@ journey:
 
 -   **Jessica** - she took the initiative in being the president when we were
     experiencing down times. She had more experience in leadership and managing
-    the organization than I have, so I looked up to and learned from her so I
+    the organization than I have, so I learned valuable advice from her so I could lead the organization
 
 -   **UCI Tzu Ching** - I&rsquo;ve developed deep relationships with them, which also opened the door to collaborations that are happening to this day. I&rsquo;ve been to many of their events, and in turn, they&rsquo;ve considered me as an honorary UCI Tzu Ching member.
 
