@@ -17,5 +17,3 @@ back in 2020. This version is mainly improves speed, UI / UX, and accessibility
 -   Animate on Scroll
 -   Vite
 
-[View Repository](https://github.com/Buraiyen/brianenguyen.com)
-

@@ -12,6 +12,8 @@ hosting a website online. It features most sections that you see on this website
 + Bootstrap 4
 + Express.js
 
+#+HTML: <a class='btn' href='https://github.com/Buraiyen/BEN-Website' target='_blank'>View Repository</a>
+
 ** Personal Notes
 Creating this website was more than two years in the making. I started
 developing this back in 2019 with the concepts that I have learned from Colt

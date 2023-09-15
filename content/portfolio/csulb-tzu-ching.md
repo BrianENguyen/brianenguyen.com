@@ -15,11 +15,12 @@ volunteering events, board members, and photos
 -   UnoCSS
 -   Iconify
 
-[View Website](https://csulbtzuching.org/)
-[View Repository](https://github.com/Buraiyen/CSULB-TC-Website)
+<a class='btn' href='https://github.com/Buraiyen/csulbtzuching.org' target='_blank'>View Repository</a>
+
+<a class='btn' href='https://csulbtzuching.org' target='_blank'>View Website</a>
 
 
 ## Images
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/v1694050165/BEN_Website/projects/csulb-tzu-ching-site.webp)
+![Full page layout](https://res.cloudinary.com/buraiyen/image/upload/v1694050165/BEN_Website/projects/csulb-tzu-ching-site.webp)
 

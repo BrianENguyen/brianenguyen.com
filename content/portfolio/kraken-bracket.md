@@ -29,7 +29,7 @@ for me and my team. *(see personal notes below for more details)*
 -   .NET Core 2.2
 -   MySQL
 
-[View Repository](https://github.com/TheBoiZcecs491/Kraken-Bracket/tree/master)
+<a class='btn' href='https://github.com/TheBoiZcecs491/Kraken-Bracket' target='_blank'>View Repository</a>
 
 
 ## Personal Notes
@@ -59,10 +59,10 @@ ended.
 Overall, I am forever grateful for taking this class with the professor that I
 had. Although we experienced a lot of stress and hardships, I have learned what
 it's like to be a software developer. I will take everything that I have learned
-in this class to heart and will apply my knowldege in my future positions.
+in this class to heart and will apply my knowledge in my future positions.
 
 
 ## Images
 
-![img](https://res.cloudinary.com/buraiyen/image/upload/v1620240516/BEN_Website/projects/krakenbracket_wvd57j.jpg)
+![Kraken Bracket site views](https://res.cloudinary.com/buraiyen/image/upload/v1620240516/BEN_Website/projects/krakenbracket_wvd57j.jpg)
 

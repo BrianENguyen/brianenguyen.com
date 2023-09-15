@@ -17,7 +17,8 @@ it was free
 + MongoDB
 + Express.js
 
-[[https://github.com/Buraiyen/YelpCamp][View Repository]]
+#+HTML: <a class='btn' href='https://github.com/Buraiyen/YelpCamp' target='_blank'>View Repository</a>
+
 
 ** Images
 ![[https://res.cloudinary.com/buraiyen/image/upload/v1620240514/BEN_Website/projects/yelpcamp_collage_tarzq8.jpg][YelpCamp screenshots]]

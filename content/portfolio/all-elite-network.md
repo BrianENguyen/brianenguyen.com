@@ -37,8 +37,9 @@ a streaming platform. I wanted to make this app as a design mockup for what the
 streaming platform might look like. I am still hoping there will be an official
 app in the future.
 
-[View Website](https://all-elite-network.pages.dev)
-[View Repository](https://github.com/buraiyen/all-elite-network)
+<a class='btn' href='https://all-elite-network.pages.dev' target='_blank'>View Website</a>
+
+<a class='btn' href='https://github.com/buraiyen/all-elite-network' target='_blank'>View Repository</a>
 
 
 ## Images

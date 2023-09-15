@@ -12,6 +12,8 @@ hosting a website online. It features most sections that you see on this website
 -   Bootstrap 4
 -   Express.js
 
+<a class='btn' href='https://github.com/Buraiyen/BEN-Website' target='_blank'>View Repository</a>
+
 
 ## Personal Notes
 
