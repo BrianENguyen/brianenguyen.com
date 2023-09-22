@@ -18,6 +18,6 @@ export default defineConfig({
   },
   presets: [presetIcons({ prefix: 'i-' }), presetUno()],
   shortcuts: {
-    btn: 'inline-block py-4 px-8 bg-transparent rounded border-solid border-1 !text-white decoration-none border-brian-blue transition duration-300 hover:bg-brian-blue font-700',
+    btn: 'font-[Poppins] inline-block py-4 px-8 bg-transparent rounded border-solid border-1 !text-white decoration-none border-brian-blue transition duration-300 hover:bg-brian-blue font-700',
   },
 });
