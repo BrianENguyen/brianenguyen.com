@@ -38,6 +38,10 @@ p {
   line-height: 1.6rem;
 }
 
+input {
+  font-family: 'Poppins', sans-serif;
+}
+
 /* Track */
 ::-webkit-scrollbar-track {
   background: #363636;
