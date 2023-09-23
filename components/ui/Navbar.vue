@@ -32,42 +32,24 @@ onMounted(() => {
           />
         </NuxtLink>
       </div>
-      <button
-        data-collapse-toggle="navbar-default"
-        type="button"
-        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-brian-blue bg-gray-light rounded-lg md:hidden"
-        aria-controls="navbar-default"
-        aria-expanded="false"
-        @click="toggleMobileMenu"
-      >
-        <span class="sr-only">Open main menu</span>
-        <svg
-          class="w-5 h-5"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 17 14"
-        >
-          <path
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M1 1h15M1 7h15M1 13h15"
-          />
-        </svg>
-      </button>
       <div class="w-full md:block md:w-auto" id="navbar-default">
         <ul
           class="list-none font-medium md:flex flex-col p-4 md:p-0 border md:flex-row md:space-x-8 md:border-0"
-          :class='isMobileMenuOpen ? "flex bg-[#282c34e5] m-0 h-screen w-screen relative left-[-20px] top-[-4px]" : "hidden"'
         >
           <li v-for="link in links" :key="link">
             <NuxtLink
               :to="link.path"
               class="block py-2 pl-3 font-bold !text-white hover:!text-brian-blue transition-color duration-300 decoration-none"
-              >{{ link.name.toUpperCase() }}</NuxtLink
             >
+              <span v-if="!backgroundEnabled">
+                {{ link.name.toUpperCase() }}
+              </span>
+              <span v-else>
+                <div
+                  :class="`${link.icon} my-2 zero:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300`"
+                />
+              </span>
+            </NuxtLink>
           </li>
           <li class="align-middle">
             <NuxtLink to="/donate" title="Donate">
@@ -100,42 +82,36 @@ export default {
       links: [
         {
           name: 'Home',
-          path: '/'
+          path: '/',
+          icon: 'i-iconoir-home',
         },
         {
           name: 'Portfolio',
-          path: '/portfolio'
+          path: '/portfolio',
+          icon: 'i-solar-suitcase-line-duotone'
         },
         {
           name: 'About',
-          path: '/about'
+          path: '/about',
+          icon: 'i-solar-sunset-broken'
         },
         {
           name: 'Resume',
-          path: '/resume'
+          path: '/resume',
+          icon: 'i-solar-document-add-linear'
         },
         {
           name: 'Blog',
-          path: '/blog'
+          path: '/blog',
+          icon: 'i-solar-chat-round-line-linear'
         },
         {
           name: 'Contact',
-          path: '/contact'
+          path: '/contact',
+          icon: 'i-solar-mailbox-linear'
         },
       ],
-      isMobileMenuOpen: false // Track the mobile menu state
     }
   },
-  methods: {
-    toggleMobileMenu() {
-      this.isMobileMenuOpen = !this.isMobileMenuOpen;
-      if (this.isMobileMenuOpen) {
-        document.body.style.overflow = 'hidden';
-      }
-      else {
-        document.body.style.overflow = 'auto';
-      }
-    }
-  }
 }
 </script>
