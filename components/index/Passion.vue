@@ -19,7 +19,7 @@
         with over 7 years of experience. I don't just write code, I create
         solutions and transform them into digital realities
       </p>
-      <button class="btn">View My Work</button>
+      <NuxtLink class="btn" to="/portfolio">View My Work</NuxtLink>
     </div>
   </section>
 </template>
