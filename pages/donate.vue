@@ -1,3 +1,15 @@
+<script setup>
+useHead({
+  title: 'Donate | BEN',
+  meta: [
+    {
+      name: 'description',
+      content: "Support my passion for high-quality and open-source projects"
+    }
+  ]
+})
+</script>
+
 <template>
   <section class="h-[50vh]">
     <NuxtLayout class="mt-48"

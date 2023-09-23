@@ -1,3 +1,15 @@
+<script setup>
+useHead({
+  title: 'About Me | BEN',
+  meta: [
+    {
+      name: 'description',
+      content: "Explore my life and my goals through coding and photography."
+    }
+  ]
+})
+</script>
+
 <template>
   <div>
     <UiJumbotron

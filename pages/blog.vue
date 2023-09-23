@@ -1,3 +1,15 @@
+<script setup>
+useHead({
+  title: 'Blog | BEN',
+  meta: [
+    {
+      name: 'description',
+      content: "Discover my stories and programming tutorials through my blog"
+    }
+  ]
+})
+</script>
+
 <template>
   <div>
     <UiJumbotron

@@ -1,3 +1,15 @@
+<script setup>
+useHead({
+  title: 'Resume | BEN',
+  meta: [
+    {
+      name: 'description',
+      content: "View my detailed resume to learn more about my experiences, expertiese, and qualifications."
+    }
+  ]
+});
+</script>
+
 <template>
   <div>
     <UiJumbotron

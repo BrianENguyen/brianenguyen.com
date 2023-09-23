@@ -1,5 +1,15 @@
 <script setup>
 import {ContactForm} from '#components'
+
+useHead({
+  title: 'Contact | BEN',
+  meta: [
+    {
+      name: 'description',
+      content: "Reach out to me for any inquiries, services, or just to say hello."
+    }
+  ]
+})
 </script>
 
 <template>

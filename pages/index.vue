@@ -1,3 +1,15 @@
+<script setup>
+useHead({
+  title: 'Brian E. Nguyen | Web Developer',
+  meta: [
+    {
+      name: 'description',
+      content: "Welcome to Brian E. Nguyen's website. Explore my portfolio, resume, insights, and get in touch with me for all your web-related needs."
+    }
+  ]
+})
+</script>
+
 <template>
   <div>
     <UiJumbotron

@@ -1,3 +1,15 @@
+<script setup>
+useHead({
+  title: 'Portfolio | BEN',
+  meta: [
+    {
+      name: 'description',
+      content: "View the various projects that I have worked on."
+    }
+  ]
+});
+</script>
+
 <template>
   <div>
     <UiJumbotron
