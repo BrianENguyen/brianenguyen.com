@@ -66,7 +66,7 @@
 export default {
   data() {
     return {
-      form :{
+      form: {
         firstName: '',
         lastName: '',
         email: '',
@@ -74,13 +74,30 @@ export default {
         firstNumber: Math.floor(Math.random() * (9 - 2)) + 2,
         secondNumber: Math.floor(Math.random() * (5 - 1)) + 1,
         operation: Math.random() < 0.5 ? "+" : "-",
-        total: ''
+        total: null,
       }
     }
   },
   methods: {
     handleSubmit: async function() {
-      console.log(this.form)
+      const { form } = this;
+      if (form.firstName.length < 1
+          || form.lastName.length < 1
+          || form.email.length < 1
+          || form.message.length < 1
+          || form.total === null) {
+        alert('Your form has missing valus');
+      }
+      if (form.operation === "+" ) {
+        if (form.firstNumber + form.secondNumber !== form.total) {
+          alert('incorrect!')
+        }
+      }
+      else if (form.operation === "-" ) {
+        if (form.firstNumber - form.secondNumber !== form.total) {
+          alert('incorrect!')
+        }
+      }
     }
   }
 }
