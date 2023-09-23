@@ -4,7 +4,7 @@
       class="zero:text-[9vw]
             xs:text-[5vw]
             sm:text-[2.5vw]
-            mb-8"
+            mb-8 leading-loose"
     >
       A fulfilling life is not preoccupied with material objects, prestige, or
       power. It is a life that is filled with true friendships, sharing, and
