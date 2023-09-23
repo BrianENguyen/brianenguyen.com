@@ -111,10 +111,10 @@ export default {
       if (Object.keys(form.errors).length === 0) {
         emailjs.send('service_r9k0g7v','template_y9ehrb8', form, 'Nz2MANSsAAzHg8hyO')
           .then(() => {
-            alert('Success!')
+            alert("Thank you for your email! I'll be sure to respond shortly")
           })
           .catch(err => {
-            console.log(err.text)
+            alert("Something went wrong with sending your email. Please try again later, or contact me directly at brian.edison.nguyen@gmail.com")
           })
       }
     },
