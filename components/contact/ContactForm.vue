@@ -107,9 +107,15 @@ export default {
       if(form.email.length && !this.isValidEmail(form.email)) {
         form.errors.email = 'Invalid email';
       }
-
+      // All inputs are valid
       if (Object.keys(form.errors).length === 0) {
-        alert('Success!')
+        emailjs.send('service_r9k0g7v','template_y9ehrb8', form, 'Nz2MANSsAAzHg8hyO')
+          .then(() => {
+            alert('Success!')
+          })
+          .catch(err => {
+            console.log(err.text)
+          })
       }
     },
     // Check if any fields are null
