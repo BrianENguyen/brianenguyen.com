@@ -1,15 +1,6 @@
 <script setup>
 const backgroundEnabled = useState('background-enabled', () => false);
-const iconsEnabled = useState('icons-enabled', () => false);
 
-function showIcons() {
-  if (window.innerWidth <= 992) {
-    iconsEnabled.value = true;
-  }
-  else {
-    iconsEnabled.value = false;
-  }
-}
 function showBackground()  {
   if (window.scrollY >= 100 || window.innerWidth <= 992) {
     backgroundEnabled.value = true;
@@ -20,7 +11,6 @@ function showBackground()  {
 };
 onMounted(() => {
   window.addEventListener('resize', showBackground);
-  window.addEventListener('resize', showIcons);
   window.addEventListener('scroll', showBackground);
 })
 </script>
@@ -51,14 +41,12 @@ onMounted(() => {
               :to="link.path"
               class="mx-1 block font-bold !text-white hover:!text-brian-blue transition-color duration-300 decoration-none"
             >
-              <span v-if="!iconsEnabled">
+              <span class="zero:display-none md:block">
                 {{ link.name.toUpperCase() }}
               </span>
-              <span v-else>
-                <div
-                  :class="`${link.icon} my-2 zero:text-xl sm:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300`"
-                />
-              </span>
+              <div
+                :class="`${link.icon} my-2 md:display-none zero:text-xl sm:text-3xl !text-white hover:!text-brian-blue transition-color duration-300`"
+              />
             </NuxtLink>
           </li>
           <li>
