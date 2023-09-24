@@ -1,9 +1,10 @@
 <template>
   <div
-    class="text-white rounded-md bg-[#131313]
+    class="rounded-md 
+            bg-[#efefef] dark:bg-[#131313]
               min-h-[200px] h-auto
               transition-colors
-              border-1px border-gray-light border-solid
+              border-1px dark:border-gray-light border-solid
               border-l-[4px] hover:border-l-brian-blue hover:border-[#434a57]"
   >
     <div class="mt-4 ml-4">
@@ -13,7 +14,7 @@
       </p>
       <NuxtLink
         :to="page.url"
-        class="inline-block transition-colors text-brian-blue hover:text-brian-blue-light 
+        class="inline-block transition-colors dark:text-brian-blue dark:hover:text-brian-blue-light 
                 cursor-pointer 
                 font-bold no-underline mt-auto mb-4"
       >

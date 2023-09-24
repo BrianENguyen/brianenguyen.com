@@ -1,5 +1,8 @@
 <template>
-  <NuxtLink :to="project.link" class="!text-white decoration-none">
+  <NuxtLink
+    :to="project.link"
+    class="text-black dark:!text-white decoration-none"
+  >
     <img
       :src="project.src"
       :alt="project.alt"

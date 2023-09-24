@@ -1,6 +1,9 @@
 <template>
   <div>
-    <NuxtLink :to="blog.link" class="!text-white decoration-none">
+    <NuxtLink
+      :to="blog.link"
+      class="text-black dark:!text-white decoration-none"
+    >
       <img
         :src="blog.image"
         :alt="blog.alt"
