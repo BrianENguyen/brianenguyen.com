@@ -24,6 +24,8 @@ useHead({
     <DefaultLayout>
       <IndexPassion />
       <IndexWebCardList />
+      <IndexLatestProjects />
+      <IndexLatestBlogs />
     </DefaultLayout>
   </div>
 </template>

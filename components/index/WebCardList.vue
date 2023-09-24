@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="mb-48">
     <h2 class="text-5xl font-[Playfair_Display] text-center">
       Everything About Me
     </h2>
