@@ -43,7 +43,7 @@ onMounted(() => {
       </div>
       <div class="w-full inline-block md:w-auto" id="navbar-default">
         <ul
-          class="list-none font-medium flex flex-row items-center justify-end border md:flex-row md:space-x-8 md:border-0"
+          class="list-none mr-16 font-medium flex flex-row items-center justify-end border md:flex-row md:space-x-8 md:border-0"
         >
           <li v-for="link in links" :key="link">
             <NuxtLink
