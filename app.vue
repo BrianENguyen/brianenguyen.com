@@ -1,9 +1,9 @@
 <template>
   <UiNavbar />
-  <div>
+  <ClientOnly>
     <NuxtPage />
-  </div>
-  <UiFooter />
+    <UiFooter />
+  </ClientOnly>
 </template>
 
 <style>
