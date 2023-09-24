@@ -21,7 +21,7 @@ onMounted(() => {
     :class="backgroundEnabled ? 'bg-[#282c34e5] shadow-xl' : 'bg-transparent'"
   >
     <div
-      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 filter-none"
+      class="max-w-screen-xl flex items-center justify-between mx-auto p-4 filter-none"
     >
       <div class="flex items-center">
         <NuxtLink to="/">
@@ -32,40 +32,40 @@ onMounted(() => {
           />
         </NuxtLink>
       </div>
-      <div class="w-full md:block md:w-auto" id="navbar-default">
+      <div class="w-full inline-block md:w-auto" id="navbar-default">
         <ul
-          class="list-none font-medium md:flex flex-col p-4 md:p-0 border md:flex-row md:space-x-8 md:border-0"
+          class="list-none font-medium flex flex-row items-center justify-end border md:flex-row md:space-x-8 md:border-0"
         >
           <li v-for="link in links" :key="link">
             <NuxtLink
               :to="link.path"
-              class="block py-2 pl-3 font-bold !text-white hover:!text-brian-blue transition-color duration-300 decoration-none"
+              class="mx-1 block font-bold !text-white hover:!text-brian-blue transition-color duration-300 decoration-none"
             >
               <span v-if="!backgroundEnabled">
                 {{ link.name.toUpperCase() }}
               </span>
               <span v-else>
                 <div
-                  :class="`${link.icon} my-2 zero:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300`"
+                  :class="`${link.icon} my-2 zero:text-xl sm:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300`"
                 />
               </span>
             </NuxtLink>
           </li>
-          <li class="align-middle">
+          <li>
             <NuxtLink to="/donate" title="Donate">
               <div
-                class="i-solar-user-heart-rounded-linear my-2 zero:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
+                class="i-solar-user-heart-rounded-linear my-2 zero:text-xl sm:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
               />
             </NuxtLink>
           </li>
-          <li class="align-middle">
+          <li>
             <a
               href="https://github.com/buraiyen"
               title="GitHub"
               target="_blank"
             >
               <div
-                class="i-iconoir-github my-2 zero:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
+                class="i-iconoir-github my-2 zero:text-xl sm:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
               />
             </a>
           </li>
