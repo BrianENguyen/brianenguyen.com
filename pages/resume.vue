@@ -25,6 +25,7 @@ useHead({
       <ResumeExperience />
       <ResumeProjects />
       <ResumeSkills />
+      <UiCd to="/" />
     </NuxtLayout>
   </div>
 </template>

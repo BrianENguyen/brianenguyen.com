@@ -26,6 +26,7 @@ useHead({
         description="A collection of various websites that I have designed and developed"
       />
       <PortfolioProjectList />
+      <UiCd to="/" />
     </NuxtLayout>
   </div>
 </template>

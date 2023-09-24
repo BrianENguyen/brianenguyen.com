@@ -41,6 +41,8 @@ useHead({
         <div class="i-solar-heart-outline text-xl inline-block align-middle" />
         <span class="inline"> Sponsor me to support my work </span>
       </a>
+      <br />
+      <UiCd to="/" />
     </NuxtLayout>
   </section>
 </template>

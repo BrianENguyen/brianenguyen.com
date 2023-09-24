@@ -27,6 +27,7 @@ useHead({
       <AboutTheGallery />
       <AboutPhotoGallery />
       <AboutMoreToExplore />
+      <UiCd to="/" />
     </NuxtLayout>
   </div>
 </template>
