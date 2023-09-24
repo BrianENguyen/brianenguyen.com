@@ -8,7 +8,10 @@ export default defineNuxtConfig({
   modules: ['@unocss/nuxt', '@nuxt/content'],
   content: {
     highlight: {
-      theme: 'one-dark-pro',
+      theme: {
+        default: 'vitesse-light',
+        dark: 'one-dark-pro',
+      },
     },
   },
   components: {
