@@ -1,5 +1,15 @@
 <script setup>
 const backgroundEnabled = useState('background-enabled', () => false);
+const iconsEnabled = useState('icons-enabled', () => false);
+
+function showIcons() {
+  if (window.innerWidth <= 992) {
+    iconsEnabled.value = true;
+  }
+  else {
+    iconsEnabled.value = false;
+  }
+}
 function showBackground()  {
   if (window.scrollY >= 100 || window.innerWidth <= 992) {
     backgroundEnabled.value = true;
@@ -8,9 +18,9 @@ function showBackground()  {
     backgroundEnabled.value = false;
   }
 };
-
 onMounted(() => {
   window.addEventListener('resize', showBackground);
+  window.addEventListener('resize', showIcons);
   window.addEventListener('scroll', showBackground);
 })
 </script>
@@ -41,7 +51,7 @@ onMounted(() => {
               :to="link.path"
               class="mx-1 block font-bold !text-white hover:!text-brian-blue transition-color duration-300 decoration-none"
             >
-              <span v-if="!backgroundEnabled">
+              <span v-if="!iconsEnabled">
                 {{ link.name.toUpperCase() }}
               </span>
               <span v-else>
