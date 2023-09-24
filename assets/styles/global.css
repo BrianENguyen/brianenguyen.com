@@ -22,7 +22,7 @@ hr {
   border-color: #504f4f;
 }
 
-a,
+/* a,
 a:visited {
   color: #79c2d0;
   transition: 0.3s color;
@@ -30,7 +30,7 @@ a:visited {
 
 a:hover {
   color: white;
-}
+} */
 
 p {
   line-height: 1.6rem;
