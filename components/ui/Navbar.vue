@@ -3,7 +3,6 @@ import { isDark } from '../../composables/dark';
 import { useToggle } from '@vueuse/shared'
 const backgroundEnabled = useState('background-enabled', () => false);
 const toggleDark = useToggle(isDark);
-
 function showBackground()  {
   if (window.scrollY >= 100 || window.innerWidth <= 992) {
     backgroundEnabled.value = true;
@@ -21,7 +20,7 @@ onMounted(() => {
 <template>
   <nav
     class="fixed w-[100%] h-100px z-[1] top-0 transition duration-300"
-    :class="backgroundEnabled ? 'bg-[#282c34e5] shadow-xl' : 'bg-transparent'"
+    :class="backgroundEnabled ? 'bg-[#efefef] dark:bg-[#282c34e5] shadow-xl' : 'bg-transparent'"
   >
     <div
       class="max-w-screen-xl flex items-center justify-between mx-auto p-4 filter-none"
@@ -29,8 +28,8 @@ onMounted(() => {
       <div class="flex items-center">
         <NuxtLink to="/">
           <img
-            class="w-100px"
-            src="https://res.cloudinary.com/buraiyen/image/upload/v1662578965/BEN_Website/BEN-logo-navbar.webp"
+            class="zero:w-75px md:w-100px"
+            :src="isDark ? 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_110/v1662578878/BEN_Website/BEN-logo-navbar.webp' : 'https://res.cloudinary.com/buraiyen/image/upload/v1620240495/BEN_Website/BEN-logo-black.png' "
             alt="BEN logo"
           />
         </NuxtLink>
@@ -42,20 +41,20 @@ onMounted(() => {
           <li v-for="link in links" :key="link">
             <NuxtLink
               :to="link.path"
-              class="mx-1 block font-bold !text-white hover:!text-brian-blue transition-color duration-300 decoration-none"
+              class="mx-1 block font-bold text-black hover:text-brian-blue-dark dark:!text-white dark:hover:!text-brian-blue transition-color duration-300 decoration-none"
             >
               <span class="zero:display-none md:block">
                 {{ link.name.toUpperCase() }}
               </span>
               <div
-                :class="`${link.icon} my-2 md:display-none zero:text-xl sm:text-3xl !text-white hover:!text-brian-blue transition-color duration-300`"
+                :class="`${link.icon} my-2 md:display-none zero:text-xl sm:text-3xl md:text-2xl dark:!text-white dark:hover:!text-brian-blue transition-color duration-300`"
               />
             </NuxtLink>
           </li>
           <li>
             <NuxtLink to="/donate" title="Donate">
               <div
-                class="i-solar-user-heart-rounded-linear my-2 zero:text-xl sm:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
+                class="i-solar-user-heart-rounded-linear my-2 zero:text-xl sm:text-3xl md:text-2xl text-black hover:text-brian-blue-dark  dark:!text-white dark:hover:!text-brian-blue transition-color duration-300"
               />
             </NuxtLink>
           </li>
@@ -66,13 +65,13 @@ onMounted(() => {
               target="_blank"
             >
               <div
-                class="i-iconoir-github my-2 zero:text-xl sm:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
+                class="i-iconoir-github my-2 zero:text-xl sm:text-3xl md:text-2xl text-black hover:text-brian-blue-dark dark:!text-white dark:hover:!text-brian-blue transition-color duration-300"
               />
             </a>
           </li>
           <li>
             <div
-              class="i-solar-sun-outline dark:i-solar-moon-line-duotone zero:text-xl sm:text-3xl !text-white hover:!text-brian-blue transition-color duration-300"
+              class="i-solar-sun-outline dark:i-solar-moon-line-duotone text-black hover:text-brian-blue-dark zero:text-xl sm:text-3xl dark:!text-white dark:hover:!text-brian-blue transition-color duration-300"
               @click="toggleDark()"
             />
           </li>

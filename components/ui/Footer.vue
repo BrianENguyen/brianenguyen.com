@@ -1,6 +1,10 @@
+<script setup>
+import { isDark } from '../../composables/dark';
+</script>
+
 <template>
   <footer
-    class="bg-[#171717] text-center border-t-gray-light border-t-solid border-t-1 mt-8"
+    class="dark:bg-[#171717] text-center border-t-gray-light border-t-solid border-t-1 mt-8"
   >
     <div class="mx-auto px-4 py-5">
       <div class="grid zero:grid-cols-1 md:grid-cols-3 gap-4 items-center">
@@ -13,7 +17,7 @@
         <!-- Brand -->
         <div>
           <img
-            src="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_110/v1662578878/BEN_Website/BEN-logo-navbar.webp"
+            :src="isDark ? 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_110/v1662578878/BEN_Website/BEN-logo-navbar.webp' : 'https://res.cloudinary.com/buraiyen/image/upload/v1620240495/BEN_Website/BEN-logo-black.png' "
             width="150px"
             height="100px"
             class="w-150px h-100px"
@@ -34,7 +38,7 @@
           </a>
         </div>
       </div>
-      <div class="border-t-gray-light border-t-solid border-t-1 text-gray">
+      <div class="border-t-gray-light border-t-solid border-t-1 dark:text-gray">
         <p>
           <a
             href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
