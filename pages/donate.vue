@@ -14,7 +14,7 @@ useHead({
 </script>
 
 <template>
-  <section class="h-[50vh]">
+  <section class="min-h-[50vh]">
     <NuxtLayout class="mt-48"
       ><h1>Donate</h1>
       <p>
