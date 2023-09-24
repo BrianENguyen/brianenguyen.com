@@ -9,6 +9,10 @@
   - [[#support][Support]]
 
 ** About
+[[https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com][https://img.shields.io/github/commit-activity/m/buraiyen/brianenguyen.com.svg]]
+
+[[https://gitmoji.dev][https://img.shields.io/badge/gitmoji-%20%F0%9F%98%9C%20%F0%9F%98%8D-FFDD67.svg?style=flat]]
+
 Link to website: [[https://brianenguyen.com][brianenguyen.com]]
 
 My personal website / portfolio that showcases information about me and my
