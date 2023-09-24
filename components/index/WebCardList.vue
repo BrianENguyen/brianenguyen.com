@@ -1,6 +1,10 @@
 <template>
-  <section
-    class="
+  <section>
+    <h2 class="text-5xl font-[Playfair_Display] text-center">
+      Everything About Me
+    </h2>
+    <div
+      class="
       bg-gradient-to-r 
       grid
       zero:grid-cols-1
@@ -8,8 +12,9 @@
       lg:grid-cols-3
       gap-4
   "
-  >
-    <WebCard v-for="data in webCardData" :page="data" :key="data" />
+    >
+      <WebCard v-for="data in webCardData" :page="data" :key="data" />
+    </div>
   </section>
 </template>
 
