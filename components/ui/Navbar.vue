@@ -3,12 +3,18 @@ import { isDark } from '../../composables/dark';
 import { useToggle } from '@vueuse/shared'
 const backgroundEnabled = useState('background-enabled', () => false);
 const toggleDark = useToggle(isDark);
+
 function showBackground()  {
-  if (window.scrollY >= 100 || window.innerWidth <= 992) {
-    backgroundEnabled.value = true;
+  if (isDark.value) {
+    if ((window.scrollY >= 100 || window.innerWidth <= 992)) {
+      backgroundEnabled.value = true;
+    }
+    else {
+      backgroundEnabled.value = false;
+    }
   }
   else {
-    backgroundEnabled.value = false;
+    backgroundEnabled.value = true;
   }
 };
 onMounted(() => {
