@@ -1,5 +1,26 @@
 <script setup>
 import { isDark } from '../../composables/dark';
+
+const latestCommitDate = useState('latest-commit-date', () => null);
+
+fetch('https://api.github.com/repos/buraiyen/brianenguyen.com/branches/main')
+  .then(res => res.json())
+  .then(data => {
+    const retrievedDate = new Date(data.commit.commit.committer.date)
+    latestCommitDate.value = formatDate(retrievedDate)
+  })
+
+function formatDate(dateStr) {
+  const date = new Date(dateStr);
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0'); // Month is zero-based
+  const day = String(date.getDate()).padStart(2, '0');
+  const hours = String(date.getHours()).padStart(2, '0');
+  const minutes = String(date.getMinutes()).padStart(2, '0');
+  const seconds = String(date.getSeconds()).padStart(2, '0');
+
+  return `${year}/${month}/${day} ${hours}:${minutes}:${seconds}`;
+}
 </script>
 
 <template>
@@ -47,6 +68,8 @@ import { isDark } from '../../composables/dark';
           >
           2023-PRESENT &copy; Brian Nguyen
         </p>
+
+        <p>Latest site update on {{ latestCommitDate }}</p>
         <p>
           See an issue?
           <a href="https://github.com/Buraiyen/brianenguyen.com/pulls"
