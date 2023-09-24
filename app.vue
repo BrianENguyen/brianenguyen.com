@@ -3,6 +3,7 @@
   <ClientOnly>
     <NuxtPage />
     <UiFooter />
+    <UiWelcomeModal />
   </ClientOnly>
 </template>
 
