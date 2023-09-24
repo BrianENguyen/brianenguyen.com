@@ -7,6 +7,15 @@
 </template>
 
 <style>
+html {
+  color: black;
+}
+html.dark {
+  color-scheme: dark;
+  background-color: #1d1d1d;
+  color: #cdd9e5;
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: all 0.4s;
