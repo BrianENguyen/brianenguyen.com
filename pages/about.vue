@@ -1,4 +1,7 @@
 <script setup>
+const { sayHi } = useUtils();
+sayHi();
+
 useHead({
   title: 'About Me | BEN',
   meta: [
@@ -7,7 +10,7 @@ useHead({
       content: "Explore my life and my goals through coding and photography."
     }
   ]
-})
+});
 </script>
 
 <template>

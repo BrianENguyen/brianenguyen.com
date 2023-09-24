@@ -1,4 +1,7 @@
 <script setup>
+const { sayHi } = useUtils();
+sayHi();
+
 useHead({
   title: 'Blog | BEN',
   meta: [

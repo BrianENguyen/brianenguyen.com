@@ -1,4 +1,7 @@
 <script setup>
+const { sayHi } = useUtils();
+sayHi();
+
 useHead({
   title: 'Brian E. Nguyen | Web Developer',
   meta: [

@@ -1,5 +1,8 @@
 <script setup>
+const { sayHi } = useUtils();
 import {ContactForm} from '#components'
+
+sayHi();
 
 useHead({
   title: 'Contact | BEN',
