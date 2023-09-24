@@ -1,5 +1,8 @@
 <script setup>
+import { isDark } from '../../composables/dark';
+import { useToggle } from '@vueuse/shared'
 const backgroundEnabled = useState('background-enabled', () => false);
+const toggleDark = useToggle(isDark);
 
 function showBackground()  {
   if (window.scrollY >= 100 || window.innerWidth <= 992) {
@@ -66,6 +69,12 @@ onMounted(() => {
                 class="i-iconoir-github my-2 zero:text-xl sm:text-3xl md:text-2xl !text-white hover:!text-brian-blue transition-color duration-300"
               />
             </a>
+          </li>
+          <li>
+            <div
+              class="i-solar-sun-outline dark:i-solar-moon-line-duotone zero:text-xl sm:text-3xl !text-white hover:!text-brian-blue transition-color duration-300"
+              @click="toggleDark()"
+            />
           </li>
         </ul>
       </div>
