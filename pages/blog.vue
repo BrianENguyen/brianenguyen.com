@@ -1,4 +1,5 @@
 <script setup>
+import {BlogList} from '#components';
 const { sayHi } = useUtils();
 sayHi();
 
