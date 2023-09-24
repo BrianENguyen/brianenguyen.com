@@ -24,6 +24,7 @@ useHead({
     />
     <NuxtLayout>
       <BlogList />
+      <UiCd to="/" />
     </NuxtLayout>
   </div>
 </template>
