@@ -35,7 +35,8 @@ onMounted(() => {
         <NuxtLink to="/">
           <img
             class="zero:w-75px md:w-100px"
-            :src="isDark ? 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_110/v1662578878/BEN_Website/BEN-logo-navbar.webp' : 'https://res.cloudinary.com/buraiyen/image/upload/v1620240495/BEN_Website/BEN-logo-black.png' "
+            :src="isDark ? 'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_110/v1662578878/BEN_Website/BEN-logo-navbar.webp' 
+                      : 'https://res.cloudinary.com/buraiyen/image/upload/v1620240495/BEN_Website/BEN-logo-black.png' "
             alt="BEN logo"
           />
         </NuxtLink>
@@ -53,6 +54,7 @@ onMounted(() => {
                 {{ link.name.toUpperCase() }}
               </span>
               <div
+                :title="link.name"
                 :class="`${link.icon} my-2 md:display-none zero:text-xl sm:text-3xl md:text-2xl dark:!text-white dark:hover:!text-brian-blue transition-color duration-300`"
               />
             </NuxtLink>
@@ -71,13 +73,13 @@ onMounted(() => {
               target="_blank"
             >
               <div
-                class="i-iconoir-github my-2 zero:text-xl sm:text-3xl md:text-2xl text-black hover:text-brian-blue-dark dark:!text-white dark:hover:!text-brian-blue transition-color duration-300"
+                class="i-iconoir-github mx-2 my-2 zero:text-xl sm:text-3xl md:text-2xl text-black hover:text-brian-blue-dark dark:!text-white dark:hover:!text-brian-blue transition-color duration-300"
               />
             </a>
           </li>
           <li>
             <div
-              class="i-solar-sun-outline dark:i-solar-moon-line-duotone text-black hover:text-brian-blue-dark zero:text-xl sm:text-3xl dark:!text-white dark:hover:!text-brian-blue transition-color duration-300"
+              class="i-solar-sun-outline dark:i-solar-moon-line-duotone cursor-pointer text-black hover:text-brian-blue-dark zero:text-xl sm:text-3xl dark:!text-white dark:hover:!text-brian-blue transition-color duration-300"
               @click="toggleDark()"
             />
           </li>
