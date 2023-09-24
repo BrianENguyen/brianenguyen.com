@@ -22,19 +22,21 @@ onMounted(() => {
 </script>
 
 <template>
-  <div
-    id="welcome-modal"
-    class="gap-4 flex bottom-0 z-2 bg-white rounded p-4 dark:bg-[#131313] border-2 border-solid border-brian-blue"
-    :class="isVisible ? 'fixed' : 'hidden'"
-  >
-    <div>
-      <p>Welcome to my newly designed website, built with Nuxt3!</p>
-      <p>Blog detailing these changes coming soon...</p>
-    </div>
-    <span
-      @click="visibilityHandler()"
-      class="cursor-pointer text-2xl font-bold float-right"
-      >X</span
+  <Teleport to="body">
+    <div
+      id="welcome-modal"
+      class="fixed gap-4 flex bottom-0 z-2 bg-white rounded p-4 dark:bg-[#131313] border-2 border-solid border-brian-blue"
+      v-if="isVisible"
     >
-  </div>
+      <div>
+        <p>Welcome to my newly designed website, built with Nuxt3!</p>
+        <p>Blog detailing these changes coming soon...</p>
+      </div>
+      <span
+        @click="visibilityHandler()"
+        class="cursor-pointer text-2xl font-bold float-right"
+        >X</span
+      >
+    </div>
+  </Teleport>
 </template>
