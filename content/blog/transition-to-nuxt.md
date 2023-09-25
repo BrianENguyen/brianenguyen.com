@@ -1,0 +1,24 @@
+
+
+# Revamping My Online Presence With Nuxt.js
+
+I am so happy to share that this website has been rebuilt with Nuxt3! This
+website has gone through three major versions, and this version is the best one
+and my absolute favorite. This blog details the different features that made me
+switch from React to Nuxt.
+
+
+## UnoCSS
+
+
+## Nuxt-Content
+
+
+### Shiki
+
+
+## Auto Imports
+
+
+## Built-in Page Transitions
+
