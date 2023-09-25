@@ -8,13 +8,3 @@ import blogData from '~/data/blogData'
     <BlogCard v-for="blog in blogData" :key="blog.title" :blog="blog" />
   </section>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      blogData
-    }
-  }
-}
-</script>
