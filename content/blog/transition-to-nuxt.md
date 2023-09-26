@@ -41,9 +41,9 @@ have the following components in my file structure:
 Instead of using import statements, I only need to specify the directory
 name that the component comes from in the component name. Components
 `Jumbotron`{.verbatim} and `SectionHeader`{.verbatim} come from the
-`ui`{.verbatim} directory, so I would need to prepend \"Ui\" at each of
+`ui/`{.verbatim} directory, so I would need to prepend \"Ui\" at each of
 the components\' names; respectively, `ProjectList`{.verbatim} comes
-from the `portfolio`{.verbatim} directory, so I would need to prepend
+from the `portfolio/`{.verbatim} directory, so I would need to prepend
 `Portfolio`{.verbatim}
 
 ``` html
@@ -58,6 +58,46 @@ from the `portfolio`{.verbatim} directory, so I would need to prepend
 ```
 
 ## File-Based Routing
+
+Another aspect that Nuxt streamlines is file-based routing. Routes are
+automatically generated based on routes created in the
+`pages/`{.verbatim} directory, which eliminates the need to configure
+routes manually
+
+``` shell
+> | pages
+> --| index.vue
+> --| portfolio.vue
+> --| about.vue
+> --| resume.vue
+
+... etc
+```
+
+This then generates the following router file:
+
+``` json
+{
+  "routes": [
+    {
+      "path": "/",
+      "component": "pages/index.vue"
+    },
+    {
+      "path": "/portfolio",
+      "component": "pages/portfolio.vue"
+    },
+    {
+      "path": "/about",
+      "component": "pages/about.vue"
+    },
+    {
+      "path": "/resume",
+      "component": "pages/resume.vue"
+    },
+  ]
+}
+```
 
 ## UnoCSS
 

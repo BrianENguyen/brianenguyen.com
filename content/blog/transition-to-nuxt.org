@@ -39,9 +39,9 @@ components in my file structure:
 
 Instead of using import statements, I only need to specify the directory name
 that the component comes from in the component name. Components =Jumbotron= and
-=SectionHeader= come from the =ui= directory, so I would need to prepend "Ui" at
+=SectionHeader= come from the =ui/= directory, so I would need to prepend "Ui" at
 each of the components' names; respectively, =ProjectList= comes from the
-=portfolio= directory, so I would need to prepend =Portfolio=
+=portfolio/= directory, so I would need to prepend =Portfolio=
 
 #+begin_src html
 <UiJumbotron
@@ -55,6 +55,45 @@ each of the components' names; respectively, =ProjectList= comes from the
 #+end_src
 
 ** File-Based Routing
+Another aspect that Nuxt streamlines is file-based routing. Routes are
+automatically generated based on routes created in the =pages/= directory, which
+eliminates the need to configure routes manually
+
+#+begin_src shell
+> | pages
+> --| index.vue
+> --| portfolio.vue
+> --| about.vue
+> --| resume.vue
+
+... etc
+#+end_src
+
+This then generates the following router file:
+
+#+begin_src json
+{
+  "routes": [
+    {
+      "path": "/",
+      "component": "pages/index.vue"
+    },
+    {
+      "path": "/portfolio",
+      "component": "pages/portfolio.vue"
+    },
+    {
+      "path": "/about",
+      "component": "pages/about.vue"
+    },
+    {
+      "path": "/resume",
+      "component": "pages/resume.vue"
+    },
+  ]
+}
+#+end_src
+
 ** UnoCSS
 ** VueUse's useDark
 ** Nuxt-Content
