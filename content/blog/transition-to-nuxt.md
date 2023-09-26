@@ -5,15 +5,22 @@ This website has gone through three major versions, and this version is
 the best one and my absolute favorite. This blog details the different
 features that made me switch from React to Nuxt.
 
+## Preface
+
+Vue was my first frontend framework I ever used back in 2020, and I
+loved it because of its simplified code structure. I was on the fence of
+redeveloping my website in Vue, but when I saw all of Nuxt\'s amazing
+features, I knew this was the right decision.
+
 ## Imports
 
 ### Auto Imports
 
-One aspect that Nuxt greatly streamlines is importing components through
-it\'s auto-import feature. With this, I don\'t specify the import route
+One aspect that Nuxt greatly simplifies is importing components through
+its auto-import feature. With this, I don\'t specify the import route
 for my components.
 
-Take a look at my React implementation of my Portfolio page
+Take a look at my React implementation of my Portfolio page:
 
 ``` javascript
 import PageContainer from '../../../components/ui/page-container/PageContainer';
@@ -27,9 +34,9 @@ import Jumbotron from '../../../components/ui/jumbotron/Jumbotron';
 
 As you can obviously see, this is an absolute pain to deal with.
 
-Nuxt eliminates the hassle of explicitly defining the import of
-components. Let\'s look how I implemented my Portfolio page. First, I
-have the following components in my file structure:
+Nuxt eliminates the hassle of defining components\' import statements.
+Let\'s look how I implemented my Portfolio page. First, I have the
+following components in my file structure:
 
 ``` shell
 > | components /
@@ -180,6 +187,46 @@ html.dark a:hover {
 absolute preferred way of writing blogs, and now, project pages. It
 outshines my previous approach to configuring a custom CMS module
 
+Just like how routing works in regular Nuxt, `nuxt-content`{.verbatim}
+generates routes based on Markdown files in the `content/`{.verbatim}
+directory
+
+``` shell
+> | content
+> --| blog/
+> ----| transition-to-nuxt.md
+> ----| maternity-photos.md
+> --| portfolio/
+> ----| my-site-v3.md
+> ----| all-elite-network.md
+
+... etc
+```
+
+``` json
+{
+  "routes": [
+    {
+      "path": "/blog/transition-to-nuxt",
+      "component": "content/blog/transition-to-nuxt.md"
+    },
+    {
+      "path": "/blog/maternity-photos",
+      "component": "content/blog/maternity-photos.md"
+    },
+    {
+      "path": "/portfolio/my-site-v3",
+      "component": "content/portfolio/my-site-v3.md"
+    },
+    {
+      "path": "/blog/all-elite-network",
+      "component": "content/portfolio/all-elite-network.md"
+    },
+  ]
+}
+
+```
+
 ### Shiki
 
 Shiki is a beautiful syntax highlighter that comes with
@@ -272,3 +319,8 @@ what I use on this site and it works perfectly for my design.
 ```
 
 ## Conclusion
+
+Nuxt has made web development more efficient and enjoyable. As I
+continue to explore and utilize Nuxt\'s capabilities, I eagerly
+anticipate the enhancements I will bring to this website in the future.
+Thank you for joining me on this journey!
