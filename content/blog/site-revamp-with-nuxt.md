@@ -1,5 +1,7 @@
 # Revamping My Online Presence With Nuxt
 
+> 25 Sep, 2023 · 7-9 min
+
 I am so happy to share that this website has been rebuilt with Nuxt3!
 This website has gone through three major versions, and this version is
 the best one and my absolute favorite. This blog details the different

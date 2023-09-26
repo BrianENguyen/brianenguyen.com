@@ -1,7 +1,12 @@
 #+title: Revamping My Online Presence With Nuxt.js
 #+OPTIONS: toc:nil
 
+
 * Revamping My Online Presence With Nuxt
+#+BEGIN_QUOTE
+25 Sep, 2023 · 7-9 min
+#+END_QUOTE
+
 I am so happy to share that this website has been rebuilt with Nuxt3! This
 website has gone through three major versions, and this version is the best one
 and my absolute favorite. This blog details the different features that made me
