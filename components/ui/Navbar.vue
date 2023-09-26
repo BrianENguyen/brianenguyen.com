@@ -1,5 +1,5 @@
 <script setup>
-import { isDark } from '../../composables/dark';
+import { isDark } from '~/composables/dark';
 import { useToggle } from '@vueuse/shared'
 const backgroundEnabled = useState('background-enabled', () => false);
 const toggleDark = useToggle(isDark);
