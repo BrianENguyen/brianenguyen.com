@@ -5,7 +5,9 @@ This website has gone through three major versions, and this version is
 the best one and my absolute favorite. This blog details the different
 features that made me switch from React to Nuxt.
 
-## Auto Imports
+## Imports
+
+### Auto Imports
 
 One aspect that Nuxt greatly streamlines is importing components through
 it\'s auto-import feature. With this, I don\'t specify the import route
@@ -55,6 +57,24 @@ from the `portfolio/`{.verbatim} directory, so I would need to prepend
   description="A collection of various websites that I have designed and developed"
 />
 <PortfolioProjectList />
+```
+
+### Import starting from home directory
+
+If I do need to explicitly define my import statements, then the process
+is trivialized with Nuxt compared to other frontend frameworks. As you
+saw in my React code above, if I needed to import something that is
+above the current file\'s directory, then I would need to repeatedly
+outside of directories using the double dots.
+
+With Nuxt, I can import starting from the home directory.
+
+``` javascript
+// Nuxt
+import Jumbotron from '~/components/ui/Jumbotron'
+
+// React
+import Jumbotron from '../../../components/ui/Jumbotron';
 ```
 
 ## File-Based Routing
@@ -164,3 +184,41 @@ export default defineNuxtConfig({
 ```
 
 ## Built-in Page Transitions
+
+Nuxt also comes with built-in page transitions that are easy to
+implement. To do so, you would have to define transition in the Nuxt
+config file
+
+``` javascript
+// nuxt.config.ts
+export default defineNuxtConfig({
+  app: {
+    pageTransition: { name: 'fade', mode: 'out-in' },
+  },
+});
+```
+
+Nuxt provides CSS classes to help you define your page transition
+animations:
+
+-   \[name\]-enter-active
+-   \[name\]-leave-active
+-   \[name\]-enter-from
+-   \[name\]-leave-to
+
+The CSS classes below are taking from Nuxt\'s documentation, which is
+what I use on this site and it works perfectly for my design.
+
+``` css
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.4s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+```
+
+## Conclusion
