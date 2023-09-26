@@ -30,7 +30,11 @@ onMounted(() => {
     >
       <div>
         <p>Welcome to my newly designed website, built with Nuxt3!</p>
-        <p>Blog detailing these changes coming soon...</p>
+        <p>
+          Click
+          <NuxtLink to="/blog/site-revamp-with-nuxt">HERE</NuxtLink>
+          to read my blog that details these changes
+        </p>
       </div>
       <span
         @click="visibilityHandler()"
