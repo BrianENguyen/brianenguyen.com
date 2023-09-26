@@ -119,9 +119,59 @@ This then generates the following router file:
 }
 ```
 
-## UnoCSS
+## VueUse\'s useDark()
 
-## VueUse\'s useDark
+VueUse\'s `useDark()`{.verbatim} composable allows for easy
+implementation of light and dark mode
+
+``` javascript
+// dark.ts
+import { useDark, useToggle, usePreferredDark } from '@vueuse/core';
+export const isDark = useDark();
+export const toggleDark = useToggle(isDark);
+export const preferredDark = usePreferredDark();
+```
+
+I then used these composables in my `Navbar`{.verbatim} component to
+toggle light and dark mode
+
+``` html
+<div
+  class="i-solar-sun-outline dark:i-solar-moon-line-duotone ..."
+  @click="toggleDark()"
+/>
+```
+
+To also customize the appearance of light and dark mode, useDark uses
+the `.dark`{.verbatim} class on the `<html />`{.verbatim} tag, so you
+can you CSS to customize the appearances of each theme
+
+``` css
+html {
+  color: #202020;
+}
+
+html a {
+  color: #0495b1;
+  transition: 0.3s color;
+}
+html a:hover {
+  color: #015768;
+}
+html.dark {
+  color-scheme: dark;
+  background-color: #1d1d1d;
+  color: #cdd9e5;
+}
+
+html.dark a {
+  color: #79c2d0;
+  transition: 0.3s color;
+}
+html.dark a:hover {
+  color: #efefef;
+}
+```
 
 ## Nuxt-Content
 

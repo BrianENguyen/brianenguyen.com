@@ -112,8 +112,59 @@ This then generates the following router file:
 }
 #+end_src
 
-** UnoCSS
-** VueUse's useDark
+** VueUse's useDark()
+VueUse's =useDark()= composable allows for easy implementation of light and dark
+mode
+
+#+begin_src javascript
+// dark.ts
+import { useDark, useToggle, usePreferredDark } from '@vueuse/core';
+export const isDark = useDark();
+export const toggleDark = useToggle(isDark);
+export const preferredDark = usePreferredDark();
+#+end_src
+
+I then used these composables in my =Navbar= component to toggle light and dark
+mode
+
+#+begin_src html
+<div
+  class="i-solar-sun-outline dark:i-solar-moon-line-duotone ..."
+  @click="toggleDark()"
+/>
+#+end_src
+
+To also customize the appearance of light and dark mode, useDark uses the =.dark=
+class on the =<html />= tag, so you can you CSS to customize the appearances of
+each theme
+
+#+begin_src css
+html {
+  color: #202020;
+}
+
+html a {
+  color: #0495b1;
+  transition: 0.3s color;
+}
+html a:hover {
+  color: #015768;
+}
+html.dark {
+  color-scheme: dark;
+  background-color: #1d1d1d;
+  color: #cdd9e5;
+}
+
+html.dark a {
+  color: #79c2d0;
+  transition: 0.3s color;
+}
+html.dark a:hover {
+  color: #efefef;
+}
+#+end_src
+
 ** Nuxt-Content
 =nuxt-content= is a file-based content-management system (CMS) that displays
 content in Nuxt applications. This module is my absolute preferred way of
@@ -204,3 +255,4 @@ on this site and it works perfectly for my design.
 #+end_src
 
 ** Conclusion
+Admittedly
