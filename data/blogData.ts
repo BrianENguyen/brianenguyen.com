@@ -1,5 +1,15 @@
 const blogData = [
   {
+    title: 'Revamping My Website With Nuxt',
+    description: `Welcome to my new website rebuilt with Nuxt! This blog why I made the switch from React and the many 
+                features that Nuxt provides makes web dev more enjoyable.`,
+    image:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_800/v1695695031/BEN_Website/blog/BEN_nuxt-blog-thumbnail.webp',
+    alt: 'Full Nuxt logo and blue heart in front of San Pedro hills',
+    date: '2023-09-25',
+    link: '/blog/site-revamp-with-nuxt',
+  },
+  {
     title: 'Visiting Universal Studios Hollywood After 10+ Years',
     description: `This blog documents my recent experience at Universal Studios Hollywood and my opinions on how much the park
           transformed the past decade.`,
