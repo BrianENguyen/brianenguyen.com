@@ -5,6 +5,60 @@ This website has gone through three major versions, and this version is
 the best one and my absolute favorite. This blog details the different
 features that made me switch from React to Nuxt.
 
+## Auto Imports
+
+One aspect that Nuxt greatly streamlines is importing components through
+it\'s auto-import feature. With this, I don\'t specify the import route
+for my components.
+
+Take a look at my React implementation of my Portfolio page
+
+``` javascript
+import PageContainer from '../../../components/ui/page-container/PageContainer';
+import { useEffect } from 'react';
+import AnimatedPage from '../../../components/animations/AnimatedPage';
+import { PortfolioJumboData } from '../../../helper/JumbotronData';
+import ProjectsList from '../../../components/projects/main/ProjectsList';
+import OtherProjectsList from '../../../components/projects/other/OtherProjectsList';
+import Jumbotron from '../../../components/ui/jumbotron/Jumbotron';
+```
+
+As you can obviously see, this is an absolute pain to deal with.
+
+Nuxt eliminates the hassle of explicitly defining the import of
+components. Let\'s look how I implemented my Portfolio page. First, I
+have the following components in my file structure:
+
+``` shell
+> | components /
+> --| portfolio /
+> ----| ProjectList.vue
+> --| ui /
+> ----| SectionHeader.vue
+> ----| Jumbotron.vue
+```
+
+Instead of using import statements, I only need to specify the directory
+name that the component comes from in the component name. Components
+`Jumbotron`{.verbatim} and `SectionHeader`{.verbatim} come from the
+`ui`{.verbatim} directory, so I would need to prepend \"Ui\" at each of
+the components\' names; respectively, `ProjectList`{.verbatim} comes
+from the `portfolio`{.verbatim} directory, so I would need to prepend
+`Portfolio`{.verbatim}
+
+``` html
+<UiJumbotron
+  jumbotronTitle="Portfolio"
+/>
+<UiSectionHeader
+  title="My work"
+  description="A collection of various websites that I have designed and developed"
+/>
+<PortfolioProjectList />
+```
+
+## File-Based Routing
+
 ## UnoCSS
 
 ## VueUse\'s useDark
@@ -68,7 +122,5 @@ export default defineNuxtConfig({
   },
 });
 ```
-
-## Auto Imports
 
 ## Built-in Page Transitions
