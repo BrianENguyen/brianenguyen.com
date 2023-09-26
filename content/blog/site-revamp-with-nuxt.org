@@ -1,8 +1,7 @@
 #+title: Revamping My Online Presence With Nuxt.js
 #+OPTIONS: toc:nil
 
-
-* Revamping My Online Presence With Nuxt
+* Revamping My Website With Nuxt
 #+BEGIN_QUOTE
 25 Sep, 2023 · 7-9 min
 #+END_QUOTE

@@ -1,4 +1,4 @@
-# Revamping My Online Presence With Nuxt
+# Revamping My Website With Nuxt
 
 > 25 Sep, 2023 · 7-9 min
 
