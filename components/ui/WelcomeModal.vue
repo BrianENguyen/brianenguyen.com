@@ -25,7 +25,9 @@ onMounted(() => {
   <Teleport to="body">
     <div
       id="welcome-modal"
-      class="fixed gap-4 flex bottom-0 z-2 bg-white rounded p-4 dark:bg-[#131313] border-2 border-solid border-brian-blue"
+      class="fixed gap-4 flex left-2 bottom-4 z-2 
+          bg-white rounded p-4 dark:bg-[#131313] 
+          border-2 border-solid border-brian-blue"
       v-if="isVisible"
     >
       <div>
@@ -39,7 +41,7 @@ onMounted(() => {
       <span
         @click="visibilityHandler()"
         class="cursor-pointer text-2xl font-bold float-right"
-        >X</span
+        >&times;</span
       >
     </div>
   </Teleport>
