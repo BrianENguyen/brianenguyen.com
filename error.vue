@@ -29,7 +29,7 @@ fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
       srcMobile="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg"
     />
 
-    <NuxtLayout class="text-lg">
+    <section class="text-lg mx-auto max-w-700px px-4">
       <p>
         If this is a problem, please don't hesitate to
         <a href="mailto:brian.edison.nguyen@gmail.com">email me</a>, or
@@ -52,8 +52,7 @@ fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
         <p v-if="joke.delivery">{{ joke.delivery }}</p>
         <p v-else>Because he didn't get arrays.</p>
       </div>
-      <NuxtLink to="/">Go back home</NuxtLink>
-    </NuxtLayout>
+    </section>
   </div>
 </template>
 

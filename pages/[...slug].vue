@@ -1,7 +1,8 @@
 <script setup>
+import Error from '~/error.vue'
 // TODO: need to figure out how to do SEO stuff
 const { pathname } = new URL(location.href);
-const match = pathname.match(/\/(blog|portfolio)/)[0];
+const match = pathname.match(/\/(blog|portfolio)/)?.[0] || '/';
 </script>
 
 <template>
@@ -16,13 +17,3 @@ const match = pathname.match(/\/(blog|portfolio)/)[0];
     </div>
   </article>
 </template>
-
-<script>
-import Error from '~/error.vue'
-
-export default {
-  components: {
-    Error
-  }
-}
-</script>
