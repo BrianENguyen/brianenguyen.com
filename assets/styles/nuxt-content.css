@@ -35,6 +35,14 @@
   padding: 10px;
 }
 
+html .nuxt-content pre {
+  background-color: #fafafa;
+}
+
+html.dark .nuxt-content pre {
+  background-color: #282c34;
+}
+
 .nuxt-content pre code {
   overflow-x: scroll;
   display: block;
