@@ -1,0 +1,17 @@
+#+title: Benplate
+#+LANGUAGE: en
+#+options: toc:nil
+
+* BENplate
+*BENplate* is an /opinionated/ Nuxt starter template. . This template serves as the foundation for this website and will be the go-to choice for my forthcoming projects as well.
+
+** Tech Stack
++ Nuxt
++ UnoCSS
++ Iconify
++ Nuxt Content
++ Bun
+
+#+HTML: <a class='btn' href='https://benplate.vercel.app/' target='_blank'>View Website</a>
+
+#+HTML: <a class='btn' href='https://github.com/buraiyen/benplate' target='_blank'>View Repository</a>
