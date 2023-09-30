@@ -2,7 +2,7 @@
 
 # BENplate
 
-**BENplate** is an *opinionated* Nuxt starter template. . This template serves as the foundation for this website and will be the go-to choice for my forthcoming projects as well.
+**BENplate** is an *opinionated* Nuxt starter template. This template serves as the foundation for this website and will be the go-to choice for my forthcoming projects as well.
 
 
 ## Tech Stack
