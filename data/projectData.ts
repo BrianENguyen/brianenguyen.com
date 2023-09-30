@@ -1,5 +1,11 @@
 const projectData = [
   {
+    title: 'BENplate',
+    src: 'https://res.cloudinary.com/buraiyen/image/upload/v1696079647/BEN_Website/projects/BEN_benplate-thumbnail.webp',
+    alt: 'BENplate logo in front of a Redondo Beach sunset filled with pink clouds',
+    link: '/portfolio/benplate',
+  },
+  {
     title: 'My Site v3 - Nuxt3',
     src: 'https://res.cloudinary.com/buraiyen/image/upload/v1694281377/BEN_Website/projects/BEN_languna_profile.webp',
     alt: 'Me posing in front of Laguna Beach',
