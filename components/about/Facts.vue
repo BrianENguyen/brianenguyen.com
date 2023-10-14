@@ -8,12 +8,37 @@
         loading="lazy"
       />
     </div>
-    <SectionHeader
-      class="col-span-3"
-      title="Things that define me"
-      description="I am a web developer, photgrapher, drummer, gamer, 
-                  pro-wrestling enjoyer, and Linkin Park listener"
-    />
+    <div class="col-span-3">
+      <SectionHeader
+        title="Things that define me"
+        description="A few quick facts about me"
+      />
+      <ul>
+        <li>
+          I am a Linux enthusiast who actively supports online freedom and
+          privacy, including organizations such as Wikipedia, the Free Software
+          Movement, and the Electronic Frontier Foundation.
+        </li>
+        <li>
+          My favorite music genre is pop punk, and my favorite artist is Linkin
+          Park.
+        </li>
+        <li>
+          I have two pomeranians: Kiki and Lucky, who I love dearly. My other
+          pomeranian, Mimi, is on her new exciting journey in her new life.
+        </li>
+        <li>Like most people in tech, I have a big passion for video games.</li>
+        <li>
+          My passion for drumming came from making pen-tapping beats in
+          middle-school, then that turned into bucket drumming, then into the
+          cajon, then into a drum set.
+        </li>
+        <li>
+          My biggest stress relief is walking on the beach <em>only when</em>
+          the sun is setting.
+        </li>
+      </ul>
+    </div>
   </section>
 </template>
 
