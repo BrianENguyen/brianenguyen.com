@@ -22,6 +22,9 @@ hr {
   border-color: #504f4f;
 }
 
+li {
+  margin-bottom: 5px;
+}
 /* a,
 a:visited {
   color: #79c2d0;
