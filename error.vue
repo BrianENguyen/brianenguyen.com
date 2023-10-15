@@ -32,7 +32,7 @@ fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
     <section class="text-lg mx-auto max-w-700px px-4">
       <p>
         If this is a problem, please don't hesitate to
-        <a href="mailto:brian.edison.nguyen@gmail.com">email me</a>, or
+        <a href="mailto:hello@brianenguyen.com">email me</a>, or
         <a
           href="https://github.com/Buraiyen/brianenguyen.com/issues"
           target="_blank"

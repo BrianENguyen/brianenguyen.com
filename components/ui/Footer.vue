@@ -37,9 +37,7 @@ const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
       <div class="grid zero:grid-cols-1 md:grid-cols-3 gap-4 items-center">
         <!-- Email -->
         <div>
-          <a href="mailto:brian.edison.nguyen@gmail.com"
-            >brian.edison.nguyen@gmail.com</a
-          >
+          <a href="mailto:hello@brianenguyen.com">hello@brianenguyen.com</a>
         </div>
         <!-- Brand -->
         <div>

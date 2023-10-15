@@ -5,11 +5,10 @@ import emailjs from '@emailjs/browser'
   <section>
     <p>
       You can contact me directly at
-      <a href="mailto:brian.edison.nguyen@gmail.com"
-        >brian.edison.nguyen@gmail.com</a
-      >, or feel free to use the form below to email me. Please make sure that
-      your email address is correct. I'll do my best to respond to you as soon
-      as I can!
+      <a href="mailto:hello@brianenguyen.com">hello@brianenguyen.com</a>, or
+      feel free to use the form below to email me. Please make sure that your
+      email address is correct. I'll do my best to respond to you as soon as I
+      can!
     </p>
     <form @submit.prevent="handleSubmit" class="mx-4">
       <div class="grid gap-[3rem] zero:grid-cols-1 md:grid-cols-2 mb-4">
@@ -114,7 +113,7 @@ export default {
             alert("Thank you for your email! I'll be sure to respond shortly")
           })
           .catch(err => {
-            alert("Something went wrong with sending your email. Please try again later, or contact me directly at brian.edison.nguyen@gmail.com")
+            alert("Something went wrong with sending your email. Please try again later, or contact me directly at hello@brianenguyen.com")
           })
       }
     },
