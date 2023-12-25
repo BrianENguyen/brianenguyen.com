@@ -1,5 +1,14 @@
 const blogData = [
   {
+    title: 'Just Married! And Launching Our New Site',
+    description: ``,
+    image:
+      'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200/v1697065306/2023-09-17_Wedding/DSC08729-min_qfv8re.jpg',
+    alt: 'Full Nuxt logo and blue heart in front of San Pedro hills',
+    date: '2023-12-24',
+    link: '/blog/just-married',
+  },
+  {
     title: 'Revamping My Website With Nuxt',
     description: `Welcome to my new website, rebuilt with Nuxt! This blog documents why I made the switch from React and highlights the many 
                 features Nuxt provides that make web dev more enjoyable.`,
