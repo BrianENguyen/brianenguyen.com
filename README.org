@@ -19,8 +19,8 @@ My personal website / portfolio that showcases information about me and my
 programming work. This website has gone through 2 major overhauls to improve
 designs, SEO, speed, and accessibility.
 
-+ [[https://github.com/Buraiyen/BEN-Website][Version 1]]
-+ [[https://github.com/Buraiyen/brianenguyen.com-react-archive][Version 2]]
++ [[https://github.com/BrianENguyen/BEN-Website][Version 1]]
++ [[https://github.com/BrianENguyen/brianenguyen.com-react-archive][Version 2]]
 
 ** Technologies Used
 + [[https://nuxt.com/][Nuxt3]]
@@ -37,7 +37,7 @@ designs, SEO, speed, and accessibility.
 
 ** Download and Installation
 #+begin_src sh
-$ git clone https://github.com/Buraiyen/brianenguyen.com.git
+$ git clone https://github.com/BrianENguyen/brianenguyen.com.git
 
 ...
 
@@ -66,7 +66,7 @@ my site
 If you notice any issues or have questions, please feel free to open an issue in
 this repository or reach out to me at =hello@brianenguyen.com=
 
-If you also wish to improve this project, please [[https://github.com/Buraiyen/brianenguyen.com/pulls][submit a pull request.]] All pull
+If you also wish to improve this project, please [[https://github.com/BrianENguyen/brianenguyen.com/pulls][submit a pull request.]] All pull
 requests will be appreciated, no matter how big or small they are!
 
 If you want to financially support me in contributing to open-source software,

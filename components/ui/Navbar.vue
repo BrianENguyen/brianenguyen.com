@@ -68,7 +68,7 @@ onMounted(() => {
           </li>
           <li>
             <a
-              href="https://github.com/buraiyen"
+              href="https://github.com/BrianENguyen"
               title="GitHub"
               target="_blank"
             >

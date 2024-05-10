@@ -1,5 +1,3 @@
-
-
 # All Elite Network
 
 All Elite Wrestling (AEW) is an American wrestling company based in
@@ -17,16 +15,14 @@ The **All Elite Network** is the ultimate unofficial streaming service for fans 
 All Elite Wrestling to access the AEW library of amazing content. This project
 is currently a work in progress.
 
-
 ## Tech Stack
 
--   React.js
--   Tailwind
--   React Router
--   MongoDB
--   Express
--   Node.js
-
+- React.js
+- Tailwind
+- React Router
+- MongoDB
+- Express
+- Node.js
 
 ## Personal Notes
 
@@ -39,12 +35,10 @@ app in the future.
 
 <a class='btn' href='https://all-elite-network.pages.dev' target='_blank'>View Website</a>
 
-<a class='btn' href='https://github.com/buraiyen/all-elite-network' target='_blank'>View Repository</a>
-
+<a class='btn' href='https://github.com/BrianENguyen/all-elite-network' target='_blank'>View Repository</a>
 
 ## Images
 
 ![Jumbotron view](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network1.png)
 ![List view](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network2.png)
 ![Dashboard view](https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_991/v1651691316/BEN_Website/projects/all-elite-network3.png)
-

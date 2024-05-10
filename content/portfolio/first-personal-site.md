@@ -1,19 +1,15 @@
-
-
 # My Site v1
 
 **My first personal website** is my first attempt at developing, designing, and
 hosting a website online. It features most sections that you see on this website
 
-
 ## Tech Stack
 
--   Embedded JavaScript / CSS
--   Bootstrap 4
--   Express.js
+- Embedded JavaScript / CSS
+- Bootstrap 4
+- Express.js
 
-<a class='btn' href='https://github.com/Buraiyen/BEN-Website' target='_blank'>View Repository</a>
-
+<a class='btn' href='https://github.com/BrianENguyen/BEN-Website' target='_blank'>View Repository</a>
 
 ## Personal Notes
 
@@ -42,4 +38,3 @@ money
 ![Landing page](https://res.cloudinary.com/buraiyen/image/upload/v1639689243/BEN_Website/projects/firstsite-1_h2xzox.png)
 ![About Me Page](https://res.cloudinary.com/buraiyen/image/upload/v1639689243/BEN_Website/projects/firstsite-2_ryw1ve.png)
 ![Portfolio Page](https://res.cloudinary.com/buraiyen/image/upload/v1639689351/BEN_Website/projects/firstsite-3_ojidcq.png)
-

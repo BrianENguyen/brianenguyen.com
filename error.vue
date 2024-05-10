@@ -34,7 +34,7 @@ fetch('https://v2.jokeapi.dev/joke/Programming?safe-mode')
         If this is a problem, please don't hesitate to
         <a href="mailto:hello@brianenguyen.com">email me</a>, or
         <a
-          href="https://github.com/Buraiyen/brianenguyen.com/issues"
+          href="https://github.com/BrianENguyen/brianenguyen.com/issues"
           target="_blank"
         >
           send an issue on GitHub.

@@ -55,7 +55,7 @@ const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
           <a href="https://www.linkedin.com/in/brian-e-nguyen/" target="_blank">
             <div class="i-bxl-linkedin-square text-5xl mx-2" />
           </a>
-          <a href="https://github.com/Buraiyen/" target="_blank">
+          <a href="https://github.com/BrianENguyen/" target="_blank">
             <div class="i-bxl-github text-5xl mx-2" />
           </a>
           <a href="https://www.instagram.com/buraiyen_" target="_blank">
@@ -76,7 +76,7 @@ const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
         <p>Latest site update on {{ latestCommitDate }}</p>
         <p>
           See an issue?
-          <a href="https://github.com/Buraiyen/brianenguyen.com/pulls"
+          <a href="https://github.com/BrianENguyen/brianenguyen.com/pulls"
             >Submit a pull request!</a
           >
         </p>
