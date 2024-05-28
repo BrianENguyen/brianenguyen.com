@@ -23,6 +23,13 @@ useHead({
       srcMobile="https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_600,b_black,o_70/v1659204060/BEN_Website/jumbotron/BEN_vegas_strip.webp"
     />
     <NuxtLayout>
+      <p class="text-2xl">
+        UPDATE: I will no longer add blogs new on this site. Head over to
+        <a href="https://blog.brianenguyen.com" target="_blank"
+          >blog.brianenguyen.com</a
+        >
+        to see the full list!
+      </p>
       <BlogList />
       <UiCd to="/" />
     </NuxtLayout>
