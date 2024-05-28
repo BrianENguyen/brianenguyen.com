@@ -32,7 +32,7 @@ useHead({
         come true! Thank you very much! &#x1F499;
       </p>
       <a
-        href="https://github.com/sponsors/buraiyen/"
+        href="https://github.com/sponsors/brianenguyen/"
         target="_blank"
         class="transition duration-300 !text-gray decoration-none 
               inline-block rounded border-2 border-gray-light border-solid 
