@@ -47,7 +47,22 @@ onMounted(() => {
         >
           <li v-for="link in links" :key="link">
             <NuxtLink
+              v-if="!link.href"
               :to="link.path"
+              class="mx-1 block font-bold text-black hover:text-brian-blue-dark dark:!text-white dark:hover:!text-brian-blue transition-color duration-300 decoration-none"
+            >
+              <span class="zero:display-none md:block">
+                {{ link.name.toUpperCase() }}
+              </span>
+              <div
+                :title="link.name"
+                :class="`${link.icon} my-2 md:display-none zero:text-xl sm:text-3xl md:text-2xl dark:!text-white dark:hover:!text-brian-blue transition-color duration-300`"
+              />
+            </NuxtLink>
+            <NuxtLink
+              v-if="link.href"
+              :href="link.href"
+              target="_blank"
               class="mx-1 block font-bold text-black hover:text-brian-blue-dark dark:!text-white dark:hover:!text-brian-blue transition-color duration-300 decoration-none"
             >
               <span class="zero:display-none md:block">
@@ -116,7 +131,7 @@ export default {
         // },
         {
           name: 'Blog',
-          path: '/blog',
+          href: 'https://blog.brianenguyen.com',
           icon: 'i-solar-chat-round-line-linear'
         },
         {
