@@ -15,17 +15,17 @@
         similar goals.
       </p>
       <p>
-        I currently work at IdeaBank Marketing as a web developer. This role
-        allows me to work in a team to develop high-quality websites for clients
-        that will not only fulfill but also exceed their expectations
+        I formerly worked at IdeaBank Marketing as a web developer. This role
+        allowed me to work in a team to develop high-quality websites for
+        clients that will not only fulfill but also exceed their expectations
       </p>
       <p>
-        I formerly worked at Code Ninjas, Cerritos and Fullterton, as a coding
-        instructor and an assistant director. Working here combines two of my
-        passions: programming and working with students. I have tutored students
-        with JavaScript, Lua, and C# languages to help them build high-quality
-        software. I have also taught web development at various district schools
-        to over 400 students.
+        I also formerly worked at Code Ninjas, Cerritos and Fullterton, as a
+        coding instructor and an assistant director. Working here combines two
+        of my passions: programming and working with students. I have tutored
+        students with JavaScript, Lua, and C# languages to help them build
+        high-quality software. I have also taught web development at various
+        district schools to over 400 students.
       </p>
       <p>
         Apart from my programming passions, I formerly served as the president
