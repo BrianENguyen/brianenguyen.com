@@ -17,7 +17,7 @@ useHead({
   <div>
     <UiJumbotron
       :jumbotronTitle="'Brian E. Nguyen'"
-      :jumbotronDesc="'Web Developer'"
+      :jumbotronDesc="'Web Developer and IT Support Specialist'"
       :src="'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1659204062/BEN_Website/jumbotron/BEN_developing.webp'"
       :srcMobile="'https://res.cloudinary.com/buraiyen/image/upload/c_scale,w_1200,b_black,o_70/v1659204062/BEN_Website/jumbotron/BEN_developing.webp'"
     />
