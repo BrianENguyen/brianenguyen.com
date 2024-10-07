@@ -32,11 +32,11 @@ export default {
           description: 'View the projects that I have worked on',
           url: '/portfolio'
         },
-        {
-          title: 'Resume',
-          description: 'View my experiences and skills',
-          url: '/resume'
-        },
+        // {
+        //   title: 'Resume',
+        //   description: 'View my experiences and skills',
+        //   url: '/resume'
+        // },
         {
           title: 'About',
           description: 'Dive deep into my life to know more about me and my passions',

@@ -109,11 +109,11 @@ export default {
           path: '/about',
           icon: 'i-solar-sunset-broken'
         },
-        {
-          name: 'Resume',
-          path: '/resume',
-          icon: 'i-solar-document-add-linear'
-        },
+        // {
+        //   name: 'Resume',
+        //   path: '/resume',
+        //   icon: 'i-solar-document-add-linear'
+        // },
         {
           name: 'Blog',
           path: '/blog',
