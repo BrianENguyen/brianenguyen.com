@@ -25,7 +25,6 @@ useHead({
       <IndexPassion />
       <IndexWebCardList />
       <IndexLatestProjects />
-      <IndexLatestBlogs />
     </DefaultLayout>
   </div>
 </template>

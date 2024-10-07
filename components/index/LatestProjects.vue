@@ -8,7 +8,7 @@ const recentProjects = projectData.slice(0, 2);
   <section class="my-4">
     <UiSectionHeader
       title="Latest projects"
-      description="My latest web projects that I've been busy working on"
+      description="My latest projects that I've worked on"
     />
     <div class="grid zero:grid-cols-1 md:grid-cols-2 gap-4">
       <div v-for="project in recentProjects" :key="project.title">
