@@ -14,6 +14,7 @@
       </p>
       <NuxtLink
         :to="page.url"
+        :target="page.external && '_blank'"
         class="inline-block transition-colors dark:text-brian-blue dark:hover:text-brian-blue-light 
                 cursor-pointer 
                 font-bold no-underline mt-auto mb-4"

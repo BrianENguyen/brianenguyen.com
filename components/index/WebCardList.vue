@@ -46,7 +46,8 @@ export default {
         {
           title: 'Blog',
           description: 'View some insights on my career and my life',
-          url: '/blog'
+          url: 'https://blog.brianenguyen.com',
+          external: true
         },
         {
           title: 'Contact',
