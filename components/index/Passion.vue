@@ -13,16 +13,11 @@
       />
     </div>
     <div>
-      <h2>My passion is web development and Information Technology</h2>
+      <h2>My passion is web development</h2>
       <p>
         I am a web developer with a focus on frontend / fullstack development
         with over 7 years of experience. I don't just write code, I create
         solutions and transform them into digital realities
-      </p>
-      <p>
-        In 2024, I was introduced to IT through web development. Learning about
-        software led made be interested in hardware. This made me want to learn
-        about networking, hardware, servers and more!
       </p>
       <NuxtLink class="btn" to="/portfolio">View My Work</NuxtLink>
     </div>
